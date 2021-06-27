@@ -1,0 +1,323 @@
+\input{/home/sindre/P/doc}
+\input{/home/sindre/P/preamb}
+\begin{document}
+Mål for opplæringen er at eleven skal kunne	
+\begin{itemize}
+	\item forenkle uttrykk med flere ledd og løse liginger av første grad og enkle potensligninger
+\end{itemize}
+\newpage
+\textsl{Obs!} Hvis du syns du forstår deg på ligninger, men bare trenger litt repetisjon, kan du hoppe til \hrs{ligsaml}{seksjon}
+\section{Introduksjon}
+Si at vi ønsker å finne et tall som er slik at hvis vi legger til $3$, så får vi $7$. Når et tall er ukjent for oss, er det vanlig å kalle det for $ x $. \textit{Ligningen} for dette tallet blir:
+\[ x+4=7 \]
+Tegnet ''$ = $'', som betyr ''er lik'', gir oss en veldig viktig informasjon. Det forteller oss at \textsl{venstresiden er akkurat like stor som høyresiden}, selv om vi ikke vet hva verdien til $ x $ er!
+\[ \underbrace{x+4}_\text{venstreside}\,\underbrace{=}_\text{er lik }\underbrace{7}_\text{høyreside} \]
+Som en figur kan vi se for oss en vekt med $ x+4 $ på den ene siden og 7 på den andre. ''$ = $''-tegnet kan vi bruke så lenge vekten er den samme på begge sider.
+\begin{figure}
+\centering
+\includegraphics[]{\asym{lig}}\quad
+\includegraphics[]{\asym{lig1}}
+\end{figure}
+Når vi skal løse ligninger er det alltid lov til å se eller prøve seg fram til hva som er rett svar. Kanskje har du allerede merket at $ {x=3} $ er løsningen på vår ligning fordi: 
+\[ 3+4=7 \]
+Men de fleste ligninger er det vanskelig å se svaret på, derfor skal vi i de fire neste seksjonene se på andre metoder vi kan bruke for å finne verdien til $ x $.
+\section{Tall som skifter side}
+\textbf{Første eksempel}\os
+Vi starter med å se hvordan vi kan løse ligningen
+\[ x+4=7 \]
+ved at et \textsl{tall skifter side}.\\
+\begin{comment}
+\info{Hva er et ledd?}{Et ledd }
+\end{comment}
+
+\prbxl{0.5}{
+Vi skal fortsatt bruke figurer av ligningene våre, men det blir tungvint å måtte tegne vekter hele tiden. Isteden tegner vi nå ligningen vår slik:
+}\qquad
+\prbxr{0.4}{På høyesiden i figuren  har vi skrevet $ +7 $, men det er vanligst å bare skrive 7 (slik som i ligningen).}
+\fig{lig2}\vspace{2pt}
+Prinsippet er likevel det samme som før: Vi må hele tiden passe på at begge sider veier like mye.\vsk
+
+Det blir tydelig hva vekten til $ x $ er hvis $ x $ står alene på én av sidene. $ x $ blir for seg selv på venstresiden hvis vi tar bort de 4 rutene som står der. Men skal vi ta bort 4 ruter fra venstresiden må vi ta bort 4 ruter fra høyresiden også (for at begge sider skal veie like mye):
+\fig{lig3}
+Dette skriver vi som:\
+\algv{
+x+\overbrace{4-{\color{red}4}}^0&=7-{\color{red}4}  \\
+x &= 3
+}
+Men fordi $ {4-{\color{red}4}=0} $, er det egentlig unødvendig å skrive dette. Hele veien til løsningen skriver vi da slik:
+
+\prbxl{0.5}{
+	\alg{
+		x+4 &= 7 \\
+		x&= 7-4 \\
+		x &= 3
+}}
+\prbxr{0.5}{Mellom første og andre linje er det vanlig å si at \textsl{4 har skiftet side, og derfor også fortegn (fra $ + $ til $ - $).}}
+\textbf{Andre eksempel}\os
+La oss gå videre til å se på en litt vanskeligere ligning:
+\[ 4x-2=3x+5 \]
+\prbxl{0.6}{Vi har forsatt lyst til å bruke figurer for å hjelpe oss med å forstå hvordan vi kan løse ligningen, men hvordan kan vi tegne $ -2 $? Jo, vi tenker oss at rosa kuler er ballonger som løfter vekten vår oppover.}\qquad
+\prbxr{0.3}{Tenk på de rosa kulene som heliumballonger.}
+
+\prbxl{0.6}{Én rosa kule er akkurat nok til å løfte én blå rute, altså: \textsl{Én blå rute legger til 1 på vekten vår, mens én rosa kule trekker ifra 1}. Ligningen blir da seende slik ut:{}}\qquad
+\prbxr{0.3}{Å trekke ifra 1 er det samme som å skrive $ -1 $.}
+
+\fig{lig4}
+Vi kan først legge merke til at vi kan ta bort tre $ x$-er på begge sider:
+\fig{lig5}
+For å utligne ballongene, legger vi til to ruter på venstre side. Da må vi også legge til to ruter på høyre side:
+\fig{lig6}
+Men fordi de to rutene og de to ballongene til sammen veier 0, kan vi liksågodt ta dem bort:
+\fig{lig7}
+Det vi har tegnet i figurene våre kan vi oppsummere slik:
+\begin{flalign*}
+&& 4x-2&=3x+5 && \llap{1. figur} \\
+&& 4x-{\color{red}3x}-2&=3x-{\color{red}3x}+5 && \\
+&& x -2 &= 5 &&\llap{2. figur}\\
+&& x-2+\color{blue}2&=  5+\color{blue}2 &&\llap{3. figur}\\
+&& x &= 7 &&\llap{4. figur}
+\end{flalign*}
+Fordi \y{3x-{\color{red}3x}=0} og \y{-2+{\color{blue}2}=0} kunne vi droppet å skrive disse leddene. Isteden sier vi altså at $ 3x $ og 2 har skiftet side, og derfor også fortegn. Dette skiftet gjør vi helst samtidig for at utregningen skal bli kortere:
+\alg{
+4x-2&=3x+5 \\
+4x-{\color{red}3x}&=5+\color{blue}2\\
+x &= 7
+}
+
+\reg[Flytting av tall over likhetstegnet \label{bytt}]{I en ligning ønsker vi å samle alle $x$-er og alle kjente tall på hver sin side av likhetstegnet. Når side skiftes, må også fortegn skiftes.}
+
+\eks[1]{Løs ligningen:
+\[ 3x+3 =2x+5 \]
+\sv	
+	 \vs \vs \vs \vs
+	\begin{align*}
+	3x-2x &=5-3 \\
+	x &=2
+	\end{align*}  \vspace{-20pt}}
+
+\eks[2]{Løs ligningen:
+\[ -4x-3 =-5x+12 \\ \]	
+\sv
+	 \vs \vs \vs \vs
+	\begin{align*}
+	-4x+5x &=12+3 \\
+	x &=15
+	\end{align*}  \vspace{-20pt}	}
+\section{Deling på begge sider av likhetstegnet}	
+Hittil har vi sett på ligninger hvor vi endte opp med én $x $ på den ene siden. Andre ganger ender vi med flere $ x $-er, som for eksempel i ligningen:
+\[ 3x=6 \]
+\fig{lig8}
+Deler vi venstresiden vår i tre like biter, får vi én $ x $ i hver bit. Om vi også deler høyresiden i tre like biter blir det tydeligere hva $ x $ må være:
+\fig{lig9}
+\fig{lig10}
+Figurene vi har tegnet over skriver vi som:\\ \vs
+\prbxl{0.6}{\begin{flalign*}
+	&& 3x&=6 && \llap{1. figur} \br
+	&& \frac{3x}{3}&=\frac{6}{3} && \llap{2. figur} \br
+	&& x&=2 && \llap{3. figur}
+	\end{flalign*}}\qquad
+\prbxr{0.3}{Fra \hr{kans} husker du kanskje også at vi gjerne skriver:
+\[ \frac{\cancel{3}x}{\cancel{3}} \] \vs
+}
+
+\reg[Deling på begge sider av likhetstegnet \label{ligdel}]{Hvis vi har et tall ganget med $ x $ på én side av en ligning, kan vi dele begge sider med tallet for å finne $ x $.}
+\eks[1]{ Løs ligningen:
+	\[ 	4x = 20  \]
+	\sv \vs \vs \vsb
+	\begin{align*}
+	\frac{\bcancel{4}x}{\bcancel{4}}&=\frac{20}{4} \\
+	x &=5
+	\end{align*}
+	\vspace{-20 pt}
+	}
+	
+\eks[2]{Løs ligningen:
+	\[2x+6 =3x-2 \]
+\sv \vs \vs \vs \vs
+	\begin{flalign*}
+	&& 2x-3x &= -2-6 &&\\
+	&&-x &= -8&& \\
+	&& \frac{\bcancel{-1}x}{\bcancel{-1}} &= \frac{-8}{-1} &&\cm{$-x=-1x$}\\
+	&& x &= 8&&
+	\end{flalign*}\vspace{-20 pt}}
+
+\section{Multiplikasjon på begge sider av likhetstegnet}
+Det siste tilfellet vi skal se på, er når ligninger forteller oss noe om brøkdeler av den ukjente, som for eksempel denne:
+\[ \frac{x}{3}=4 \]
+Som vi tegner slik:
+\fig{lig11}
+Igjen er ligningen vår løst hvis én $ x $-rute står alene, noe vi får om vi legger til to stykker av $ \frac{x}{3} $ på venstresiden. Og ligningen forteller oss at $ \frac{x}{3} $ er det samme som 4; for hver $ \frac{x}{3} $ vi legger til på venstresiden, må vi derfor legge til 4 ekstra på høyresiden for at sidene skal veie det samme:
+\fig{lig12}
+\fig{lig13}
+Legg nå merke til at \y{\frac{x}{3}+\frac{x}{3}+\frac{x}{3}=\frac{x}{3}\cdot3} og at \y{4\cdot3=12}, figurene vi har tegnet kan vi derfor skrive som:
+\begin{flalign*}
+&& \frac{x}{3}&=4 && \llap{1. figur} \br
+&& \frac{x}{3}\cdot 3&=4\cdot3 && \llap{2. figur} \\
+&& x&=12 && \llap{3. figur}
+\end{flalign*}
+\reg[Brøker med \boldmath$ x $ som teller]{
+Hvis vi har en brøkdel av $ x $ på den éne siden i en ligning, kan vi gange begge sider med nevneren for å finne $ x $.
+}
+\eks[1]{
+Løs ligningen:
+\[ \frac{x}{5}=2 \]
+\sv \vsb
+\algvv{
+\frac{x}{\cancel{5}}\cdot\cancel{5}&=2\cdot5 \\
+x &= 10
+}
+}
+
+\section{Løsningsmetodene oppsummert \label{ligsaml}}
+En ligning er løst når vi har $ x $ alene på én side av likhetstegnet, og vi har mange veier vi kan gå for å få til dette. Det vi har prøvd å skape et bilde av i de tre forrige seksjonene er at: \textsl{Vi kan legge til, trekke ifra, gange eller dele med et hvilket som helst tall, så lenge vi gjør det på begge sider av likhetstegnet}. \vsk
+
+Vi har også sett at istedenfor å legge til eller trekke ifra det samme tallet på begge sider, flytter vi tall vi allerede har fra den éne siden til den andre. Og da må vi huske å skifte fortegnet til tallet.\vsk
+
+\textsl{Obs!} Husk at $ x $ også er et tall.\regv 
+
+\reg[Løsningsmetoder for ligninger \label{lsmlig}]{
+I en ligning kan vi alltid:
+\begin{itemize}
+\item Flytte tall fra den ene siden til den andre, så lenge vi også skifter fortegn på leddet.
+\item Dele både venstre og høyre side med det samme tallet.
+\item Gange både venstre og høyre side med det samme tallet.
+\end{itemize}
+}
+\eks{ Løs ligningen:
+	\[ \frac{1}{3}x+\frac{1}{6}=\frac{5}{12}x+2  \vs\]	
+	
+	\sv
+	Får å unngå brøker, ganger vi begge sider med fellesnevneren 12:
+	\begin{align*}
+	\left(\frac{1}{3}x+\frac{1}{6}\right)12&=\left(\frac{5}{12}x+2\right)12 \br	
+\frac{1}{3}x\cdot12+\frac{1}{6}\cdot12&=\frac{5}{12}x\cdot12+2\cdot12 \tag{$ \ast $}\br	
+	4x+2 &= 5x+24 \\
+	4x-5x &= 24-2 \\
+	-x &= 22 \\
+	\frac{\cancel{-1}\,x}{\cancel{-1}} &= \frac{22}{-1} \\
+	x &= -22
+	\end{align*} 
+}
+\info{Tips}{
+Noen liker å lage regelen om at \textsl{vi kan gange eller dele alle ledd med det samme tallet}. I eksempelet over kunne vi da hoppet direkte til andre linje i utregningen (markert med $ (\ast) $).
+}
+\eks[]{
+Løs ligningen:
+\[ 3-\frac{6}{x}= 2+\frac{5}{x} \vs\]
+
+\sv
+I alle ligninger ønsker vi å få $ x $ alene på én side og over aller brøkstreker. For få $ x $ over alle brøkstreker, ganger vi med $ x $ i alle ledd:
+\alg{
+3\cdot x-\frac{6}{\cancel{x}}\cdot \cancel{x}= 2\cdot x+\frac{5}{\cancel{x}}\cdot \cancel{x} \\
+3x -6 = 2x+5
+}
+Nå er veien kort til å få $ x $ på én side:
+\alg{
+3x-2x &= 5+6 \\
+x &= 11
+}
+}
+\section{Potensligninger}\vs
+\prbxl{0.6}{Noen ganger har vi ligninger der $ x $ er ganget flere ganger med seg selv, som for eksempel denne:}\prbxr{0.3}{ $ {x\cdot x }$ skriver vi som $ x^2 $}\vs 
+\[ x^2 = 9 \]
+Fordi $ x $ er grunntallet i en potens, kaller vi dette en \textit{potensligning}.
+Spørsmålet vårt blir nå: \textsl{Hvilket tall ganget med seg selv blir 9}? Svaret er \textsl{både} 3 og $ (-3) $! Lignigen har altså to løsninger. Derfor sier vi at både $ {x=3} $ og $ {x=-3} $ er løsninger av ligningen.\vsk
+
+Hva med ligningen:
+\[ x^3 = 8\]
+Her er $ {x=2} $ eneste løsning, for det er bare hvis vi ganger sammen tre 2ere at vi får 8.\vsk
+
+Potensligninger kan selvsagt se mye verre ut enn de to vi har sett på, men heldigvis kan vi bruke akkurat de samme reglene som i \hr{lsmlig}:
+\reg[Potensligninger]{En ligning med uttrykket $ x^n $ kalles en potensligning. Ligningen løses ved å bruke metodene fra \hr{lsmlig} for å isolere $ x^n $ på én side av likhetstegnet.}
+\eks[1]{
+Løs ligningen: \[ x^2+5= 21\]
+\sv \vs \vs \vs
+\algv{
+x^2+5&= 21\\
+x^2 &= 21-5\\
+x^2 &= 16
+}
+Fordi $ {4\cdot4 =16} $ og $ {(-4)\cdot(-4)=16} $ er både $ {x=4} $ og ${ x=-4} $ løsninger av ligningen.
+}
+\eks[2]{
+Løs ligningen:
+\[ 5x^3 -35 = 4x^3-8 \]
+\sv \vs \vs
+\algv{
+5x^3 -35 &= 4x^3-8 \\
+5x^3-4x^3 &= -8+35 \\
+x^3 &= 27 
+}
+Fordi $ {3\cdot3\cdot3=27} $ er $ {x=3} $ løsningen av ligningen.
+}
+
+\section{Å lage ligninger}
+Hver gang vi i hverdagen må utføre en regneoperasjon, løser vi egentlig en ligning! \vsk
+
+Tenk for eksempel at du skal kjøpe 2 kg epler i butikken, og eplene koster 10 kr/kg. Regnestykket ditt blir da dette:
+\small
+\[ \textit{hva jeg må betale for eplene}=\textit{antall kg epler}\cdot \textit{kiloprisen for epler} \]
+\normalsize
+Hvis vi bestemmer oss for at $ x $ betyr det samme som \textit{hva jeg må betale for eplene}, blir ligningen vår seende slik ut:
+\[ x=\textit{antall kg epler}\cdot \textit{kiloprisen for epler} \]
+Og fordi vi vet både hva \textit{antall kg epler} og \textit{kiloprisen for epler} er, kan vi finne svaret:\vs
+\alg{
+x &= 2\cdot10 \\
+ &= 20
+}
+Vi må altså betale 20 kr for eplene. \vsk 
+
+Her kunne vi selvsagt regnet ut prisen for eplene direkte, men for lengre utregninger er det lurt å lage en ligning. Og det blir oftere lettere for oss å lage ligningen hvis vi gjør som i det korte eksempelet med eplene.\regv
+\reg[Å lage en ligning]{
+Når vi skal beskrive et spørsmål som en ligning kan det være lurt å gjøre følgende:
+\begin{itemize}
+	\item Sette opp regnestykket i ord.
+	\item Erstatte den ukjente størrelsen med $ x $.
+\end{itemize}
+}
+\eks[1]{
+Tenk at klassen ønsker å dra på en klassetur som til sammen koster 11\,000\,kr. For å dekke utgiftene har dere allerede skaffet 2\,000\,kr, resten skal skaffes gjennom loddsalg. For hvert lodd som selges, tjener dere 25\,kr.\os
+
+\textbf{a)} Lag en ligning for hvor mange lodd klassen må selge for å få råd til klasseturen.\os
+\textbf{b)} Løs ligningen.
+
+\sv
+\textbf{a)} Vi starter med å tenke oss regnestykket i ord:
+\small
+\[ \textit{penger allerede skaffet}+\textit{antall lodd}\cdot\textit{penger per lodd}=\textit{prisen på turen} \]
+\normalsize
+Den eneste størrelsen vi ikke vet om er \textit{antall lodd}. Vi erstatter derfor \textit{antall lodd} med $ x $, og setter inn verdien til de andre:
+\[ 2\,000+x\cdot25 = 11\,000 \]
+
+\textbf{b)} \\ \vspace{-20pt}
+\prbxl{0.7}{\alg{
+		25x &= 11\,000-2\,000\\
+		25 x &= 9\,000\\
+		\frac{\cancel{25} x}{\cancel{25}} &= \frac{9\,000}{25} \\
+		x &= 360
+}}
+\prbxr{0.25}{$ {x\cdot25 }$ er skrevet om  til $ 25x $.}
+}
+\eks[2]{
+''Broren min er dobbelt så gammel som meg. Til sammen er vi 9 år gamle. Hvor gammel er jeg?''.
+
+\sv
+''Broren min er dobbelt så gammel som meg.'' betyr at:
+\[ \textit{brors alder}=2\cdot\textit{min alder} \]
+''Til sammen er vi 9 år gamle.'' betyr at:
+\[ \textit{brors alder}+\textit{min alder}=\textit{9 år} \]
+Erstatter vi \textit{brors alder} med ''$2\cdot\textit{min alder} $'', får vi:
+\[ 2\cdot\textit{min alder}+\textit{min alder}=\text{9 år} \]
+Det som er ukjent for oss er \textit{min alder}:
+\alg{
+2x+x &= 9 \\
+3x &= 9\\
+\frac{\cancel{3}x}{\cancel{3}}&= \frac{9}{3} \\
+x &= 3
+}
+''Jeg'' er altså 3 år gammel.
+}
+
+\end{document}
+
+

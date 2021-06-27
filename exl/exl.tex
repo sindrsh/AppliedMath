@@ -1,0 +1,103 @@
+\input{/home/sindre/P/doc}
+\input{/home/sindre/P/preamb}
+
+\begin{document}
+
+\textbf{Mål for opplæringen er at eleven skal kunne}
+\begin{itemize}
+	\item gjøre greie for og regne med prisindeks, kroneverdi, reallønn og nominell lønn og beregne inntekt, skatt og avgifter
+	\item vurdere forbruk og bruk av kredittkort og sette opp budsjett og regnskap ved hjelp av regneark
+	\item undersøke og vurdere ulike former for lån og sparing
+\end{itemize}
+\newpage
+\vedle{Introduksjon}
+Når du åpner et Excelark vil du få opp en tabell hvor \textit{radene} er nummerert med tall (1, 2 3 osv), mens \textit{kolonnene} er indeksert med bokstaver (A, B, C osv.).\vsk
+Hvordan radene og kolonnene brukes er avgjørende for å forstå Excel. I figuren har vi markert det vi kaller \textit{celle B\textsl{3}}. Dette er altså cellen hvor \textsl{rad 3} og \textsl{kolonne B} krysser hverandre:
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.3]{figs/ex1}
+\end{figure}
+I hver celle kan vi skrive inn både tall og tekst. Si at Ole har en jobb med 250\,kr i timelønn, og at han jobber 7 timer i uka. Denne informasjonen kan vi skrive inn i Excel slik:
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.35]{figs/ex2}
+\end{figure}
+Ukelønnen til Ole er $ {\textit{timelønn}\cdot timer\;i\;uka} $. Denne utregningen kan vi gjøre ved å skrive {\tt=250$ ^* $7} i celle B4:
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.3]{figs/ex3}\qquad
+	\includegraphics[scale=0.3]{figs/ex4}
+\end{figure}
+\vedle{Cellereferanser}
+Excels kanskje viktigste egenskap er \textit{cellereferanser}. Dette betyr kort sagt at vi bruker celler istedenfor tall når vi skal gjøre utregninger. I forrige seksjon regnet vi lønnen til Ole ved å gange 250 (timelønnen) med 7 (timer i uka). Ved å bruke cellereferanser kunne vi isteden gjort dette:\vsk
+
+Tallet tilhørende timelønnen (250) står i celle B2, mens tallet tilhørende timer (35) står i celle B3. For å gange tallene i disse cellene kan vi skrive {\tt =B2$ ^* $B3}: 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.3]{figs/ex5}\qquad
+	\includegraphics[scale=0.3]{figs/ex4}
+\end{figure}
+Én av fordelene med å bruke cellereferanser er at det blir mye lettere å rette opp i feil som har blitt gjort. Si f.eks. at det skulle stått 300 istedenfor 250 i B3. Om vi derfor endrer B3, vil resultatet i B4 endre seg deretter:
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.3]{figs/ex6}
+\end{figure}
+\textsl{Merk:} Du kan også trykke på cellene du ønsker å bruke i formlene dine, slik som vist \net{https://drive.google.com/open?id=1S43og4XFAiYyZeFh7tGClBYXoPSv2i0R}{her}.
+\vedle{Kopiering av celler}
+Kopiering av cellene er en metode som hindrer deg i å skrive de samme formlene om og om igjen. Vi ønsker nå å lage at ark som passer til følgende informasjon:
+\begin{itemize}
+	\item Timelønnen til Ole, Dole og Doffen er henholdsvis 300\,kr, 200\,kr og 500\,kr.
+	\item Alle tre jobber 7 dager i uka.
+	\item Vi ønsker å regne ut hvor mange timer de jobber til sammen og hvor mye ukelønn de har til sammen.
+\end{itemize}
+
+Vi starter med å sette opp dette regnearket:
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.3]{figs/ex7}\qquad
+\end{figure}
+Her har vi bare fylt inne informasjonen som er \textit{unik} for Ole, Dole og Doffen, nettopp fordi de andre cellene enten inneholder de samme tallene eller den samme regnemåten. For cellene som ikke er unike bør vi bruke kopieringsmulighetene, og dette vises i denne \net{??}{videoen}. Her er en liten beskrivelse av hva som blir gjort:
+\begin{enumerate}
+	\item Siden alle tre jobber i 7 timer, skriver vi {\tt =7} i celle B4. Etterpå kopierer vi (det er helt avgjørende at man trykker musepekeren helt nede i høyre hjørne) cellen \textsl{bortover} til C2 og D2.
+	\item Siden regnemåten av ukelønn er den samme for alle tre, skriver vi den (med cellereferanser) inn i B4, og kopierer den \textsl{bortover} til celle C4 og D4.
+	\item Regnemåten for summen av timene og summen av ukelønnene er også den samme, vi skriver den derfor inn i celle E3 og kopierer den \textsl{nedover} til E4.
+\end{enumerate}
+Resultatet ble dette:
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.3]{figs/ex8}\\[5pt]
+	\includegraphics[scale=0.3]{figs/ex15}
+\end{figure}
+Av det vi har sett i \net{https://drive.google.com/open?id=1FgpfKxFzfrc18sIoy3B1MBfEguvzSzVJ}{videoen} og figurene over kan vi ta med oss tre generelle regler:
+\begin{enumerate}
+	\item For å kopiere tall må man skrive {\tt =} foran.
+	\item Hver gang man kopierer en i formel én celle \textsl{bortover}, vil kolonnene i formelen øke med én bokstav i alfabetet. (A blir til B, B blir til C osv.)
+		\item Hver gang man kopierer en formel i én celle \textsl{nedover}, vil radene i formelen øke med 1 (1 blir 2 B, 2 blir til 3 osv.).
+\end{enumerate}
+
+\textbf{Låsing av celler}\\[2pt]
+Når man kopierer celler er det viktig å se opp for celler man ønsker å bruke i alle kopiene, for disse cellen må \textit{låses}. Si for eksempel at Ole, Dole og Doffen alle jobber 48 arbeidsuker i året. For å finne årslønnen deres må vi altså gange ukeslønnen til hver av dem med 48. \vsk
+
+Igjen merker vi oss at regnemetoden for å finne årslønnen er den samme for alle tre, men hvis vi bruker celle B8 i en formel, og kopierer slik vi har gjort hittil, vil bokstaven B endre seg i formlene. For å unngå dette skriver vi {\tt \$} foran {\tt B} i formelen $ - $ dette gjør at kolonnebokstaven ikke endrer seg, selv om vi kopierer formelen. Dette er vist i denne \net{https://drive.google.com/open?id=1bPz2NYZEB3iWyCMQQYTpgms8LsTepY_G}{videoen}, og resultatet ser vi her:
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.3]{figs/ex12}\\[5pt]
+	\includegraphics[scale=0.3]{figs/ex13}
+\end{figure}
+Skal vi låse en celle \textsl{nedover} isteden må vi sette dollaren foran radnummeret, slik som vist \net{https://drive.google.com/open?id=1F1ct3UpFHjCaEDYu6OujsmeVyWMqfouF}{her}. Resultatet blir dette:
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.3]{figs/ex16}\qquad
+	\includegraphics[scale=0.3]{figs/ex17}
+\end{figure}
+\vedle{Småtriks}
+\begin{itemize}
+	\item \net{https://drive.google.com/open?id=12NMsdIulmQOoLZ4iY82xPxo7LqSh3QyY}{Sum bort og sum ned}	
+	\item \net{https://drive.google.com/open?id=1V80Ub_WnxMttvotTOC_-ixE81Li3kpQK}{Justere bredde på rad/kolonne}
+	\item \net{https://drive.google.com/open?id=1Q1DUlZu_pfVWzsdLQz5PPTSVrGUp2JF2}{Sette inn rad/kolonne}
+	\item \net{https://drive.google.com/open?id=1OLfrzQs6mwJzamPs4puNR71QwNQ2o-8T}{Formelvisning}
+	\item \net{https://drive.google.com/open?id=1DkFhZRcnljphU04UiZ2Rhtvu7zcbJUNJ}{Regne med prosenttall}
+	\item \net{https://drive.google.com/open?id=1Hmp0XrwXH2b5oeFHl96-i_Wf2ETrLqrU}{Endre antall desimaler}
+\end{itemize}
+\end{document}

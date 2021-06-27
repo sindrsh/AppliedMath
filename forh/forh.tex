@@ -1,0 +1,241 @@
+\input{/home/sindre/P/doc}
+\input{/home/sindre/P/preamb}
+
+\begin{document}
+Mål for opplæringen er at eleven skal kunne
+\begin{itemize}
+	\item rekne med forhold, prosent, prosentpoeng og vekstfaktor
+\item rekne med ulike måleiningar, bruke ulike målereiskapar, vurdere kva for målereiskapar som er formålstenlege, og vurdere kor usikre målingane er	
+\item tolke, lage og bruke skisser og arbeidsteikningar på problemstillingar frå kultur- og yrkesliv og presentere og grunngje løysingar
+\end{itemize}	
+\newpage
+\section{Størrelser, enheter og prefikser}
+Det vi kan måle og uttrykke med tall, kaller vi \textit{størrelser}. Videre har vi \textit{størrelser med dimensjoner} og \textit{dimensjonsløse størrelser}.\vsk
+
+Et eksempel på en størrelse med dimensjon er ''2 meter''. Dimensjonen er da 'lengde', som vi gjerne måler i meter. Vi sier at meter er en \textit{enhet} for dimensjonen lengde.\vsk
+
+Et eksempel på en størrelse uten dimensjon er ''to hester''. Mens det bare finnes én lengde som er ''2 meter'', kan være ''to hester'' se ekstremt forskjellig ut, avhengig av hvile to hester vi velger ut.\vsk
+
+\textbf{Regning med dimensjoner}\os
+Når vi jobber med størrelser med dimensjoner må vi passe på at alle enhetene er like, hvis ikke gir ikke regnestykkene våre mening. I denne boka skal vi se på disse enhetene:
+\tbs
+\begin{center}
+	\begin{tabular}{c|c}
+		\textbf{Enhet} & \textbf{Forkortelse} \\ \hline
+		meter & m \\\hline
+		gram & g \\\hline
+		liter & L
+	\end{tabular}
+\end{center}\tbs
+Noen ganger har vi veldig store eller veldig små størrelser, for eksempel er det ca 40\,075\,000\,m rundt ekvator! For så store tall er det vanlig å bruke en \textit{prefiks}, da kan vi si at det er ca 40\,075 km rundt ekvator. Her står 'km' for 'kilometer' og 'kilo' betyr '1\,000'. Så 1\,000 meter er altså 1 kilometer. Her er de viktigste prefiksene:\tbs
+\begin{center}
+	\begin{tabular}{c|c|c}
+		\textbf{Prefiks} & \textbf{Forkortelse}&\textbf{Betydning} \\ \hline
+		kilo & k & 1\,000\\\hline
+		hekto & h & 100\\\hline
+		deka & da & 10\\\hline
+		desi & d & 0,1\\\hline
+		centi & c & 0,01\\\hline
+		milli & m & 0,001\\\hline		
+	\end{tabular}
+\end{center}\tbs
+Bruker vi denne tabellen i kombinasjon med enhetene kan vi for eksempel se at:\vs
+\alg{
+1000\enh{g}&= 1\enh{kg} \\
+0,1 \enh{m} &= 1\enh{dm} \\
+0,01 \enh{L} &= 1\enh{cL}
+}
+Enda ryddigere kan vi få det hvis vi lager en vannrett tabell, med meter, gram eller liter lagt til i midten:
+\begin{center}
+	\begin{tabular}{|c|c|c|c|c|c|c|c}
+		kilo &
+		hekto &
+		deka & m/g/L &
+		desi & 
+		centi & 
+		milli & 		
+	\end{tabular}
+\end{center}
+Vi har sett hvordan prefiksene egentlig bare betyr et tall, og m, g eller L kan vi si har et 1-tall foran seg ($ {4\cdot1\enh{m}} $ er jo det samme som $ 4\enh{m} $). Vi kan da legge merke til at for å komme fra én rute til en annen i tabellen, er det bare snakk om å flytte komma:
+\reg[Omgjøring av prefiks \label{ompref}]{Når vi skal endre prefikser kan vi bruke denne tabellen:
+\begin{center}
+	\begin{tabular}{|c|c|c|c|c|c|c|c}
+		kilo &
+		hekto &
+		deka & m/g/L &
+		desi & 
+		centi & 
+		milli & 		
+	\end{tabular}
+\end{center}
+Komma må flyttes like mange ganger som antall bokser vi må flytte oss fra opprinnelig prefiks til ny prefiks.\vsk
+
+\textsl{Obs!} For lengde brukes også enheten 'mil' (1 mil er 10\,000\,m). Denne kan legges på til venstre for 'kilo'.
+}
+\eks[1]{
+Gjør om 23,4\,mL til L.
+
+\sv
+Vi skriver tabellen vår med L i midten og legger merke til at vi må \textsl{tre bokser til venstre} for å komme oss fra mL til L:
+\begin{center}
+	\begin{tabular}{|c|c|c|c|c|c|c|c}
+		kilo &
+		hekto &
+		deka & \color{blue}L &
+		desi & 
+		centi & 
+		\color{red} milli & 		
+	\end{tabular}
+\end{center}
+Dét betyr at vi må flytte kommaet vårt tre plasser til venstre for å gjøre om mL til L:
+\[ 23,4\enh{mL}=0,0234\enh{L} \]
+}
+\eks[2]{
+Gjør om 30\,hg til cg.
+
+\sv
+Vi skriver tabellen vår med g i midten og legger merke til at vi må \textsl{fire bokser til høyre} for å komme oss fra hg til cg:
+\begin{center}
+	\begin{tabular}{|c|c|c|c|c|c|c|c}
+		kilo &
+		\color{red}hekto &
+		deka & g &
+		desi & 
+		\color{blue}centi & 
+		 milli & 		
+	\end{tabular}
+\end{center}
+Dét betyr at vi må flytte kommaet vårt fire plasser til høyre for å gjøre om hg til cg:
+\[ 30\enh{mg}=300\,000\enh{cg} \]
+}
+\eks[3]{
+Gjør om 12\,500\,dm til mil.
+
+\sv
+Vi skriver tabellen vår med m i midten, legger til 'mil', og merker oss at vi må \textsl{fem bokser til høyre} for å komme oss fra hg til cg:
+\begin{center}
+	\begin{tabular}{|c|c|c|c|c|c|c|c|c}
+		\color{blue}mil &kilo &
+		hekto &
+		deka & m &
+		\color{red} desi & 
+		centi & 
+		milli & 		
+	\end{tabular}
+\end{center}
+Dét betyr at vi må flytte kommaet vårt fem plasser til høyre for å gjøre om mil til cg:
+\[ 30\enh{dm}=3\,000\,000\enh{mil} \]
+\textsl{Merk:} 'mil' er en egen enhet, ikke en prefiks. Vi skriver derfor ikke 'milm', men bare 'mil'.
+}
+\section{Forhold}
+Med \textit{forholdet} mellom to størrelser mener vi den éne størrelsen delt på den andre. Har vi for eksempel 1 rød kule og 5 blå kuler i en bolle, sier vi at:
+\[ \text{forholdet mellom antall røde og blå kuler}=\frac{1}{5} \]
+\prbxl{0.51}{Forholdet kan vi også skrive som $ {1:5} $. Verdien til dette regnestykket er:
+	\[ 1:5=0,2 \]
+	0,2 kalles \textit{forholdstallet}.}\qquad
+\prbxr{0.4}{Om vi skriver forholdet som brøk eller som delestykke vil avhenge litt av oppgavene vi skal løse.}
+Hvis vi isteden har 4 røde kuler og 20 blå kuler, er fortsatt forholdstallet 0,2. dette betyr at forholdet mellom antall røde og blå kuler ikke har forandret seg.\regv
+\reg[Forhold]{\vs
+\[\text{forholdet mellom \textit{a} og \textit{b}}= \frac{a}{b} \]
+Forholdstallet får vi ved å regne ut hva $ {a:b} $ er. To forhold med samme forholdstall er like.
+}
+\eks[1]{
+I en klasse er det 10 handballspillere og 5 fotballspillere. \os
+\textbf{a)} Hva er forholdet mellom antall handballspillere og fotballspillere?\os
+
+\textbf{b)} Hva er forholdet mellom antall fotballspillere og handballspillere?\os
+
+\sv
+\textbf{a)} \[ \frac{10}{5}=2 \]
+Forholdet mellom antall fotballspillere og handballspillere er 2.
+
+\textbf{b)} \[ \frac{5}{10}=0,5 \]
+Forholdet mellom antall handballspillere og fotballspillere er 0,5.
+}
+\eks[2]{
+Du skal lage et lotteri der forholdet mellom antall vinnerlodd og taperlodd er $ \frac{1}{8} $. Hvor mange taperlodd må du lage hvis du skal ha 160 vinnerlodd?
+
+\sv
+Vi vet at:
+\[ \frac{\text{antall vinnerlodd}}{\text{antall taperlodd}}=\frac{1}{8} \]
+Siden \textit{antall vinnerlodd} er ukjent, kaller vi størrelsen for $ x $, og får da at:
+\alg{
+\frac{x}{160}&=\frac{1}{8} \br
+\frac{x}{\cancel{160}}\cdot\cancel{160}&=\frac{1}{8}\cdot160 \br
+x &= 20
+}
+Vi må altså lage 20 vinnerlodd. 
+}\vsk
+\textbf{Blandingsforhold} \os
+I mange sammenhenger skal vi blande to sorter i riktig forhold.
+
+\prbxl{0.6}{ På en flaske med solbærsirup kan du for eksempel lese symbolet ''2 +5'', som betyr at man skal blande sirup og vann i forholdet $ {2:5} $. Så heller vi 2\,dL sirup i en kanne, må vi fylle på med 5\,dL vann for å lage saften i riktig forhold.}\qquad
+\prbxr{0.3}{Blander du solbærsirup og vann, får du solbærsaft :)}
+\vsk
+
+Noen ganger bryr vi oss ikke om \textit{hvor mye} vi blander, så lenge forholdet er rikitig. For eksempel kan vi blande én bøtte med solbærsirup med fem bøtter vann, og fortsatt være sikker på at forholdet er riktig $ - $ selv om vi ikke vet hvor mange liter bøtta rommer! Når vi bare bryr oss om forholdet, bruker vi ordet \textit{del}. Symbolet ''2+5'' på sirupflasken leser vi da som ''2 deler sirup på 5 deler vann''. Dette betyr at saften vår i alt inneholder $ {2+5}=7 $ deler:\vspace{3pt}
+\fig{forh}
+Dette betyr én del utgjør $ \frac{1}{7} $ av blandingen, sirupen utgjør $ \frac{2}{7} $ av blandingen og vann utgjør $ \frac{5}{7} $ av blandingen.
+\reg[Deler i et forhold]{En blanding med forholdet $ {a:b} $ har til sammen $ {a+b} $ deler.
+\begin{itemize}
+	\item én del utgjør $ \frac{1}{a+b} $ av blandingen.
+	\item $ a $ utgjør $ \frac{a}{a+b} $ av blandingen.
+	\item $ b $ utgjør $ \frac{b}{a+b} $ av blandingen.
+\end{itemize}
+}
+\eks[1]{
+I et malerspann er grønn og rød maling blandet i forholdet ${ 3:7} $, og det er 5\,L av denne blandingen. Du ønsker å gjøre om forholdet til $ 3:11 $.\os
+Hvor mye rød maling må du helle oppi spannet?
+
+\sv
+I spannet har vi \y{3+7=10} deler. Siden det er 5\,L i alt, må vi ha at:\vs
+\alg{
+\text{én del}&=\frac{1}{10} \text{ av 5\,L} \br
+&= \frac{1\cdot5}{10} \text{\,L} \br
+&= 0,5 \enh{L}
+}
+Når vi har 7 deler rødmaling, men ønsker 11, må vi blande oppi 4 deler til. Da trenger vi:
+\[ 4\cdot0,5 \enh{L}=2\enh{L} \]
+Vi må helle oppi 2\,L rødmaling for å få forholdet $ {3:11} $.
+}
+\eks[2]{
+En kanne som rommer 21\,dL er fylt med en saft der sirup og vann er blandet i forholdet $ {2:5} $. \os
+\textbf{a)} Hvor mye vann er det  kannen?\os
+\textbf{b)} Hvor mye sirup er det i kannen?
+
+\sv
+\textbf{a)} Til sammen består saften av $ {2+5=7} $ deler. Fordi 5 av disse er vann, må vi ha at:
+\alg{
+ \text{mengde vann}&=\frac{5}{7}\text{ av 21\,dL} \br
+ &= \frac{5\cdot21}{7}\enh{dL}\br
+ &= 15\enh{dL}
+}
+\textbf{b)} Vi kan løse denne oppgaven på samme måte som i oppgave a), men det er raskere å merke oss at hvis vi har 15\,dL vann av i alt 21\,dL, må vi ha $ (21-15)\enh{dL}=6\enh{dL} $ sirup.
+}
+\eks[3]{I en ferdig blandet saft er forholdet mellom sirup og vann lik $ {3:5} $.\os
+Hvor mange deler saft og/eller vann må du legge til for at forholdet skal bli $ {1:4} $?
+
+\sv
+\textit{Løsningsmetode 1}\os
+Brøken vi ønsker, $ \frac{1}{4} $, kan vi skrive om til en brøk med samme teller som brøken vi har (altså $ \frac{3}{5} $):
+\[ \frac{1\cdot3}{4\cdot3}=\frac{3}{12} \]
+$ {3:12 }$ er altså det samme forholdet som $ {1:4} $. Og $ {3:12} $ kan vi få hvis vi legger til 7 deler vann i blandingen med forholdet $ {3:5} $:
+\[ \frac{3}{5+7}=\frac{3}{12} \]
+
+\textit{Løsningsmetode 2} \os
+Vi krever at $ x $ ganger $ \frac{3}{5} $ skal gi oss det samme forholdet som $ \frac{1}{4} $:
+\alg{
+\frac{3}{5}\cdot x &= \frac{1}{4}\br
+x&= \frac{1}{4}\cdot\frac{5}{3} \br
+&= \frac{5}{12} 
+}
+Forholdet vi søker er derfor:
+\alg{
+\frac{3}{5}\cdot\frac{5}{12}&= \frac{3}{12}
+}
+Som vi får hvis vi legger til 7 deler vann i blandingen med forholdet $ {3:5} $.
+}
+
+
+\end{document}
+

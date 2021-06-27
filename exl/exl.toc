@@ -1,0 +1,7 @@
+\select@language {english}
+\select@language {english}
+\contentsline {chapter}{Excel}{1}{Doc-Start}
+\contentsline {section}{E.1\tmspace +\thickmuskip {.2777em} Introduksjon}{1}{section*.2}
+\contentsline {section}{E.2\tmspace +\thickmuskip {.2777em} Cellereferanser}{2}{section*.6}
+\contentsline {section}{E.3\tmspace +\thickmuskip {.2777em} Kopiering av celler}{2}{section*.9}
+\contentsline {section}{E.4\tmspace +\thickmuskip {.2777em} Sm\IeC {\r a}triks}{4}{section*.14}
