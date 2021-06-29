@@ -116,7 +116,7 @@ Hvor mange prosent utgjør 15 av 20?\vsk
 }
 15 utgjør altså 75\% av 20. Det er verdt å merke seg at vi kunne fått 75 direkte ved utrekningen
 \[ 15\cdot \frac{100}{20}=75 \]
-\reg[Antall prosent \boldmath $ a $ utgjør av $ b $]{
+\reg[Antall prosent \boldmath $ a $ utgjør av $ b $ \label{proaavb}]{
 	\vs
 	\begin{equation}
 		\text{Antall prosent \textit{a} utgjør av \textit{b}}=a\cdot \frac{100}{b}
@@ -143,10 +143,10 @@ Hvor mange prosent utgjør 119 av 500?
 }
 
 
-\section{Vekstfaktor \label{vekstfaktor}}
-\subsubsection{Minkende størrelse} \vspace{-25pt}
+\section{Prosentvis endring og vekstfaktor \label{vekstfaktor}}
+\subsubsection{Minkende størrelse} \label{skjorte} \vspace{-25pt}
 \parbox[l][][l]{0.75\linewidth}{
-	I mange situasjoner har noe økt eller minket med en viss prosent. I en butikk kan man for eksempel komme over en skjorte som originalt kostet 500 kr, men selges med 40\% rabatt. Dette betyr at vi skal trekke ifra 40\% av originalprisen når vi skal betale. }
+I mange situasjoner har noe økt eller minket med en viss prosent. I en butikk kan man for eksempel komme over en skjorte som originalt kostet 500 kr, men selges med 40\% \textit{rabatt}. Dette betyr at vi skal trekke ifra 40\% av originalprisen. }
 \parbox[r][][l]{0.2\linewidth}{
 	\begin{figure}
 		\centering
@@ -154,12 +154,14 @@ Hvor mange prosent utgjør 119 av 500?
 \end{figure}} \\[-10pt]
 Her er to måter vi kan tenke på for å finne prisen:
 \begin{itemize}
-	\item Vi starter med å finne fratrekket:
+	\item Vi starter med å finne det vi skal trekke ifra:
 	\alg{
 		\text{40\% av 500}&=\frac{40}{100}\cdot500\br
 		&=200
 	}
-	Videre er $ {500-200=300 }$, altså må vi betale 300 kr for skjorten.
+	Videre er
+	\[ 500-200=300 \]
+	Altså må vi betale 300 kr for skjorten.
 	\item \phantom{}\\[-12pt]
 	\prbxl{0.65}{Skal vi betale full pris, må vi betale 100\% av 500. Men får vi 40\% i rabatt, skal vi bare betale $60\%$ av 500:}\qquad
 	\prbxr{0.25}{$ {100\%-40\%=60\% }$}
@@ -169,7 +171,8 @@ Her er to måter vi kan tenke på for å finne prisen:
 	}
 	Svaret blir selvsagt det samme, vi må betale 300 kr for skjorten.\vsk
 \end{itemize} 
-\subsubsection{Økende størrelse}
+\newpage
+\subsubsection{Økende størrelse} \label{oreklokke}
 \parbox[l][][l]{0.6\linewidth}{Det er ikke alltid vi er så heldige at vi får rabatt på et produkt, ofte må vi faktisk betale et tillegg. \net{https://www.skatteetaten.no/bedrift-og-organisasjon/avgifter/mva/slik-fungerer-mva/}{{Mervardiavgiften}} er et slikt tillegg. I Norge må vi betale 25\% i merverdiavgift på mange varer. Det betyr\vspace{1pt}}\qquad
 \prbxr{0.3}{
 		Merverdiavgift \\forkortes til mva.
@@ -191,26 +194,70 @@ Her er to måter vi kan tenke på for å finne prisen:
 		\includegraphics[scale=0.4]{\asym{peltor}}}}
 \vsk
 \subsubsection{Oppsummering}
-\prbxl{0.6}{Vi har nå sett på to eksempler. I det ene sank prisen på en vare, mens i det andre økte den. Når prisen sank med 40\%, endte vi opp med å betale 60\% av originalprisen. Vi sier da at \textit{vekstfaktoren} er 0,6. Når prisen økte med 25\%, endte vi opp med å betale 125\% av originalprisen. Da er vekstfaktoren 1,25.}\qquad
-\prbxr{0.3}{Mange stusser over at ordet vekstfaktor brukes selv om en størrelse \textsl{synker}, men slik er det. Kanskje et bedre ord ville være \textit{endringsfaktor}?}
-\regv
-\reg[Vekstfaktor \label{vekstfakt}]{\vs
+\reg[Prosentvis endring]{\vs
 	\begin{itemize}
-		\item Når en størrelse synker med $ a $\%, ender vi opp med $ {100\% - a\%} $ av størrelsen.
+		\item Når en størrelse synker med $ a $\%, ender vi opp med $ (100\% - a\%) $ av størrelsen.
 		
-		\item Når en størrelse øker med $ a $\%, ender vi opp med $ {100\% + a\%} $ av størrelsen. 
-		
-		\item Verdien til $ {100\% - a\%} $ eller $ {100\% + a\%} $ kalles vekstfaktoren.
+		\item Når en størrelse øker med $ a $\%, ender vi opp med $ (100\% + a\%) $ av størrelsen. 
 	\end{itemize}
 }
-\eks[1]{ En vare verd 1000 kr er rabattert med 20\%.\os
+\eks[1]{ \label{vekstfakteks}
+Hva er \colb{210} senket med \colr{70}\%?
+
+\sv
+$ 100\%-\colr{70}\%=\colc{30}\% $, altså er
+\alg{
+\colb{210}\text{ senket med } \colr{70}\% &=\colc{30}\% \text{ av } \colb{210} \br &=\frac{\colc{30}}{100}\cdot\colb{210}\br
+&=63 
+}
+}
+\eks[2]{
+Hva er 208,9 økt med 124,5\%?
+
+\sv
+
+$ 100\%+124,5\%=224,5\% $, altså er
+\alg{
+208,9 \text{ økt med } 124,5 &= 224,5\% \text{ av } 208,9 \br
+&=\frac{224,5}{100}\cdot208,9
+}
+}
+\section*{Vekstfaktor} \vspace{-12pt}
+\prbxl{0.6}{På side \pageref{skjorte} ble prisen til en skjorte redusert med 40\%, og da endte vi opp med å betale 60\% av originalprisen. Vi sier da at \textit{vekstfaktoren} er 0,6. På side \pageref{oreklokke} måtte vi legge til 25\% mva., og da endte vi med å betale 125\% av originalprisen. Da er vekstfaktoren 1,25.}\qquad
+\prbxr{0.3}{Mange stusser over at ordet vekstfaktor brukes selv om en størrelse \textsl{synker}, men slik er det. Kanskje et bedre ord ville være \textit{endringsfaktor}?}
+
+\reg[Vekstfaktor I \label{vekstfaktordef}]{
+Når en størrelse endres med $ a\% $, er vekstfaktoren verdien til\footnote{\sym{$ \pm $} betyr at man skal velge enten $ + $ eller $ - $.} $ {100\% \pm a\%} $.
+}
+\eks[1]{
+En størrelse skal økes med 15\%. Hva er vekstfaktoren?
+
+\sv
+$ 100\%+15\% =115\% $, altså er vekstfaktoren 1,15.
+}
+\eks[2]{
+En størrelse skal reduseres med 19,7\%. Hva er vekstfaktoren?
+
+\sv
+$ 100\%-19,7\%=80,3\% $, altså er vekstfaktoren 80,3\%
+} \vsk
+La oss se tilbake til \textsl{Eksempel 1} på side \pageref{vekstfakteks}, hvor 210 skulle senkes med 70\%. Da er vekstfaktoren 0,3. Videre er
+\[ 0,3\cdot210=63 \]
+Altså, for å finne ut hvor mye 210 senket med 70\% er, kan vi gange 210 med vekstfaktoren (forklar for deg selv hvorfor!).
+\reg[Prosentvis endring med vekstfaktor \label{vekstfaktendr}]{ \vs
+\[ \text{endret originalverdi}=\text{vekstfaktor}\cdot \text{originalverdi} \]	
+}
+
+\eks[1]{ En vare verd 1\,000 kr er rabattert med 20\%.\os
 	\textbf{a)} Hva er vekstfaktoren?\os
 	\textbf{b)} Finn den nye prisen.
 	
 	\sv 
-	\textbf{a)} Siden det er 20\% rabbatt må vi betale $ {100\%-20\%= 80\%} $ av originalprisen. Vekstfaktoren er derfor 0,8. \os
+	\textbf{a)} Siden det er 20\% rabbatt, må vi betale 
+	\[ 100\%-20\%= 80\% \]
+	av originalprisen. Vekstfaktoren er derfor 0,8. \os
 	
-	\textbf{b)} Den nye prisen finner vi ved å gange vekstfaktoren med originalprisen:
+	\textbf{b)} Vi har at
 	\[ 0,8\cdot1000  = 800 \]
 	Den nye prisen er altså 800 kr.
 }
@@ -219,70 +266,141 @@ Her er to måter vi kan tenke på for å finne prisen:
 	\textbf{b)} Hva koster sjokoladen inkludert mva?
 	
 	\sv
-	\textbf{a)} Med 15\% i tillegg må man betale $ {100\%+15\%= 115\%} $ av prisen eksludert mva. Vekstfaktoren er derfor 1,15.\vsk
+	\textbf{a)} Med 15\% i tillegg må man betale
+	\[ 100\%+15\%= 115\% \]
+	av prisen eksludert mva. Vekstfaktoren er derfor 1,15.\vsk
 	
 	\textbf{b)} \vs
 	\[ 1,15\cdot 9.90=12,25 \]
 	Sjokoladen koster 12,25 kr inkludert mva.
+} \vsk
+Vi kan også omksrive likningen fra \rref{vekstfaktendr} for å få et uttrykk for vekstfaktoren:
+\reg[Vekstfaktor II \label{vekstfaktexpr}]{ \vs
+\[ \text{vekstfaktor}=\frac{\text{endret originalverdi}}{\text{originalverdi}} \]
+}
+\subsubsection{Å finne den prosentvise endringen}
+Når man skal finne en prosentvis endring, er det viktig å være klar over at det er snakk om prosent \textsl{av} en helhet. Denne helheten man har som utgangspunkt er den originale verdien. \vsk
+
+La oss som et eksempel si at Jakob tente 10\,000 kr i 2019 og 12\,000 kr i 2020. Vi kan da stille spørsmålet ''Hvor mye endret lønnen til Jakob seg med fra 2019 til 2020 i prosent?''. Spørsmålet tar utgangspunkt i lønnen fra 2019, dette betyr at 10\,000 er vår originale verdi. To måter å finne den prosentvise endringen på er disse (vi tar ikke med 'kr' i utrekningene):
+\begin{itemize}
+\item Lønnen til Jakob endret seg fra 10\,000 til 12\,000, en forandring på $12\,000-10\,000= 2\,000 $. Videre er (se \rref{proaavb})
+\alg{
+\text{Antall prosent 2\,000 utgjør av 10\,000}&=2\,000\cdot\frac{100}{10\,000} \\
+&=20
+}
+Fra 2019 til 2020 økte altså lønnen til Jakob med 20\%. 
+\item 
+Vi har at
+\alg{
+\frac{12\,000}{10\,000}=1,2
+}
+Fra 2019 til 2020 økte altså lønnen til Jakob med en vekstfaktor lik 1,2 (se \rref{vekstfaktexpr}). Denne vekstfaktoren tilsvarer en endring lik 20\% (se \rref{vekstfaktordef}). Det betyr at lønnen økte med 20\%.
+\end{itemize}
+\reg[Prosentvis endring I \label{proendra}]{ \vs
+\[ \text{prosentvis endring}=\frac{\text{endret originalverdi}-\text{originalverdi}}{\text{originalverdi}}\cdot100 \]
+\footnotesize
+Obs! Hvis 'endret originalverdi' er mindre enn 'original verdi', må man i steden rekne ut '$ \text{originalverdi}-\text{endret original} $'
+} 
+\info{Kommentar}{\rref{proendra} kan se litt voldsom ut, og er ikke nødvendigvis så lett å huske. Hvis du virkelig har forstått seksjon ??, kan du uten å bruke denne formelen finne prosentvise endringer trinnvis. I påfølgende eksempler viser vi derfor både en trinnvis løsningsmetode og en metode ved bruk av formel.} 
+\eks[1]{
+I 2019 hadde et fotballag 20 medlemmer. I 2020 hadde laget 12 medlemmer. Hvor mange prosent av medlemmene fra 2019 hadde sluttet i 2020?
+
+\sv	
+
+Vi starter med å merke oss at det det medlemstallet fra 2019 som er originalverdien vår.\vsk
+
+\textit{Løsningsmetode 1; trinnvis metode}\os
+Fotballaget gikk fra å ha 20 til 12 medlemmer, altså var det $ 20-12=8 $ som sluttet. Vi har at
+\[ \text{Antall prosent 4 utgjør av 20}=8\cdot\frac{100}{20}=40 \]
+I 2020 hadde altså 40\% av medlemmene fra 2019 sluttet. \vsk
+
+\textit{Løsningsmetode 2; formel} \os
+Vi legger merke til at originalverdien er større enn den endrede verdien, da har vi at
+\alg{
+\text{prosentvis endring}&=\frac{20-12}{20}\cdot100\br
+&=\frac{8}{20}\cdot 100 \br
+&=40
+}
+I 2020 hadde altså 40\% av medlemmene fra 2019 sluttet.
+} \regv
+
+\reg[Prosentvis endring II \label{proendrb}]{\vs
+	\[ \text{prosentvis endring}=100\left(\frac{\text{endret originalverdi}}{\text{originalverdi}}-1\right) \]
+	\footnotesize
+	Obs! Hvis 'endret originalverdi' er mindre enn 'original verdi', må man ''snu'' reknestykket inni parantesen til $ 1-\dfrac{\text{endret originalverdi}}{\text{originalverdi}} $.
+}
+\info{Merk}{\rref{proendra} og \rref{proendrb} gir begge formler som kan brukes til å finne prosentvise endringer. Her er det opp til en selv å velge hvilken man liker best. Som allerede nevnt angående \rref{proendra}, er også \rref{proendrb} en litt kronglete formel, og man trenger den ikke hvis man har forstått seksjonn ?? og ??. Her vil vi også i påfølgende eksempler vise to løsningsmetoder. 
+} 
+\eks[1]{
+	I 2019 hadde et fotballag 20 medlemmer. I 2020 hadde laget 12 medlemmer. Hvor mange prosent av medlemmene fra 2019 hadde sluttet i 2020?
+	
+	\sv	
+	
+	Vi starter med å merke oss at det det medlemstallet fra 2019 som er originalverdien vår. \vsk
+	
+	\textit{Løsningsmetode 1; trinnvis metode}\os
+	Fotballaget gikk fra å ha 20 til 12 medlemmer, da har vi at (se \rref{vekstfaktexpr})
+	\[ \text{vekstfaktor}=\frac{12}{20}=0,6 \]
+	En vekstfaktor lik 0,6 tilsvarer en endring på 40\% (se \rref{vekstfaktordef}). 	I 2020 hadde altså 40\% av medlemmene fra 2019 sluttet. \vsk
+	
+	\textit{Løsningsmetode 2; formel} \os
+	Vi legger merke til at originalverdien er større enn den endrede verdien, da har vi at
+	\alg{
+		\text{prosentvis endring}&=100\left(1-\frac{12}{20}\right)\\
+		&=100\left(1-0,6\right) \\
+		&=100\cdot0.4 \\
+		&=40
+	}
+	I 2020 hadde altså 40\% av medlemmene fra 2019 sluttet.
 }
 \section{Prosentpoeng}
-Vi har akkurat sett på størrelser som økte eller minket med en viss prosent. Men hvis størrelsen selv er oppgitt i prosent, må vi holde tunga rett i munnen. La oss bruke størrelsen 10\% som et eksempel.\vsk
+\prbxl{0.65}{Ofte snakker vi om mange størrelser samtidig, og når man da bruker prosent-ordet kan setninger bli veldig lange og knotete hvis man også snakker om forskjellige originalverdier. For å forenkle setningene har vi begrepet \textit{prosentpoeng}. La oss forsøke å forklare ordet med et eksempel.}
+\fgbxr{0.25}{\begin{figure}
+		\centering
+		\includegraphics[scale=0.3]{\asym{sunglasses}}
+\end{figure}} 
+\prbxl{0.65}{
+Tenk at et par solbriller først ble solgt med 30\% rabatt av originalprisen, men det solgt med 80\% rabatt av originalprisen. Da sier vi at rabatten har økt med 50 \textit{prosentpoeng}.
+} \qquad
+\prbxr{0.25}{
+$ 80\%-30\%=50\% $ 
+} \vsk
+
+\textsl{Hvorfor kan vi ikke si at rabatten har økt med 50\%?}\vsk
+
+Si at solbrillene hadde originalpris 1\,000 kr.
+30\% rabatt på 1\,000 kr tilsvarer 300 kr i rabatt. 80\% rabatt på 1000 kr tilsvarer 800 kr i rabatt. Men hvis vi øker 300 med 50\% får vi $ 300\cdot1,5=450 $, og det er ikke det samme som 800! Saken er at vi snakker om to forskjellige originalverdier:
+
+\prbxr{0.25}{ \vs
+	\alg{
+		80\%\cdot1000= 800 
+	} \vsb
+}
+\prbxr{0.25}{ \vs
+	\alg{
+		20\%\cdot1000= 200 
+	} \vsb}
 
 
-\prbxl{0.6}{Hvis 10\% øker med 5\%, får vi:
-	\alg{
-		\text{10\% økt med 5\%} &= 10\%\cdot1,05\\
-		&= 10,5\%
-	}
-	Men hvis 10\% istedenfor øker med 5 \textit{prosentpoeng}, ender vi med:
-}\qquad
-\prbxr{0.3}{I forrige seksjon fant vi at å øke en størrelse med 5\% er det samme som å gange størrelsen med 1,05}
-\alg{
-	\text{10\% økt med 5 prosentpoeng} &= 10\%+5\%\\
-	&= 15\%}
-10,5\% og 15\% er to helt forskjellige størrelser!\regv
-\reg[Prosentpoeng]{\vs \vs
-	\alg{
-		&\text{a\% økt med \textit{b} prosentpoeng} = a\% + b\% \br
-		&\text{a\% minket med \textit{b} prosentpoeng} = a\% - b\%
-	}
+\st{''Rabatten var først 30\%, så økte rabatten med 50 prosentpoeng. Da ble rabatten 80\%.'' \vsk
+
+\textit{Forklaring:} ''Rabatten'' er en størrelse vi rekner ut i fra orignalprisen til solbrillene. Når vi sier ''prosentpoeng'' viser vi til at det fortsatt er originalprisen vi skal rekne prosentene \textsl{ut i fra}. Når prisen er 1\,000 kr, starter vi med $ {1\,000\enh{kr}\cdot0,3=300\enh{kr}} $  i rabatt. Når vi legger til 50 \textsl{prosentpoeng}, legger vi til 50\% av originalprisen, altså $ 1\,000\enh{kr}\cdot0,5=500\enh{kr} $. Totalt blir det 800\,kr i rabatt, som utgjør $ 80\% $ av originalprisen.
 }
-\eks{
-	En dag var 5\% av elevene på en skole borte. Dagen etter var 7,5\% av elevene borte. \os
-	\textbf{a)} Hvor mye økte fraværet i prosentpoeng?\os
-	\textbf{b)} Hvor mye økte fraværet i prosent?
-	
-	\sv
-	\textbf{a)} $ {7,5\%-5\%=2,5\%} $, derfor har fraværet økt med 2,5 prosentpoeng. \vsk
-	
-	\textbf{b)} Her må vi svare på hvor mye endringen, altså 2,5\%, utgjør av 5\%. Dette er det samme som å finne hvor mye 2,5 utgjør av 5. (Se tilbake til ligning \eqref{autgavb}). 1\% av 5 er 0,05, derfor får vi:
-	\alg{
-		\text{Antall prosent 2,5 utgjør av 5}&=\frac{2,5}{0,05} \\
-		&= 50
-	}
-	Altså har fraværet økt med 50\%.
+\st{''Rabatten var først 30\%, så økte rabatten med 50\%. Da ble rabatten 45\%.''\vsk
+
+\textit{Forklaring:} ''Rabatten'' er en størrelse vi rekner ut i fra orignalprisen til solbrillene, men her rekner vi prosenten \textsl{ut ifra } rabatten. Når prisen er 1\,000\,kr, starter vi med 300\,kr i rabatt. Videre er
+\[ 300\enh{kr} \text{ økt med } 50\%=300\enh{kr}\cdot1,5=450\enh{kr} \]
+og 
+\[ \text{Antall prosent 450 utgjør av 1\,000}=\frac{450}{100}=45 \]
+Altså er den nye rabatten 45\%.
 }
-\info{Hva er egentlig forskjellen mellom prosent og prosentfaktor?}{Tenk på en skjorte som koster 200 kr. Tenk så at det er gitt 20\% rabatt på dene skjorten, altså får man $ {200\, \text{kr}\cdot0,2= 40\text{ kr}}$ i avslag. Men si at rabatten blir endret til 50\% av originalprisen, da blir avslaget $ {200\, \text{kr}\cdot0,5= 100\text{ kr}}$. \vsk
-	
-	Rabatten har da gått opp fra 20\% til 50\% av originalprisen, fra 40 kr til 100 kr. En økning på 60 kr. Og nå kommer poenget: Istedenfor å spørre \textit{hvor mange prosent av originalprisen har rabatten økt?}, bruker vi ordet prosentpoeng. Det samme spørsmålet blir da \textit{hvor mange prosentpoeng har rabatten økt?} Svaret blir $ {50\%-20\% = 30\%} $, altså 30 prosentpoeng. (60 utgjør 30\% av 200).\vsk
-	
-	Når vi isteden spør \textit{hvor mye har rabatten økt i prosent?}, mener vi \textit{hvor mange prosent av originalrabatten har rabatten økt?}. Dette kan vi finne på to måter:\vsk
-	
-	\textsl{Metode 1}:
-	Originalrabatten var på 40 kr og økte med 60 kr. Hvor mange prosent 60 kr ugjør av 40 kr kan vi regne ut slik:
-	\begin{flalign*}
-		&& \frac{60}{0,4}& =150 && \llap{\color{blue}\text{1\% av 40 er 0,4}}
-	\end{flalign*}
-	Rabatten økte altså med 150\%.\vsk
-	
-	\textsl{Metode 2}: \\
-	Økningen i prosentpoeng er 30, og startrabatten var 20\%. Hvor mange prosent 30 utgjør av 20 er:
-	\begin{flalign*}
-		&& \frac{30}{20}& =1,5 &&  \br
-		&& & =150\% && \llap{\color{blue}\text{Se tipset på s \pageref{protips}}}
-	\end{flalign*}
-	Rabatten økte med 150\%.
+\info{Merk}{
+I de to (gule) tekstboksene over regnet vi ut den økte rabatten ved å bruke en originalverdi lik 1\,000. Dette er streng tatt ikke nødvendig
 }
+
+
+
+\newpage
 
 \end{document}
 
