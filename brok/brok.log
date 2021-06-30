@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  30 JUN 2021 09:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  30 JUN 2021 22:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1469,8 +1469,8 @@ e pros-
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 108--108
-\T1/lmr/m/n/10.95 ent-tall som des-i-mal-tall når vi fore-tar utrekninger. I \T
-1/lmr/m/sl/10.95 Ek-sem-pel 5
+\T1/lmr/m/n/10.95 ent-tall som des-i-mal-tall når vi fore-tar utreg-ninger. I \
+T1/lmr/m/sl/10.95 Ek-sem-pel 5
  []
 
 [4]
@@ -1484,8 +1484,8 @@ a
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 143--143
-\T1/lmr/m/n/10.95 det bort fra selve utreknin-gen. \T1/lmr/m/sl/10.95 Ek-sem-pe
-l 2 \T1/lmr/m/n/10.95 over kunne vi da
+\T1/lmr/m/n/10.95 det bort fra selve utreg-nin-gen. \T1/lmr/m/sl/10.95 Ek-sem-p
+el 2 \T1/lmr/m/n/10.95 over kunne vi da
  []
 
 [5]
@@ -1858,7 +1858,7 @@ t-po-eng.
 
 Underfull \hbox (badness 10000) in paragraph at lines 377--377
 []\T1/lmr/m/it/10.95 Forklaring: \T1/lmr/m/n/10.95 ''Ra-bat-ten'' er en stør-re
-lse vi rekner ut i fra orig-
+lse vi reg-ner ut i fra orig-
  []
 
 
@@ -1875,8 +1875,8 @@ punk-tet \T1/lmr/m/n/10.95 for den kom-
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 377--377
-\T1/lmr/m/n/10.95 mende pros-en-treknin-gen. Når prisen er 1000 kr, starter vi 
-med
+\T1/lmr/m/n/10.95 mende pros-en-treg-nin-gen. Når prisen er 1000 kr, starter vi
+ med
  []
 
 
@@ -1894,7 +1894,7 @@ e
 
 Underfull \hbox (badness 10000) in paragraph at lines 385--385
 []\T1/lmr/m/it/10.95 Forklaring: \T1/lmr/m/n/10.95 ''Ra-bat-ten'' er en stør-re
-lse vi rekner ut i fra orig-
+lse vi reg-ner ut i fra orig-
  []
 
 
@@ -1906,7 +1906,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 385--385
 
 Underfull \hbox (badness 10000) in paragraph at lines 385--385
 \T1/lmr/bx/n/10.95 ut-gangspunk-tet \T1/lmr/m/n/10.95 for den kom-mende pros-en
--treknin-gen. Når
+-treg-nin-gen. Når
  []
 
 
@@ -2138,7 +2138,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  31495 strings out of 481239
  618101 string characters out of 5920378
- 933699 words of memory out of 5000000
+ 933695 words of memory out of 5000000
  46000 multiletter control sequences out of 15000+600000
  633106 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2159,7 +2159,7 @@ fb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/t
 ype1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></u
 sr/share/texmf/fonts/type1/public/lm/lmro9.pfb></usr/share/texmf/fonts/type1/pu
 blic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb>
-Output written on brok.pdf (20 pages, 714946 bytes).
+Output written on brok.pdf (20 pages, 714944 bytes).
 PDF statistics:
  329 PDF objects out of 1000 (max. 8388607)
  274 compressed objects within 3 object streams

@@ -39,7 +39,7 @@
 \contentsline {subsection}{\numberline {4.4.2}Regnskap}{66}{subsection.4.4.2}%
 \contentsline {section}{Oppgaver}{66}{section*.36}%
 \contentsline {chapter}{\numberline {5}Sannsynlighet }{71}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Grunnprinnsippet}{72}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Grunnprinnsippet}{71}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Hendelser med og uten felles utfall}{73}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}Hendelser uten felles utfall}{73}{subsection.5.2.1}%
 \contentsline {subsection}{\numberline {5.2.2}Summen av alle sannsynligheter er 1}{74}{subsection.5.2.2}%
