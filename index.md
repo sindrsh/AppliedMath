@@ -2,26 +2,28 @@
 
 # Om læreverket
 
-_Før kalkulus_ er et gratis læreverk (i PDF-format) som presenterer alle tema gitt av kompetansemålene for matematikk R2.
-Verket består av bøkene består av _Før kalkulus; teoridel_ og _Før kalkulus; GeoGebra i R2_. 
+_Anvendt matematikk_ er en gratis lærebok beregnet for grunnskole og VGS (i PDF-format). Boka presenterer anvendelser av matematikken som er omtalt i boka .[Matematikkens byggesteiner](https://sindrsh.github.io/FirstPrinciplesOfMath/).
 
-Innhold for _Før kalkulus; teoridel_:
-- Følger og rekker
-- Trigonometri
-- Vektorer i rommet
-- Romgeometrier
-- Derivasjon
-- Integrasjon
-- Differensialligninger
+Blant temaene boka dekker er
+- Størrelser og enheter
+- Areal, omkrets og volum
+- Prosentrekning
+- Forhold og målestokk
+- Økonomi
+- Sannsynlighet
+- Statistikk
+- Excel og GeoGebra
+- Programmering
 
 ### Filer
 
-- [Teoridel](https://github.com/sindrsh/precalc/blob/master/bokR2_PDF.pdf)
-- [Teoridel (tosidig printversjon)](https://github.com/sindrsh/precalc/blob/master/bokR2.pdf)
-- [GeoGebra i R2](https://github.com/sindrsh/precalc/blob/master/ggb/ggbr2.pdf)
+- [Anvendt matematikk for grunnskole og VGS](https://github.com/sindrsh/AppliedMath/blob/master/P.pdf)
  
-
 Den komplette filstrukturen for læreverket er tilgjengelig på GitHub (trykk på _View on GitHub_ øverst på denne siden)
+
+Se også 
+- [Matematikkens byggesteiner](https://sindrsh.github.io/FirstPrinciplesOfMath/) (en grunnleggende innføring i matematikk)
+- [Før Kalkulus](https://sindrsh.github.io/precalc/) (et gratis læreverk for matematikk R2)
 
 ### Kontakt
 sindre.heggen@gmail.com
