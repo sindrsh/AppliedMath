@@ -1,5 +1,5 @@
-\input{/home/sindre/P/doc}
-\input{/home/sindre/P/preamb}
+\input{../doc}
+\input{../preamb}
 
 
 \begin{document}
@@ -115,7 +115,7 @@ KPI i 2012 var 93,9. Regn ut kroneverdien i 2012.
 }
 \subsection{Reallønn og nominell lønn}
 Hvor god \textit{råd} vi har avhenger av hvor mye vi tjener og hva prisnivået er. Tenk nå at hadde en årslønn på 500\,000\,kr i både 2011, 2015 og 2017. \hyperref[KPI]{\textsl{Tabell} \ref*{KPI}} forteller oss at du hadde du best råd i 2011 $ - $ fordi da var prisnivået lavest (siden KPI var mindre enn for de to andre årene). I praksis ville dette betydd at selv om lønnen din var den samme alle årene, ville du kunne kjøpt flere varer i 2011 siden de da var billigere. I denne sammenhengen sier vi at \textit{reallønnen} din var høyere i 2011 enn i 2015 og 2017.\\ \vsk
-\prbxl{0.6}{At prisnivået har blitt høyere er det samme som at kroneverdien har blitt lavere. For å regne ut selve verdien til reallønnen, ganger vi den nominelle lønnen med kroneverdien (se \hr{kr}):}\qquad
+\prbxl{0.6}{At prisnivået har blitt høyere er det samme som at kroneverdien har blitt lavere. For å regne ut selve verdien til reallønnen, ganger vi den nominelle lønnen med kroneverdien (se ??:}\qquad
 \prbxr{0.3}{Nominell lønn er lønnen du får fra arbeidsgiveren din, altså det vi som oftest bare kaller lønnen.}
 \prbxl{0.7}{\alg{
 		\text{Reallønn i 2017}&= 500\,000\cdot\frac{100}{105,5}\enh{kr} \\
@@ -192,7 +192,7 @@ Si at en bank låner  oss 100\,000\,kr, som da blir lånesummen. Lånet skal til
 	
 	Startgjelden er 100\,000, men det første året betaler vi 20\,000\,kr i avdrag, og da blir gjelden $100\,000\enh{kr}-20\,000\enh{kr} =80\,000\enh{kr} $. Det andre året betaler vi nye 20\,000\,kr, og da blir gjelden $ 80\,000\enh{kr}-20\,000\enh{kr} =60\,000\enh{kr}  $. Og slik fortsetter det de neste tre årene.
 	\item \textsl{Renter skal beregnes av gjelden.}\os 
-	Siden gjelden det første året er 100\,000\,kr, må vi betale (se \hr{profakt}) ${ 100\,000\enh{kr}\cdot0,10\,000=10\,000\enh{kr} } $ i renter. Siden gjelden det andre året er 80\,000\,kr må vi betale ${ 80\,000\enh{kr}\cdot0,10\,000=80\,000\enh{kr} } $.  Og slik fortsetter det de neste tre årene.
+	Siden gjelden det første året er 100\,000\,kr, må vi betale (se ??) ${ 100\,000\enh{kr}\cdot0,10\,000=10\,000\enh{kr} } $ i renter. Siden gjelden det andre året er 80\,000\,kr må vi betale ${ 80\,000\enh{kr}\cdot0,10\,000=80\,000\enh{kr} } $.  Og slik fortsetter det de neste tre årene.
 	
 	\item \textsl{Terminbeløpet er summen av avdrag og renter}.\os
 	
@@ -215,12 +215,12 @@ Si at en bank låner  oss 100\,000\,kr, som da blir lånesummen. Lånet skal til
 \raggedright 
 Og slik fortsetter det de neste tre årene.
 \end{itemize}\vsk
-\bhd{Serielån og annuitetslån}
+\textbf{Serielån og annuitetslån}\os
 To veldig vanlige typer lån er \textit{serielån} og \textit{annuitetslån}. Lånet fra eksempelet vi akkurat har sett på er et serielån fordi avdragene er like store. 
 \prbxl{0.6}{Hvis terminbeløpene hadde vært like store, ville det isteden vært et annuitetslån. Hvis lånesum, rente og nedbetalingstid er lik, vil et serielån alltid medføre minst utgifter totalt sett. For privatpersoner er det likevel veldig populært å velge annuitetslån på grunn av at det er lettere å planlegge økonomien når man betaler det samme beløpet hvar gang.}\qquad
 \prbxr{0.3}{\textsl{Merk:} Du har alltid rett til å betale resterende gjeld når du selv ønsker det. Da avsluttes lånet og du betaler hverken flere avdrag eller renter.}\vsk
 
-\bhd{Kredittkort}\vspace{5pt}
+\textbf{Kredittkort}\os
 \prbxl{0.6}{Kredittkort er et bankkort som virker slik at hvis du f.eks bruker kortet for å betale for 10\,000\,kr i en butikk, så blir ikke 10\,000\,kr trekt fra kontoen din $ - $ isteden låner du pengene fra banken. Etter en tid som er avtalt med banken vil banken kreve renter av gjelden din. Hvordan du betaler}\qquad
 \parbox{0.3\linewidth}{\includegraphics[scale=0.1]{kred}}\\[2pt]
 denne gjelden er delvis opp til deg selv, men generelt har kredittkort veldig høye renter, så det lureste er å betale før rentekravet engang har startet!
@@ -284,7 +284,7 @@ Altså må du betale 17\,600 i avdrag det første året.
 
 Vi har sett hvordan vi må betale renter når vi låner penger, men hvis vi isteden sparer penger i en bank \textsl{får} vi renter. Renten kalles da \textit{sparerente}. Hvis den årlige sparerenten f. eks. er 10\%, betyr dette at vi hvert år skal få 10\% av beløpet vi har spart i banken.\vsk
 
-\prbxl{0.6}{Si nå at vi setter 15\,000 kr inn i en bank som gir nettopp 10\% sparerente. Etter å ha spart i 1 år skal vi altså motta 10\%  av 15\,000, og legge dette til de 15\,000 vi allerede har. Dette blir det samme som å øke 15\,000 med 10\% (se \hr{vekstfakt}): 
+\prbxl{0.6}{Si nå at vi setter 15\,000 kr inn i en bank som gir nettopp 10\% sparerente. Etter å ha spart i 1 år skal vi altså motta 10\%  av 15\,000, og legge dette til de 15\,000 vi allerede har. Dette blir det samme som å øke 15\,000 med 10\% (se ??): 
 \[ \text{Antall kr etter 1 år}=15\,000\cdot1,10=16\,500 \]}\qquad
 \prbxr{0.3}{Per dags dato er 10\% sparerente veldig urealistisk, tallet er valgt for å gjøre utregninger enkle.}
 Sparer vi også disse 16\,500 kronene i et år, skal vi ha 10\% av denne pengesummen. Det betyr at vi 2 år etter at vi startet å spare har:
@@ -342,7 +342,7 @@ Marion forventer altså at bilen er verdt ca 179\,908\,kr om fire år.
 \section{Skatt}
 Om du har en inntekt må du som regel betale en del av disse pengene til staten. Disse pengene kalles \textit{skatt} (og noen ganger \textit{avgift}). Hensikten med skatt er at staten skal ha råd til å gi innbyggerne tilbud som skole, helsetjenester og mye mer. I dag blir blir skatten i stor grad beregnet av datasystemer, men det er ditt ansvar å sjekke at beregningene er riktige $ - $ og da er det viktig å forstå hvordan skattesystemet fungerer.\vsk
 
-\obs \textsl{I eksamensoppgaver vil du oppdage at skattesystemer er presentert på en litt annen måte enn i denne boka. Dette er blant annet fordi skattereglene kan forandre seg fra år til år, og i denne boka har vi valgt å presentere skattereglene for 2018. Det viktigste er likevel ikke at du husker spesifikt disse reglene, men at du lærer deg hva som menes med begrepene \textit{bruttolønn, fradrag, skattegrunnlag, tyrgdeavgift} og \textit{nettolønn}}
+Obs! \textsl{I eksamensoppgaver vil du oppdage at skattesystemer er presentert på en litt annen måte enn i denne boka. Dette er blant annet fordi skattereglene kan forandre seg fra år til år, og i denne boka har vi valgt å presentere skattereglene for 2018. Det viktigste er likevel ikke at du husker spesifikt disse reglene, men at du lærer deg hva som menes med begrepene \textit{bruttolønn, fradrag, skattegrunnlag, tyrgdeavgift} og \textit{nettolønn}}
 \subsection{Bruttolønn, fradrag og skattegrunnlag}
 \prbxl{0.68}{De fleste må betale 23\% av det som kalles \textit{skattegrunnlaget}, som er \textit{bruttolønnen} minus \textit{fradrag}. Bruttolønnen er lønnen du mottar fra arbeidsgiver, mens fradrag kan være mye forskjellig. \textit{Personfradrag} og  \textit{minstefradrag} er noe alle}\qquad
 \prbxr{0.22}{Skattegrunnlag kalles noen ganger \textit{trekkgrunnlag}.} \\[-6pt]
