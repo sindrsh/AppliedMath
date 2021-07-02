@@ -18,18 +18,20 @@ for (int i = 0; i < 3; ++i){
 	filldraw(b, p+opacity(0.1),drawpen=grey+opacity(0.1));	
 	}
 
-label("$+$",-((2*(3)+1)*dx,-dy));
+label("$-$",-((2*(3)+1)*dx,-dy));
+label("$=$",-((2*(3)+1)*dx,-2dy));
 draw((0,1.5dy)--(-8dx,1.5dy));
 
 
-label("4",(-dx,0),blue);
-label("3",(-3dx,0));
-label("2",(-5dx,0));
+label("9",(-dx,0));
+label("8",(-3dx,0));
+label("7",(-5dx,0),blue);
 
-label("2",(-dx,dy),blue);
-label("1",(-3dx,dy));
-label("6",(-5dx,dy));
+label("4",(-dx,dy));
+label("2",(-3dx,dy));
+label("3",(-5dx,dy),red);
 
-label("6",(-dx,2dy),Green);
-
+label("5",(-dx,2dy));
+label("6",(-3dx,2dy));
+label("4",(-5dx,2dy),Green);
 

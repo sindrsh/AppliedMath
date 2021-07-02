@@ -2,10 +2,12 @@
 \input{../preamb}
 
 \begin{document}
-\section*{Addisjon}
+\section{Addisjon}
 
 \subsubsection{Oppstilling}
-\parbox{0.3\linewidth}{
+Addisjon med oppstilling baserer seg på plassverdisystemet, der man trinnvis rekner summen av enerne, tierne, hundrerne, o.l.
+\begin{center}
+	\parbox{0.3\linewidth}{
 \eks[1]{
 	\begin{figure}
 		\centering
@@ -35,6 +37,7 @@
 		\includegraphics[]{fig/plus4}
 	\end{figure}
 }}
+\end{center}
 \fork{Eksempel 1}{
 \begin{figure}
 	\centering
@@ -48,7 +51,7 @@
 	\item Vi legger sammen tierne: $ 3+1=4 $
 	\item Vi legger sammen hundrerne: $ 2+6=8 $
 \end{enumerate}
-} \regv
+} \newpage
 \fork{Eksempel 2}{
 	\begin{figure}
 		\centering
@@ -65,7 +68,9 @@
 }
 \section{Subtraksjon}
 \subsubsection{Oppstilling}
-\parbox{0.3\linewidth}{
+Subtraksjon med oppstilling baserer seg på plassverdisystemet, der man trinnvis rekner differansen mellom enerne, tierne, hundrerne, o.l. Metoden tar også utgangspunkt i et mengdeperspektiv, og tillater derfor ikke differanser med negativ verdi (se forklaringen til \textsl{Eksempel 2}).
+\begin{center}
+	\parbox{0.3\linewidth}{
 \eks[1]{
 	\begin{figure}
 		\centering
@@ -93,7 +98,38 @@
 		\includegraphics[]{fig/min4}
 	\end{figure}
 }}
+
+\end{center}
+\fork{Eksempel 1}{
+\begin{figure}
+	\centering
+	\subfloat[]{\includegraphics{fig/min1a}}\qquad
+	\subfloat[]{\includegraphics{fig/min1b}}\qquad
+	\subfloat[]{\includegraphics{fig/min1c}}
+\end{figure}
+
+\begin{enumerate}[label=\alph*)]
+	\item Vi finner differansen mellom enerne: $ {9-4=5} $
+	\item Vi finner differansen mellom tierne: $ {8-2=6} $. 
+	\item Vi finner differansen mellom hundrerne: $ {7-3=4} $.
+\end{enumerate}
+}
+\newpage
+\fork{Eksempel 2}{
+	\begin{figure}
+		\centering
+		\subfloat[]{\includegraphics{fig/min2a}}\qquad
+		\subfloat[]{\includegraphics{fig/min2b}}
+	\end{figure}
+	
+	\begin{enumerate}[label=\alph*)]
+		\item Vi merker oss at 7 er større enn 3, derfor tar vi 1 tier fra de 8 på tierplassen. Dette markerer vi ved å sette en strek over 8. Så finner vi differansen mellom enerne: $ {13-7=6} $
+		\item Siden vi tok 1 fra de 8 tierne, er der nå bare 7 tiere. Vi finner differansen mellom tierne: $ {7-6=1} $.
+	\end{enumerate}
+}
 \subsubsection{Tabellmetoden}
+Tabellmetoden for subtraksjon tar utgangspunkt i at subtraksjon er en omvendt operasjon av addisjon. For eksempel, svaret på spørsmålet ''Hva er $ 789-324 $?'' er det samme som svaret på spørsmålet ''Hvor mye må jeg legge til på 324 for å få 789?''. Med tabellmetoden følger du ingen spesiell regel underveis, men velger selv tallene du mener passer best for å nå målet.\\
+\begin{center}
 \parbox{0.35\linewidth}{
 \eks[1]{
 $ \colb{789}-\colr{324}=\colc{465} $	 \vsk
@@ -104,7 +140,6 @@ $ \colb{789}-\colr{324}=\colc{465} $	 \vsk
 	70&400 \\
 	389&\colb{789} \\ \hline
 	\colc{465}
-	
 \end{tabular}
 }} \qquad
 \parbox{0.35\linewidth}{
@@ -120,7 +155,7 @@ $ \colb{789}-\colr{324}=\colc{465} $	 \vsk
 }} \\[12pt]
 \parbox{0.35\linewidth}{
 	\eks[3]{
-		$ 564-478=86 $	 \vsk
+		$ 564-478=86 $\vsk
 		
 		\begin{tabular}{r|r}
 			& 478 \\ \hline
@@ -128,27 +163,163 @@ $ \colb{789}-\colr{324}=\colc{465} $	 \vsk
 			20&500 \\ 
 			64&564\\ \hline
 			86
-		\end{tabular} \vspace{14pt}
+		\end{tabular}
+}} \qquad 
+\parbox{0.4\linewidth}{
+	\eks[4]{
+		$ {206,1-31,7=174,4} $\vsk
+		
+		\begin{tabular}{r|r}
+			& 31,7 \\ \hline
+			0,3& 32\phantom{,0} \\
+			70\phantom{,0}&102\phantom{,0} \\ 
+			104,1&206,1\\ \hline
+			174,4
+		\end{tabular}
 }}
-
-\section*{Ganging}
+\end{center}
+\fork{Eksempel 1}{
+\begin{figure}
+	\centering
+	\subfloat[]{
+	\begin{tabular}{r|r}
+		& \colr{324} \\ \hline
+		& \\
+		& \\
+		& \\ \hline
+		&
+	\end{tabular}	
+} \qquad
+	\subfloat[]{
+	\begin{tabular}{r|r}
+		& \colb{324} \\ \hline
+	   \colb{6}& \colo{330}\\
+		& \\
+		& \\ \hline
+		&
+	\end{tabular}
+}\qquad
+	\subfloat[]{
+	\begin{tabular}{r|r}
+		& 324 \\ \hline
+		6& \colb{330}\\
+		\colb{70}& \colo{400} \\
+		& \\ \hline
+		&
+	\end{tabular}	
+}  \\[12pt]
+\subfloat[]{
+	\begin{tabular}{r|r}
+		& 324 \\ \hline
+		6& 330\\
+		70& \colb{400} \\
+		\colb{389}& \colo{789}\\ \hline
+		&
+	\end{tabular}	
+}\qquad
+\subfloat[]{
+	\begin{tabular}{r|r}
+		& 324 \\ \hline
+		\colb{6}& 330\\
+		\colb{70}& 400 \\
+		\colb{389}& 789\\ \hline
+		\colo{465}&
+	\end{tabular}	
+}
+\end{figure}
+\begin{enumerate}[label=(\alph*)]
+	\item Vi starter med 324.
+	\item Vi legger til 6, og får $ {324+6=330} $
+	\item Vi legger til 70, og får $ {70+330=400} $
+	\item Vi legger til 389, og får $ {389+400=789} $. Da er vi framme på 789.
+	\item Vi adderer tallene vi har lagt til:  $ {6+70+389=465} $
+\end{enumerate}
+}
+\section{Ganging}
+\subsubsection{Utvidet form}
+Ganging på utvidet form baserer seg på distributiv lov (se \mb\,, s. 30).
 \eks[1]{
 \begin{figure}
 	\centering
 	\includegraphics[]{fig/gang1}
 \end{figure}
 }
-\eks[1]{
+\eks[2]{
 \begin{figure}
 	\centering
 	\includegraphics[]{fig/gfleirsif}
 \end{figure}
 }
-\eks[2]{
+\subsubsection{Kompaktmetoden}
+Kompaktmetoden bygger på de samme prinsippene som ganging på utvidet form, men har en skrivemåte som gjør utrekningen kortere.
+\eks[1]{
 	\begin{figure}
 		\centering
 		\includegraphics[]{fig/gfleirsifa}
 	\end{figure}
 }
+\section{Divisjon}
+\subsubsection{Oppstilling}
+Divisjon med oppstilling baserer seg på divisjon tolket som inndeling av mengder (se \mb\,,s. 23)
+
+\begin{center}
+	\parbox{0.3\linewidth}{
+	\eks[1]{ \vsb
+		\begin{figure}
+			\centering
+			\includegraphics[]{fig/del1}
+		\end{figure} \vspace{18pt}
+	}
+}\qquad
+\parbox{0.45\linewidth}{
+	\eks[1]{ \vspace{-5pt}
+		\begin{figure}
+			\centering
+			\includegraphics[]{fig/del2}
+		\end{figure}
+	}
+}
+\end{center}
+\subsubsection{Tabellmetoden}
+Tabellmetoden baserer seg på divisjon som omvendt operasjon av ganging. For eksempel er svaret på spørsmålet ''Hva er $ {76:4} $'' det samme som svaret på spørsmålet ''Hvilket tall må jeg gange 4 med for å få 76?''. På samme vis som for tabellmetoden ved subtraksjon er det opp til en selv å velge passende tall for å nå målet.
+\begin{center}
+	\parbox{0.35\linewidth}{
+		\eks[1]{
+			$ \colg{76}:\colb{4}=\colo{19} $	 \vsk
+			
+			\begin{tabular}{r|r|r}
+				$ \cdot\, \colb{4} $&\\ \hline
+				10&40&40 \\
+				9& 36 &\colg{76} \\ \hline
+				\colo{19}&
+			\end{tabular}
+		\vspace{42pt}
+	}} \qquad
+\parbox{0.35\linewidth}{
+	\eks[2]{
+		$ \colg{894}:\colb{3}=\colg{298} $	 \vsk
+		
+		\begin{tabular}{r|r|r}
+			$ \cdot\, \colb{3} $&\\ \hline
+			200& 600 &600 \\
+			60&120 &720 \\
+			60&120 &840 \\
+			10& 30&870 \\
+			8&24 &\colg{894} \\ \hline
+			\colo{298} &
+		\end{tabular}
+}}  \newpage
+\parbox{0.415\linewidth}{
+	\eks[2 \\ (annen utrekning)]{
+		$ 894:3=298 $	 \vsk
+		
+		\begin{tabular}{r|r|r}
+			$ \cdot\, 3 $&\\ \hline
+			300& 900&900 \\
+			$ -2 $& $ -6 $ &894 \\ \hline
+			298&
+		\end{tabular}
+}}
+\end{center}
 \end{document}
 
