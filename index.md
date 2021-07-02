@@ -2,7 +2,7 @@
 
 # Om boka
 
-_Anvendt matematikk_ er en gratis lærebok (i PDF-format) beregnet for grunnskole og VGS. Boka presenterer anvendelser av matematikken som er omtalt i boka [Matematikkens byggesteiner](https://sindrsh.github.io/FirstPrinciplesOfMath/).
+_Anvendt matematikk_ er en gratis lærebok (i PDF-format) beregnet for grunnskole (5.-10.klasse) og VGS (1P og 2P). Boka presenterer anvendelser av matematikken som er omtalt i boka [Matematikkens byggesteiner](https://sindrsh.github.io/FirstPrinciplesOfMath/).
 
 Blant temaene som dekkes er
 - Størrelser og enheter
