@@ -1,10 +1,95 @@
-\input{/home/sindre/P/doc}
-\input{/home/sindre/P/preamb}
+\input{../doc}
+\input{../preamb}
 \begin{document}
 
 \section{Å lage ligninger}
-Hver gang vi i hverdagen må utføre en regneoperasjon, løser vi egentlig en ligning! \vsk
+Likninger, formler og funksjoner er begreper som dukker i forskjellige sammenhenger, men i bunn og grunn handler de om det samme; \textsl{de uttrykker relasjoner mellom størrelser}.\vsk
 
+Formler og funksjoner bruker vi for å finne størrelser, enten direkte eller indirekte.
+
+\subsection{Å finne størrelser direkte}
+\subsubsection{Når formelen er kjent}
+Når formler er kjente, er det snakk om å sette inn verdier og regne ut. Men én ting må vi passe på; enhetene må være de samme.\regv
+
+\eks[1]{
+Hvis du kjører med konstant fart, er strekningen du har kjørt etter en viss tid gitt ved formelen
+\[ \text{strekning}=\text{fart}\cdot \text{tid} \]
+
+\abc{
+\item Hvor langt kjører en bil som holder farten 50\enh{km/h} i 3 timer?
+\item Hvor langt kjører en bil som holder farten  90\enh{km/h} i 5 timer?
+\item Hvor langt kjører en bil som holder farten  90\enh{km/h} i 45 minutt?
+}
+
+\sv
+\abc{
+\item I formelen er nå  farten $ 50 $ og tiden $ 3 $, og da er
+\[ \text{strekning}=50\cdot3=150 \]
+Altså har bilen kjørt 150\enh{km} 
+\item I formelen er nå farten $ 90 $ og tiden $ 5 $, og da er
+\[ s=90\cdot5=450 \]
+Altså har bilen kjørt 450\enh{km}
+\item Her må vi må enten gjøre om farten til km/min eller tiden til timer. Vi velger å gjøre om minutt til timer:
+\alg{
+45\enh{minutt}&=\frac{45}{60}\enh{timer} \br
+&=\frac{3}{4}\enh{timer}
+}
+}
+I formelen altså nå farten 90 og tiden $ \dfrac{3}{4} $, og da er
+\[ \text{strekning}=90\cdot\frac{3}{4}=67.5\]
+Altså har bilen kjørt 67.5\enh{km}.
+}
+\eks[2]{
+\textit{Kiloprisen} til en vare er hva en vare koster per kg. For en hvilken som helst vare har vi at
+\[ \text{kilopris}=\frac{\text{pris}}{\text{vekt}} \]
+\abc{
+	\item 10\enh{kg} tomater koster 35\enh{kr}. Hva er kiloprisen til tomatene?
+	\item Safran går for å være verdens dyreste krydder, 5\enh{g} kan koste 600\enh{kr}. Hva er da kiloprisen på safran?
+}
+\sv
+\abc{
+\item I formelen er nå prisen 35 og vekten 10, og da er
+\[ \text{kilopris}=\frac{35}{10}=3,5 \]
+Altså er kiloprisen på tomater 3,5\enh{kr/kg}
+\item Vekten er gitt i gram og kilopris er gitt i kr/kg. Før vi bruker formelen gjør vi om vekten til målt i kg (se ??):
+\[ 5\enh{g}=0,005\enh{kg} \]
+}
+I formelen vår er nå prisen 600 og vekten 0,005, og da er
+\[ \text{kilopris}=\frac{600}{0,005}=120\,000 \]
+Altså koster safran 120\,000\enh{kr/kg}.
+}
+\info{Merk}{
+I de to eksemplene over har vi brukt fulle ord i formlene våre, men det lønner seg å bli vant til å bare bruke enkeltbokstaver. I \textsl{Eksempel 1} kunne vi kalt farten $ f $, strekningen $ s $, og tiden $ t $. Da ville formelen sett slik ut:
+\[ s=f\cdot t \]
+Legg også merke til at du i seksjon ?? og ?? allerede har reknet mye med formler gitt ved enkeltbokstaver!
+}
+\subsubsection{Når formelen er ukjent}
+Når vi bare får en beskrivelse av en situasjon, må vi selv lage formlene. Da gjelder det å identifisere hvilke størrelser som er ukjente, og finne relasjonen mellom dem.\regv
+\eks[1]{
+For en taxi er det følgende kostnader:
+\begin{itemize}
+	\item Du må betale 50\enh{kr} uansett hvor langt du blir kjørt.
+	\item I tillegg betaler du 15\enh{kr} for hver kilometer du blir kjørt.
+\end{itemize}
+Sett opp et uttrykk for hvor mye du må betale for en taxitur.
+
+\sv
+Her har vi fire størrelser som er involvert, og som vi gir disse navnene:
+\begin{itemize}
+	\item \textbf{fastpris}\\
+	De 50 kronene vi må betale uansett.
+	\item \textbf{kilometerpris} \\
+	Det vi må betale per kilometer.
+	\item \textbf{total pris} \\
+	Det vi må betale for taxi-turen. \\
+	\item \textbf{strekning} \\
+	Antall kilometer vi blir kjørt.
+\end{itemize}
+}
+
+\subsection{Å finne størrelser indirekte}
+\subsubsection{Omgjøring av formler}
+\newpage
 Tenk for eksempel at du skal kjøpe 2 kg epler i butikken, og eplene koster 10 kr/kg. Regnestykket ditt blir da dette:
 \small
 \[ \textit{hva jeg må betale for eplene}=\textit{antall kg epler}\cdot \textit{kiloprisen for epler} \]

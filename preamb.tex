@@ -167,6 +167,11 @@
 \newcommand{\enh}[1]{\,\textrm{#1}}
 
 % Opg
+\newcommand{\abc}[1]{
+\begin{enumerate}[label=\alph*),leftmargin=18pt]
+#1
+\end{enumerate}
+}
 \newcommand{\opgt}{\phantomsection \addcontentsline{toc}{section}{Oppgaver} \section*{Oppgaver for kapittel \thechapter}\vs \setcounter{section}{1}}
 \newcounter{opg}
 \numberwithin{opg}{section}

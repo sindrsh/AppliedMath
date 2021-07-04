@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  2 JUL 2021 13:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  4 JUL 2021 22:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**funk.tex
-(./funk.tex
+**opg.tex
+(./opg.tex
 LaTeX2e <2020-02-02> patch level 2
-L3 programming layer <2020-02-14> (/home/sindre/P/doc.tex)
+L3 programming layer <2020-02-14> (../doc.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cls
 Document Class: standalone 2018/03/26 v1.3a Class to compile TeX sub-files stan
 dalone
@@ -55,8 +55,7 @@ File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
-))
-(/home/sindre/P/preamb.tex
+)) (../preamb.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 )
@@ -1044,11 +1043,11 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
 nous mode
 )
-\funk@idxfile=\write6
-\openout6 = `funk.idx'.
+\opg@idxfile=\write6
+\openout6 = `opg.idx'.
 
 
-Writing index file funk.idx
+Writing index file opg.idx
 (/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks47
@@ -1210,26 +1209,26 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip135
 )
-(./funk.aux)
-\openout1 = `funk.aux'.
+(./opg.aux)
+\openout1 = `opg.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 4.
 
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1294,7 +1293,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 5.
+LaTeX Info: Redefining \selectfont on input line 4.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1308,7 +1307,7 @@ Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box140
-Package hyperref Info: Link coloring OFF on input line 5.
+Package hyperref Info: Link coloring OFF on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1321,985 +1320,42 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count368
 )
-LaTeX Info: Redefining \ref on input line 5.
-LaTeX Info: Redefining \pageref on input line 5.
-LaTeX Info: Redefining \nameref on input line 5.
+LaTeX Info: Redefining \ref on input line 4.
+LaTeX Info: Redefining \pageref on input line 4.
+LaTeX Info: Redefining \nameref on input line 4.
 
-(./funk.out) (./funk.out)
+(./opg.out) (./opg.out)
 \@outlinefile=\write7
-\openout7 = `funk.out'.
+\openout7 = `opg.out'.
 
-
-
-! LaTeX Error: File `../fig/funk' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 	\includegraphics[]{\asym{funk}}
-                                     
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 16.
-See the caption package documentation for explanation.
-
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-1.
-(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-1.
-
-(/usr/share/texmf/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-21.
-
-(/usr/share/texmf/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-21.
-
-(/usr/share/texmf/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 21.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 21.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 21.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+esint on input line 2
-1.
-
-(/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
-File: uesint.fd 
-)
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 31.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 45.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (4.67444pt too wide) in paragraph at lines 47--48
-\T1/lmr/m/n/10.95 Når vi har en sam-men-heng mel-lom to stør-relser kan vi lage
- en \T1/lmr/m/it/10.95 funksjon\T1/lmr/m/n/10.95 . 
- []
-
-[1
+ [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 52.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 52.
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[]\T1/lmr/m/n/9 Husk at $\OT1/lmr/m/n/9 2\OML/lmm/m/it/9 s$ \T1/lmr/m/n/9 er de
-t samme
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
-[]\T1/lmr/m/sl/9 Merk: \T1/lmr/m/n/9 Paran-te-sen med $\OML/lmm/m/it/9 s$ \T1/l
-mr/m/n/9 inni
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
-\T1/lmr/m/n/9 har her in-gent-ing med gang-ing å
- []
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 80.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
-[]\T1/lmr/bx/n/10.95 a) \T1/lmr/m/n/10.95 Regn ut hvor langt denne skil-pad-den
- kan svømme et-ter 1
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
-[]\T1/lmr/bx/n/10.95 b) \T1/lmr/m/n/10.95 Lag en funksjon $\OML/lmm/m/it/10.95 
-l\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 s\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.
-95 som viser hvor mange me-ter denne
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
-[]\T1/lmr/bx/n/10.95 c) \T1/lmr/m/n/10.95 Bruk funksjo-nen til å finne ut hvor 
-langt skil-pad-den har
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
-\T1/lmr/bx/n/10.95 b) \T1/lmr/m/n/10.95 Vi ob-serverer i opp-gave a) at når vi 
-skal finne leng-den ganger
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
-\T1/lmr/m/n/10.95 vi alltid tal-let 10 med an-tall sekun-der. Kaller vi leng-de
-n for $\OML/lmm/m/it/10.95 l\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 s\OT1/lmr/m
-/n/10.95 )$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
-\T1/lmr/bx/n/10.95 c) $[]$\T1/lmr/m/n/10.95 . Skil-pad-den har altså svømt 200m
- et-ter
- []
-
-[2]
-Overfull \hbox (4.82951pt too wide) in paragraph at lines 100--102
-\T1/lmr/m/n/10.95 fem første sekun-dene, og \T1/lmr/m/sl/10.95 Figur []1[] \T1/
-lmr/m/n/10.95 viser en måte å skissere denne tabellen 
- []
-
-
-Overfull \hbox (3.33871pt too wide) in paragraph at lines 100--102
-\T1/lmr/m/n/10.95 på. I denne fig-uren har vi skrevet inn an-tall sekun-der og 
-me-tersmerkene 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-[]\T1/lmr/m/n/10.95 Men som nevnt er selve po-enget med
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-\T1/lmr/m/n/10.95 funksjoner at det er en sam-men-heng mel-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-\T1/lmr/m/n/10.95 lom to stør-relser, og denne sam-men-hen-gen
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-\T1/lmr/m/n/10.95 er det ikke så lett å få øye på hvis vi teg-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-\T1/lmr/m/n/10.95 ner stør-relsene våre langs én og samme
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-[]\T1/lmr/m/n/9 Størrelsene er i dette
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-\T1/lmr/m/n/9 til-fel-let \T1/lmr/m/it/9 sekun-der \T1/lmr/m/n/9 og
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-[]\T1/lmr/m/n/9 Helt generelt kaller vi ak-sen som
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-\T1/lmr/m/n/9 går rett bort for \T1/lmr/m/it/9 ho-rison-ta-lak-sen
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-\T1/lmr/m/n/9 og ak-sen som går rett opp for
- []
-
-[3]
-
-! LaTeX Error: File `../fig/funk1' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.113 	\includegraphics[]{\asym{funk1}}
-                                       
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
-[]\T1/lmr/m/n/9 Legg også merke til at vi har
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
-\T1/lmr/m/n/9 fjer-net de to nul-lene. Hjør-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
-\T1/lmr/m/n/9 net/krysset der begge stør-relsene
- []
-
-
-! LaTeX Error: File `../fig/funk2' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.122 	\includegraphics[]{\asym{funk2}}
-                                       
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-27.
-(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-
-! LaTeX Error: File `../fig/funk3' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.135 ...}{\quad \includegraphics[]{\asym{funk3}}}
-                                                  \qquad\quad
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `../fig/funk4' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.148 \fig{funk4}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `../fig/funk5' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.158 	\includegraphics[scale=0.7]{\asym{funk5}}
-                                                
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
-|[]\T1/lmr/bx/n/14.4 Lineære funksjoner|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--163
-|[]\T1/lmr/bx/n/12 Definisjon|
- []
-
-
-! LaTeX Error: File `../fig/funk8' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.167 }
-       \quad
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (29.12187pt too wide) in paragraph at lines 177--177
-[][] 
- []
-
-
-! LaTeX Error: File `../fig/funk9' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.195 \parbox[c]{0.75\linewidth}{\fig{funk9}}
-                                             \quad
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
-[]\T1/lmr/m/n/9 Siden vi har
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
-\T1/lmr/m/n/9 to funksjoner
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
-\T1/lmr/m/n/9 har vi teg-net
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
-\T1/lmr/m/n/9 navnene på
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
-\T1/lmr/m/n/9 selve grafene
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
-\T1/lmr/m/n/9 ist-e-den-for ver-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
-\T1/lmr/m/n/9 tikalak-sen.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
-\T1/lmr/m/n/9 Dette vil vi også
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
-\T1/lmr/m/n/9 gjøre en del
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
-\T1/lmr/m/n/9 heretter selv om
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
-\T1/lmr/m/n/9 vi bare har én
- []
-
-[6
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 203--203
-[]\T1/lmr/m/n/10.95 for \T1/lmr/m/it/10.95 vari-abe-len \T1/lmr/m/n/10.95 til f
-unksjonene. For lineære
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--203
-\T1/lmr/m/n/10.95 funksjoner kaller vi tal-let foran vari-abe-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--203
-\T1/lmr/m/n/10.95 len for \T1/lmr/m/it/10.95 stign-ingstal-let \T1/lmr/m/n/10.9
-5 og tal-let som står
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--204
-[]\T1/lmr/m/n/9 Stigningstallet kalles
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-[]\T1/lmr/m/n/10.95 Vi har sett hvor-dan det er helt opp til oss selv å velge h
-va
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-\T1/lmr/m/n/10.95 vi kaller funksjonene og vari-ab-lene våre. Når man skal lage
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-\T1/lmr/m/n/10.95 generelle huskere-gler for funksjoner er det i matem-atikk va
-n-lig
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-\T1/lmr/m/n/10.95 å kalle vari-abe-len for $\OML/lmm/m/it/10.95 x$ \T1/lmr/m/n/
-10.95 og funksjo-nen for $\OML/lmm/m/it/10.95 f\OT1/lmr/m/n/10.95 (\OML/lmm/m/i
-t/10.95 x\OT1/lmr/m/n/10.95 )$\T1/lmr/m/n/10.95 . Mange elever
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-\T1/lmr/m/n/10.95 tenker ''lign-ing!'' straks de ser bok-staven $\OML/lmm/m/it/
-10.95 x$\T1/lmr/m/n/10.95 , men dette er ikke
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-\T1/lmr/m/n/10.95 til-fel-let her. (Rett nok skal vi et-ter-hvert se at funksjo
-ner og
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
-\T1/lmr/m/n/10.95 kalles linære funksjoner. $\OML/lmm/m/it/10.95 x$ \T1/lmr/m/n
-/10.95 er vari-abe-len, $\OML/lmm/m/it/10.95 a$ \T1/lmr/m/n/10.95 er stign-ings
-tal-let, og
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
-|[]\T1/lmr/bx/n/12 Å tegne grafen til funksjo-nen|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
-[]\T1/lmr/m/n/10.95 Tegn grafen til funksjo-nen $[]$ for $\OML/lmm/m/it/10.95 x
-$\T1/lmr/m/n/10.95 -verdier mel-lom
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
-[]\T1/lmr/m/n/10.95 Det vi trenger er to punkt som vi vet at lig-ger på grafen 
-til
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
-\OML/lmm/m/it/10.95 f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.9
-5 )$\T1/lmr/m/n/10.95 . Disse kan vi finne ved å sette inn to val-gfrie(!) $\OM
-L/lmm/m/it/10.95 x$\T1/lmr/m/n/10.95 -verdier i
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
-\T1/lmr/m/n/10.95 funksjon-sut-trykket. Fordi 0 er et veldig enkelt tall å regn
-e med
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
-[]\T1/lmr/m/n/10.95 Videre kan det være lurt å velge en $\OML/lmm/m/it/10.95 x$
-\T1/lmr/m/n/10.95 -verdi som lig-ger et lite
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
-\T1/lmr/m/n/10.95 stykke unna den første $\OML/lmm/m/it/10.95 x$\T1/lmr/m/n/10.
-95 -verdien vi har valgt (dette er fordi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
-\T1/lmr/m/n/10.95 vi må være mer nøyak-tig med streken vi teg-ner jo nærmere
- []
-
-
-! LaTeX Error: File `../fig/funk17' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.253 }
-       
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
-\T1/lmr/m/n/10.95 Og der-for vet vi at $\OT1/lmr/m/n/10.95 (2\OML/lmm/m/it/10.9
-5 ; \OT1/lmr/m/n/10.95 7)$ \T1/lmr/m/n/10.95 også er et punkt på grafen til
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
-\OML/lmm/m/it/10.95 f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.9
-5 )$\T1/lmr/m/n/10.95 . Med to punkt er vi klare til å tegne den rette linja:
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
-[]\T1/lmr/m/n/10.95 Når en bil kjører i 80 km/h er leng-den $\OML/lmm/m/it/10.9
-5 l$ \T1/lmr/m/n/10.95 (i kilo-me-ter) bilen har
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
-[]\T1/lmr/m/n/10.95 For å tegne grafen til $\OML/lmm/m/it/10.95 l\OT1/lmr/m/n/1
-0.95 (\OML/lmm/m/it/10.95 t\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 trenger vi å
- finne to punkt på grafen.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
-\T1/lmr/m/n/10.95 Siden vi har fått vite hvor-dan vi kan regne ut $\OML/lmm/m/i
-t/10.95 l\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 t\OT1/lmr/m/n/10.95 )$ \T1/lmr
-/m/n/10.95 er det helt
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
-\T1/lmr/m/n/10.95 opp til oss selv hvilken $\OML/lmm/m/it/10.95 t$\T1/lmr/m/n/1
-0.95 -verdi vi skal bruke (!), så lenge vi vel-
- []
-
-
-! LaTeX Error: File `../fig/funk6' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.273 }
-       
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--274
-|[]\T1/lmr/bx/n/12 Å finne stign-ingstall og kon-stan-tledd grafisk|
- []
-
-[9]
-
-! LaTeX Error: File `../fig/funk11' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.282 \fig{funk11}
-                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `../fig/funk12b' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.290 \fig{funk12b}
-                   
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `../fig/funk12' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.292 \fig{funk12}
-                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
-[]\T1/lmr/m/n/10.95 stigningstallet $\OML/lmm/m/it/10.95 a$ \T1/lmr/m/n/10.95 h
-ar samme verdi som brøken $[]$. $\OT1/lmr/m/n/10.95 ^^A\OML/lmm/m/it/10.95 x$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
-\T1/lmr/m/n/10.95 er er leng-den vi går til høyre fra et punkt på grafen, $\OT1
-/lmr/m/n/10.95 ^^A\OML/lmm/m/it/10.95 f$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
-\T1/lmr/m/n/10.95 er leng-den vi et-terpå må gå opp eller ned for å komme
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
-\T1/lmr/m/n/10.95 tilbake til grafen. Går vi opp set-ter vi $\OT1/lmr/m/n/10.95
- +$ \T1/lmr/m/n/10.95 foran $\OT1/lmr/m/n/10.95 ^^A\OML/lmm/m/it/10.95 f$\T1/lm
-r/m/n/10.95 , går vi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
-[]\T1/lmr/m/n/10.95 konstantleddet $\OML/lmm/m/it/10.95 b$ \T1/lmr/m/n/10.95 er
- ver-dien hvor grafen skjærer ver-tikalak-
- []
-
-
-! LaTeX Error: File `../fig/funk13' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.304 }
-       
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `../fig/funk14' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.313 }
-       
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--313
-[]\T1/lmr/m/n/10.95 Vi ob-serverer at når vi går 3 bort langs ho-rison-ta-lak-s
-en, går
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--313
-\T1/lmr/m/n/10.95 grafen 1 opp langs ver-tikalak-sen, stign-ingstal-let er der-
-for $[]$. Vi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--313
-\T1/lmr/m/n/10.95 ser også at grafen skjærer ver-tikalak-sen når ver-dien er 2,
- og
- []
-
-
-! LaTeX Error: File `../fig/funk14b' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.313 }
-       
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[10]
-
-! LaTeX Error: File `../fig/funk15' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.323 }
-       
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
-[]\T1/lmr/m/n/10.95 Vi ob-serverer at når vi går 2 til høyre, må vi gå 4 \T1/lm
-r/m/sl/10.95 ned \T1/lmr/m/n/10.95 langs
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
-\T1/lmr/m/n/10.95 Vi ser også at grafen skjærer ver-tikalak-sen når ver-dien er
- 1, og
- []
-
-
-! LaTeX Error: File `../fig/funk15b' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.323 }
-       
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
-|[]\T1/lmr/bx/n/12 Skjæring mel-lom to funksjoner|
- []
-
-! Undefined control sequence.
-l.337 \bhd
-          {Ã… finne skjÃ¦ringspunkt grafisk}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: File `../fig/funk16' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.340 \fig{funk16}
-                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[12]
-! Undefined control sequence.
-l.347 \bhd
-          {Ã… finne skjÃ¦ringspunkt ved regning}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 369--369
-[]\T1/lmr/m/n/10.95 For to funksjoner $\OML/lmm/m/it/10.95 f\OT1/lmr/m/n/10.95 
-(\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 og $\OML/lmm/m/it
-/10.95 g\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.95 )$ \T1/lmr/
-m/n/10.95 er skjæringspunk-tet det
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 369--369
-\T1/lmr/m/n/10.95 punk-tet hvor ver-dien til begge funksjonene er den samme.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 369--369
-\T1/lmr/m/n/10.95 Skjæringspunk-tet kan finnes grafisk eller ved reg-n-ing. Ved
-
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 370--370
-|[]\T1/lmr/bx/n/14.4 Andregradsfunksjoner|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 378--378
-[]\T1/lmr/m/n/9 Forenklet sagt kan vi si
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 378--378
-\T1/lmr/m/n/9 at når en vari-abel ($[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 378--378
-\T1/lmr/m/n/9 eller $\OML/lmm/m/it/9 k$\T1/lmr/m/n/9 ) på det meste er
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 378--378
-\T1/lmr/m/n/9 op-phøyd i an-dre, har vi
- []
-
-
-! LaTeX Error: File `../fig/funk18' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.409 \fig{funk18}
-                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `../fig/funk18b' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.411 \fig{funk18b}
-                   
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[14
-
-]
-
-! LaTeX Error: File `../fig/funk18c' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.417 \fig{funk18c}
-                   
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 460--460
-|[]\T1/lmr/bx/n/14.4 Proporsjonalitet|
- []
-
-
-! LaTeX Error: File `../fig/funk21' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.481 \fig{funk21}
-                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `../fig/funk22' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.490 }
-       
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[16
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 501.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 501.
- (./funk.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 501.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 501.
-Package rerunfilecheck Info: File `funk.out' has not changed.
-(rerunfilecheck)             Checksum: 035A84DCBB60601A4496851187D76A3E;704.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 20.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 20.
+
+(./opg.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 20.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 20.
+Package rerunfilecheck Info: File `opg.out' has not changed.
+(rerunfilecheck)             Checksum: 3352E68A8A61B27488E309A841133486;44.
  ) 
 Here is how much of TeX's memory you used:
- 31729 strings out of 481239
- 621838 string characters out of 5920378
- 934761 words of memory out of 5000000
- 46241 multiletter control sequences out of 15000+600000
- 628494 words of font info for 90 fonts, out of 8000000 for 9000
+ 30967 strings out of 481239
+ 608931 string characters out of 5920378
+ 925349 words of memory out of 5000000
+ 45618 multiletter control sequences out of 15000+600000
+ 548391 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,19n,104p,882b,988s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{equation.0.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.0.2.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/
-dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/sha
-re/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
-lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmmib10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/shar
-e/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/
-lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmro9.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmsy9.pfb>
-Output written on funk.pdf (16 pages, 293674 bytes).
+ 70i,5n,104p,869b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
+public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmr12.pfb>
+Output written on opg.pdf (1 page, 66957 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
- 204 compressed objects within 3 object streams
- 41 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 42 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

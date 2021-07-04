@@ -307,3 +307,16 @@ void mksq2(pair A=(0,0), pair B=(1,0), real sc=1, real u=sc, pen p=black, real r
     else sq=(0,0)--sc*nx--sc*nx+u*ny--u*ny--cycle;
     draw(A,rotate(rot)*sq, p);
     }
+    
+void mkgrid(pair A, pair B, real dx=1, real dy=1, pen p=lightgray){
+	int nx = floor(abs((A.y-A.x)/dx));
+	int ny = floor(abs((B.y-B.x)/dy)); 
+	for (int i=floor(A.x); i*dx<= floor(A.y); ++i){
+		draw((i*dx, B.x)--(i*dx, B.y), p);
+}
+	for (int i=floor(B.x); i*dy<= floor(B.y); ++i){
+		draw((A.x, i*dy)--(A.y, i*dy), p);
+}
+}
+
+

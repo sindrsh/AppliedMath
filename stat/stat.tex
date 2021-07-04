@@ -1,0 +1,168 @@
+\input{../doc}
+\input{../preamb}
+
+\begin{document}
+
+\st{
+\textbf{Undersøkelse 1} \\
+I en spørreundersøkelse har vi spurt 15 personer hvor mange epler de spiser i løpet av en uke. Svarene var disse:\label{statfolg}
+\[ 7\quad 4\quad 5\quad 4\quad 1\quad 0\quad 6\quad 5\quad 4\quad 8\quad1\quad6\quad8\quad0\quad 14 \] 
+} 
+\st{\textbf{Undersøkelse 2}\\
+300 personer ble spurt hva deres favorittdyr er.
+\begin{itemize}
+	\item 46 personer svarte tiger
+	\item 23 personer svarte løve
+	\item 17 personer svarte krokodille
+	\item 91 personer svarte hund
+	\item 72 personer svarte katt
+	\item 51 personer svarte andre dyr
+\end{itemize}}
+\st{
+10 personer testet hvor mange sekunder de kunne holde pusten. Resultatene ble disse:
+\[ 47\quad124\quad 61\quad 38\quad 97\quad 84\quad 101\quad79\quad 56\quad 40 \]
+}
+\st{
+\textbf{Undersøkelse 3} \\
+Hentet fra \net{https://www.medienorge.uib.no/statistikk/medium/ikt/405}{medienorge.uib.no}.
+\begin{center}
+	\begin{tabular}{l|r|r|r|r|r|r|r|r|r|r|} 
+	\textbf{År} &\textbf{2009}&\textbf{2010} &\textbf{2011} &\textbf{2012} &\textbf{2013}&\textbf{2014} \\ \hline
+	mobiltelefoner& 2\,365 & 2\,500 &2\,250&2\,200&	2\,400&2\,100\\
+	uten smartfnk. & 1\,665 & 1\,250 &790&300&240&147\\
+	med smartfnk. &700&1\,250&	1\,460&	1\,900&	2\,160 &1\,953
+	\end{tabular}
+\end{center}
+}
+Statistikk handler grovt sett om to ting;  \textsl{å presentere} og \textsl{å tolke}. For begge disse formålene har vi noen verktøy som vi skal vise ved hjelp av denne undersøkelsen.
+
+\section{Presentasjonsmetoder}
+I statistikk betyr \textit{data} informasjon som er hentet inn, og \textit{datasettet} er samlingen av disse dataene. I vårt eksempel på side \pageref{statfolg} dataene er tallfølgen datasettet vårt. Skal vi presentere vår undersøkelse, bør vi vise datasettet slik at det er lett for andre å hva vi har funnet.
+
+\subsubsection{Frekvenstabell}
+I en frekvenstabell setter man opp dataene i en tabell som viser hvor mange ganger, \textit{frekvensen}, hver unike data dukker opp. 
+
+\st{
+\textbf{Undersøkelse 1} \os	
+I vår undersøkelse har vi to 0, to 1, én 2, tre 4, to 5, to 6, én 7, én 8 og én 14. I en frekvenstabell skriver vi da
+\begin{center}
+	\begin{tabular}{|c|c|}
+		\hline
+		Antall epler & Frekvens\\ \hline
+		0 & 2 \\
+		1 & 2 \\
+		4 & 3 \\
+		5 & 2\\
+		6 & 2 \\
+		7 & 1 \\
+		8 & 2 \\
+		14& 1 \\ \hline
+	\end{tabular}
+\end{center}}
+\subsubsection{Søylediagram (stolpediagram)}
+Med et søylediagram presenterer vi dataene med søyler som viser frekvensen:
+\fig{stat1}
+
+\fig{stat2}
+\subsubsection{Sektordiagram (kakediagram)}
+I et sektordiagram vises frekvensene som sektorer av en sirkel:
+\st{
+\textbf{Spørreundersøkelse 1}
+\fig{stat4}
+}
+\st{
+\textbf{Spørreundersøkelse 2}	
+	\fig{stat3}}
+
+\newpage
+\subsubsection{Linjediagram}
+\st{
+\textbf{Undersøkelse 3} \\
+\fig{stat5}
+}
+\section{Sentralmål}
+I datasett vil det ofte være svar som er helt eller veldig like, og som gjentar seg. Dette betyr at vi kan si noe om hva som gjelder for mange. De matematiske begrepene som forteller noe om dette kalles \textit{sentralmål}.
+\subsubsection{Typetall}
+\reg[Typetall]{
+Typetallet er svaret som opptrer flest ganger i datasettet. \regv
+}
+\st{
+\textbf{Undersøkelse 1} \os
+I datasettet er det tallet 4 som opptrer flest (tre) ganger. Dette kan vi se både fra selve datasett på s ?? eller frekvenstabellen på s ??, søylediagrammet på s ?? eller sektordiagrammet ??. \vsk
+
+4 er altså typetallet.
+}
+\subsubsection{Gjennomsnitt}
+Når et datasett består av svar i form av tall kan vi finne summen av svarene. Når vi spør oss hva \textit{gjennomsnittet} er, spør vi om dette: \os
+\textsl{''Hvis alle svarene var like, men summen den samme, hvilken verdi måtte alle svarene da ha hatt?''}\os
+
+Dette er jo ingenting annet enn divisjon (se \mb, s. 23):
+\reg[Gjennomsnitt]{ \vs
+\[ \text{gjennomsnitt}=\frac{\text{summen av svarene fra datasettet}}{\text{antall svar}} \]
+}\vsk
+\st{
+\textbf{Datasett 2} \os
+Vi summerer svarene fra datasettet, og deler med antall svar:
+\small
+\alg{
+\text{gjennomsnitt}&= \frac{47+124+ 61+ 38+ 97+ 84+ 101+79+ 56+ 40}{10} \\
+&= \frac{727}{10}\br
+&=72,7
+} \normalsize
+Altså, i gjennomsnitt holdt de 10 deltakerne pusten i 72,7\\ sekunder. 
+}
+\st{ 
+\textbf{Datasett 1} \os
+\textit{Metode 1} \\[-5pt]
+\footnotesize
+\alg{
+\text{gjennomsnitt}&=\frac{7+ 4+ 5+ 4+ 1+ 0+ 6+ 5+ 4+ 8+1+6+8+0+ 14}{15} \br
+&=\frac{73}{15}\br
+&\approx 4.87
+} 
+\normalsize
+\textit{Metode 2} \os
+Vi utvider frekvenstabellen fra side ?? for å finne summen av svarene fra datasettet (vi har også tatt med summen av frekvensene):
+\begin{center}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Antall epler & Frekvens&$ \text{antall}\cdot \text{frekvens} $\\ \hline
+		0 & 2 &$ 0\cdot2=\phantom{0}0 $ \\
+		1 & 2 &$ 1\cdot2=\phantom{0}2 $\\
+		4 & 3 &$ 4\cdot3=12 $\\
+		5 & 2 &$ 5\cdot2=10 $\\
+		6 & 2 &$ 6\cdot2=12 $\\
+		7 & 1 &$ 7\cdot1=14 $\\
+		8 & 1 &$ 8\cdot2=16 $\\
+		14& 1 &$ 14\cdot1=14\phantom{0} $\\ \hline
+		 \textbf{sum}&15& \qquad\quad73\\ \hline
+	\end{tabular}
+\end{center}
+Nå har vi at
+\alg{
+\text{gjennomsnitt}&=\frac{73}{15} \\
+&\approx 4,87
+}
+Altså, i gjennomsnitt spiser de 15 respondentene 4,87 epler i uka.
+}
+
+\subsubsection{Median}
+\reg[Median]{Medianen er tallet som ender opp i midten av datasettet når det rangeres fra svar med lavest til høyest verdi.\vsk
+
+Hvis datasettet har partalls antall svar, er medianen gjennomsnittet av de to svarene i midten (etter rangering).}
+\st{
+\textbf{Undersøkelse 1} \os
+Vi rangerer datasettet fra lavest til høyest svar:
+\[0\quad0\quad 1\quad 1\quad 4\quad 4\quad 4\quad  \colr{5}\quad 5\quad  6\quad6\quad  7\quad8\quad8 \quad14\]
+Tallet i midten er 5, altså er medianen 5.
+}
+\st{
+\textbf{Undersøkelse 2} \os
+Vi rangerer datasettet fra lavest til høyest svar:
+ \[ 38\quad40\quad47\quad 56\quad \colr{61}\quad\colr{79}\quad 84\quad97\quad 101\quad 124  \]
+De to tallene i midten er 61 og 79. Gjennomsnittet av disse er
+\[ \frac{61+79}{2}=70 \]
+Altså er medianen 70.
+}
+\end{document}
+
