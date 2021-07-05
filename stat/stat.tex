@@ -2,13 +2,30 @@
 \input{../preamb}
 
 \begin{document}
+I en \textit{undersøkelse} henter vi inn informasjon. Denne informasjonen kan gjerne være tall eller ord, og kalles \textit{data}. En samling av innhentet data kalles et \textit{datasett}. \vsk
 
+For eksempel, tenk at du spør to mennesker om de liker kaviar. Den ene svarer ''ja', den andre ''nei''. Da er ''ja'' og ''nei'' datene du har samlet inn, og $ [\text{''ja''}, \text{''nei''}] $ er datasettet ditt. \vsk
+
+Statistikk handler grovt sett om to ting;  \textsl{å presentere} og \textsl{å tolke} innsamlet data. For begge disse formålene har vi noen verktøy som vi i kommende seksjoner skal vise ved hjelp av noen forskjellige undersøkelser. Disse finner du på \pageref{undersok}. \vsk
+
+Det er ikke noen fullstendige fasitsvar på hvordan man presenterer eller tolker data, men to retningslinjer bør du alltid ta med deg:
+\begin{itemize}
+	\item La det alltid komme tydelig fram hva du har undersøkt og hvilke data som er skaffet.
+	\item Tenk alltid over hvilke metoder du bruker for å tolke dataene.
+\end{itemize}
+\newpage
+\label{undersok}
 \st{
-\textbf{Undersøkelse 1} \\
-I en spørreundersøkelse har vi spurt 15 personer hvor mange epler de spiser i løpet av en uke. Svarene var disse:\label{statfolg}
+\textbf{Undersøkelse 1} \os
+	10 personer testet hvor mange sekunder de kunne holde pusten. Resultatene ble disse:
+	\[ 47\quad124\quad 61\quad 38\quad 97\quad 84\quad 101\quad79\quad 56\quad 40 \]
+} \vsk
+\st{
+\textbf{Undersøkelse 2} \os
+15 personer ble spurt hvor mange epler de spiser i løpet av en uke. Svarene ble disse:
 \[ 7\quad 4\quad 5\quad 4\quad 1\quad 0\quad 6\quad 5\quad 4\quad 8\quad1\quad6\quad8\quad0\quad 14 \] 
-} 
-\st{\textbf{Undersøkelse 2}\\
+} \vsk
+\st{\textbf{Undersøkelse 3}\os
 300 personer ble spurt hva deres favorittdyr er.
 \begin{itemize}
 	\item 46 personer svarte tiger
@@ -17,14 +34,11 @@ I en spørreundersøkelse har vi spurt 15 personer hvor mange epler de spiser i 
 	\item 91 personer svarte hund
 	\item 72 personer svarte katt
 	\item 51 personer svarte andre dyr
-\end{itemize}}
+\end{itemize}} \vsk
 \st{
-10 personer testet hvor mange sekunder de kunne holde pusten. Resultatene ble disse:
-\[ 47\quad124\quad 61\quad 38\quad 97\quad 84\quad 101\quad79\quad 56\quad 40 \]
-}
-\st{
-\textbf{Undersøkelse 3} \\
-Hentet fra \net{https://www.medienorge.uib.no/statistikk/medium/ikt/405}{medienorge.uib.no}.
+\textbf{Undersøkelse 4} \os
+Telefoner med smartfunksjoner (app-baserte) kom på det norske markedet i 2009. Tabellen\footnote{Tallene er hentet fra \net{https://www.medienorge.uib.no/statistikk/medium/ikt/405}{medienorge.uib.no}.
+.} under viser det totale salget mobiltelefoner i tidsperioden 2009-2014.
 \begin{center}
 	\begin{tabular}{l|r|r|r|r|r|r|r|r|r|r|} 
 	\textbf{År} &\textbf{2009}&\textbf{2010} &\textbf{2011} &\textbf{2012} &\textbf{2013}&\textbf{2014} \\ \hline
@@ -34,17 +48,17 @@ Hentet fra \net{https://www.medienorge.uib.no/statistikk/medium/ikt/405}{medieno
 	\end{tabular}
 \end{center}
 }
-Statistikk handler grovt sett om to ting;  \textsl{å presentere} og \textsl{å tolke}. For begge disse formålene har vi noen verktøy som vi skal vise ved hjelp av denne undersøkelsen.
+
 
 \section{Presentasjonsmetoder}
-I statistikk betyr \textit{data} informasjon som er hentet inn, og \textit{datasettet} er samlingen av disse dataene. I vårt eksempel på side \pageref{statfolg} dataene er tallfølgen datasettet vårt. Skal vi presentere vår undersøkelse, bør vi vise datasettet slik at det er lett for andre å hva vi har funnet.
+Skal vi presentere vår undersøkelser, bør vi vise datasett slik at det er lett for andre å se hva vi har funnet. Dette kan vi gjøre blant annet ved hjelp av \textit{frekvenstabeller}, \textit{søylediagram}, \textit{sektordiagram} eller \textit{linjediagram}.
 
 \subsubsection{Frekvenstabell}
-I en frekvenstabell setter man opp dataene i en tabell som viser hvor mange ganger, \textit{frekvensen}, hver unike data dukker opp. 
+I en frekvenstabell setter man opp dataene i en tabell som viser hvor mange ganger hver unike data dukker opp. Dette antallet kalles\\ \textit{frekvensen}.\regv
 
 \st{
-\textbf{Undersøkelse 1} \os	
-I vår undersøkelse har vi to 0, to 1, én 2, tre 4, to 5, to 6, én 7, én 8 og én 14. I en frekvenstabell skriver vi da
+\textbf{Undersøkelse 2} \os	
+I vår undersøkelse har vi to 0, to 1, tre 4, to 5, to 6, én 7, to 8 og én 14. I en frekvenstabell skriver vi da
 \begin{center}
 	\begin{tabular}{|c|c|}
 		\hline
@@ -60,49 +74,57 @@ I vår undersøkelse har vi to 0, to 1, én 2, tre 4, to 5, to 6, én 7, én 8 o
 	\end{tabular}
 \end{center}}
 \subsubsection{Søylediagram (stolpediagram)}
-Med et søylediagram presenterer vi dataene med søyler som viser frekvensen:
-\fig{stat1}
-
-\fig{stat2}
-\subsubsection{Sektordiagram (kakediagram)}
-I et sektordiagram vises frekvensene som sektorer av en sirkel:
+Med et søylediagram presenterer vi dataene med søyler som viser frekvensen. \\[8pt]
 \st{
-\textbf{Spørreundersøkelse 1}
+\textbf{Undersøkelse 2}
+\fig{stat1}
+}
+
+\st{
+\textbf{Undersøkelse 3}
+\fig{stat2}
+}
+\subsubsection{Sektordiagram (kakediagram)}
+I et sektordiagram vises frekvensene som sektorer av en sirkel: \regv
+\st{
+\textbf{Undersøkelse 1}
 \fig{stat4}
 }
 \st{
-\textbf{Spørreundersøkelse 2}	
+\textbf{Undersøkelse 2}	
 	\fig{stat3}}
 
 \newpage
 \subsubsection{Linjediagram}
+I et linjediagram legger vi inn dataene som punkt i et koordinatsystem, og trekker en linje mellom dem. Linjediagram brukes oftest når det er snakk om en form for utvikling.\regv
 \st{
-\textbf{Undersøkelse 3} \\
+\textbf{Undersøkelse 4} \\
 \fig{stat5}
 }
-\section{Sentralmål}
-I datasett vil det ofte være svar som er helt eller veldig like, og som gjentar seg. Dette betyr at vi kan si noe om hva som gjelder for mange. De matematiske begrepene som forteller noe om dette kalles \textit{sentralmål}.
-\subsubsection{Typetall}
+\section{Tolking av tendenser; sentralmål}
+I datasett vil det ofte være svar som er helt eller veldig like, og som gjentar seg. Dette betyr at vi kan si noe om hva som gjelder for mange. De matematiske begrepene som forteller noe om dette kalles \textit{sentralmål}. De vanligste sentralmålene er \textit{typetall}, \textit{gjennnomsnitt} og \textit{median}. \vsk
+
 \reg[Typetall]{
-Typetallet er svaret som opptrer flest ganger i datasettet. \regv
-}
+Typetallet er verdien det er flest eksemplarer av i datasettet.
+} \regv
 \st{
 \textbf{Undersøkelse 1} \os
 I datasettet er det tallet 4 som opptrer flest (tre) ganger. Dette kan vi se både fra selve datasett på s ?? eller frekvenstabellen på s ??, søylediagrammet på s ?? eller sektordiagrammet ??. \vsk
 
 4 er altså typetallet.
-}
-\subsubsection{Gjennomsnitt}
-Når et datasett består av svar i form av tall kan vi finne summen av svarene. Når vi spør oss hva \textit{gjennomsnittet} er, spør vi om dette: \os
+} \vsk
+
+Når et datasett består av svar i form av tall kan vi finne summen av svarene. Når vi spør oss hva gjennomsnittet er, spør vi om dette: \os
 \textsl{''Hvis alle svarene var like, men summen den samme, hvilken verdi måtte alle svarene da ha hatt?''}\os
 
-Dette er jo ingenting annet enn divisjon (se \mb, s. 23):
+Dette er jo ingenting annet enn divisjon (se \mb, s. 23): \regv
+
 \reg[Gjennomsnitt]{ \vs
-\[ \text{gjennomsnitt}=\frac{\text{summen av svarene fra datasettet}}{\text{antall svar}} \]
+\[ \text{gjennomsnitt}=\frac{\text{summen av verdiene fra datasettet}}{\text{antall verdier}} \]
 }\vsk
 \st{
-\textbf{Datasett 2} \os
-Vi summerer svarene fra datasettet, og deler med antall svar:
+\textbf{Undersøkelse 1} \os
+Vi summerer verdiene fra datasettet, og deler med antall verdier:
 \small
 \alg{
 \text{gjennomsnitt}&= \frac{47+124+ 61+ 38+ 97+ 84+ 101+79+ 56+ 40}{10} \\
@@ -112,7 +134,7 @@ Vi summerer svarene fra datasettet, og deler med antall svar:
 Altså, i gjennomsnitt holdt de 10 deltakerne pusten i 72,7\\ sekunder. 
 }
 \st{ 
-\textbf{Datasett 1} \os
+\textbf{Undersøkelse 2} \os
 \textit{Metode 1} \\[-5pt]
 \footnotesize
 \alg{
@@ -122,7 +144,7 @@ Altså, i gjennomsnitt holdt de 10 deltakerne pusten i 72,7\\ sekunder.
 } 
 \normalsize
 \textit{Metode 2} \os
-Vi utvider frekvenstabellen fra side ?? for å finne summen av svarene fra datasettet (vi har også tatt med summen av frekvensene):
+Vi utvider frekvenstabellen fra side ?? for å finne summen av verdiene fra datasettet (vi har også tatt med summen av frekvensene):
 \begin{center}
 	\begin{tabular}{|c|c|c|}
 		\hline
@@ -144,25 +166,131 @@ Nå har vi at
 &\approx 4,87
 }
 Altså, i gjennomsnitt spiser de 15 respondentene 4,87 epler i uka.
-}
+} \vsk
 
-\subsubsection{Median}
-\reg[Median]{Medianen er tallet som ender opp i midten av datasettet når det rangeres fra svar med lavest til høyest verdi.\vsk
+\reg[Median]{Medianen er tallet som ender opp i midten av datasettet når det rangeres fra tallet med lavest til høyest verdi.\vsk
 
-Hvis datasettet har partalls antall svar, er medianen gjennomsnittet av de to svarene i midten (etter rangering).}
+Hvis datasettet har partalls antall verdier, er medianen gjennomsnittet av de to verdiene i midten (etter rangering).}
 \st{
-\textbf{Undersøkelse 1} \os
-Vi rangerer datasettet fra lavest til høyest svar:
-\[0\quad0\quad 1\quad 1\quad 4\quad 4\quad 4\quad  \colr{5}\quad 5\quad  6\quad6\quad  7\quad8\quad8 \quad14\]
-Tallet i midten er 5, altså er medianen 5.
+	\textbf{Undersøkelse 1} \os
+	Vi rangerer datasettet fra lavest til høyest verdi:
+	\[ 38\quad40\quad47\quad 56\quad \colr{61}\quad\colr{79}\quad 84\quad97\quad 101\quad 124  \]
+	De to tallene i midten er 61 og 79. Gjennomsnittet av disse er
+	\[ \frac{61+79}{2}=70 \]
+	Altså er medianen 70.
 }
 \st{
 \textbf{Undersøkelse 2} \os
-Vi rangerer datasettet fra lavest til høyest svar:
- \[ 38\quad40\quad47\quad 56\quad \colr{61}\quad\colr{79}\quad 84\quad97\quad 101\quad 124  \]
-De to tallene i midten er 61 og 79. Gjennomsnittet av disse er
-\[ \frac{61+79}{2}=70 \]
-Altså er medianen 70.
+Vi rangerer datasettet fra lavest til høyest verdi:
+\[0\quad0\quad 1\quad 1\quad 4\quad 4\quad 4\quad  \colr{5}\quad 5\quad  6\quad6\quad  7\quad8\quad8 \quad14\]
+Tallet i midten er 5, altså er medianen 5.
 }
+
+\section{Tolking av forskjeller; spredningsmål}
+Ofte vil det også være store forskjeller (stor spredning) mellom dataene som er samlet inn. De matematiske begrepene som forteller noe om dette er \textit{variasjonsbredde}, \textit{kvartilbredde}, \textit{varians} og \textit{standardavvik}.
+
+\reg[Variasjonsbredde]{
+Differansen mellom svarene med henholdsvis høyest og lavest verdi.
+} \regv
+\st{
+\textbf{Undersøkelse 1} \os
+Svaret med henholdsvis høyest og lavest verdi er 124 og 38. Altså er
+\[ \text{variasjonsbredden}=124-38=86 \]
+}
+\st{
+	\textbf{Undersøkelse 2} \os
+	Svaret med henholdsvis høyest og lavest verdi er 14 og 0. Altså er
+	\[ \text{variasjonsbredden}=14-0=14 \]
+}
+\st{
+	\textbf{Undersøkelse 4}
+	\begin{itemize}
+		\item Variasjonsbredde for mobiltelefoner:
+		\[ 2\,500-2\,100=400  \]
+		\item Variasjonsbredde for mobiltelefoner uten smartfunksjoner:
+		\[ 1\,665-147=518 \]
+		\item Variasjonsbredde for mobiltelefoner med smartfunksjoner:
+		\[ 2\,160-700=1460 \]
+	\end{itemize}
+}
+\reg[Kvartilbredde og øvre og nedre kvartil]{
+\begin{enumerate}
+	\item Ranger datasettet fra høyest til lavest.
+	\item Skill det rangerte datasettet på midten, slik at to nye sett oppstår. (Viss det er oddetalls antall verdier i datasettet, utelates medianen).
+	\item Finn de respektive medianene i de to nye settene.
+	\item Differansen mellom medianene fra punkt 3 er kvartil-bredden til det opprinnelige datasettet.
+\end{enumerate}
+Om medianene fra punkt 3: Den med høyest verdi kalles \textit{øvre kvartil} og den med lavest verdi kalles \textit{nedre kvartil}.
+} \regv
+\st{
+\textbf{Undersøkelse 2} \os
+\begin{enumerate}
+	\item $ 38\quad40\quad47\quad 56\quad 61\quad79\quad 84\quad97\quad 101\quad 124 $
+	\item $ \color{blue}38\quad40\quad47\quad 56\quad 61 \quad \color{red}79\quad 84\quad97\quad 101\quad 124 $
+	\item Medianen i det blå settet er 47 (nedre kvartil) og medianen i det røde settet er 97 (øvre kvartil).
+	\[ \color{blue}38\quad40\quad{\color{black}47}\quad 56\quad 61 \qquad\quad \color{red}79\quad 84\quad{\color{black}97}\quad 101\quad 124 \]
+	\item $ \text{Kvartilbredde}=97-47=50 $
+\end{enumerate}
+}
+\st{
+\textbf{Undersøkelse 1}\os
+\begin{enumerate}
+	\item $ 0\quad0\quad 1\quad 1\quad 4\quad 4\quad 4\quad  5\quad 5\quad  6\quad6\quad  7\quad8\quad8 \quad14 $
+	\item $ \color{blue}0\quad0\quad 1\quad 1\quad 4\quad 4\quad 4\quad  {\color{black}5}\quad \color{red} 5\quad  6\quad6\quad  7\quad8\quad8 \quad14 $
+	\item Medianen i det blå settet er 1 (nedre kvartil) og medianen i det røde settet er 7 (øvre kvartil).
+	\[ \color{blue}0\quad0\quad 1\quad {\color{black}1}\quad 4\quad 4\quad 4\qquad\quad \color{red} 5\quad  6\quad6\quad  {\color{black}7}\quad8\quad8 \quad14\] \vs \vs
+	\item $ \text{Kvartilbredde}=7-1=6 $
+\end{enumerate}
+}
+\st{
+\textbf{Undersøkelse 4} \os
+\begin{itemize}
+	\item For mobiltelefoner er kvartilbredden 
+	\item For mobiltelefoner uten smartfunksjoner er kvartilbredden
+	\item For mobiltelefoner med smartfunksjoner er kvartilbredden
+\end{itemize}
+} \vsk
+
+\reg[Varians]{
+Kvadrer differansene mellom hver enkelt verdi og gjennomsnittet til datasettet, og summer disse. Divider med antallet verdier i datasettet. \vsk
+
+Differansen mellom en verdi og gjennomsnittet kalles \textit{avviket} til verdien. 
+}
+\eks{
+Gitt datasettet 
+\[\color{blue} 2\quad 5\quad 9\quad 6\quad 8 \]
+Da har vi at
+\[ \text{gjennomsnitt}=\frac{2+5+9+6+8}{5}=\colr{6} \]
+Og videre er
+\alg{
+\text{variansen}= \frac{(\colb{2}-\colr{6})^2+(\colb{5}-\colr{6})^2+(\colb{9}-\colr{6})^2+(\colb{6}-\colr{6})^2+(\colb{8}-\colr{6})^2}{5}
+}
+}
+\st{
+\textbf{Undersøkelse 1} \os
+(Utrekningen er utelatt)\os
+Variansen er
+}
+\st{
+\textbf{Undersøkelse 2} \os
+Gjennomsnittet fant vi på side ??. Vi utvider frekvenstabellen vår fra side ??:
+\begin{center}
+	\renewcommand{\arraystretch}{2}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Antall epler & Frekvens& Kvadrert avvik\\ \hline
+		0 & 2 &$ \left(0-\frac{73}{15}\right)^2 $ \\
+		1 & 2 &$ \left(1-\frac{73}{15}\right)^2 $\\
+		4 & 3 &$ \left(4-\frac{73}{15}\right)^2 $\\
+		5 & 2&$ \left(5-\frac{73}{15}\right)^2 $\\
+		6 & 2 &$ \left(6-\frac{73}{15}\right)^2 $\\
+		7 & 1 &$ \left(7-\frac{73}{15}\right)^2 $\\
+		8 & 2 &$ \left(8-\frac{73}{15}\right)^2 $\\
+		14& 1 &$ \left(9-\frac{73}{15}\right)^2 $\\ \hline 
+		& sum & ?? \\ \hline
+	\end{tabular}
+\end{center}
+}
+\info{Tips}{Det kan være fristende å bruke det rangerte datasettene, men dette øker sjansen for følgefeil.}
 \end{document}
 
