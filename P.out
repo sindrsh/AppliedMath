@@ -18,57 +18,60 @@
 \BOOKMARK [2][-]{subsection.4.2.2}{Vekstfaktor}{section.4.2}% 18
 \BOOKMARK [2][-]{subsection.4.2.3}{Prosentpoeng}{section.4.2}% 19
 \BOOKMARK [1][-]{section.4.3}{Forhold}{chapter.4}% 20
-\BOOKMARK [1][-]{section*.37}{Oppgaver}{chapter.4}% 21
-\BOOKMARK [0][-]{chapter.5}{Likninger og funksjoner }{}% 22
-\BOOKMARK [1][-]{section.5.1}{\305 lage ligninger}{chapter.5}% 23
+\BOOKMARK [1][-]{section*.39}{Oppgaver}{chapter.4}% 21
+\BOOKMARK [0][-]{chapter.5}{Likninger, formler og funksjoner }{}% 22
+\BOOKMARK [1][-]{section.5.1}{\305 finne st\370rrelser}{chapter.5}% 23
 \BOOKMARK [2][-]{subsection.5.1.1}{\305 finne st\370rrelser direkte}{section.5.1}% 24
 \BOOKMARK [2][-]{subsection.5.1.2}{\305 finne st\370rrelser indirekte}{section.5.1}% 25
-\BOOKMARK [1][-]{section.5.2}{Formler}{chapter.5}% 26
-\BOOKMARK [1][-]{section.5.3}{Omgj\370ring av formler}{chapter.5}% 27
-\BOOKMARK [1][-]{section*.44}{Oppgaver}{chapter.5}% 28
-\BOOKMARK [0][-]{chapter.6}{\330konomi }{}% 29
-\BOOKMARK [1][-]{section.6.1}{Indeksregning}{chapter.6}% 30
-\BOOKMARK [2][-]{subsection.6.1.1}{Konsumprisindeks og basis\345r}{section.6.1}% 31
-\BOOKMARK [2][-]{subsection.6.1.2}{Kroneverdi}{section.6.1}% 32
-\BOOKMARK [2][-]{subsection.6.1.3}{Reall\370nn og nominell l\370nn}{section.6.1}% 33
-\BOOKMARK [2][-]{subsection.6.1.4}{Regning med indekser}{section.6.1}% 34
-\BOOKMARK [1][-]{section.6.2}{L\345n og prosentvis endring over tid}{chapter.6}% 35
-\BOOKMARK [2][-]{subsection.6.2.1}{L\345n}{section.6.2}% 36
-\BOOKMARK [2][-]{subsection.6.2.2}{Prosentvis endring over tid}{section.6.2}% 37
-\BOOKMARK [1][-]{section.6.3}{Skatt}{chapter.6}% 38
-\BOOKMARK [2][-]{subsection.6.3.1}{Bruttol\370nn, fradrag og skattegrunnlag}{section.6.3}% 39
-\BOOKMARK [2][-]{subsection.6.3.2}{Trygdeavgift}{section.6.3}% 40
-\BOOKMARK [2][-]{subsection.6.3.3}{Trinnskatt }{section.6.3}% 41
-\BOOKMARK [2][-]{subsection.6.3.4}{Nettol\370nn}{section.6.3}% 42
-\BOOKMARK [1][-]{section.6.4}{Budsjett og regnskap}{chapter.6}% 43
-\BOOKMARK [2][-]{subsection.6.4.1}{Budsjett }{section.6.4}% 44
-\BOOKMARK [2][-]{subsection.6.4.2}{Regnskap}{section.6.4}% 45
-\BOOKMARK [1][-]{section*.56}{Oppgaver}{chapter.6}% 46
-\BOOKMARK [0][-]{chapter.7}{Sannsynlighet }{}% 47
-\BOOKMARK [1][-]{section.7.1}{Grunnprinnsippet}{chapter.7}% 48
-\BOOKMARK [1][-]{section.7.2}{Hendelser med og uten felles utfall}{chapter.7}% 49
-\BOOKMARK [2][-]{subsection.7.2.1}{Hendelser uten felles utfall}{section.7.2}% 50
-\BOOKMARK [2][-]{subsection.7.2.2}{Summen av alle sannsynligheter er 1}{section.7.2}% 51
-\BOOKMARK [2][-]{subsection.7.2.3}{Felles utfall}{section.7.2}% 52
-\BOOKMARK [2][-]{subsection.7.2.4}{Venndiagram}{section.7.2}% 53
-\BOOKMARK [2][-]{subsection.7.2.5}{Krysstabell}{section.7.2}% 54
-\BOOKMARK [1][-]{section.7.3}{Gjentatte trekk }{chapter.7}% 55
-\BOOKMARK [2][-]{subsection.7.3.1}{Kombinasjoner}{section.7.3}% 56
-\BOOKMARK [2][-]{subsection.7.3.2}{Sannsynlighet ved gjentatte trekk}{section.7.3}% 57
-\BOOKMARK [2][-]{subsection.7.3.3}{Valgtre}{section.7.3}% 58
-\BOOKMARK [1][-]{section*.68}{Oppgaver}{chapter.7}% 59
-\BOOKMARK [0][-]{chapter*.69}{Excel}{}% 60
-\BOOKMARK [1][-]{section*.71}{E.1 Introduksjon}{chapter*.69}% 61
-\BOOKMARK [1][-]{section*.72}{E.2 Cellereferanser}{chapter*.69}% 62
-\BOOKMARK [1][-]{section*.73}{E.3 Kopiering av celler}{chapter*.69}% 63
-\BOOKMARK [1][-]{section*.74}{E.4 Sm\345triks}{chapter*.69}% 64
-\BOOKMARK [1][-]{section*.75}{Oppgaver}{chapter*.69}% 65
-\BOOKMARK [0][-]{chapter*.76}{GeoGebra}{}% 66
-\BOOKMARK [1][-]{section*.77}{G.1 Skrive inn en funksjon}{chapter*.76}% 67
-\BOOKMARK [1][-]{section*.78}{G.2 Finne verdien til en funksjon/linje}{chapter*.76}% 68
-\BOOKMARK [1][-]{section*.79}{G.3 Finne skj\346ringspunkt}{chapter*.76}% 69
-\BOOKMARK [1][-]{section*.80}{G.4 Finne nullpunkt}{chapter*.76}% 70
-\BOOKMARK [1][-]{section*.81}{G.5 Finne topp- eller bunnpunkt}{chapter*.76}% 71
-\BOOKMARK [1][-]{section*.82}{G.6 Tegne linjen mellom to punkt}{chapter*.76}% 72
-\BOOKMARK [1][-]{section*.83}{G.7 Tegne graf p\345 gitt intervall}{chapter*.76}% 73
-\BOOKMARK [1][-]{section*.84}{G.8 Oppgaver}{chapter*.76}% 74
+\BOOKMARK [1][-]{section.5.2}{Funksjoners egenskaper}{chapter.5}% 26
+\BOOKMARK [2][-]{subsection.5.2.1}{Definisjonsmengde}{section.5.2}% 27
+\BOOKMARK [2][-]{subsection.5.2.2}{Skj\346ringspunkt}{section.5.2}% 28
+\BOOKMARK [2][-]{subsection.5.2.3}{Bunn- og toppunkt}{section.5.2}% 29
+\BOOKMARK [1][-]{section.5.3}{Proporsjonalitet}{chapter.5}% 30
+\BOOKMARK [1][-]{section*.46}{Oppgaver}{chapter.5}% 31
+\BOOKMARK [0][-]{chapter.6}{\330konomi }{}% 32
+\BOOKMARK [1][-]{section.6.1}{Indeksregning}{chapter.6}% 33
+\BOOKMARK [2][-]{subsection.6.1.1}{Konsumprisindeks og basis\345r}{section.6.1}% 34
+\BOOKMARK [2][-]{subsection.6.1.2}{Kroneverdi}{section.6.1}% 35
+\BOOKMARK [2][-]{subsection.6.1.3}{Reall\370nn og nominell l\370nn}{section.6.1}% 36
+\BOOKMARK [2][-]{subsection.6.1.4}{Regning med indekser}{section.6.1}% 37
+\BOOKMARK [1][-]{section.6.2}{L\345n og prosentvis endring over tid}{chapter.6}% 38
+\BOOKMARK [2][-]{subsection.6.2.1}{L\345n}{section.6.2}% 39
+\BOOKMARK [2][-]{subsection.6.2.2}{Prosentvis endring over tid}{section.6.2}% 40
+\BOOKMARK [1][-]{section.6.3}{Skatt}{chapter.6}% 41
+\BOOKMARK [2][-]{subsection.6.3.1}{Bruttol\370nn, fradrag og skattegrunnlag}{section.6.3}% 42
+\BOOKMARK [2][-]{subsection.6.3.2}{Trygdeavgift}{section.6.3}% 43
+\BOOKMARK [2][-]{subsection.6.3.3}{Trinnskatt }{section.6.3}% 44
+\BOOKMARK [2][-]{subsection.6.3.4}{Nettol\370nn}{section.6.3}% 45
+\BOOKMARK [1][-]{section.6.4}{Budsjett og regnskap}{chapter.6}% 46
+\BOOKMARK [2][-]{subsection.6.4.1}{Budsjett }{section.6.4}% 47
+\BOOKMARK [2][-]{subsection.6.4.2}{Regnskap}{section.6.4}% 48
+\BOOKMARK [1][-]{section*.58}{Oppgaver}{chapter.6}% 49
+\BOOKMARK [0][-]{chapter.7}{Sannsynlighet }{}% 50
+\BOOKMARK [1][-]{section.7.1}{Grunnprinnsippet}{chapter.7}% 51
+\BOOKMARK [1][-]{section.7.2}{Hendelser med og uten felles utfall}{chapter.7}% 52
+\BOOKMARK [2][-]{subsection.7.2.1}{Hendelser uten felles utfall}{section.7.2}% 53
+\BOOKMARK [2][-]{subsection.7.2.2}{Summen av alle sannsynligheter er 1}{section.7.2}% 54
+\BOOKMARK [2][-]{subsection.7.2.3}{Felles utfall}{section.7.2}% 55
+\BOOKMARK [2][-]{subsection.7.2.4}{Venndiagram}{section.7.2}% 56
+\BOOKMARK [2][-]{subsection.7.2.5}{Krysstabell}{section.7.2}% 57
+\BOOKMARK [1][-]{section.7.3}{Gjentatte trekk }{chapter.7}% 58
+\BOOKMARK [2][-]{subsection.7.3.1}{Kombinasjoner}{section.7.3}% 59
+\BOOKMARK [2][-]{subsection.7.3.2}{Sannsynlighet ved gjentatte trekk}{section.7.3}% 60
+\BOOKMARK [2][-]{subsection.7.3.3}{Valgtre}{section.7.3}% 61
+\BOOKMARK [1][-]{section*.70}{Oppgaver}{chapter.7}% 62
+\BOOKMARK [0][-]{chapter*.71}{Excel}{}% 63
+\BOOKMARK [1][-]{section*.73}{E.1 Introduksjon}{chapter*.71}% 64
+\BOOKMARK [1][-]{section*.74}{E.2 Cellereferanser}{chapter*.71}% 65
+\BOOKMARK [1][-]{section*.75}{E.3 Kopiering av celler}{chapter*.71}% 66
+\BOOKMARK [1][-]{section*.76}{E.4 Sm\345triks}{chapter*.71}% 67
+\BOOKMARK [1][-]{section*.77}{Oppgaver}{chapter*.71}% 68
+\BOOKMARK [0][-]{chapter*.78}{GeoGebra}{}% 69
+\BOOKMARK [1][-]{section*.79}{G.1 Skrive inn en funksjon}{chapter*.78}% 70
+\BOOKMARK [1][-]{section*.80}{G.2 Finne verdien til en funksjon/linje}{chapter*.78}% 71
+\BOOKMARK [1][-]{section*.81}{G.3 Finne skj\346ringspunkt}{chapter*.78}% 72
+\BOOKMARK [1][-]{section*.82}{G.4 Finne nullpunkt}{chapter*.78}% 73
+\BOOKMARK [1][-]{section*.83}{G.5 Finne topp- eller bunnpunkt}{chapter*.78}% 74
+\BOOKMARK [1][-]{section*.84}{G.6 Tegne linjen mellom to punkt}{chapter*.78}% 75
+\BOOKMARK [1][-]{section*.85}{G.7 Tegne graf p\345 gitt intervall}{chapter*.78}% 76
+\BOOKMARK [1][-]{section*.86}{G.8 Oppgaver}{chapter*.78}% 77

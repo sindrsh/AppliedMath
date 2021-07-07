@@ -2,14 +2,13 @@
 \input{../preamb}
 \begin{document}
 
-\section{Likninger, formler og funksjoner}
-Likninger, formler og funksjoner (og utttrykk) er begreper som dukker i forskjellige sammenhenger, men i bunn og grunn handler de om det samme; \textsl{de uttrykker relasjoner mellom størrelser}.\vsk
+\section{Å finne størrelser}
+Likninger, formler og funksjoner (og utttrykk) er begreper som dukker i forskjellige sammenhenger, men i bunn og grunn handler de om det samme; \textsl{de uttrykker relasjoner mellom størrelser}. Når alle størrelsen utenom den ene er kjent, kan vi finne den siste størrelsen enten direkte eller indirekte.\vsk
 
-Formler og funksjoner bruker vi for å finne størrelser, enten direkte eller indirekte.
 
 \subsection{Å finne størrelser direkte}
 \subsubsection{Når formelen er kjent}
-Når formler er kjente, er det snakk om å sette inn verdier og regne ut. Formler har vi brukt i mange kapitler allerede, omtrent alle regelboksene i boka inneholder en formel. 
+Når formler er gitt, er det snakk om å sette inn verdier og regne ut. Formler har vi brukt i mange kapitler allerede, omtrent alle regelboksene i boka inneholder en formel. 
 Men så langt har vi brukt formler med dimensjonsløse størrelser. Når vi har størrelser med enheter er det helt avgjørende at vi passer på at enhetene som er involvert er de samme.
 
 \regv
@@ -57,12 +56,14 @@ I formelen vår er nå prisen 600 og vekten 0,005, og da er
 \[ \text{kilopris}=\frac{600}{0,005}=120\,000 \]
 Altså koster safran 120\,000\enh{kr/kg}.
 }
-\info{Merk}{
+\begin{comment}
+	\info{Merk}{
 I de to eksemplene over har vi brukt fulle ord i formlene våre, men det lønner seg å bli vant til å bare bruke enkeltbokstaver. I \textsl{Eksempel 1} kunne vi kalt farten $ f $, strekningen $ s $, og tiden $ t $. Da ville formelen sett slik ut:
 \[ s=f\cdot t \]
 Legg også merke til at du i seksjon ?? og ?? allerede har reknet mye med formler gitt ved enkeltbokstaver!
 }
-\subsubsection{Når formelen er ukjente}
+\end{comment}
+\subsubsection{Når formlene er ukjente}
 Når vi bare får en beskrivelse av en situasjon, må vi selv lage formlene. Da gjelder det å identifisere hvilke størrelser som er ukjente, og finne relasjonen mellom dem.\regv
 \eks[1]{
 For en taxi er det følgende kostnader:
@@ -84,31 +85,75 @@ For en taxi er det følgende kostnader:
 Taxituren koster altså 305\enh{kr}.
 }
 }
-
+\info{Tips}{
+Ved å la enkeltbokstaver representere størrelser får man kortere uttrykk. La $ k $ stå for \textsl{kostnad for taxituren} og $ x $ stå for \textsl{antall kilometer kjørt}. Da blir uttrykket fra \textsl{Eksempel 1} over dette:
+\[ k=50+15x \]
+I tillegg kan man gjerne bruke skrivemåten for funksjoner:
+\[ k(x)=50+15x \] 
+}
 \subsection{Å finne størrelser indirekte}
-\subsubsection{Omgjøring av formler}
-\newpage
-Tenk for eksempel at du skal kjøpe 2 kg epler i butikken, og eplene koster 10 kr/kg. Regnestykket ditt blir da dette:
-\small
-\[ \textit{hva jeg må betale for eplene}=\textit{antall kg epler}\cdot \textit{kiloprisen for epler} \]
-\normalsize
-Hvis vi bestemmer oss for at $ x $ betyr det samme som \textit{hva jeg må betale for eplene}, blir ligningen vår seende slik ut:
-\[ x=\textit{antall kg epler}\cdot \textit{kiloprisen for epler} \]
-Og fordi vi vet både hva \textit{antall kg epler} og \textit{kiloprisen for epler} er, kan vi finne svaret:\vs
-\alg{
-x &= 2\cdot10 \\
- &= 20
+\subsubsection{Når formlene er kjente}
+\eks[1]{
+	Vi har sett (\hyperref[farteks]{\textsl{Eksempel 1}}, s. \pageref{farteks}) at strekningen $ s $ vi har kjørt, farten $ f $ vi har holdt og tiden $ t $ vi har brukt kan settes i sammenheng via formelen\footnote{$ \text{strekning}=\text{fart}\cdot \text{tid} $}:
+	\[ s = f\cdot t \] 
+	Siden $ s $ står alene på én side av likhetstegnet, sier vi at dette er \textsl{en formel for} $ s $. Ønsker vi en formel for $ f $, kan vi gjøre om formelen ved å følge prinsippene for likninger (se \mb, s. ??):
+	\alg{
+		s &= f\cdot t \br
+		\frac{s}{t}&=\frac{f\cdot \bcancel{t}}{\bcancel{t}} \br
+		\frac{s}{t}&=f
+	}
 }
-Vi må altså betale 20 kr for eplene. \vsk 
+\eks[2]{
+	\textit{Ohms lov} sier at strømmen $ I $ gjennom en metallisk leder (med konstant temeperatur) er gitt ved formelen
+	\[ I = \frac{U}{R} \]
+	hvor $ U $ er spenningen og $ R $ er resistansen. \os
+	\textbf{a)} Skriv om formelen til en formel for $ R $.
+	\vsk
+	
+	Strøm måles i Ampere (A), spenning i Volt (V) og motstand i Ohm ($ \Omega $).\os
+	\textbf{b)} Hvis strømmen er 2\,A og spenningen 12\,V, hva er da resistansen?
+	
+	\sv
+	\textbf{a)} Vi gjør om formelen slik at $ R $ står alene på én side av likhetsregnet:\vs
+	\alg{
+		I\cdot R&=\frac{U\cdot \cancel{R}}{\cancel{R}} \br
+		I\cdot R &= U \br
+		\frac{\cancel{I}\cdot R}{\cancel{I}} &= \frac{U}{I}\br 
+		R &= \frac{U}{I}
+	}
+	\textbf{b)} Vi bruker formelen vi fant i a) og får at:
+	\alg{
+		R &= \frac{U}{I} \br
+		&= \frac{12}{2} \\
+		&= 6
+	}
+	Resistansen er altså $ 6\,\Omega $.
+}
+\eks[3]{
+	Si vi har målt en temperatur $ T_C $ i grader Celsius ($ ^\circ C $). Temperaturen $ T_F $ målt i Fahrenheit ($ ^\circ F $) er da gitt ved formelen:
+	\[ T_F = \frac{9}{5}\cdot T_C+32 \]
+	\textbf{a)} Skriv om formelen til en formel for $ T_C $.\os
+	\textbf{b)} Hvis en temperatur er målt til 59$ ^\circ F $, hva er da temperaturen målt i $ ^\circ C $?
+	
+	\sv
+	\textbf{a)} \alg{
+		T_F &= \frac{9}{5}\cdot T_C+32 \\
+		T_F-32 &= \frac{9}{5}\cdot T_C \\
+		5(T_F-32) &= \cancel{5}\cdot\frac{9}{\cancel{5}}\cdot F_C \\
+		5(T_F-32) &= 9T_C \\
+		\frac{5(T_F-32)}{9} &= \frac{\cancel{9}T_C}{\cancel{9}} \\
+		\frac{5(T_F-32)}{9} &= T_C
+	}
+	\textbf{b)} Vi bruker formelen fra a), og finner at:
+	\alg{
+		T_C&= \frac{5(59-32)}{9} \br
+		&= \frac{5(27)}{9} \br
+		&= 5\cdot 3 \\
+		&= 15
+	}
+}
 
-Her kunne vi selvsagt regnet ut prisen for eplene direkte, men for lengre utregninger er det lurt å lage en ligning. Og det blir oftere lettere for oss å lage ligningen hvis vi gjør som i det korte eksempelet med eplene.\regv
-\reg[Å lage en ligning]{
-Når vi skal beskrive et spørsmål som en ligning kan det være lurt å gjøre følgende:
-\begin{itemize}
-	\item Sette opp regnestykket i ord.
-	\item Erstatte den ukjente størrelsen med $ x $.
-\end{itemize}
-}
+\subsubsection{Når formlene er ukjente}
 \eks[1]{
 Tenk at klassen ønsker å dra på en klassetur som til sammen koster 11\,000\,kr. For å dekke utgiftene har dere allerede skaffet 2\,000\,kr, resten skal skaffes gjennom loddsalg. For hvert lodd som selges, tjener dere 25\,kr.\os
 
@@ -151,38 +196,7 @@ x &= 3
 }
 ''Jeg'' er altså 3 år gammel.
 }
-\section{Formler}
-Tenk at du har en jobb der du tjener 200 kr i timen, og at du jobber 5 timer hver arbeidsdag. Regnestykket for hvor mange kroner du tjener på en arbeidsdag (dagslønnen) er dette:
-\alg{
-	\text{dagslønn}&= 200\cdot5\\
-	&= 1000
-}
-Hvis du istedenfor tjener 500 kr i timen og jobber 3 timer hver dag, blir regnestykket seende slik ut: 
-\alg{
-	\text{dagslønn}&= 500\cdot3\\
-	&= 1500
-}
-\prbxl{0.6}{Saken er at selv om timelønnen og timetallet forandrer seg, er selve \textsl{regnemetode} for dagslønnen akkurat den samme: \textsl{Vi ganger timelønnen med timetallet}. Når en regnemetode forblir den samme, selv om tallene forandrer seg, sier vi at vi har en \textit{formel}. En formel forteller oss hvordan vi skal regne ut det vi ønsker å vite. Når vi regnet ut dagslønnen vår ganget vi timelønnen med timeantallet, formelen for dagslønnen kan vi da skrive slik:}\qquad
-\prbxr{0.3}{I de to regnestykkene 
-	\[2\cdot3 = 6  \]
-	og 
-	\[ 4\cdot5 = 20 \]
-	er \textsl{regnemetoden} den samme (vi ganger to tall), men ikke \textsl{resultatet}.
-}
-\[ \text{dagslønn}=\text{timelønnn}\cdot\text{timetall} \]
-For å gjøre formlene våre enda kortere bruker vi også å forkorte størrelsene, gjerne med bokstaver som har sammenheng med navnet på størrelsen. For eksempel kan vi kalle dagslønnen for $ D $, timelønnen for $ L $ og timetallet for $ T $, da blir formelen vår seende ut som dette
-\[ D = T\cdot L \]
-Fordi $ D $ står alene på den ene siden av ''$ = $'-tegnet, sier vi at dette er en formel for $ D $.\regv
-\reg[Formler]{En formel viser sammenhengen mellom størrelser.}
-\eks[1]{
-	Hvis du kjører med den samme farten hele tiden, finner du lengden du har kjørt ved å gange farten med tiden. Kall lengden du har kjørt for $ l $, farten for $ f $ og tiden for $ t $.\os
-	Lag en formel for $ l $.  
-	
-	\sv 
-	Oppgaveteksten forteller oss at vi finner $ l $ ved å gange $ f $ med $ t $:
-	\[ l = f\cdot t \]
-	Dette er altså formelen for $ l $.
-}
+
 \eks[2]{En vennegjeng ønsker å spleise på en bil som koster 50\,000 kr, men det er usikkert hvor mange personer som skal være med på å spleise.\os 
 	\textbf{a)} Kall ''antall personer som blir med på å spleise'' for $ P $ og ''utgift per person i kroner'' for $ U $  og lag en formel for $ U $.\os
 	
@@ -199,66 +213,21 @@ Fordi $ D $ står alene på den ene siden av ''$ = $'-tegnet, sier vi at dette e
 	}
 	Utgiften per person er altså 2\,500 kr.
 }
-\section{Omgjøring av formler}
-Vi har sett (\hyperref[farteks]{\textsl{Eksempel 1}}, s. \pageref{farteks}) at lengden $ l $ vi har kjørt, farten $ f $ vi har holdt og tiden $ t $ vi har brukt kan settes i sammenheng via formelen:
-\[ l = f\cdot t \] 
-Ut ifra denne formelen kan vi altså finne lengden hvis vi vet hvor fort og hvor lenge vi har kjørt. Men hva om vi isteden vet hvor langt og hvor lenge vi har kjørt, men ikke hvor fort?\vsk
+\section{Funksjoners egenskaper}
+\subsection{Definisjonsmengde}
+\subsection{Skjæringspunkt}
+\subsection{Bunn- og toppunkt}
 
-Det vi må gjøre, er å skrive om formelen så det blir en formel for $ f $ istedenfor $ l $. Det vi nå må ha med oss, er at $ l $, $ f $ og $ t$ er alle tall, derfor kan vi bruke punktene fra ?? for å gjøre om på ligningen vår. Og fordi vi ønsker en formel for $ f $, ønsker vi at $ f $ skal stå alene på den ene siden av likhetstegnet:
-\alg{
-	l &= f\cdot t \br
-	\frac{l}{t}&=\frac{f\cdot \bcancel{t}}{\bcancel{t}} \br
-	\frac{l}{t}&=f
+\section{Proporsjonalitet}
+\reg[Proporsjonale størrelser]{
+Gitt en konstant $ a $ og to variabler $ x $ og $ y $. Hvis 
+\[ y=a x \]
+er $ x $ og $ y $ proporsjonale størrelser.
 }
-\reg[Omforming av formler]{Når vi skal omforme en størrelse, bruker vi ligningsreglene fra ?? for å få størrelsen vi ønsker til å stå på én side av likhetstegnet.}
-\eks[1]{
-	\textit{Ohms lov} sier at strømmen $ I $ gjennom en metallisk leder (med konstant temeperatur) er gitt ved formelen:
-	\[ I = \frac{U}{R} \]
-	hvor $ U $ er spenningen og $ R $ er resistansen. \os
-	\textbf{a)} Skriv om formelen til en formel for $ R $.
-	\vsk
-	
-	Strøm måles i Ampere (A), spenning i Volt (V) og motstand i Ohm ($ \Omega $).\os
-	\textbf{b)} Hvis strømmen er 2\,A og spenningen 12\,V, hva er da resistansen?
-	
-	\sv
-	\textbf{a)} Vi gjør om formelen slik at $ R $ står alene på én side av likhetsregnet:\vs
-	\alg{
-		I\cdot R&=\frac{U\cdot \cancel{R}}{\cancel{R}} \br
-		I\cdot R &= U \br
-		\frac{\cancel{I}\cdot R}{\cancel{I}} &= \frac{U}{I}\br 
-		R &= \frac{U}{I}
-	}
-	\textbf{b)} Vi bruker formelen vi fant i a) og får at:
-	\alg{
-		R &= \frac{U}{I} \br
-		&= \frac{12}{2} \\
-		&= 6
-	}
-	Resistansen er altså $ 6\,\Omega $.
-}
-\eks[2]{
-	Si vi har målt en temperatur $ T_C $ i grader Celsius ($ ^\circ C $). Temperaturen $ T_F $ målt i Fahrenheit ($ ^\circ F $) er da gitt ved formelen:
-	\[ T_F = \frac{9}{5}\cdot T_C+32 \]
-	\textbf{a)} Skriv om formelen til en formel for $ T_C $.\os
-	\textbf{b)} Hvis en temperatur er målt til 59$ ^\circ F $, hva er da temperaturen målt i $ ^\circ C $?
-	
-	\sv
-	\textbf{a)} \alg{
-		T_F &= \frac{9}{5}\cdot T_C+32 \\
-		T_F-32 &= \frac{9}{5}\cdot T_C \\
-		5(T_F-32) &= \cancel{5}\cdot\frac{9}{\cancel{5}}\cdot F_C \\
-		5(T_F-32) &= 9T_C \\
-		\frac{5(T_F-32)}{9} &= \frac{\cancel{9}T_C}{\cancel{9}} \\
-		\frac{5(T_F-32)}{9} &= T_C
-	}
-	\textbf{b)} Vi bruker formelen fra a), og finner at:
-	\alg{
-		T_C&= \frac{5(59-32)}{9} \br
-		&= \frac{5(27)}{9} \br
-		&= 5\cdot 3 \\
-		&= 15
-	}
+\reg[Proporsjonale størrelser]{
+	Gitt en konstant $ a $ og to variabler $ x $ og $ y $. Hvis 
+	\[ y=\frac{a}{x} \]
+	er $ x $ og $ y $ omvendt proporsjonale størrelser.
 }
 
 \end{document}
