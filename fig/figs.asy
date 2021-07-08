@@ -112,13 +112,19 @@ void xaks(real a, real b, string l="", real bex=0.75, real aex=0,
 
 void yaks(real a, real b, string l="", real bex=0.75, real aex=0, 
 				bool tck=true, bool tckl=false, real tc=1, real x=0, arrowbar ar=Arrow(TeXHead),
-						position pos=EndPoint ){
+						position pos=EndPoint,bool omite=false){
     
     draw((x,a+aex) -- (x,b+bex), L=Label(l, position=EndPoint), arrow=ar);
     
     if (tck){
 		int N = floor((b-a)/tc);
-		for (int i=0; i<= N; ++i){
+		int i = 0;
+		if (omite){
+			bex =tc+bex;
+			N = N-1;
+			i = 1;
+		}
+		for (i; i<= N; ++i){
 			real y = a+i*tc; 
 			if (tckl){ mktcy(y, format(y), x=x, pos=pos); }
 			else mktcy(y, x=x, pos=pos); 

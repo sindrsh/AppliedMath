@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  7 JUL 2021 10:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  8 JUL 2021 10:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1595,47 +1595,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 215--215
 an-tall per-soner som er
  []
 
-[7] [8] [9
+[7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+[]\T1/lmr/m/n/10.95 Et punkt hvor to funksjoner har samme verdi kalles et
+ []
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 233.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
+[]\T1/lmr/m/n/10.95 Vi kan finne skjæringspunk-tet både ved en \T1/lmr/m/sl/10.
+95 grafisk \T1/lmr/m/n/10.95 og en \T1/lmr/m/sl/10.95 al-ge-
+ []
+
+<../fig/lig1.pdf, id=112, 227.61035pt x 199.1741pt>
+File: ../fig/lig1.pdf Graphic file (type pdf)
+<use ../fig/lig1.pdf>
+Package pdftex.def Info: ../fig/lig1.pdf  used on input line 253.
+(pdftex.def)             Requested size: 227.60979pt x 199.17361pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
+\T1/lmr/m/n/10.95 Vi leser av at grafene har samme verdi når $[]$, og da har
+ []
+
+[9
+
+ <../fig/lig1.pdf>] [10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 270.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 270.
  (./lig.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 233.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 233.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 270.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 270.
 Package rerunfilecheck Info: File `lig.out' has not changed.
-(rerunfilecheck)             Checksum: CC8E0108CB272450B26B190B80C96B8B;555.
+(rerunfilecheck)             Checksum: 4938EFD6A7E184BD83C080B224E0A3A2;583.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 31337 strings out of 481239
- 615490 string characters out of 5920378
+ 31357 strings out of 481239
+ 615839 string characters out of 5920378
  935322 words of memory out of 5000000
- 45885 multiletter control sequences out of 15000+600000
+ 45899 multiletter control sequences out of 15000+600000
  652274 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,22n,104p,869b,988s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
--ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/li
-ne10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.
-pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
-o10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb
->
-Output written on lig.pdf (9 pages, 227569 bytes).
+-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb>
+Output written on lig.pdf (10 pages, 253636 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
- 77 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 210 PDF objects out of 1000 (max. 8388607)
+ 178 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 82 words of extra memory for PDF output out of 10000 (max. 10000000)
 
