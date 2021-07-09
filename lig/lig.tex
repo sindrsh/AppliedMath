@@ -215,6 +215,7 @@ x &= 3
 }
 \section{Funksjoners egenskaper}
 \subsection{Definisjonsmengde}
+Flytt til vedlegg.
 \subsection{Funksjoner med samme verdi; skjæringspunkt}
 
 \reg[Skjæringspunktene til grafer]{
@@ -234,9 +235,9 @@ Vi kan finne skjæringspunktet både ved en \textsl{grafisk} og en \textsl{algeb
 
 \textit{Grafisk metode} \os
 
-Vi tegner grafene\footnote{For hvordan tegne en graf, se  se \mb, s. ?? og ??.} inn i det samme koordinatsystemet:
+Vi tegner grafene\footnote{For hvordan tegne en graf, se  se \mb, s. ?? og ??.} til funksjonene inn i det samme koordinatsystemet:
 \fig{lig1}
-Vi leser av at grafene har samme verdi når $ {x=3} $, og da har begge funksjonene verdien 7. Altså er skjæringspunktet $ (3, 7) $. \vsk
+Vi leser av at funksjonene har samme verdi når $ {x=3} $, og da har begge funksjonene verdien 7. Altså er skjæringspunktet $ (3, 7) $. \vsk
 
 \textit{Algebraisk metode} \os
 At $ f(x) $ og $ g(x) $ har samme verdi gir likningen
@@ -247,25 +248,78 @@ x&=3
 }
 Videre har vi at
 \alg{
-f(3)=2\cdot3+1=7 \vn 
-g(3)=3+4=7
+f(3)&=2\cdot3+1=7 \vn 
+g(3)&=3+4=7
 }
+Altså er $ (3, 7) $ skjæringspunktet til grafene.\vsk
+
+\mer Det hadde selvsagt holdt å bare finne én av $ f(3) $ og $ g(3) $.
+}
+
+\eks[2]{
+En klasse planlegger en tur som krever bussreise. De får tilbud fra to busselskap:
+\begin{itemize}
+	\item \textbf{Busselskap 1} \\
+	Klassen betaler 10\,000\,kr uansett, og 10\enh{kr} per km.
+	\item \textbf{Busselskap 2} \\
+	Klassen betaler 4\,000\,kr uansett, og 30\enh{kr} per km.
+\end{itemize}
+For hvilken lengde kjørt tilbyr busselskapene same pris?
+
+\sv
+
+Vi innfører følgende variabler:
+\begin{itemize}
+	\item $ x=\text{antall kilometer kjørt} $ \\
+	\item $ f(x)=\text{pris for Busselskap 1} $ \\
+	\item $ g(x)=\text{pris for Busselskap 2} $
+\end{itemize}
+Da er
+\alg{
+	f(x)&=10x+10\,000\vn
+	g(x)&=30x+4\,000
+}
+Videre løser vi nå oppgaven både med en grafisk og en algebraisk metode. \vsk
+
+\textit{Grafisk metode}\os
+Vi tegner grafene til funksjonene inn i samme koordinatsystem:
+\fig{lig2}
+Vi leser av at funksjonene har samme verdi når $ {x=200} $. Dette betyr at busselskapene tilbyr samme pris hvis klassen skal kjøre 200\enh{km}.\vsk
+
+\textit{Algebraisk metode} \os
+Busselskapene har samme pris når
+\alg{
+f(x)&=g(x) \\
+10x+10\,000&=30x+6\,000 \\
+4\,000&=20x \\
+x&=200
+}
+Busselskapene tilbyr altså samme pris hvis klassen skal kjøre 200\enh{km}.
+}
+
+\subsection{Null-, bunn- og toppunkt}
+\reg[Null-, bunn- og toppunkt]{\begin{itemize}
+	\item \textbf{Nullpunkt} \\
+	En $ x $-verdi som gir funksjonsverdi 0.
+	\item \textbf{Bunnpunkt} \\
+	Punkt hvor funksjonen har sin laveste verdi.
+	\item \textbf{Toppunkt} \\
+	Punkt hvor funksjonen har sin høyeste verdi.
+\end{itemize}
+}
+\eks[1]{
+Funksjonen 
+\[ f(x)=x^2-6x+8 \qquad,\qquad x\in[0, 10]\]
+har
+\begin{itemize}
+	\item Nullpunkt $ {x=1} $ og $ {x=5} $.
+	\item Bunnpunkt $ (3, -4) $.
+	\item Toppunkt $ (7, 12) $.
+\end{itemize}
+\fig{lig3}
 }
 
 
-\subsection{Bunn- og toppunkt}
-
-\section{Proporsjonalitet}
-\reg[Proporsjonale størrelser]{
-Gitt en konstant $ a $ og to variabler $ x $ og $ y $. Hvis 
-\[ y=a x \]
-er $ x $ og $ y $ proporsjonale størrelser.
-}
-\reg[Proporsjonale størrelser]{
-	Gitt en konstant $ a $ og to variabler $ x $ og $ y $. Hvis 
-	\[ y=\frac{a}{x} \]
-	er $ x $ og $ y $ omvendt proporsjonale størrelser.
-}
 
 \end{document}
 

@@ -126,8 +126,7 @@ void yaks(real a, real b, string l="", real bex=0.75, real aex=0,
 		}
 		for (i; i<= N; ++i){
 			real y = a+i*tc; 
-			if (tckl){ mktcy(y, string(y), x=x, pos=pos); 
-write(y);			}
+			if (tckl){ mktcy(y, string(y), x=x, pos=pos); }
 			else mktcy(y, x=x, pos=pos); 
 			// For . istedenfor , skriv:
 						     // mktc(i*tc, format(i*tc));
