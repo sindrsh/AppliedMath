@@ -101,7 +101,7 @@ void xaks(real a, real b, string l="", real bex=0.75, real aex=0,
 		}
 		for (i; i<= N; ++i){
 			real x = a+i*tc; 
-			if (tckl){ mktc(x, format(x), y=y, pos=pos); }
+			if (tckl){ mktc(x, string(x), y=y, pos=pos); }
 			else mktc(x, y=y, pos=pos); 
 			// For . istedenfor , skriv:
 						     // mktc(i*tc, format(i*tc));
@@ -126,7 +126,8 @@ void yaks(real a, real b, string l="", real bex=0.75, real aex=0,
 		}
 		for (i; i<= N; ++i){
 			real y = a+i*tc; 
-			if (tckl){ mktcy(y, format(y), x=x, pos=pos); }
+			if (tckl){ mktcy(y, string(y), x=x, pos=pos); 
+write(y);			}
 			else mktcy(y, x=x, pos=pos); 
 			// For . istedenfor , skriv:
 						     // mktc(i*tc, format(i*tc));
