@@ -415,16 +415,21 @@ Andre linje i \rref{propoeng} er egentlig identisk med \rref{vekstfaktendr}.
 }
 
 \section{Forhold}
-Med \textit{forholdet} mellom to størrelser mener vi den éne størrelsen delt på den andre. Har vi for eksempel 1 rød kule og 5 blå kuler i en bolle, sier vi at:
-\[ \text{forholdet mellom antall røde og blå kuler}=\frac{1}{5} \]
-\prbxl{0.51}{Forholdet kan vi også skrive som $ {1:5} $. Verdien til dette regnestykket er:
+\prbxl{0.6}{
+Med \textit{forholdet} mellom to størrelser mener vi den éne størrelsen delt på den andre. Har vi for eksempel 1 rød kule og 5 blå kuler i en bolle, sier vi at
+}
+\parbox[r][][l]{0.3\linewidth}{
+\fig{bolle3}
+}
+\st{\[ \text{forholdet mellom antall røde kuler og blå kuler}=\frac{1}{5} \]}\regv
+\prbxl{0.51}{
+Forholdet kan vi også skrive som $ {1:5} $. Verdien til dette regnestykket er
 	\[ 1:5=0,2 \]
-	0,2 kalles \textit{forholdstallet}.}\qquad
-\prbxr{0.4}{Om vi skriver forholdet som brøk eller som delestykke vil avhenge litt av oppgavene vi skal løse.}
-Hvis vi isteden har 4 røde kuler og 20 blå kuler, er fortsatt forholdstallet 0,2. dette betyr at forholdet mellom antall røde og blå kuler ikke har forandret seg.\regv
+I denne sammenhengen kalles 0,2 \textit{forholdstallet}.}\qquad
+\prbxr{0.4}{Om vi skriver forholdet som brøk eller som delestykke vil avhenge litt av oppgavene vi skal løse.} \vsk
 \reg[Forhold]{\vs
 	\[\text{forholdet mellom \textit{a} og \textit{b}}= \frac{a}{b} \]
-	Forholdstallet får vi ved å regne ut hva $ {a:b} $ er. To forhold med samme forholdstall er like.
+	Verdien til brøken over kalles forholdstallet $ {a:b} $.
 }
 \eks[1]{
 	I en klasse er det 10 handballspillere og 5 fotballspillere. \os
@@ -445,15 +450,69 @@ Hvis vi isteden har 4 røde kuler og 20 blå kuler, er fortsatt forholdstallet 0
 	\sv
 	Vi vet at:
 	\[ \frac{\text{antall vinnerlodd}}{\text{antall taperlodd}}=\frac{1}{8} \]
-	Siden \textit{antall vinnerlodd} er ukjent, kaller vi størrelsen for $ x $, og får da at:
+	Siden ''antall vinnerlodd'' er ukjent, kaller vi størrelsen for $ x $, og får da at
 	\alg{
 		\frac{x}{160}&=\frac{1}{8} \br
 		\frac{x}{\cancel{160}}\cdot\cancel{160}&=\frac{1}{8}\cdot160 \br
 		x &= 20
 	}
 	Vi må altså lage 20 vinnerlodd. 
-}\vsk
-\textbf{Blandingsforhold} \os
+}
+\subsection{Målestokk}
+I \mb\,(s.145\,-\,149) har vi sett på formlike trekantar. Prinsippet om at forholdet mellom samsvarande sider er det samme kan utvides til å gjelde de fleste andre former, som f. eks. firkanter, sirkler, prismer, kuler osv. Dette er et fantastisk prinsipp som gjør at små tegninger eller figurer (modeller) kan gi oss informasjon om størrelsene til virkelige gjenstander.
+\reg[Målestokk]{
+En målestokk er forholdet mellom en lengde på en modell av en gjenstand og den samsvarende lengden på den virkelige gjenstand.
+\[ \text{målestokk}=\frac{\text{en lengde i en modell}}{\text{den samsvarende lengde i virkeligheten}
+} \]
+}
+\eks[1]{
+Kartet under har målestokk $ {1:25\,000} $. 
+\abc{
+\item Luftlinjen (den blå) mellom Helland og Vike er  10,4\enh{cm} på kartet. Hvor langt er det mellom Helland og Vike i virkeligheten?
+\item Tresfjordbrua er ca 1300 m i virkeligheten. Hvor lang er Tresfjordbrua på kartet?
+}
+\begin{figure}
+	\centering
+	\includegraphics[]{\asym{vikves}}
+\end{figure}
+\sv
+\abc{
+\item Avstanden mellom Helland og Vike på kartet samsvarer med avstanden mellom Helland og Vike. Vi setter
+	\[ x=\text{avstanden mellom Helland og Vike i virkeligheten} \]
+	Da har vi at 
+	\alg{
+		\frac{10,4\enh{cm}}{x} &= \frac{1}{25\,000} \br
+		x&=10,4\enh{cm}\cdot25\,000 \\
+		&=260\,000\enh{cm}
+	}
+	Altså er det 2,6\enh{km} mellom Helland og Vike.
+\item Vi setter¨
+\[ x=\text{lengden til Tresfjordbrua på kartet} \]
+Da har vi at
+\alg{
+\frac{x}{1\,300\enh{m}}&=\frac{1}{25\,000} \br
+x&=\frac{1\,300\enh{m}}{25\,000} \\
+&=0,052 \enh{m}
+}
+Altså er Tresfjordbrua $ 5,2 $ cm lang på kartet.
+}
+}
+\info{Tips}{
+Målestokk er omtrent alltid gitt som en brøk med teller lik $ 1 $. Dette gjør at man kan lage seg disse reglene:
+\begin{tcolorbox}[boxrule=0.3 mm,arc=0mm,colback=white] \alg{
+		\text{lengde i virkelighet}&=\text{lengde på kart}\cdot \text{nevner til målestokk} \vn
+		\text{lengde i virkelighet}&=\frac{\text{lengde på kart}}{\text{nevner til målestokk}}
+}
+\end{tcolorbox}
+
+Oppgavene fra \textsl{Eksempel 1} kunne vi da løst slik:
+\abc{
+\item $ \text{Virkelig avstand mellom Helland og Vike}=10,4\enh{cm}\cdot 25\,000 $ \\
+$ \phantom{6Virkelig avstand mellom Helland og Vike}=260\,000\enh{cm} $
+\item $ \text{Lengde til Tresfjordbrua på kart}=\frac{1\,300\enh{m}}{25\,000}=0,0052 \enh{m}$
+}
+}
+\subsection{Blandingsforhold}
 I mange sammenhenger skal vi blande to sorter i riktig forhold.
 
 \prbxl{0.6}{ På en flaske med solbærsirup kan du for eksempel lese symbolet ''2 +5'', som betyr at man skal blande sirup og vann i forholdet $ {2:5} $. Så heller vi 2\,dL sirup i en kanne, må vi fylle på med 5\,dL vann for å lage saften i riktig forhold.}\qquad
@@ -522,6 +581,7 @@ Dette betyr én del utgjør $ \frac{1}{7} $ av blandingen, sirupen utgjør $ \fr
 	}
 	Som vi får hvis vi legger til 7 deler vann i blandingen med forholdet $ {3:5} $.
 }
+
 \newpage
 
 \end{document}

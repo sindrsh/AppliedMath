@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  30 JUN 2021 22:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  10 JUL 2021 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1328,17 +1328,17 @@ LaTeX Info: Redefining \nameref on input line 4.
 \@outlinefile=\write7
 \openout7 = `brok.out'.
 
-<../fig/br1.pdf, id=32, 28.45631pt x 56.90259pt>
+<../fig/br1.pdf, id=40, 28.45631pt x 56.90259pt>
 File: ../fig/br1.pdf Graphic file (type pdf)
 <use ../fig/br1.pdf>
 Package pdftex.def Info: ../fig/br1.pdf  used on input line 10.
 (pdftex.def)             Requested size: 28.45624pt x 56.90244pt.
-<../fig/br1a.pdf, id=33, 57.40446pt x 57.40446pt>
+<../fig/br1a.pdf, id=41, 57.40446pt x 57.40446pt>
 File: ../fig/br1a.pdf Graphic file (type pdf)
 <use ../fig/br1a.pdf>
 Package pdftex.def Info: ../fig/br1a.pdf  used on input line 11.
 (pdftex.def)             Requested size: 57.4043pt x 57.4043pt.
-<../fig/br1b.pdf, id=34, 92.97736pt x 14.725pt>
+<../fig/br1b.pdf, id=42, 92.97736pt x 14.725pt>
 File: ../fig/br1b.pdf Graphic file (type pdf)
 <use ../fig/br1b.pdf>
 Package pdftex.def Info: ../fig/br1b.pdf  used on input line 12.
@@ -1390,17 +1390,17 @@ LaTeX Font Info:    Trying to load font information for U+esint on input line 1
 (/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
-<../fig/br2.pdf, id=35, 57.40446pt x 43.18132pt>
+<../fig/br2.pdf, id=43, 57.40446pt x 43.18132pt>
 File: ../fig/br2.pdf Graphic file (type pdf)
 <use ../fig/br2.pdf>
 Package pdftex.def Info: ../fig/br2.pdf  used on input line 23.
 (pdftex.def)             Requested size: 57.4043pt x 43.1812pt.
-<../fig/br2a.pdf, id=36, 128.54022pt x 43.18132pt>
+<../fig/br2a.pdf, id=44, 128.54022pt x 43.18132pt>
 File: ../fig/br2a.pdf Graphic file (type pdf)
 <use ../fig/br2a.pdf>
 Package pdftex.def Info: ../fig/br2a.pdf  used on input line 32.
 (pdftex.def)             Requested size: 128.53989pt x 43.1812pt.
-<../fig/br2b.pdf, id=37, 81.30376pt x 28.95819pt>
+<../fig/br2b.pdf, id=45, 81.30376pt x 28.95819pt>
 File: ../fig/br2b.pdf Graphic file (type pdf)
 <use ../fig/br2b.pdf>
 Package pdftex.def Info: ../fig/br2b.pdf  used on input line 34.
@@ -1441,7 +1441,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--59
 n/10.95 , og da er det
  []
 
-<../fig/kake.jpg, id=100, 903.375pt x 672.26157pt>
+<../fig/kake.jpg, id=108, 903.375pt x 672.26157pt>
 File: ../fig/kake.jpg Graphic file (type jpg)
 <use ../fig/kake.jpg>
 Package pdftex.def Info: ../fig/kake.jpg  used on input line 64.
@@ -1509,7 +1509,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--149
 5 . Dette be-tyr at vi skal
  []
 
-<../fig/sale.png, id=121, 225.84375pt x 225.84375pt>
+<../fig/sale.png, id=129, 225.84375pt x 225.84375pt>
 File: ../fig/sale.png Graphic file (type png)
 <use ../fig/sale.png>
 Package pdftex.def Info: ../fig/sale.png  used on input line 154.
@@ -1579,7 +1579,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 191--191
 n/10.95 mva.
  []
 
-<../fig/peltor.png, id=132, 416.55624pt x 317.185pt>
+<../fig/peltor.png, id=140, 416.55624pt x 317.185pt>
 File: ../fig/peltor.png Graphic file (type png)
 <use ../fig/peltor.png>
 Package pdftex.def Info: ../fig/peltor.png  used on input line 194.
@@ -1824,7 +1824,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 357--357
 \T1/lmr/m/n/10.95 For å foren-kle set-nin-gene har vi be-grepet
  []
 
-<../fig/sunglasses.jpeg, id=195, 369.38pt x 369.38pt>
+<../fig/sunglasses.jpeg, id=203, 369.38pt x 369.38pt>
 File: ../fig/sunglasses.jpeg Graphic file (type jpg)
 <use ../fig/sunglasses.jpeg>
 Package pdftex.def Info: ../fig/sunglasses.jpeg  used on input line 361.
@@ -1937,209 +1937,272 @@ Underfull \hbox (badness 10000) in paragraph at lines 415--415
  []
 
 [14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 422--422
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+[]\T1/lmr/m/n/10.95 Med \T1/lmr/m/it/10.95 forholdet \T1/lmr/m/n/10.95 mel-lom 
+to stør-relser mener
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\T1/lmr/m/n/10.95 vi den éne stør-relsen delt på den an-dre.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\T1/lmr/m/n/10.95 Har vi for ek-sem-pel 1 rød kule og 5 blå
+ []
+
+<../fig/bolle3.pdf, id=221, 90.9799pt x 45.74089pt>
+File: ../fig/bolle3.pdf Graphic file (type pdf)
+<use ../fig/bolle3.pdf>
+Package pdftex.def Info: ../fig/bolle3.pdf  used on input line 423.
+(pdftex.def)             Requested size: 90.97966pt x 45.74077pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
 []\T1/lmr/m/n/10.95 Forholdet kan vi også skrive som
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 422--422
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
 []$\T1/lmr/m/n/10.95 . Ver-dien til dette reg-nestykket
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 423--423
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
+\T1/lmr/m/n/10.95 I denne sam-men-hen-gen kalles 0,2
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--429
 []\T1/lmr/m/n/9 Om vi skriver forholdet som brøk
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 423--423
+Underfull \hbox (badness 10000) in paragraph at lines 429--429
 \T1/lmr/m/n/9 eller som de-lestykke vil avhenge
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--428
-\T1/lmr/m/n/10.95 Forholdstallet får vi ved å regne ut hva $[]$ er. To forhold 
-med
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 441--441
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
 []\T1/lmr/bx/n/10.95 a) \T1/lmr/m/n/10.95 Hva er forholdet mel-lom an-tall hand
 -ball-spillere og fot-ball-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 441--441
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
 []\T1/lmr/bx/n/10.95 b) \T1/lmr/m/n/10.95 Hva er forholdet mel-lom an-tall fot-
 ball-spillere og hand-ball-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--455
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
 []\T1/lmr/m/n/10.95 Du skal lage et lot-teri der forholdet mel-lom an-tall vin-
 ner-lodd og
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--455
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
 \T1/lmr/m/n/10.95 ta-per-lodd er $[]$. Hvor mange ta-per-lodd må du lage hvis d
 u skal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--455
-\T1/lmr/m/n/10.95 Siden \T1/lmr/m/it/10.95 an-tall vin-ner-lodd \T1/lmr/m/n/10.
-95 er uk-jent, kaller vi stør-relsen for $\OML/lmm/m/it/10.95 x$\T1/lmr/m/n/10.
-95 , og
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
+\T1/lmr/m/n/10.95 Siden ''an-tall vin-ner-lodd'' er uk-jent, kaller vi stør-rel
+sen for $\OML/lmm/m/it/10.95 x$\T1/lmr/m/n/10.95 , og
  []
 
 [16
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 459--459
+ <../fig/bolle3.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 467--467
+[]\T1/lmr/m/n/10.95 En målestokk er forholdet mel-lom en lengde på en mod-ell a
+v en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--467
+\T1/lmr/m/n/10.95 gjen-stand og den samsvarende leng-den på den virke-lige gjen
+-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--499
+[]\T1/lmr/m/n/10.95 Luftlinjen (den blå) mel-lom Hel-land og Vike er 10,4cm på
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--499
+\T1/lmr/m/n/10.95 kartet. Hvor langt er det mel-lom Hel-land og Vike i virke-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--499
+[]\T1/lmr/m/n/10.95 Tresfjordbrua er ca 1300 m i virke-ligheten. Hvor lang er
+ []
+
+<../fig/vikves.png, id=233, 259.7203pt x 201.00093pt>
+File: ../fig/vikves.png Graphic file (type png)
+<use ../fig/vikves.png>
+Package pdftex.def Info: ../fig/vikves.png  used on input line 499.
+(pdftex.def)             Requested size: 259.71967pt x 201.00043pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--499
+[]\T1/lmr/m/n/10.95 Avstanden mel-lom Hel-land og Vike på kartet samsvarer med
+ []
+
+[17] [18 <../fig/vikves.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 514--514
+[]\T1/lmr/m/n/10.95 Målestokk er omtrent alltid gitt som en brøk med teller lik
+ $\OT1/lmr/m/n/10.95 1$\T1/lmr/m/n/10.95 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 518--518
 []\T1/lmr/m/n/10.95 På en flaske med sol-bær-sirup kan du for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--459
+Underfull \hbox (badness 10000) in paragraph at lines 518--518
 \T1/lmr/m/n/10.95 ek-sem-pel lese sym-bo-let ''2 +5'', som be-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--459
+Underfull \hbox (badness 10000) in paragraph at lines 518--518
 \T1/lmr/m/n/10.95 tyr at man skal blande sirup og vann i
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--459
+Underfull \hbox (badness 10000) in paragraph at lines 518--518
 \T1/lmr/m/n/10.95 forholdet $[]$. Så heller vi 2dL sirup i en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--459
+Underfull \hbox (badness 10000) in paragraph at lines 518--518
 \T1/lmr/m/n/10.95 kanne, må vi fylle på med 5dL vann for å
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--460
+Underfull \hbox (badness 10000) in paragraph at lines 519--519
 []\T1/lmr/m/n/9 Blander du sol-bær-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--460
+Underfull \hbox (badness 10000) in paragraph at lines 519--519
 \T1/lmr/m/n/9 sirup og vann, får du
  []
 
 
-Overfull \hbox (5.1712pt too wide) in paragraph at lines 463--464
+Overfull \hbox (5.1712pt too wide) in paragraph at lines 522--523
 []\T1/lmr/m/n/10.95 Noen ganger bryr vi oss ikke om \T1/lmr/m/it/10.95 hvor mye
  \T1/lmr/m/n/10.95 vi blan-der, så lenge forholdet 
  []
 
-<../fig/forh.pdf, id=219, 147.44084pt x 84.43546pt>
+[19]
+<../fig/forh.pdf, id=258, 147.44084pt x 84.43546pt>
 File: ../fig/forh.pdf Graphic file (type pdf)
 <use ../fig/forh.pdf>
-Package pdftex.def Info: ../fig/forh.pdf  used on input line 464.
+Package pdftex.def Info: ../fig/forh.pdf  used on input line 523.
 (pdftex.def)             Requested size: 147.44046pt x 84.43524pt.
-[17]
-Overfull \hbox (2.59718pt too wide) in paragraph at lines 465--472
+
+Overfull \hbox (2.59718pt too wide) in paragraph at lines 524--531
 \T1/lmr/m/n/10.95 Dette be-tyr én del ut-gjør $[]$ av blandin-gen, siru-pen ut-
 gjør $[]$ av blandin- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--487
+Underfull \hbox (badness 10000) in paragraph at lines 546--546
 []\T1/lmr/m/n/10.95 I et malerspann er grønn og rød ma-l-ing blan-det i forhold
 et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--487
+Underfull \hbox (badness 10000) in paragraph at lines 546--546
 []$\T1/lmr/m/n/10.95 , og det er 5L av denne blandin-gen. Du ønsker å gjøre om
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--487
+Underfull \hbox (badness 10000) in paragraph at lines 546--546
 []\T1/lmr/m/n/10.95 I span-net har vi $[]$ deler. Siden det er 5L i alt, må vi 
 ha
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--487
+Underfull \hbox (badness 10000) in paragraph at lines 546--546
 \T1/lmr/m/n/10.95 Når vi har 7 deler rød-ma-l-ing, men ønsker 11, må vi blande 
 oppi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 560--560
 []\T1/lmr/m/n/10.95 En kanne som rom-mer 21dL er fylt med en saft der sirup og
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 560--560
 []\T1/lmr/bx/n/10.95 a) \T1/lmr/m/n/10.95 Til sam-men består saften av $[]$ del
 er. Fordi 5 av disse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 560--560
 \T1/lmr/bx/n/10.95 b) \T1/lmr/m/n/10.95 Vi kan løse denne opp-gaven på samme må
 te som i opp-gave
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 560--560
 \T1/lmr/m/n/10.95 a), men det er raskere å merke oss at hvis vi har 15dL vann a
 v i
  []
 
-[18 <../fig/forh.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 524--524
+[20 <../fig/forh.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 583--583
 []\T1/lmr/m/n/10.95 I en fer-dig blan-det saft er forholdet mel-lom sirup og va
 nn lik
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--524
+Underfull \hbox (badness 10000) in paragraph at lines 583--583
 []\T1/lmr/m/n/10.95 Hvor mange deler saft og/eller vann må du legge til for at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--524
+Underfull \hbox (badness 10000) in paragraph at lines 583--583
 []\T1/lmr/m/n/10.95 Brøken vi ønsker, $[]$, kan vi skrive om til en brøk med sa
 mme
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--524
+Underfull \hbox (badness 10000) in paragraph at lines 583--583
 $[]$ \T1/lmr/m/n/10.95 er altså det samme forholdet som $[]$. Og $[]$ kan vi få
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--524
+Underfull \hbox (badness 10000) in paragraph at lines 583--583
 \T1/lmr/m/n/10.95 Som vi får hvis vi leg-ger til 7 deler vann i blandin-gen med
 
  []
 
-[19] [20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 527.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 527.
+[21] [22]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 587.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 587.
  (./brok.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 527.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 527.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 587.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 587.
 Package rerunfilecheck Info: File `brok.out' has not changed.
-(rerunfilecheck)             Checksum: 8F27C54AD023D35296561D3ECAD2EE74;349.
+(rerunfilecheck)             Checksum: EE40FE6C51FE087E51A59A7B1DA5B1D2;483.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 31495 strings out of 481239
- 618101 string characters out of 5920378
- 933695 words of memory out of 5000000
- 46000 multiletter control sequences out of 15000+600000
+ 31538 strings out of 481239
+ 618750 string characters out of 5920378
+ 935935 words of memory out of 5000000
+ 46029 multiletter control sequences out of 15000+600000
  633106 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,20n,104p,870b,987s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2159,10 +2222,10 @@ fb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/t
 ype1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></u
 sr/share/texmf/fonts/type1/public/lm/lmro9.pfb></usr/share/texmf/fonts/type1/pu
 blic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb>
-Output written on brok.pdf (20 pages, 714944 bytes).
+Output written on brok.pdf (22 pages, 997257 bytes).
 PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
- 66 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 366 PDF objects out of 1000 (max. 8388607)
+ 305 compressed objects within 4 object streams
+ 78 named destinations out of 1000 (max. 500000)
+ 142 words of extra memory for PDF output out of 10000 (max. 10000000)
 
