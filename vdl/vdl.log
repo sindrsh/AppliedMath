@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  9 JUL 2021 16:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  11 JUL 2021 20:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1381,33 +1381,67 @@ T1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95
 er
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]\T1/lmr/m/n/10.95 Verdimengden til en fun-skjon $\OML/lmm/m/it/10.95 f\OT1/lm
+r/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 er al
+le ver-di-ene $\OML/lmm/m/it/10.95 f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\O
+T1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 kan ha.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\T1/lmr/m/n/10.95 Verdi-meng-den er bestemt av funksjon-sut-trykket og funksjo-
+nens
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]\T1/lmr/m/n/10.95 En funksjon som består av en sum av potenser med pos-i-tive
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]\T1/lmr/m/n/10.95 Polynomfunksjoner har un-der-ti-tler som bestemmes av den
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+\T1/lmr/m/n/10.95 største ek-spo-nen-ten i funksjon-sut-trykket. For kon-stan-t
+ene $\OML/lmm/m/it/10.95 a$\T1/lmr/m/n/10.95 , $\OML/lmm/m/it/10.95 b$\T1/lmr/m
+/n/10.95 , $\OML/lmm/m/it/10.95 c$
+ []
+
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 21.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 21.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
  (./vdl.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 21.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 21.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 36.
 Package rerunfilecheck Info: File `vdl.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31121 strings out of 481239
- 612218 string characters out of 5920378
- 926415 words of memory out of 5000000
- 45736 multiletter control sequences out of 15000+600000
- 565653 words of font info for 57 fonts, out of 8000000 for 9000
+ 31127 strings out of 481239
+ 612307 string characters out of 5920378
+ 928486 words of memory out of 5000000
+ 45741 multiletter control sequences out of 15000+600000
+ 568648 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,5n,104p,869b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,10n,104p,869b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share
-/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb>
-Output written on vdl.pdf (1 page, 57556 bytes).
+ips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share
+/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.
+pfb>
+Output written on vdl.pdf (1 page, 105578 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 41 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

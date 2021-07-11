@@ -237,11 +237,11 @@ $ \colb{789}-\colr{324}=\colc{465} $	 \vsk
 }
 \section{Ganging}
 \subsubsection{Ganging med 10, 100, 1\,000 osv.}
-\reg[Å gange heltall med 10, 100 osv.]{
+\reg[Å gange heltall med 10, 100 osv. \label{gangheltallmed10100}]{
 	\vs
 	\begin{itemize}
-		\item Svaret når man gangar et heltall med 10, får man ved å legge til sifferet 0 bak heltallet.
-		\item Svaret når man gangar et heltall med 100, får man ved å legge til sifrene 00 bak heltallet.
+		\item Når man ganger et heltall med 10, får man svaret ved å legge til sifferet 0 bak heltallet.
+		\item Når man ganger et heltall med 100, får man svaret ved å legge til sifrene 00 bak heltallet.
 		\item Det samme mønsteret gjelder for tallene 1\,000, 10\,000 osv.
 	\end{itemize}
 }
@@ -267,18 +267,18 @@ $ \colb{789}-\colr{324}=\colc{465} $	 \vsk
 }
 }
 
-\reg[Å gange desimaltall med 10, 100 osv.]{
+\reg[Å gange desimaltall med 10, 100 osv. \label{gangdesmed10100}]{
 	\vs
 	\begin{itemize}
-		\item Svaret når man gangar et desimaltall med 10 får man ved å flytte komma en plass mot høgre.
-		\item Svaret når man gangar et heltall med 100, får man ved å flytte komma to plasser mot høgre.
+		\item Svaret når man gangar et desimaltall med 10 får man ved å flytte komma en plass til høgre.
+		\item Svaret når man gangar et heltall med 100, får man ved å flytte komma to plasser til høgre.
 		\item Det samme mønsteret gjelder for tallene 1\,000, 10\,000 osv.
 	\end{itemize}
 }
 \eks[1]{\vsb \vsb
 	\alg{
 		7\colr{,}9\cdot 10 &= 79\colr{,}=79 \vn
-		8\colr{,}02\cdot10&=80\colr{,}2 \vn
+		38\colr{,}02\cdot10&=380\colr{,}2 \vn
 		0\colr{,}57\cdot 10 &=05\colr{,}7=5\colr{,}7 \vn
 		0\colr{,}194\cdot 10&= 01\colr{,}94=1\colr{,}94
 	}
@@ -286,37 +286,24 @@ $ \colb{789}-\colr{324}=\colc{465} $	 \vsk
 \eks[2]{ \vsb \vsb
 	\alg{
 		7\colr{,}9\cdot 100 &= 790\colr{,}=790 \vn
-		8\colr{,}02\cdot100&=802\colr{,}=802 \vn
-		0\colr{,}57\cdot 100 &=05\colr{,}7=5\colr{,}7 \vn
+		38\colr{,}02\cdot100&=3802\colr{,}=3\,802 \vn
+		0\colr{,}57\cdot 100 &=057\colr{,}=57 \vn
 		0\colr{,}194\cdot 100&= 019\colr{,}4=19\colr{,}4
 	}
 }
 \eks[3]{ \vsb \vsb
-	\alg{ 
-		6\cdot\colb{1\,000} &= 6\,\colb{000} \vn
-		79\cdot\colb{10\,000} &= 79\colb{0\,000} \vn
-		802\cdot\colb{100\,000} &=80\,2\colb{00\,000}
-	}
-}
-
-\fork{Ganging med 10, 100, 1\,000 osv.}
-{Lat oss se på reknestykket $ 3\cdot 10 $:
-	\fig{gang4}
-	Men 10 einarar kan vi liksågodt slå samen til én tier. På bildet over har vi 3 radar med 10 enere, så dette kan vi altså slå sammen til 3 tiere.
-	\fig{gang4a}
-	Og 3 tierer blir 30.
-	\fig{gang4b}
-	Lat oss videre se på reknestykket $ 23\cdot 10 $:
-	\fig{gang5}
-	Me fortsett med å slå saman 10 einarar til éin tiar, og tek i tillegg med oss at 10 tiarar er éin hundrar. Dei to radane med tiarar gir oss derfor 2 hundrarar og dei tre radane med einarar gir oss 3 tiarar.
-	\fig{gang5a}
-	Her er dei to reknestykka me har funne svaret på:
 	\alg{
-		3\cdot10 &= 30\\
-		23\cdot 10 &= 230
-	}
+	7\colr{,}9\cdot 1\,000 &= 7900\colr{,}=7\,900 \vn
+	38\colr{,}02\cdot10\,000&=38020\colr{,}=38\,020 \vn
+	0\colr{,}57\cdot 100\,000 &=05\colr{,}7=57000\colr{,}=57\,000
 }
-
+}
+\info{Merk}{
+\rref{gangheltallmed10100} er bare et spesialtilfelle av \rref{gangdesmed10100}. For eksempel, å bruke \rref{gangheltallmed10100} på reknestykket $ {7\cdot 10} $ gir samme resultat som å bruke \rref{gangdesmed10100} på reknestykket $ {7,0\cdot 10} $. 
+}
+\fork{Å gange tall med 10, 100 osv.}{
+Titallsystemet baserer seg på grupper av ti, hundre, tusen osv., og tideler, hundredeler og tusendeler osv (se \mb, s. 13). Når man ganger et tall med 10, vil hvert siffer i tallet ''forskyves'' én gruppe til venstre. (Se også opplegget på side ??)
+}
 
 
 
@@ -343,7 +330,41 @@ Kompaktmetoden bygger på de samme prinsippene som ganging på utvidet form, men
 	\end{figure}
 }
 \section{Divisjon}
-\subsubsection{Deling med 10, 100, 1\,000 osv.}
+\subsubsection{\delmedtihundre}
+\reg[Deling med 10, 100, 1\,000 osv.]{
+\begin{itemize}
+	\item Når man deler et desimaltall med 10, får man svaret ved å flytte komma en plass til venstre.
+	\item Når man deler et desimaltall med 10, får man svaret ved å flytte komma to plasser til venstre.
+	\item Det samme mønsteret gjelder for tallene 1\,000, 10\,000 osv.
+\end{itemize}
+}
+\eks[1]{ \vsb \vsb
+	\alg{
+200:10&=200\colr{,}0:10 \\&=20\colr{,}00\\&=20	\vn
+45:10&=45\colr{,}0:10 \\&= 4\colr{,}50 \\&=4\colr{,}5
+}
+}
+\eks[2]{ \vsb \vsb
+	\alg{
+		200:100&=200\colr{,}0:100 \\&=2\colr{,}000\\&=2	\vn
+		45:100&=45\colr{,}0:100 \\&= 0\colr{,}450 \\&=0\colr{,}45
+	}
+}
+\eks[3]{ \vsb \vsb
+\alg{
+143\colr{,}7 :10 &= 14\colr{,}37 \vn
+143\colr{,}7 :100 &= 1\colr{,}437 \vn
+143\colr{,}7 :1\,000 &= 0\colr{,}1437 \vn
+93\colr{,}6:10 &= 9\colr{,}36 \vn
+93\colr{,}6:100 &= 0\colr{,}936 \vn
+93\colr{,}6:1\,000 &= 0\colr{,}0936
+}
+}
+\fork{Deling med 10, 100, 1\,000 osv.}{
+La oss bruke $ 53,14 $ som et eksempel. Av definisjonen av titallsystemet (se \mb, s. 13) følger det at
+\[ 53,7=5\cdot 100+3\cdot10+7\cdot\frac{1}{10} \]
+}
+
 \subsubsection{Oppstilling}
 Divisjon med oppstilling baserer seg på divisjon tolket som inndeling av mengder (se \mb\,,s. 23)
 
@@ -395,7 +416,7 @@ Tabellmetoden baserer seg på divisjon som omvendt operasjon av ganging. For eks
 		\end{tabular}
 }}  \newpage
 \parbox{0.415\linewidth}{
-	\eks[2 \\ (annen utrekning)]{
+	\eks[3]{		
 		$ 894:3=298 $	 \vsk
 		
 		\begin{tabular}{r|r|r}
@@ -403,8 +424,12 @@ Tabellmetoden baserer seg på divisjon som omvendt operasjon av ganging. For eks
 			300& 900&900 \\
 			$ -2 $& $ -6 $ &894 \\ \hline
 			298&
-		\end{tabular}
-}}
+		\end{tabular} \vsk
+	
+\footnotesize	
+\mer Samme reknestykke som i \textsl{Eksempel 2}, men en annen utrekning.
+}
+}
 \end{center}
 \end{document}
 

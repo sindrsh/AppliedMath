@@ -195,26 +195,26 @@ void tcksb(int tc, real b, real y=0){
 void einar(int n=1, pair sh=(0,0), pen p=blue+opacity(0.1), pen p1=black){
 	path uc = unitcircle;
 	filldraw(shift(sh)*uc, p, p1);
-	label("1",sh);
+	label("1",sh,black+fontsize(8pt));
 	if (n>1){
 		for (int i=1; i < n; ++i){
 			pair sh2 = (0,0.25*i);
 			unfill(shift(sh+sh2)*uc);
 			filldraw(shift(sh+sh2)*uc, p, p1);
-			label("1",sh+sh2);
+			label("1",sh+sh2,black+fontsize(8pt));
 	}}	
 }
 
 void tiar(int n=1, pair sh=(0,0), pen p=green+opacity(0.1), pen p1=black){
 	path uc = unitcircle;
 	filldraw(shift(sh)*uc, p, p1);
-	label("10",sh);
+	label("10",sh,black+fontsize(8pt));
 	if (n>1){
 		for (int i=1; i < n; ++i){
 			pair sh2 = (0,0.25*i);
 			unfill(shift(sh+sh2)*uc);
 			filldraw(shift(sh+sh2)*uc, p, p1);
-			label("10",sh+sh2);
+			label("10",sh+sh2,black+fontsize(8pt));
 	}}	
 }
   
@@ -227,7 +227,7 @@ void hundre(int n=1, pair sh=(0,0), pen p=orange+opacity(0.3), pen p1=black){
 			pair sh2 = (0,0.25*i);
 			unfill(shift(sh+sh2)*uc);
 			filldraw(shift(sh+sh2)*uc, p, p1);
-			label("100",sh+sh2);
+			label("100",sh+sh2,black+fontsize(8pt));
 	}}	
 } 
  

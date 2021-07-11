@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  11 JUL 2021 11:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  11 JUL 2021 19:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1583,12 +1583,12 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Underfull \hbox (badness 10000) in paragraph at lines 247--247
-[]\T1/lmr/m/n/10.95 Svaret når man gan-gar et heltall med 10, får man ved å
+[]\T1/lmr/m/n/10.95 Når man ganger et heltall med 10, får man svaret ved å
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 247--247
-[]\T1/lmr/m/n/10.95 Svaret når man gan-gar et heltall med 100, får man ved å
+[]\T1/lmr/m/n/10.95 Når man ganger et heltall med 100, får man svaret ved å
  []
 
 
@@ -1605,126 +1605,142 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--277
 [6
 
 ]
-<../fig/gang4.pdf, id=250, 345.32011pt x 60.25511pt>
-File: ../fig/gang4.pdf Graphic file (type pdf)
-<use ../fig/gang4.pdf>
-Package pdftex.def Info: ../fig/gang4.pdf  used on input line 318.
-(pdftex.def)             Requested size: 345.31926pt x 60.25494pt.
-
-Overfull \hbox (34.04604pt too wide) in paragraph at lines 318--318
- [] 
+Underfull \hbox (badness 10000) in paragraph at lines 303--303
+[][][]\T1/lmr/m/sl/10.95 Regel 0.1[][][] \T1/lmr/m/n/10.95 er bare et spe-sialt
+il-felle av [][]\T1/lmr/m/sl/10.95 Regel 0.2[][][]\T1/lmr/m/n/10.95 . For ek-se
+m-pel, å
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
-\T1/lmr/m/n/10.95 Men 10 einarar kan vi lik-så-godt slå samen til én tier. På b
-ildet
+Underfull \hbox (badness 10000) in paragraph at lines 303--303
+\T1/lmr/m/n/10.95 bruke [][]\T1/lmr/m/sl/10.95 Regel 0.1[][][] \T1/lmr/m/n/10.9
+5 på rek-nestykket $[]$ gir samme re-sul-tat som å
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
-\T1/lmr/m/n/10.95 over har vi 3 radar med 10 enere, så dette kan vi altså slå s
-am-
- []
-
-<../fig/gang4a.pdf, id=251, 66.47836pt x 60.25511pt>
-File: ../fig/gang4a.pdf Graphic file (type pdf)
-<use ../fig/gang4a.pdf>
-Package pdftex.def Info: ../fig/gang4a.pdf  used on input line 318.
-(pdftex.def)             Requested size: 66.47818pt x 60.25494pt.
-<../fig/gang4b.pdf, id=252, 96.93214pt x 60.25511pt>
-File: ../fig/gang4b.pdf Graphic file (type pdf)
-<use ../fig/gang4b.pdf>
-Package pdftex.def Info: ../fig/gang4b.pdf  used on input line 318.
-(pdftex.def)             Requested size: 96.93188pt x 60.25494pt.
-<../fig/gang5.pdf, id=253, 348.3113pt x 100.08391pt>
-File: ../fig/gang5.pdf Graphic file (type pdf)
-<use ../fig/gang5.pdf>
-Package pdftex.def Info: ../fig/gang5.pdf  used on input line 318.
-(pdftex.def)             Requested size: 348.31042pt x 100.08365pt.
-
-Overfull \hbox (37.0372pt too wide) in paragraph at lines 318--318
- [] 
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+[]\T1/lmr/m/n/10.95 Titallsystemet baserer seg på grup-per av ti, hun-dre, tuse
+n osv.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
-\T1/lmr/m/n/10.95 Me fort-sett med å slå saman 10 einarar til éin tiar, og tek 
-i
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+\T1/lmr/m/n/10.95 og tideler, hun-dredeler og tusendeler osv (se [][]MB[][], s.
+ 13). Når
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
-\T1/lmr/m/n/10.95 til-legg med oss at 10 tiarar er éin hun-drar. Dei to radane 
-med
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+\T1/lmr/m/n/10.95 man ganger et tall med 10, vil hvert sif-fer i tal-let ''fors
+kyves'' én
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
-\T1/lmr/m/n/10.95 tiarar gir oss der-for 2 hun-drarar og dei tre radane med ein
-arar
- []
-
-<../fig/gang5a.pdf, id=254, 106.78896pt x 100.08391pt>
-File: ../fig/gang5a.pdf Graphic file (type pdf)
-<use ../fig/gang5a.pdf>
-Package pdftex.def Info: ../fig/gang5a.pdf  used on input line 318.
-(pdftex.def)             Requested size: 106.78868pt x 100.08365pt.
-[7 <../fig/gang4.pdf> <../fig/gang4a.pdf>]
-<fig/gang1.pdf, id=280, 80.16951pt x 65.94637pt>
+<fig/gang1.pdf, id=256, 80.16951pt x 65.94637pt>
 File: fig/gang1.pdf Graphic file (type pdf)
 <use fig/gang1.pdf>
-Package pdftex.def Info: fig/gang1.pdf  used on input line 330.
+Package pdftex.def Info: fig/gang1.pdf  used on input line 317.
 (pdftex.def)             Requested size: 80.1693pt x 65.9462pt.
- [8 <../fig/gang4b.pdf> <../fig/gang5.pdf> <../fig/gang5a.pdf>]
-<fig/gfleirsif.pdf, id=311, 227.62039pt x 81.5045pt>
+[7]
+<fig/gfleirsif.pdf, id=264, 227.62039pt x 81.5045pt>
 File: fig/gfleirsif.pdf Graphic file (type pdf)
 <use fig/gfleirsif.pdf>
-Package pdftex.def Info: fig/gfleirsif.pdf  used on input line 336.
+Package pdftex.def Info: fig/gfleirsif.pdf  used on input line 323.
 (pdftex.def)             Requested size: 227.61983pt x 81.50429pt.
-<fig/gfleirsifa.pdf, id=312, 74.58865pt x 66.75941pt>
+<fig/gfleirsifa.pdf, id=265, 74.58865pt x 66.75941pt>
 File: fig/gfleirsifa.pdf Graphic file (type pdf)
 <use fig/gfleirsifa.pdf>
-Package pdftex.def Info: fig/gfleirsifa.pdf  used on input line 344.
+Package pdftex.def Info: fig/gfleirsifa.pdf  used on input line 331.
 (pdftex.def)             Requested size: 74.58846pt x 66.75923pt.
- [9 <./fig/gang1.pdf> <./fig/gfleirsif.pdf> <./fig/gfleirsifa.pdf>]
-<fig/del1.pdf, id=340, 80.16951pt x 68.07433pt>
+ [8 <./fig/gang1.pdf> <./fig/gfleirsif.pdf> <./fig/gfleirsifa.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
+[]\T1/lmr/m/n/10.95 Når man deler et des-i-mal-tall med 10, får man svaret ved 
+å
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
+[]\T1/lmr/m/n/10.95 Når man deler et des-i-mal-tall med 10, får man svaret ved 
+å
+ []
+
+[9
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+[]\T1/lmr/m/n/10.95 La oss bruke $\OT1/lmr/m/n/10.95 53\OML/lmm/m/it/10.95 ;\OT
+1/lmr/m/n/10.95 14$ \T1/lmr/m/n/10.95 som et ek-sem-pel. Av defin-isjo-nen av t
+itall-sys-
+ []
+
+<fig/del1.pdf, id=301, 80.16951pt x 68.07433pt>
 File: fig/del1.pdf Graphic file (type pdf)
 <use fig/del1.pdf>
-Package pdftex.def Info: fig/del1.pdf  used on input line 358.
+Package pdftex.def Info: fig/del1.pdf  used on input line 379.
 (pdftex.def)             Requested size: 80.1693pt x 68.07414pt.
 
-Overfull \hbox (7.8982pt too wide) in paragraph at lines 358--358
+Overfull \hbox (7.8982pt too wide) in paragraph at lines 379--379
  [] 
  []
 
-<fig/del2.pdf, id=341, 102.93457pt x 96.53064pt>
+<fig/del2.pdf, id=302, 102.93457pt x 96.53064pt>
 File: fig/del2.pdf Graphic file (type pdf)
 <use fig/del2.pdf>
-Package pdftex.def Info: fig/del2.pdf  used on input line 366.
+Package pdftex.def Info: fig/del2.pdf  used on input line 387.
 (pdftex.def)             Requested size: 102.93431pt x 96.53038pt.
-[10
 
- <./fig/del1.pdf> <./fig/del2.pdf>] [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 409.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 409.
+Package tcolorbox Warning: The upper box part has become overfull on input line
+ 403.
+
+
+Package tcolorbox Warning: The upper box part has become overfull on input line
+ 403.
+
+
+Package tcolorbox Warning: The upper box part has become overfull on input line
+ 403.
+
+
+Package tcolorbox Warning: The upper box part has become overfull on input line
+ 417.
+
+
+Package tcolorbox Warning: The upper box part has become overfull on input line
+ 417.
+
+
+Package tcolorbox Warning: The upper box part has become overfull on input line
+ 417.
+
+[10 <./fig/del1.pdf> <./fig/del2.pdf>] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 432--432
+[]\T1/lmr/m/sl/9 Merk\T1/lmr/m/n/9 : Samme rek-nestykke
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--432
+\T1/lmr/m/n/9 som i \T1/lmr/m/sl/9 Ek-sem-pel 2\T1/lmr/m/n/9 , men en
+ []
+
+[12]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 434.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 434.
  (./rek.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 409.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 409.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 434.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 434.
 Package rerunfilecheck Info: File `rek.out' has not changed.
 (rerunfilecheck)             Checksum: 7F4244555400C4ADFC49B80F6C03DC1A;182.
  ) 
 Here is how much of TeX's memory you used:
- 31501 strings out of 481239
- 618987 string characters out of 5920378
- 936415 words of memory out of 5000000
- 46030 multiletter control sequences out of 15000+600000
- 581032 words of font info for 63 fonts, out of 8000000 for 9000
+ 31487 strings out of 481239
+ 618582 string characters out of 5920378
+ 940598 words of memory out of 5000000
+ 46018 multiletter control sequences out of 15000+600000
+ 584062 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,12n,104p,869b,1085s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
-vips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/
-share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
+ 70i,12n,104p,869b,1098s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/shar
+e/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
 m-rm.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
@@ -1734,11 +1750,11 @@ ype1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmsy10.pfb>
-Output written on rek.pdf (11 pages, 229123 bytes).
+m/lmro9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
+Output written on rek.pdf (12 pages, 254614 bytes).
 PDF statistics:
- 414 PDF objects out of 1000 (max. 8388607)
- 356 compressed objects within 4 object streams
- 50 named destinations out of 1000 (max. 500000)
- 190 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 384 PDF objects out of 1000 (max. 8388607)
+ 329 compressed objects within 4 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 165 words of extra memory for PDF output out of 10000 (max. 10000000)
 
