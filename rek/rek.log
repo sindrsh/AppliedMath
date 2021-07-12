@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  11 JUL 2021 19:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  12 JUL 2021 21:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1721,18 +1721,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 432--432
 \T1/lmr/m/n/9 som i \T1/lmr/m/sl/9 Ek-sem-pel 2\T1/lmr/m/n/9 , men en
  []
 
-[12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 434.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 434.
+[12] [13
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 435.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 435.
  (./rek.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 434.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 434.
-Package rerunfilecheck Info: File `rek.out' has not changed.
-(rerunfilecheck)             Checksum: 7F4244555400C4ADFC49B80F6C03DC1A;182.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 435.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 435.
+
+
+Package rerunfilecheck Warning: File `rek.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `rek.out':
+(rerunfilecheck)             Before: 7F4244555400C4ADFC49B80F6C03DC1A;182
+(rerunfilecheck)             After:  2080D1B10763FC67A9E855D394F95D6E;231.
  ) 
 Here is how much of TeX's memory you used:
- 31487 strings out of 481239
- 618582 string characters out of 5920378
+ 31489 strings out of 481239
+ 618600 string characters out of 5920378
  940598 words of memory out of 5000000
  46018 multiletter control sequences out of 15000+600000
  584062 words of font info for 64 fonts, out of 8000000 for 9000
@@ -1751,10 +1760,10 @@ usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmro9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on rek.pdf (12 pages, 254614 bytes).
+Output written on rek.pdf (13 pages, 255156 bytes).
 PDF statistics:
- 384 PDF objects out of 1000 (max. 8388607)
- 329 compressed objects within 4 object streams
- 53 named destinations out of 1000 (max. 500000)
+ 391 PDF objects out of 1000 (max. 8388607)
+ 335 compressed objects within 4 object streams
+ 55 named destinations out of 1000 (max. 500000)
  165 words of extra memory for PDF output out of 10000 (max. 10000000)
 
