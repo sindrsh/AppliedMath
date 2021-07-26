@@ -1,8 +1,38 @@
-\input{/home/sindre/P/doc}
-\input{/home/sindre/P/preamb}
+\input{../doc}
+\input{../preamb}
 
 \begin{document}
+\section{Symmetri og speiling}
+\vs
+\prbxl{0.65}{Mange figurer\footnote{Bildet av sommerfuglen er hentet fra \net{https://freesvg.org/butterfly-silhouette-line-art}{https://freesvg.org/butterfly-silhouette-line-art}.} kan deles inn i to deler hvor den éne delen bare er en vridd, vendt eller forskjøvet utgave av den andre. Dette kalles \textit{symmetri}, og en linje som deler figuren inn i to ''like'' deler kalles en \textit{symmetrilinje}. En symmetri hvor det er snakk om to deler som er vendte utgaver av hverandre, kalles \textit{speilingssymmetri}.}
+\fgbxr{0.3}{
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{\fpath{sym}}
+\end{figure}
+}
 
+
+\eks[2]{
+Den røde linja er symmetrilinja til sommerfuglen.
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.3]{\fpath{btfly}}
+\end{figure}
+}
+\eks[2]{
+	Den røde linja er symmetrilinja til den blå trekanten
+	\fig{sym1}
+}
+\eks[2]{
+	Den røde linja og den blå linja er begge symmetrilinjer til det grønne rektangelet.
+	\fig{sym2}
+}\vsk
+
+\reg[Speiling]{
+To speilvendte punkt har lik avstand til symmetrilinja.
+}
+\subsection{I et koordinatsystem}
 \section{Størrelser, enheter og prefikser}
 Det vi kan måle og uttrykke med tall, kaller vi \textit{størrelser}. Videre har vi \textit{størrelser med dimensjoner} og \textit{dimensjonsløse størrelser}.\vsk
 
@@ -138,8 +168,8 @@ Altså:
 For å regne ut volumet av de mest elementære figurene vi har, kan det være lurt å bruke begrepet \textit{grunnflate}. Slik som for en grunnlinje, er det vårt valg av grunnflate som bestemer hvordan vi skal regne ut høyden. For en slik boks som vi akkurat så på, er det naturlig å velge flaten som ''ligger ned'' til å være grunnflaten, og for å indikere dette brukes ofte $ G $:
 \begin{figure}
 		\centering
-	\includegraphics[]{\asym{vol2b}}\qquad
-	\includegraphics[]{\asym{vol2c}}
+	\includegraphics[]{\fpath{vol2b}}\qquad
+	\includegraphics[]{\fpath{vol2c}}
 \end{figure}
 Grunnflaten har arealet $ 3\cdot4=12 $, mens høyden er 2. Volumet av hele boksen er grunnflaten ganger høyden:
 \alg{
@@ -153,16 +183,16 @@ Volumet $ V $ av en firkantet boks eller en sylinder med grunnflate $ G $ og hø
 \begin{figure}
 	\centering
 	\footnotesize
-	\stackunder[6pt]{\includegraphics[scale=0.7]{\asym{vol3c}}}{Boks}\qquad
-	\stackunder[6pt]{\includegraphics[scale=0.7]{\asym{vol3b}}}{Sylinder}
+	\stackunder[6pt]{\includegraphics[scale=0.7]{\fpath{vol3c}}}{Boks}\qquad
+	\stackunder[6pt]{\includegraphics[scale=0.7]{\fpath{vol3b}}}{Sylinder}
 \end{figure}
 Volumet $ V $ av en kjegle eller en pyramide med grunnflate $ G $ og høyde $ h $ er:
 \[ V = \frac{G\cdot h}{3} \]
 \begin{figure}
 	\centering
 \footnotesize
-\stackunder[6pt]{\includegraphics[scale=0.7]{\asym{vol3}}}{Kjegle}\qquad
-\stackunder[6pt]{\includegraphics[scale=0.7]{\asym{vol3a}}}{Pyramide}
+\stackunder[6pt]{\includegraphics[scale=0.7]{\fpath{vol3}}}{Kjegle}\qquad
+\stackunder[6pt]{\includegraphics[scale=0.7]{\fpath{vol3a}}}{Pyramide}
 \end{figure}
 }
 \textbf{Volumet av ei kule} \\
@@ -172,14 +202,14 @@ Som vanlig skiller ting seg ut når vi snakker om renit sirkelformede figurer, o
 	\[ V = \frac{4\cdot\pi\cdot r^3}{3} \]
 \begin{figure}
 	\centering
-	\includegraphics[scale=0.7]{\asym{vol3d}}
+	\includegraphics[scale=0.7]{\fpath{vol3d}}
 \end{figure}
 }
 \section{Omkrets, areal og volum med enheter}
 Når me måler lengder med linjal eller liknande må me passe på å ta med eininga i svaret vårt:
 \begin{figure}
 	\centering
-	\includegraphics[scale=0.06]{\asym{2t5}}
+	\includegraphics[scale=0.06]{\fpath{2t5}}
 \end{figure}
 \alg{
 	\text{Omkretsen til rektangelet} &= 5\enh{cm}+2\enh{cm}+5\enh{cm}+2\enh{cm} \\

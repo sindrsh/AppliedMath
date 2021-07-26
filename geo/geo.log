@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  30 JUN 2021 10:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  26 JUL 2021 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **geo.tex
 (./geo.tex
 LaTeX2e <2020-02-02> patch level 2
-L3 programming layer <2020-02-14> (/home/sindre/P/doc.tex)
+L3 programming layer <2020-02-14> (../doc.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cls
 Document Class: standalone 2018/03/26 v1.3a Class to compile TeX sub-files stan
 dalone
@@ -55,8 +55,7 @@ File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
-))
-(/home/sindre/P/preamb.tex
+)) (../preamb.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 )
@@ -1329,261 +1328,335 @@ LaTeX Info: Redefining \nameref on input line 4.
 \@outlinefile=\write7
 \openout7 = `geo.out'.
 
- (./geo.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
 .
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7
 .
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-2.
+7.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-2.
+7.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 2.
+(Font)              <10.95> on input line 7.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 2.
+(Font)              <8> on input line 7.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 2.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+(Font)              <6> on input line 7.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+esint on input line 2
+LaTeX Font Info:    Trying to load font information for U+esint on input line 7
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
-))
-\tf@toc=\write8
-\openout8 = `geo.toc'.
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 7.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 7.
 
- [1
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[][][][]\T1/lmr/m/n/9 Bildet av som-merfuglen er hen-tet fra [][]https://freesv
+g.org/butterfly-silhouette-line-
+ []
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[]\T1/lmr/m/n/10.95 Mange fig-urer[][][][] kan de-les inn i to deler hvor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/10.95 den éne de-len bare er en vridd, vendt eller
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/10.95 forskjøvet ut-gave av den an-dre. Dette kalles
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/it/10.95 sym-metri\T1/lmr/m/n/10.95 , og en linje som deler fig-uren 
+inn
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/10.95 i to ''like'' deler kalles en \T1/lmr/m/it/10.95 sym-metril-i
+nje\T1/lmr/m/n/10.95 . En
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/10.95 sym-metri hvor det er snakk om to deler som
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/lmr/m/n/10.95 er vendte ut-gaver av hveran-dre, kalles \T1/lmr/m/it/10.95 s
+peil-
+ []
+
+<../fig/sym.png, id=29, 602.25pt x 540.0175pt>
+File: ../fig/sym.png Graphic file (type png)
+<use ../fig/sym.png>
+Package pdftex.def Info: ../fig/sym.png  used on input line 13.
+(pdftex.def)             Requested size: 120.44786pt x 108.00157pt.
+
+Overfull \hbox (18.0169pt too wide) in paragraph at lines 13--13
+ [] 
+ []
+
+<../fig/btfly.png, id=31, 617.30624pt x 392.46625pt>
+File: ../fig/btfly.png Graphic file (type png)
+<use ../fig/btfly.png>
+Package pdftex.def Info: ../fig/btfly.png  used on input line 22.
+(pdftex.def)             Requested size: 185.1933pt x 117.74077pt.
+<../fig/sym1.pdf, id=32, 142.26149pt x 83.20084pt>
+File: ../fig/sym1.pdf Graphic file (type pdf)
+<use ../fig/sym1.pdf>
+Package pdftex.def Info: ../fig/sym1.pdf  used on input line 26.
+(pdftex.def)             Requested size: 142.26112pt x 83.2006pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]\T1/lmr/m/n/10.95 Den røde linja og den blå linja er begge sym-metril-in-jer 
+til det
+ []
+
+<../fig/sym2.pdf, id=33, 142.26149pt x 101.76018pt>
+File: ../fig/sym2.pdf Graphic file (type pdf)
+<use ../fig/sym2.pdf>
+Package pdftex.def Info: ../fig/sym2.pdf  used on input line 30.
+(pdftex.def)             Requested size: 142.26112pt x 101.75992pt.
+[1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../fig/sym.png> <../fig/bt
+fly.png> <../fig/sym1.pdf>] [2 <../fig/sym2.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 \T1/lmr/m/n/10.95 Komma må fly-ttes like mange ganger som an-tall bokser vi må
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 []\T1/lmr/m/sl/10.95 Obs! \T1/lmr/m/n/10.95 For lengde brukes også en-heten 'mi
 l' (1 mil er 10000m).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 []\T1/lmr/m/n/10.95 Vi skriver tabellen vår med L i midten og leg-ger merke til
  at vi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 \T1/lmr/m/n/10.95 Dét be-tyr at vi må fly-tte kom-maet vårt tre plasser til ven
 -stre for
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 []\T1/lmr/m/n/10.95 Vi skriver tabellen vår med g i midten og leg-ger merke til
  at vi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 \T1/lmr/m/n/10.95 Dét be-tyr at vi må fly-tte kom-maet vårt fire plasser til hø
 yre for
  []
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
 []\T1/lmr/m/n/10.95 Vi skriver tabellen vår med m i midten, leg-ger til 'mil', 
 og
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
 \T1/lmr/m/n/10.95 merker oss at vi må \T1/lmr/m/sl/10.95 fem bokser til høyre \
 T1/lmr/m/n/10.95 for å komme oss fra hg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
 \T1/lmr/m/n/10.95 Dét be-tyr at vi må fly-tte kom-maet vårt fem plasser til høy
 re for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
 \T1/lmr/m/sl/10.95 Merk: \T1/lmr/m/n/10.95 'mil' er en egen en-het, ikke en pre
 -fiks. Vi skriver der-for
  []
 
 [4]
-<../fig/vol1.pdf, id=49, 47.15617pt x 49.18375pt>
+<../fig/vol1.pdf, id=73, 47.15617pt x 49.18375pt>
 File: ../fig/vol1.pdf Graphic file (type pdf)
 <use ../fig/vol1.pdf>
-Package pdftex.def Info: ../fig/vol1.pdf  used on input line 128.
+Package pdftex.def Info: ../fig/vol1.pdf  used on input line 157.
 (pdftex.def)             Requested size: 47.15604pt x 49.18361pt.
-<../fig/vol2.pdf, id=50, 147.55125pt x 124.44493pt>
+<../fig/vol2.pdf, id=74, 147.55125pt x 124.44493pt>
 File: ../fig/vol2.pdf Graphic file (type pdf)
 <use ../fig/vol2.pdf>
-Package pdftex.def Info: ../fig/vol2.pdf  used on input line 130.
+Package pdftex.def Info: ../fig/vol2.pdf  used on input line 159.
 (pdftex.def)             Requested size: 147.55087pt x 124.44461pt.
 
-Overfull \hbox (0.3001pt too wide) in paragraph at lines 131--132
+Overfull \hbox (0.3001pt too wide) in paragraph at lines 160--161
 \T1/lmr/m/n/10.95 Vi kan må merke oss at vi har plass til akku-rat 24 en-het-sk
 u-ber i denne 
  []
 
-<../fig/vol2a.pdf, id=51, 147.55125pt x 124.44493pt>
+<../fig/vol2a.pdf, id=75, 147.55125pt x 124.44493pt>
 File: ../fig/vol2a.pdf Graphic file (type pdf)
 <use ../fig/vol2a.pdf>
-Package pdftex.def Info: ../fig/vol2a.pdf  used on input line 132.
+Package pdftex.def Info: ../fig/vol2a.pdf  used on input line 161.
 (pdftex.def)             Requested size: 147.55087pt x 124.44461pt.
 [5
 
  <../fig/vol1.pdf> <../fig/vol2.pdf> <../fig/vol2a.pdf>]
-<../fig/vol2b.pdf, id=65, 147.55125pt x 124.44493pt>
+<../fig/vol2b.pdf, id=89, 147.55125pt x 124.44493pt>
 File: ../fig/vol2b.pdf Graphic file (type pdf)
 <use ../fig/vol2b.pdf>
-Package pdftex.def Info: ../fig/vol2b.pdf  used on input line 142.
+Package pdftex.def Info: ../fig/vol2b.pdf  used on input line 171.
 (pdftex.def)             Requested size: 147.55087pt x 124.44461pt.
-<../fig/vol2c.pdf, id=66, 138.5175pt x 76.26492pt>
+<../fig/vol2c.pdf, id=90, 138.5175pt x 76.26492pt>
 File: ../fig/vol2c.pdf Graphic file (type pdf)
 <use ../fig/vol2c.pdf>
-Package pdftex.def Info: ../fig/vol2c.pdf  used on input line 143.
+Package pdftex.def Info: ../fig/vol2c.pdf  used on input line 172.
 (pdftex.def)             Requested size: 138.51715pt x 76.26472pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--168
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
 []\T1/lmr/m/n/10.95 Volumet $\OML/lmm/m/it/10.95 V$ \T1/lmr/m/n/10.95 av en fir
 kan-tet boks eller en sylin-der med grun-n-flate
  []
 
-<../fig/vol3c.pdf, id=67, 117.41869pt x 123.46124pt>
+<../fig/vol3c.pdf, id=91, 117.41869pt x 123.46124pt>
 File: ../fig/vol3c.pdf Graphic file (type pdf)
 <use ../fig/vol3c.pdf>
-Package pdftex.def Info: ../fig/vol3c.pdf  used on input line 168.
+Package pdftex.def Info: ../fig/vol3c.pdf  used on input line 197.
 (pdftex.def)             Requested size: 82.1925pt x 86.42226pt.
 File: ../fig/vol3c.pdf Graphic file (type pdf)
 <use ../fig/vol3c.pdf>
-Package pdftex.def Info: ../fig/vol3c.pdf  used on input line 168.
+Package pdftex.def Info: ../fig/vol3c.pdf  used on input line 197.
 (pdftex.def)             Requested size: 82.1925pt x 86.42226pt.
-<../fig/vol3b.pdf, id=68, 126.45242pt x 126.4725pt>
+<../fig/vol3b.pdf, id=92, 126.45242pt x 126.4725pt>
 File: ../fig/vol3b.pdf Graphic file (type pdf)
 <use ../fig/vol3b.pdf>
-Package pdftex.def Info: ../fig/vol3b.pdf  used on input line 168.
+Package pdftex.def Info: ../fig/vol3b.pdf  used on input line 197.
 (pdftex.def)             Requested size: 88.51608pt x 88.53014pt.
 File: ../fig/vol3b.pdf Graphic file (type pdf)
 <use ../fig/vol3b.pdf>
-Package pdftex.def Info: ../fig/vol3b.pdf  used on input line 168.
+Package pdftex.def Info: ../fig/vol3b.pdf  used on input line 197.
 (pdftex.def)             Requested size: 88.51608pt x 88.53014pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--168
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
 \T1/lmr/m/n/10.95 Volumet $\OML/lmm/m/it/10.95 V$ \T1/lmr/m/n/10.95 av en kje-g
 le eller en pyra-mide med grun-n-flate $\OML/lmm/m/it/10.95 G$ \T1/lmr/m/n/10.9
 5 og
  []
 
-<../fig/vol3.pdf, id=69, 115.43124pt x 101.35867pt>
+<../fig/vol3.pdf, id=93, 115.43124pt x 101.35867pt>
 File: ../fig/vol3.pdf Graphic file (type pdf)
 <use ../fig/vol3.pdf>
-Package pdftex.def Info: ../fig/vol3.pdf  used on input line 168.
+Package pdftex.def Info: ../fig/vol3.pdf  used on input line 197.
 (pdftex.def)             Requested size: 80.80132pt x 70.95058pt.
 File: ../fig/vol3.pdf Graphic file (type pdf)
 <use ../fig/vol3.pdf>
-Package pdftex.def Info: ../fig/vol3.pdf  used on input line 168.
+Package pdftex.def Info: ../fig/vol3.pdf  used on input line 197.
 (pdftex.def)             Requested size: 80.80132pt x 70.95058pt.
-<../fig/vol3a.pdf, id=70, 113.40367pt x 118.4425pt>
+<../fig/vol3a.pdf, id=94, 113.40367pt x 118.4425pt>
 File: ../fig/vol3a.pdf Graphic file (type pdf)
 <use ../fig/vol3a.pdf>
-Package pdftex.def Info: ../fig/vol3a.pdf  used on input line 168.
+Package pdftex.def Info: ../fig/vol3a.pdf  used on input line 197.
 (pdftex.def)             Requested size: 79.38202pt x 82.90916pt.
 File: ../fig/vol3a.pdf Graphic file (type pdf)
 <use ../fig/vol3a.pdf>
-Package pdftex.def Info: ../fig/vol3a.pdf  used on input line 168.
+Package pdftex.def Info: ../fig/vol3a.pdf  used on input line 197.
 (pdftex.def)             Requested size: 79.38202pt x 82.90916pt.
 [6 <../fig/vol2b.pdf> <../fig/vol2c.pdf>]
-<../fig/vol3d.pdf, id=82, 128.03835pt x 127.97812pt>
+<../fig/vol3d.pdf, id=106, 128.03835pt x 127.97812pt>
 File: ../fig/vol3d.pdf Graphic file (type pdf)
 <use ../fig/vol3d.pdf>
-Package pdftex.def Info: ../fig/vol3d.pdf  used on input line 178.
+Package pdftex.def Info: ../fig/vol3d.pdf  used on input line 207.
 (pdftex.def)             Requested size: 89.62622pt x 89.58406pt.
  [7 <../fig/vol3c.pdf> <../fig/vol3b.pdf> <../fig/vol3.pdf> <../fig/vol3a.pdf>]
  [8 <../fig/vol3d.pdf>]
-<../fig/2t5.jpg, id=112, 3107.61pt x 1541.76pt>
+<../fig/2t5.jpg, id=136, 3107.61pt x 1541.76pt>
 File: ../fig/2t5.jpg Graphic file (type jpg)
 <use ../fig/2t5.jpg>
-Package pdftex.def Info: ../fig/2t5.jpg  used on input line 183.
+Package pdftex.def Info: ../fig/2t5.jpg  used on input line 212.
 (pdftex.def)             Requested size: 186.44855pt x 92.5016pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 195.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 195.
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
 []\T1/lmr/m/n/9 Vi skriv cm$[]$ fordi vi har
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
 \T1/lmr/m/n/9 ganga saman 2 lengder
  []
 
 [9
 
  <../fig/2t5.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 225.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 225.
  (./geo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 225.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 225.
 Package rerunfilecheck Info: File `geo.out' has not changed.
-(rerunfilecheck)             Checksum: 7CE251EF4D00FBB9FB9882ED6F015EC5;186.
+(rerunfilecheck)             Checksum: 84249EA255B05BF17DBAE40CA451A0CA;316.
  ) 
 Here is how much of TeX's memory you used:
- 31308 strings out of 481239
- 615218 string characters out of 5920378
- 931382 words of memory out of 5000000
- 45871 multiletter control sequences out of 15000+600000
+ 31360 strings out of 481239
+ 616057 string characters out of 5920378
+ 932556 words of memory out of 5000000
+ 45918 multiletter control sequences out of 15000+600000
  606246 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,12n,104p,881b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm
-/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr1
-0.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on geo.pdf (9 pages, 1000289 bytes).
+ 70i,12n,104p,869b,985s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
+st, replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvip
+s/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/t
+exmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/l
+mbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
+Output written on geo.pdf (9 pages, 1109520 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
- 121 compressed objects within 2 object streams
- 19 named destinations out of 1000 (max. 500000)
- 92 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 189 PDF objects out of 1000 (max. 8388607)
+ 139 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 500000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
