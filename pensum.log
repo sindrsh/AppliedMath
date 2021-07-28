@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  12 JUL 2021 21:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  28 JUL 2021 08:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1416,7 +1416,7 @@ Package rerunfilecheck Info: File `pensum.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  31107 strings out of 481239
- 611990 string characters out of 5920378
+ 611991 string characters out of 5920378
  940528 words of memory out of 5000000
  45720 multiletter control sequences out of 15000+600000
  563016 words of font info for 57 fonts, out of 8000000 for 9000
@@ -1425,7 +1425,7 @@ Here is how much of TeX's memory you used:
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
 vips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmr10.pfb>
-Output written on pensum.pdf (3 pages, 63806 bytes).
+Output written on pensum.pdf (3 pages, 63812 bytes).
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream

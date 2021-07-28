@@ -183,12 +183,12 @@ Sjansen er altså $ \frac{13}{20} $.
 Noen ganger blir vi bedt om å sette opp informasjonen vi får i et \textit{venndiagram}. Målet med et venndiagram er å lage en figur som beskriver antallet av de enkelte utfallene og de \textit{felles} utfallene. La oss bruke eksempelet over til å lage en slik figur. For klassen der noen spiller fotball, noen handball og noen begge deler, kan vi lage et venndiagram som vist under.
 \begin{figure}
 	\centering
-	\includegraphics[]{\asym{venn}}
+	\includegraphics[]{\fpath{venn}}
 \end{figure}
 Den grønne ellipsen (strekt sirkel) representerer de som spiller fotball ($ F $) og den blå de som spiller handball ($ H $). Fordi noen spiller \textit{begge} sportene ($ F\cap H $), har vi tegnet ellipsene litt over i hverandre. Nå vet vi at 7 spiller fotball, 10 spiller handball og fire av disse gjør \textit{begge }deler. Dette kan vi skrive inn i diagrammet vårt på følgende måte:
 \begin{figure}
 	\centering
-	\includegraphics[]{\asym{vennb}}
+	\includegraphics[]{\fpath{vennb}}
 \end{figure}
 Diagrammet forteller slik at tre personer spiller \textsl{bare} fotball og 6 spiller \textsl{bare} handball. Men så er det fire stykker som spiller \textsl{både} fotball og handball, til sammen er det derfor syv som spiller fotball og ti som spiller handball.
 \eks[1]{I en matematikklasse på Akademiet VGS Ålesund er det 31 elever. I denne klassen er det 15 elever som tar buss til skolen og 9 elever som tar båt. Av disse er det 3 stykker som tar både buss og båt. \vsk
@@ -202,7 +202,7 @@ Diagrammet forteller slik at tre personer spiller \textsl{bare} fotball og 6 spi
 Siden 3 elever tar \textsl{både} buss og båt, er det \y{15-3=12} som \textsl{bare} tar buss og \y{9-3} som \textsl{bare} tar båt. Vi lar $ A $ bety \textit{tar buss} og $ B $ bety \textit{tar båt}, venndiagrammet vårt blir da seende slik ut:
 \begin{figure}
 	\centering
-	\includegraphics[]{\asym{venne}}
+	\includegraphics[]{\fpath{venne}}
 \end{figure}
 \textbf{b)} Sannsynligheten for at en person tar buss eller båt kan vi skrive som \y{P(A\cup B) }. Siden 15 elever tar buss, 9 tar båt og 3 tar begge deler, er det i alt \y{15+9-3=21} elever som tar buss eller båt. Siden det er 31 elever i alt å velge mellom, får vi at:
 \[ P(A\cup B)=\frac{21}{31} \]\vs
@@ -228,12 +228,12 @@ Om en klasse med 29 elever vet vi følgende:
 Når vi skal lage et venndiagram er det lurt å skrive inn de felles utfallene først. Ut ifra fjerde til syvende punkt kan vi tegne dette:
 \begin{figure}
 	\centering
-	\includegraphics[]{\asym{venn3ea}}
+	\includegraphics[]{\fpath{venn3ea}}
 \end{figure}
 Da ser vi videre at \y{10-2-1-3=4} elever spiller \textsl{bare} fotball, \y{8-2-1=5} spiller \textsl{bare} handball og \y{6-3-1-0=2} spiller \textsl{bare} volleyball:
 \begin{figure}
 	\centering
-	\includegraphics[]{\asym{venn3e}}
+	\includegraphics[]{\fpath{venn3e}}
 \end{figure} 
 \textbf{b)} Av diagrammet vårt ser vi at det er $ 5+2+4+3+1+2+0=17 $ uniker elever som spiller én eller flere av sportene. Sjansen for å trekke én av disse 17 i en klasse med 29 elever er $ \frac{17}{29} $. \br
 
@@ -274,7 +274,7 @@ Deretter fyller vi inn tabellen ut ifra informasjonene vi har:
 \subsection{Kombinasjoner}
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.8]{\asym{bolle}}
+	\includegraphics[scale=0.8]{\fpath{bolle}}
 	\vs
 \end{figure}
 La oss tenke oss at vi har en bolle med fire kuler som er nummererte fra 1 til 4. I et forsøk trekker vi opp én og én kule fram til vi har trukket opp tre kuler. Etterpå leser vi opp \textit{kombinasjonen} vi har fått. Hvis vi for eksempel først trekker kule 2, deretter kule 4, og så kule 3, får vi kombinasjonen $2\; 4\; 3$.
@@ -282,20 +282,20 @@ La oss tenke oss at vi har en bolle med fire kuler som er nummererte fra 1 til 4
 Legger vi kulene tilbake og foretar trekningen på nytt, får vi kanskje kombinasjonen $1\; 3\; 4$, eller kanskje $4\;1\; 2$, eller en helt annen kombinasjon. Så hvor mange forskjellige kombinasjoner kan vi få? La oss lage en figur som hjelper oss. Før første trekning ligger det fire kuler i bollen, vi kan derfor si at vi har 4 veier å gå. Enten trekker vi kule 1, eller kule 2, eller kule 3, eller kule 4:
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.8]{\asym{komb0}}
+\includegraphics[scale=0.8]{\fpath{komb0}}
 \end{figure}
 Kula vi trekker opp legger vi ut av bollen og trekker så andre gang. For hver av de fire veiene vi kunne gå i første trekning får vi nå tre nye veier å følge \textendash \,altså har vi nå  $3\cdot4=12$ veier vi kan gå.\\
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.8]{\asym{komb1}}
+	\includegraphics[scale=0.8]{\fpath{komb1}}
 \end{figure}
  
 Den andre kula vi trekker opp legger vi også ut av bollen,  så  for hver av de 12 veiene fra 2. trekning, får vi nå to nye mulige veier å gå. Totalt antall veier blir derfor $12\cdot2=24$. 
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.8]{\asym{komb}}
+\includegraphics[scale=0.8]{\fpath{komb}}
 \end{figure}
 
 Denne utregningen kunne vi også ha skrevet slik:
@@ -321,7 +321,7 @@ Dette fordi vi har fire veier å gå i første trekning, for hver av disse tre v
 \subsection{Sannsynlighet ved gjentatte trekk}
 \begin{figure}[H]
 \centering
-\includegraphics{\asym{bolle2}}
+\includegraphics{\fpath{bolle2}}
 \end{figure}
 La oss tenke at vi har en med bolle sju kuler. Tre av dem er grønne, to er blå og to er røde. Si at vi tar opp først én kule av bollen, og deretter én til. Vi spør oss nå hva sannsynligheten er for at vi trekker opp to grønne kuler. Hvis vi lar $ G $ bety \textit{trekke en grønn kule}, kan vi skrive denne sannsynligheten som $ P(GG) $.
 
@@ -371,7 +371,7 @@ Sannsynligheten for at $ A $  trekkes først, deretter $ B $, deretter $ C $ og 
 Vi kan utnytte ?? for å lage en hjelpetegning når vi har å gjøre med gjentatte trekk. Tegningen vi her skal ende opp med kalles et \textit{valgtre}. Vi tegner da en lignende figur som vi gjorde i delkapittel \ref{komb}, men langs alle veier skriver vi nå på sannsynligheten for utfallet veien leder oss til. 
 \begin{figure}[H]
 \centering
-\includegraphics{\asym{bolle2}}
+\includegraphics{\fpath{bolle2}}
 \end{figure}
 La oss igjen se på bollen med de syv kulene. Trekk av grønn, blå eller rød kule betegner vi henholdsvis med bokstavene \textit{G}, \textit{B} og \textit{R}.
 
@@ -380,7 +380,7 @@ Ved første trekning er sjansen for å trekke en grønn kule $ \frac{3}{7} $, de
 Og sånn fortseter vi til vi har ført opp alle sannsynlighetene til hver vei:  \vs
 \begin{figure}[H]
 \centering
-\includegraphics[]{\asym{tree}}
+\includegraphics[]{\fpath{tree}}
 \end{figure}
 
 For å få en rask oversikt over de forskjellige kombinasjonene veiene fører til, kan det være lurt å skrive opp disse under hver ende av treet: 
@@ -409,7 +409,7 @@ P(GB\cup BG)&=P(GB)+P(BG) \\
 \textbf{a)}
 \begin{figure}[H]
 	\centering
-	\includegraphics{\asym{treee}}
+	\includegraphics{\fpath{treee}}
 \end{figure}
 \textbf{b)} Av valgtreet vårt ser vi at:
 \alg{

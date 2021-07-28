@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  12 JUL 2021 21:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  28 JUL 2021 11:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1347,7 +1347,7 @@ Package rerunfilecheck Info: File `framside.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  30960 strings out of 481239
- 608991 string characters out of 5920378
+ 608992 string characters out of 5920378
  924536 words of memory out of 5000000
  45617 multiletter control sequences out of 15000+600000
  539395 words of font info for 28 fonts, out of 8000000 for 9000

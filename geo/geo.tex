@@ -2,18 +2,39 @@
 \input{../preamb}
 
 \begin{document}
-\section{Symmetri og speiling}
+\section{Symmetri}
 \vs
-\prbxl{0.65}{Mange figurer\footnote{Bildet av sommerfuglen er hentet fra \net{https://freesvg.org/butterfly-silhouette-line-art}{https://freesvg.org/butterfly-silhouette-line-art}.} kan deles inn i to deler hvor den éne delen bare er en vridd, vendt eller forskjøvet utgave av den andre. Dette kalles \textit{symmetri}, og en linje som deler figuren inn i to ''like'' deler kalles en \textit{symmetrilinje}. En symmetri hvor det er snakk om to deler som er vendte utgaver av hverandre, kalles \textit{speilingssymmetri}.}
-\fgbxr{0.3}{
+\prbxl{0.6}{Mange figurer\footnote{Bildet av sommerfuglen er hentet fra \net{https://freesvg.org/butterfly-silhouette-line-art}{https://freesvg.org/butterfly-silhouette-line-art}.} kan deles inn i minst to deler hvor den éne delen bare er en vridd, vendt eller forskjøvet utgave av den andre. Dette kalles \textit{symmetri}\index{symmetri}.}
+\quad \fgbxr{0.3}{
 \begin{figure}
 	\centering
 	\includegraphics[scale=0.2]{\fpath{sym}}
 \end{figure}
 }
-
-
+\reg[Translasjonssymmetri (parallellforskyvning)]{
+En symmetri hvor minst to deler er forskjøvne utgaver av hverandre kalles en \textit{translasjonssymmetri}. 
+}
+\eks[1]{
+Figuren under viser en translasjonssymmetri som består av to sommerfugler.
+\begin{figure}
+	\centering
+	\subfloat{\includegraphics[scale=0.2]{\fpath{btfly0}}}\quad
+	\subfloat{\includegraphics[scale=0.2]{\fpath{btfly0}}}
+\end{figure}
+}
+\newpage
 \eks[2]{
+Under vises $ \triangle ABC $ og et blått linjestykke.
+\fig{trans1a}
+Under vises $ \triangle ABC $ og $ \triangle ABC $ forskjøvet med det blå linjestykket. 
+\fig{trans1}
+}
+\reg[Speiling]{En symmetri hvor minst to deler er vendte utgaver av hverandre, kalles \textit{speilingssymmetri}. \vsk
+
+To speilvendte punkt har lik avstand til symmetrilinja.
+} 
+
+\eks[1]{
 Den røde linja er symmetrilinja til sommerfuglen.
 \begin{figure}
 	\centering
@@ -24,15 +45,16 @@ Den røde linja er symmetrilinja til sommerfuglen.
 	Den røde linja er symmetrilinja til den blå trekanten
 	\fig{sym1}
 }
-\eks[2]{
+\eks[3]{
 	Den røde linja og den blå linja er begge symmetrilinjer til det grønne rektangelet.
 	\fig{sym2}
-}\vsk
-
-\reg[Speiling]{
-To speilvendte punkt har lik avstand til symmetrilinja.
 }
-\subsection{I et koordinatsystem}
+\eks[4]{
+Under vises en form laget av punktene $ A, B, C, D, E $ og $ F $, og denne formen speilet om den blå linja.
+\fig{sym3}
+}
+\reg{Rotasjonssymmetri}{}
+
 \section{Størrelser, enheter og prefikser}
 Det vi kan måle og uttrykke med tall, kaller vi \textit{størrelser}. Videre har vi \textit{størrelser med dimensjoner} og \textit{dimensjonsløse størrelser}.\vsk
 
