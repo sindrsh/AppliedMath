@@ -4,7 +4,7 @@
 \begin{document}
 \section{Symmetri}
 \vs
-\prbxl{0.6}{Mange figurer\footnote{Bildet av sommerfuglen er hentet fra \net{https://freesvg.org/butterfly-silhouette-line-art}{https://freesvg.org/butterfly-silhouette-line-art}.} kan deles inn i minst to deler hvor den éne delen bare er en vridd, vendt eller forskjøvet utgave av den andre. Dette kalles \textit{symmetri}\index{symmetri}.}
+\prbxl{0.6}{Mange figurer\footnote{Bildet av sommerfuglen er hentet fra \net{https://freesvg.org/butterfly-silhouette-line-art}{https://freesvg.org/butterfly-silhouette-line-art}.} kan deles inn i minst to deler hvor den éne delen bare er en rotert (vridd), vendt eller forskjøvet utgave av den andre. Dette kalles \textit{symmetri}\index{symmetri}.}
 \quad \fgbxr{0.3}{
 \begin{figure}
 	\centering
@@ -12,7 +12,9 @@
 \end{figure}
 }
 \reg[Translasjonssymmetri (parallellforskyvning)]{
-En symmetri hvor minst to deler er forskjøvne utgaver av hverandre kalles en \textit{translasjonssymmetri}. 
+En symmetri hvor minst to deler er forskjøvne utgaver av hverandre kalles en \textit{translasjonssymmetri}. \vsk
+
+Når en form forskyves, blir hvert punkt på formen flyttet langs det samme linjestykket.
 }
 \eks[1]{
 Figuren under viser en translasjonssymmetri som består av to sommerfugler.
@@ -26,12 +28,12 @@ Figuren under viser en translasjonssymmetri som består av to sommerfugler.
 \eks[2]{
 Under vises $ \triangle ABC $ og et blått linjestykke.
 \fig{trans1a}
-Under vises $ \triangle ABC $ og $ \triangle ABC $ forskjøvet med det blå linjestykket. 
+Under vises $ \triangle ABC $ (og $ \triangle A'B'C' $) forskjøvet med det blå linjestykket. 
 \fig{trans1}
 }
-\reg[Speiling]{En symmetri hvor minst to deler er vendte utgaver av hverandre, kalles \textit{speilingssymmetri}. \vsk
+\reg[Speiling]{En symmetri hvor minst to deler er vendte utgaver av hverandre kalles en \textit{speilingssymmetri} og har minst én \textit{symmetrilinje} (\textit{symmetriakse}).\vsk
 
-To speilvendte punkt har lik avstand til symmetrilinja.
+Når en et punkt speiles, blir det forskjøvet vinkelrett på symmetrilinja fram til det nye og det opprinnelige punktet har samme avstand til symmetrilinja.
 } 
 
 \eks[1]{
@@ -42,19 +44,31 @@ Den røde linja er symmetrilinja til sommerfuglen.
 \end{figure}
 }
 \eks[2]{
-	Den røde linja er symmetrilinja til den blå trekanten
-	\fig{sym1}
-}
-\eks[3]{
 	Den røde linja og den blå linja er begge symmetrilinjer til det grønne rektangelet.
 	\fig{sym2}
 }
-\eks[4]{
+\eks[3]{
 Under vises en form laget av punktene $ A, B, C, D, E $ og $ F $, og denne formen speilet om den blå linja.
 \fig{sym3}
 }
-\reg{Rotasjonssymmetri}{}
+\reg[Rotasjonssymmetri]{
+En symmetri hvor minst to deler er en rotert utgave av hverandre kalles en \textit{rotasjonssymmetri} og har alltid et tilhørende \textit{rotasjonspunkt} og en \textit{rotasjonsvinkel}. \vsk
 
+Når et punkt roteres vil det nye og det opprinnelige punktet
+\begin{itemize}
+	\item ligge langs den samme sirkelbuen med sentrum i rotasjonspunktet. 
+	\item med rotasjonspunktet som toppunkt danne rotasjonsvinkelen.
+\end{itemize} 
+Hvis rotasjonsvinkelen er et positivt tall, vil det nye punktet forflyttes langs sirkelbuen \textsl{mot} klokka. Hvis rotasjonsvinkelen er et negativt tall, vil det nye punktet forflyttes langs sirkelbuen \textsl{med} klokka.
+}
+\eks[1]{
+Figuren under viser $ \triangle ABC $ rotert $ 80^\circ $ om rotasjonspunktet $ P $.
+\fig{rot1}
+Da er
+\[ PA='PA \quad,\quad PB=PB'\quad,\quad PC=PC' \]
+og
+\[ \angle APA'=\angle BPB'=\angle CPC'=80^\circ \]
+}
 \section{Størrelser, enheter og prefikser}
 Det vi kan måle og uttrykke med tall, kaller vi \textit{størrelser}. Videre har vi \textit{størrelser med dimensjoner} og \textit{dimensjonsløse størrelser}.\vsk
 
