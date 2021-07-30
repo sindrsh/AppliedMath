@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  11 JUL 2021 20:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  30 JUL 2021 08:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1624,7 +1624,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--255
 -or-di-nat-sys-
  []
 
-<../fig/lig1.pdf, id=104, 227.61035pt x 199.1741pt>
+<../fig/lig1.pdf, id=112, 227.61035pt x 199.1741pt>
 File: ../fig/lig1.pdf Graphic file (type pdf)
 <use ../fig/lig1.pdf>
 Package pdftex.def Info: ../fig/lig1.pdf  used on input line 255.
@@ -1649,7 +1649,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 296--296
 
  []
 
-<../fig/lig2.pdf, id=122, 227.62039pt x 199.1741pt>
+<../fig/lig2.pdf, id=130, 227.62039pt x 199.1741pt>
 File: ../fig/lig2.pdf Graphic file (type pdf)
 <use ../fig/lig2.pdf>
 Package pdftex.def Info: ../fig/lig2.pdf  used on input line 296.
@@ -1672,35 +1672,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 296--296
  []
 
 [10]
-<../fig/lig3.pdf, id=127, 256.07669pt x 227.62039pt>
+<../fig/lig3.pdf, id=135, 256.07669pt x 227.62039pt>
 File: ../fig/lig3.pdf Graphic file (type pdf)
 <use ../fig/lig3.pdf>
 Package pdftex.def Info: ../fig/lig3.pdf  used on input line 318.
 (pdftex.def)             Requested size: 256.07607pt x 227.61983pt.
  [11 <../fig/lig2.pdf>] [12 <../fig/lig3.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 322.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 322.
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
+[]\T1/lmr/m/n/10.95 sette ut-trykket fra punkt 1 inn i den an-dre liknin-gen, o
+g
+ []
+
+[13
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+[]\T1/lmr/m/n/10.95 Ved innset-tingsme-to-den kan man ofte spare seg for en del
+ utreg-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+\T1/lmr/m/n/10.95 n-ing ved å velge liknin-gen og den uk-jente som gir det fine
+ste
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+\T1/lmr/m/n/10.95 ut-trykket innled-ningsvis. Vi ob-serverer at [][] gir et fin
+t ut-trykk
+ []
+
+[14] [15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 400.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 400.
  (./lig.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 322.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 322.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 400.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 400.
 Package rerunfilecheck Info: File `lig.out' has not changed.
-(rerunfilecheck)             Checksum: FBBA231BFC2675843375331BA6209396;467.
+(rerunfilecheck)             Checksum: 506FB3C3C64C566DA482330884AB2955;587.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 31369 strings out of 481239
- 616047 string characters out of 5920378
- 935486 words of memory out of 5000000
- 45911 multiletter control sequences out of 15000+600000
- 652274 words of font info for 110 fonts, out of 8000000 for 9000
+ 31396 strings out of 481239
+ 616307 string characters out of 5920378
+ 935655 words of memory out of 5000000
+ 45924 multiletter control sequences out of 15000+600000
+ 655304 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,22n,104p,869b,988s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
 -ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
@@ -1712,12 +1738,13 @@ mf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
 /type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></us
 r/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/publ
 ic/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb>
-Output written on lig.pdf (12 pages, 277898 bytes).
+/texmf/fonts/type1/public/lm/lmro9.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmsy9.pfb>
+Output written on lig.pdf (15 pages, 310371 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 191 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 268 PDF objects out of 1000 (max. 8388607)
+ 226 compressed objects within 3 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 92 words of extra memory for PDF output out of 10000 (max. 10000000)
 

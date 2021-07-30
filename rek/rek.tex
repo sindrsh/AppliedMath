@@ -235,7 +235,7 @@ $ \colb{789}-\colr{324}=\colc{465} $	 \vsk
 	\item Vi adderer tallene vi har lagt til:  $ {6+70+389=465} $
 \end{enumerate}
 }
-\section{Ganging}
+\section{Ganging} \label{Ganging}
 \subsubsection{Ganging med 10, 100, 1\,000 osv.}
 \reg[Å gange heltall med 10, 100 osv. \label{gangheltallmed10100}]{
 	\vs
@@ -302,7 +302,7 @@ $ \colb{789}-\colr{324}=\colc{465} $	 \vsk
 \rref{gangheltallmed10100} er bare et spesialtilfelle av \rref{gangdesmed10100}. For eksempel, å bruke \rref{gangheltallmed10100} på reknestykket $ {7\cdot 10} $ gir samme resultat som å bruke \rref{gangdesmed10100} på reknestykket $ {7,0\cdot 10} $. 
 }
 \fork{Å gange tall med 10, 100 osv.}{
-Titallsystemet baserer seg på grupper av ti, hundre, tusen osv., og tideler, hundredeler og tusendeler osv (se \mb, s. 13). Når man ganger et tall med 10, vil hvert siffer i tallet ''forskyves'' én gruppe til venstre. (Se også opplegget på side ??)
+Titallsystemet baserer seg på grupper av ti, hundre, tusen osv., og tideler, hundredeler og tusendeler osv (se \mb, s. 13). Når man ganger et tall med 10, vil alle enere i tallet bli til tiere, alle tiere bli til hundrere osv. Hvert siffer forskyves altså én plass mot venstre. Tilsvarende forskyves hvert siffer to plasser mot venstre når man ganger med 100, tre plasser når man ganger med 1\,000 osv.
 }
 
 
@@ -331,7 +331,7 @@ Kompaktmetoden bygger på de samme prinsippene som ganging på utvidet form, men
 }
 \section{Divisjon}
 \subsubsection{\delmedtihundre}
-\reg[Deling med 10, 100, 1\,000 osv.]{
+\reg[Deling med 10, 100, 1\,000 osv. \label{deledesmed10100}]{
 \begin{itemize}
 	\item Når man deler et desimaltall med 10, får man svaret ved å flytte komma en plass til venstre.
 	\item Når man deler et desimaltall med 10, får man svaret ved å flytte komma to plasser til venstre.
@@ -386,6 +386,7 @@ Divisjon med oppstilling baserer seg på divisjon tolket som inndeling av mengde
 	}
 }
 \end{center}
+\newpage
 \subsubsection{Tabellmetoden}
 Tabellmetoden baserer seg på divisjon som omvendt operasjon av ganging. For eksempel er svaret på spørsmålet ''Hva er $ {76:4} $'' det samme som svaret på spørsmålet ''Hvilket tall må jeg gange 4 med for å få 76?''. På samme vis som for tabellmetoden ved subtraksjon er det opp til en selv å velge passende tall for å nå målet.
 \begin{center}
@@ -414,7 +415,7 @@ Tabellmetoden baserer seg på divisjon som omvendt operasjon av ganging. For eks
 			8&24 &\colg{894} \\ \hline
 			\colo{298} &
 		\end{tabular}
-}}  \newpage
+}}
 \parbox{0.415\linewidth}{
 	\eks[3]{		
 		$ 894:3=298 $	 \vsk
@@ -432,5 +433,73 @@ Tabellmetoden baserer seg på divisjon som omvendt operasjon av ganging. For eks
 }
 \end{center}
 \section{Standardform}
+Vi kan utnytte \rref{gangdesmed10100} og \rref{deledesmed10100}, og det vi kan om potenser (se \mb\,s ??), til å skrive tall på \textit{standardform}. \vsk
+
+La oss først se på tallet 6\,700 . Av \rref{gangmed10100} vet vi at
+\[ 6\,700=6,7\cdot1\,000 \]
+Og siden $ 1000=10^3 $, er
+\[ 6\,700=6,7\cdot1\,000=6,7\cdot 10^3 \]
+$ 6,7\cdot10^3 $ er 6\,700 skrevet på standardform fordi
+\begin{itemize}
+	\item 6,7 er større enn 0 og mindre enn 10.
+	\item $ 10^3 $ er en potens med grunntall 10 og eksponent 3, som er et heltall.
+	\item 6,7 og $ 10^3 $ er ganget sammen.
+\end{itemize} \vsk
+
+La oss også se på tallet  0,093. Av \rref{delemed10100} har vi at
+\[ 0,093=9,3: 100 \]
+Men å dele med 100 er det samme som å gange med $ 10^{-2} $, altså er
+\[ 0,093=9,3: 100=9,3\cdot10^{-2} \]
+$ 9,3\cdot10^{-2} $ er 0,093 skrevet på standardform fordi
+\begin{itemize}
+	\item 9,3 er større enn 0 og mindre enn 10.
+	\item $ 10^{-2} $ er en potens med grunntall 10 og eksponent $ -2 $, som er et heltall.
+	\item $ 9,3 $ og $ 10^{-2} $ er ganget sammen.
+\end{itemize} 
+\reg[Standardform]{
+Et tall skrevet som
+\[ a\cdot 10^n \]
+hvor $ {0<a<10} $ og $ n $ er et heltall, er et tall skrevet på standardform.
+}
+\eks[1]{
+Skriv 9800 på standardform.
+
+\sv \vsb
+\[ 9\,80 = 9,8\cdot 10^2 \]
+}
+\eks[2]{
+	Skriv 678,4 på standardform.
+	
+	\sv \vsb
+	\[ 0,00671 = 6,71\cdot 10^{-3} \]
+}
+\info{Tips}{
+For å skrive om tall på standardform kan du gjøre følgende:
+\begin{enumerate}
+	\item Flytt komma slik at du får et tall som ligger mellom 0 og 10.
+	\item Gang dette tallet med en tierpotens som har eksponent med tallverdi lik antallet plasser du flyttet komma. Flyttet du komma mot venstre/høgre, er eksponenten positiv/negativ. 
+\end{enumerate}
+}
+\eks[3]{
+Skriv 9\,761\,432 på standardform
+
+\sv
+\begin{enumerate}
+\item 	Vi flytter komma 6 plasser til venstre, og får $ 9\colr{,}761432 $
+\item Vi ganger dette tallet med $ 10^6 $, og får at 
+\[ 9\,761\,432=9,761432\cdot 10^6 \] 
+\end{enumerate}
+}
+\newpage
+\eks[4]{
+Skriv 0,00039 på standardform.
+
+\sv
+\begin{enumerate}
+	\item Vi flytter komma 4 plasser til høgre, og får $ 3,9 $.
+	\item Vi ganger dette tallet med $ 10^{-4} $, og får at
+	\[ 0,00039=3,9\cdot10^{-4} \]
+\end{enumerate}
+}
 \end{document}
 
