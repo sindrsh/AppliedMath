@@ -335,6 +335,40 @@ Et likningssett bestående av to ukjente, $ x $ og $ y $, kan løses ved å
 }
 \newpage
 \eks[1]{
+Løs likningssettet, og sett prøve på svaret.
+\alg{
+	x-y&=5 \tag{I} \label{eks4a}\vn
+	x+y&=9 \tag{II} \label{eks4b}
+}
+\sv
+Av \eqref{eks4a} har vi at \vn
+\alg{
+x-y &= 5 \\
+x&=5+y
+}
+Vi setter dette uttrykket for $ x $ inn i \eqref{eks4b}:
+\alg{
+5+y+y &=9 \\
+2y&=9-5 \\
+2y&=4 \\
+y&=2
+}
+Vi setter løsningen for $ y $ inn i uttrykket for $ x $:
+\alg{
+x&=5+y \\
+&=5+2 \\
+&=7
+}
+Altså er $ x=7 $ og $ y=2 $. \vsk
+
+Vi setter prøve på svaret:
+\alg{
+x-y&=7-2=5 \vn
+x+y &=7+2=9
+} 
+}
+\newpage
+\eks[1]{
 Løs likningssettet \vs
 \alg{
 	7x-5y&=-8 \tag{I} \label{eks1a}\vn
@@ -396,7 +430,35 @@ y&=\frac{3x+2}{4} \br
 }
 Altså er $ x=\frac{4}{5} $ og $ y=\frac{11}{10} $.
 }
-
+\subsection{Grafisk metode}
+\reg[Grafisk løsning av likningssett]{
+Et likningssett bestående av to ukjente, $ x $ og $ y $, kan løses ved å 
+	\begin{enumerate}
+		\item omskrive de to likningene til uttrykk for to linjer.
+		\item finne skjæringspunktet mellom linjene.
+\end{enumerate}
+}
+\eks[1]{
+Løs likningsettet\vs
+\alg{
+	x-y&=5 \tag{I} \label{eks3a}\vn
+	x+y&=9 \tag{II} \label{eks3b}
+}\vs 
+\sv
+Av \eqref{eks3a} har vi at \vs
+\alg{
+x-y&=5 \\
+y&=x-5
+}
+Av \eqref{eks3b} har vi at \vs
+\alg{
+x+y&=9 \\
+y &= 9-x 
+}
+Vi tegner disse to linjene inn i et koordinatsystem:
+\fig{ligset1}
+Altså er $ x=7 $ og $ y=2 $.
+}
 \end{document}
 
 
