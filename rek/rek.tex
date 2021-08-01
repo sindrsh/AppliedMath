@@ -5,7 +5,7 @@
 \section{Addisjon}
 
 \subsubsection{Oppstilling}
-Addisjon med oppstilling baserer seg på plassverdisystemet, der man trinnvis rekner summen av enerne, tierne, hundrerne, o.l.
+I denne boka tar vi bare for oss det som kalles addisjon med \textit{oppstilling}. Denne metoden baserer seg på plassverdisystemet, der man trinnvis regner ut summen av enerne, tierne, hundrerne, o.l.
 \begin{center}
 	\parbox{0.3\linewidth}{
 \eks[1]{
@@ -65,9 +65,13 @@ Addisjon med oppstilling baserer seg på plassverdisystemet, der man trinnvis re
 		\item Vi legger sammen tierne: $ {7+8=15} $. Siden 10 tiere er det samme som 100, legger vi til 1 på hundreplassen, og skriver opp de resterende 5 tierne på tierplassen.
 		\item Vi legger sammen hundrerne: $ 1+2=3 $.
 	\end{enumerate}
+} \vsk
+
+\spr{
+Det å skrive 1 på neste sifferplass kalles ''å skrive 1 i mente''.
 }
 \section{Subtraksjon}
-\subsubsection{Oppstilling}
+\subsection{Med oppstilling}
 Subtraksjon med oppstilling baserer seg på plassverdisystemet, der man trinnvis rekner differansen mellom enerne, tierne, hundrerne, o.l. Metoden tar også utgangspunkt i et mengdeperspektiv, og tillater derfor ikke differanser med negativ verdi (se forklaringen til \textsl{Eksempel 2}).
 \begin{center}
 	\parbox{0.3\linewidth}{
@@ -127,7 +131,7 @@ Subtraksjon med oppstilling baserer seg på plassverdisystemet, der man trinnvis
 		\item Siden vi tok 1 fra de 8 tierne, er der nå bare 7 tiere. Vi finner differansen mellom tierne: $ {7-6=1} $.
 	\end{enumerate}
 }
-\subsubsection{Tabellmetoden}
+\subsection{Med tabellmetoden}
 Tabellmetoden for subtraksjon tar utgangspunkt i at subtraksjon er en omvendt operasjon av addisjon. For eksempel, svaret på spørsmålet ''Hva er $ 789-324 $?'' er det samme som svaret på spørsmålet ''Hvor mye må jeg legge til på 324 for å få 789?''. Med tabellmetoden følger du ingen spesiell regel underveis, men velger selv tallene du mener passer best for å nå målet.\\
 \begin{center}
 \parbox{0.35\linewidth}{
@@ -232,11 +236,11 @@ $ \colb{789}-\colr{324}=\colc{465} $	 \vsk
 	\item Vi legger til 6, og får $ {324+6=330} $
 	\item Vi legger til 70, og får $ {70+330=400} $
 	\item Vi legger til 389, og får $ {389+400=789} $. Da er vi framme på 789.
-	\item Vi adderer tallene vi har lagt til:  $ {6+70+389=465} $
+	\item Vi summerer tallene vi har lagt til:  $ {6+70+389=465} $
 \end{enumerate}
 }
 \section{Ganging} \label{Ganging}
-\subsubsection{Ganging med 10, 100, 1\,000 osv.}
+\subsection{Ganging med 10, 100, 1\,000 osv.}
 \reg[Å gange heltall med 10, 100 osv. \label{gangheltallmed10100}]{
 	\vs
 	\begin{itemize}
@@ -266,7 +270,7 @@ $ \colb{789}-\colr{324}=\colc{465} $	 \vsk
 	802\cdot\colb{100\,000} &=80\,2\colb{00\,000}
 }
 }
-
+\newpage
 \reg[Å gange desimaltall med 10, 100 osv. \label{gangdesmed10100}]{
 	\vs
 	\begin{itemize}
@@ -301,33 +305,76 @@ $ \colb{789}-\colr{324}=\colc{465} $	 \vsk
 \info{Merk}{
 \rref{gangheltallmed10100} er bare et spesialtilfelle av \rref{gangdesmed10100}. For eksempel, å bruke \rref{gangheltallmed10100} på reknestykket $ {7\cdot 10} $ gir samme resultat som å bruke \rref{gangdesmed10100} på reknestykket $ {7,0\cdot 10} $. 
 }
+\newpage
 \fork{Å gange tall med 10, 100 osv.}{
 Titallsystemet baserer seg på grupper av ti, hundre, tusen osv., og tideler, hundredeler og tusendeler osv (se \mb, s. 13). Når man ganger et tall med 10, vil alle enere i tallet bli til tiere, alle tiere bli til hundrere osv. Hvert siffer forskyves altså én plass mot venstre. Tilsvarende forskyves hvert siffer to plasser mot venstre når man ganger med 100, tre plasser når man ganger med 1\,000 osv.
 }
-
-
-
-\subsubsection{Ganging på utvidet form}
-Ganging på utvidet form baserer seg på distributiv lov (se \mb\,, s. 30).
-\eks[1]{
+\subsection{Ganging på utvidet form}
+Ganging på utvidet form bruker vi for å rekne multiplikasjon mellom flersifrede tall. Metoden baserer seg på distributiv lov (se \mb\,, s. 30). \regv
+\eks[1]{ \vs
 \begin{figure}
 	\centering
 	\includegraphics[]{fig/gang1}
 \end{figure}
 }
-\eks[2]{
+\eks[2]{ \vs
 \begin{figure}
 	\centering
 	\includegraphics[]{fig/gfleirsif}
 \end{figure}
 }
-\subsubsection{Kompaktmetoden}
-Kompaktmetoden bygger på de samme prinsippene som ganging på utvidet form, men har en skrivemåte som gjør utrekningen kortere.
+\fork{Eksempel 1}{
+24 kan skrives som $ 20+4 $, altså er
+\[ 24\cdot3 =(20+4)\cdot3 \]
+Videre er 
+\algv{
+(20+4)\cdot 3 &=20\cdot 3 + 4\cdot 3 \\
+&= 60+12 \\
+&= 72
+}
+}
+\newpage
+\fork{Eksempel 2}{
+Vi har at
+\alg{
+279&=200+70+9 \\
+34 &=30+4 	
+}
+Altså er
+\alg{
+279\cdot34&= (200+70+9)\cdot (30+4) 
+}
+Videre er 
+{
+\footnotesize
+\alg{
+(200+70+9)\cdot (30+4) &=200\cdot 30+70\cdot30+9\cdot30+200\cdot4+70\cdot4+9\cdot4
+\\
+&=9486}
+} \vs
+}
+\subsection{Kompaktmetoden}
+Kompaktmetoden bygger på de samme prinsippene som ganging på utvidet form, men har en skrivemåte som gjør utregningen korterere. \regv
+
 \eks[1]{
 	\begin{figure}
 		\centering
 		\includegraphics[]{fig/gfleirsifa}
 	\end{figure}
+}
+\fork{Eksempel 1}{
+Vi starter med å gange sifrene i 279 enkeltvis med 4:
+\begin{itemize}
+	\item $ 9\cdot 6=36 $, da skriver vi 6 på enerplassen og 3 i mente.
+	\item $ 7\cdot4 =28$, da skriver vi 8 på tierplassen og 2 i mente.
+	\item $ 2\cdot 4=8 $, da skriver vi 8 på hundrerplassen.
+\end{itemize}
+Så ganger vi sifrene i 279 enkeltvis med 30. Dette kan forenkles til å gange med 3, så lenge vi plasserer sifrene én plass forskjøvet til venstre i forhold til da vi ganget med 4:
+\begin{itemize}
+	\item $ 9\cdot 3=27 $, da skriver vi 7 på tierplassen og 2 i mente. 
+	\item $ 7\cdot3=21 $, da skriver vi 1 på hundrerplassen og 2 i mente.
+	\item $ 2\cdot3=6 $, da skriver vi 6 på tusenplassen.
+\end{itemize} 
 }
 \section{Divisjon}
 \subsubsection{\delmedtihundre}
