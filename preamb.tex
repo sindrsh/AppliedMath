@@ -76,7 +76,7 @@
 \definecolor{neg}{cmyk}{1,0.,0.,0}
 
 % Lister med bokstavar
-\usepackage{enumitem}
+\usepackage[inline]{enumitem}
 
 \newcounter{rg}
 \numberwithin{rg}{chapter}
@@ -176,6 +176,26 @@
 #1
 \end{enumerate}
 }
+
+\newcommand{\abch}[1]{
+	\hspace{-2pt}	\begin{enumerate*}[label=\alph*), itemjoin=\hspace{1cm}]
+		#1
+	\end{enumerate*}
+}
+
+\newcommand{\abchs}[2]{
+	\hspace{-2pt}	\begin{enumerate*}[label=\alph*), itemjoin=\hspace{1cm}, start=#1]
+		#2
+	\end{enumerate*}
+}
+
+\newcommand{\abcn}[1]{
+	\begin{enumerate}[label=\arabic*),leftmargin=20pt]
+		#1
+	\end{enumerate}
+}
+
+
 \newcommand{\opgt}{\phantomsection \addcontentsline{toc}{section}{Oppgaver} \section*{Oppgaver for kapittel \thechapter}\vs \setcounter{section}{1}}
 \newcounter{opg}
 \numberwithin{opg}{section}
