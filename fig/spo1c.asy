@@ -6,30 +6,28 @@ import inh;
 
 unitsize(0.75cm);
 
-pair A = (1,2);
-pair D = (1,1);
-pair B = (3,0);
-pair C = (0,4);
-pair F = (4,5);
-pair G = (4,-1);
+pair B = (4,0);
+pair C = (0,3);
 
 path p = O..B--C--cycle;
 
-pair n = (3,2);
+pair n = 2*(C-B);
+
+pair A = (8,0);
+pair D = A+n;
 
 transform r = shift(n);
-pair Am = r*A;
+
 pair Bm = r*B;
 pair Cm = r*C;
-pair Dm = r*D;
-pair Gm = r*G;
-pair Fm = r*F;
 pair Om = r*O;
 
+mkgrid((-1,8),(-1,6));
 
 draw(p);
-draw(shift(4,1)*((0,0)--n),blue,arrow=EndArrow);
+draw(A--D,blue+dashed);
 
 dott(O, "$A$", SW);
 dott(B, "$B$", SE);
 dott(C, "$C$", NW);
+

@@ -31,9 +31,9 @@ mkgrid((-1,7),(-1,7));
 draw(p);
 draw(r*p); 
 
-draw(B--Bm,blue+dashed);
-draw(C--Cm,blue+dashed);
-draw(O--Om,blue+dashed);
+draw(B--Bm,blue+dashed,arrow=EndArrow);
+draw(C--Cm,blue+dashed,arrow=EndArrow);
+draw(O--Om,blue+dashed,arrow=EndArrow);
 
 dott(O, "$A$", SW);
 dott(B, "$B$", SE);

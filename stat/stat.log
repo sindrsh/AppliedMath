@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  5 JUL 2021 08:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  5 AUG 2021 08:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1503,66 +1503,66 @@ ler i
 [6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
 []\T1/lmr/m/n/10.95 Medianen er tal-let som en-der opp i midten av dataset-tet 
 når det
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
 []\T1/lmr/m/n/10.95 Hvis dataset-tet har par-talls an-tall verdier, er me-di-a-
 nen gjen-
  []
 
 [7] [8]
-Overfull \hbox (1.047pt too wide) in paragraph at lines 190--191
+Overfull \hbox (1.047pt too wide) in paragraph at lines 197--198
 \T1/lmr/m/n/10.95 Ofte vil det også være store forskjeller (stor spred-ning) me
 l-lom dataene 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
 []\T1/lmr/m/n/10.95 Differansen mel-lom svarene med hen-holdsvis høyest og lave
 st
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--199
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
 []\T1/lmr/m/n/10.95 Svaret med hen-holdsvis høyest og lavest verdi er 124 og 38
 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--204
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
 []\T1/lmr/m/n/10.95 Svaret med hen-holdsvis høyest og lavest verdi er 14 og 0. 
 Altså
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
 []\T1/lmr/m/n/10.95 Skill det rangerte dataset-tet på midten, slik at to nye se
 tt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
 \T1/lmr/m/n/10.95 opp-står. (Viss det er odd-e-talls an-tall verdier i dataset-
 tet,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
 []\T1/lmr/m/n/10.95 Differansen mel-lom me-di-anene fra punkt 3 er kvartil-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
 \T1/lmr/m/n/10.95 Om me-di-anene fra punkt 3: Den med høyest verdi kalles \T1/l
 mr/m/it/10.95 øvre
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
 []\T1/lmr/m/n/10.95 Medianen i det blå set-tet er 47 (ne-dre kvar-til) og me-di
 -a-nen
  []
@@ -1570,55 +1570,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--234
 [9
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 251--251
 []\T1/lmr/m/n/10.95 Medianen i det blå set-tet er 1 (ne-dre kvar-til) og me-di-
 a-nen
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 []\T1/lmr/m/n/10.95 Kvadrer dif-fer-ansene mel-lom hver enkelt verdi og gjen-no
 m-snit-tet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 \T1/lmr/m/n/10.95 til dataset-tet, og sum-mer disse. Di-vider med an-tallet ver
 dier i
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 []\T1/lmr/m/n/10.95 Differansen mel-lom en verdi og gjen-nom-snit-tet kalles \T
 1/lmr/m/it/10.95 avviket \T1/lmr/m/n/10.95 til
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--293
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
 []\T1/lmr/m/n/10.95 Gjennomsnittet fant vi på side ??. Vi utvider frekven-sta-b
 ellen
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 294--294
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
 []\T1/lmr/m/n/10.95 Det kan være fris-tende å bruke det rangerte dataset-tene, 
 men
  []
 
 [12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 295.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 295.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
  (./stat.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 295.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 295.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
 Package rerunfilecheck Info: File `stat.out' has not changed.
 (rerunfilecheck)             Checksum: 88E2211461ADF69C5416F41CF7FDC970;206.
  ) 
 Here is how much of TeX's memory you used:
- 31388 strings out of 481239
- 616443 string characters out of 5920378
- 935354 words of memory out of 5000000
- 45926 multiletter control sequences out of 15000+600000
+ 31405 strings out of 481239
+ 616624 string characters out of 5920378
+ 935932 words of memory out of 5000000
+ 45943 multiletter control sequences out of 15000+600000
  630943 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,13n,104p,870b,985s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1635,7 +1635,7 @@ m/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/f
 onts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb>
-Output written on stat.pdf (12 pages, 264231 bytes).
+Output written on stat.pdf (12 pages, 264363 bytes).
 PDF statistics:
  222 PDF objects out of 1000 (max. 8388607)
  187 compressed objects within 2 object streams
