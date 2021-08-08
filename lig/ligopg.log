@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  29 JUN 2021 10:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  8 AUG 2021 18:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**pro.tex
-(./pro.tex
+**ligopg.tex
+(./ligopg.tex
 LaTeX2e <2020-02-02> patch level 2
-L3 programming layer <2020-02-14> (/home/sindre/P/doc.tex)
+L3 programming layer <2020-02-14> (../doc.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cls
 Document Class: standalone 2018/03/26 v1.3a Class to compile TeX sub-files stan
 dalone
@@ -55,8 +55,7 @@ File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
-))
-(/home/sindre/P/preamb.tex
+)) (../preamb.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 )
@@ -1044,11 +1043,11 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
 nous mode
 )
-\pro@idxfile=\write6
-\openout6 = `pro.idx'.
+\ligopg@idxfile=\write6
+\openout6 = `ligopg.idx'.
 
 
-Writing index file pro.idx
+Writing index file ligopg.idx
 (/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks47
@@ -1080,6 +1079,10 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enitdp@description=\count345
 )
 \c@rg=\count346
+\c@opg=\count347
+\c@vedl=\count348
+\c@vedlE=\count349
+\c@opge=\count350
 
 (/usr/share/texlive/texmf-dist/tex/latex/datetime2/datetime2.sty
 Package: datetime2 2019/11/11 v1.5.5 (NLCT) date and time formats
@@ -1125,8 +1128,8 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen330
-\Hy@linkcounter=\count347
-\Hy@pagecounter=\count348
+\Hy@linkcounter=\count351
+\Hy@pagecounter=\count352
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
@@ -1139,8 +1142,8 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count349
-\pdfmajorversion=\count350
+\Hy@SavedSpaceFactor=\count353
+\pdfmajorversion=\count354
 Package hyperref Info: Hyper figures OFF on input line 4547.
 Package hyperref Info: Link nesting OFF on input line 4552.
 Package hyperref Info: Hyper index ON on input line 4555.
@@ -1148,7 +1151,7 @@ Package hyperref Info: Plain pages OFF on input line 4562.
 Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count351
+\c@Hy@tempcnt=\count355
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
@@ -1164,7 +1167,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count352
+\Fld@menulength=\count356
 \Field@Width=\dimen332
 \Fld@charsize=\dimen333
 Package hyperref Info: Hyper figures OFF on input line 6430.
@@ -1180,9 +1183,9 @@ LaTeX Info: Redefining \pageref on input line 6504.
 (/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count353
-\c@Item=\count354
-\c@Hfootnote=\count355
+\Hy@abspage=\count357
+\c@Item=\count358
+\c@Hfootnote=\count359
 )
 Package hyperref Info: Driver: hpdftex.
 
@@ -1192,8 +1195,8 @@ File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 (/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 )
-\Fld@listcount=\count356
-\c@bookmark@seq@number=\count357
+\Fld@listcount=\count360
+\c@bookmark@seq@number=\count361
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -1206,27 +1209,27 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip135
 )
-(./pro.aux)
-\openout1 = `pro.aux'.
+(./ligopg.aux)
+\openout1 = `ligopg.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 12
-.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 4.
+
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1269,16 +1272,16 @@ Package geometry Warning: The marginal notes overrun the paper.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count358
+\scratchcounter=\count362
 \scratchdimen=\dimen334
 \scratchbox=\box139
-\nofMPsegments=\count359
-\nofMParguments=\count360
+\nofMPsegments=\count363
+\nofMParguments=\count364
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count361
+\MPscratchCnt=\count365
 \MPscratchDim=\dimen335
-\MPnumerator=\count362
-\makeMPintoPDFobject=\count363
+\MPnumerator=\count366
+\makeMPintoPDFobject=\count367
 \everyMPtoPDFconversion=\toks51
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1290,7 +1293,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 12.
+LaTeX Info: Redefining \selectfont on input line 4.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1304,7 +1307,7 @@ Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box140
-Package hyperref Info: Link coloring OFF on input line 12.
+Package hyperref Info: Link coloring OFF on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1315,612 +1318,121 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count364
+\c@section@level=\count368
 )
-LaTeX Info: Redefining \ref on input line 12.
-LaTeX Info: Redefining \pageref on input line 12.
-LaTeX Info: Redefining \nameref on input line 12.
+LaTeX Info: Redefining \ref on input line 4.
+LaTeX Info: Redefining \pageref on input line 4.
+LaTeX Info: Redefining \nameref on input line 4.
 
-(./pro.out) (./pro.out)
+(./ligopg.out) (./ligopg.out)
 \@outlinefile=\write7
-\openout7 = `pro.out'.
+\openout7 = `ligopg.out'.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-4.
+<../fig/gj.pdf, id=11, 218.0145pt x 68.60631pt>
+File: ../fig/gj.pdf Graphic file (type pdf)
+<use ../fig/gj.pdf>
+Package pdftex.def Info: ../fig/gj.pdf  used on input line 21.
+(pdftex.def)             Requested size: 218.01395pt x 68.60612pt.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
+9.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-4.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
+9.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-14.
+29.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-14.
+29.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 14.
+(Font)              <12> on input line 29.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 14.
+(Font)              <8> on input line 29.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 14.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
+(Font)              <6> on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+esint on input line 1
-4.
+LaTeX Font Info:    Trying to load font information for U+esint on input line 2
+9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-[]\T1/lmr/m/n/10.95 Ordet \T1/lmr/m/it/10.95 pros-ent \T1/lmr/m/n/10.95 be-tyr 
-rett og slett \T1/lmr/m/it/10.95 av
+) [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../fig/gj.pdf>] [2]
+Overfull \hbox (7.27354pt too wide) in paragraph at lines 75--75
+[]\T1/lmr/m/n/12 ''2 ganger opp-trinn (trinnhøyde) pluss 1 gang in-ntrinn (trin
+-ndybde) 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\T1/lmr/m/it/10.95 hun-dre\T1/lmr/m/n/10.95 . Når vi for ek-sem-pel sier 30
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\T1/lmr/m/n/10.95 pros-ent, er dette der-for det samme
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\T1/lmr/m/n/10.95 som brøken $[]$. Og ist-e-den-for å skrive
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\T1/lmr/m/n/10.95 ''pros-ent'', skriver vi som of-test teg-net
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-[]\T1/lmr/m/n/9 Når et tall er gitt i pros-ent,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-\T1/lmr/m/n/9 kalles det et \T1/lmr/m/it/9 pros-ent-tall\T1/lmr/m/n/9 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-\T1/lmr/m/n/9 20%, 143,7% osv. er altså
- []
-
-
-! LaTeX Error: File `../fig/pro0' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 	\includegraphics[scale=1]{\asym{pro0}}
-                                            
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `../fig/pro' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 	\includegraphics[scale=1]{\asym{pro}}
-                                           
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[1
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-
-! LaTeX Error: File `../fig/pro1' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 	\includegraphics[scale=1]{\asym{pro1}}
-                                            
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 67.
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
-[]\T1/lmr/m/n/10.95 Vi vet at 1% av 400 har ver-dien 4. For hver firer som
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
-\T1/lmr/m/n/10.95 går på 240 har vi der-for 1%. Til sam-men går det 60
- []
-
-
-! LaTeX Error: File `../fig/pro2' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.93 	\includegraphics[scale=1]{\asym{pro2}}
-                                            
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-[]\T1/lmr/m/n/10.95 1% av 12,5 er $[]$. An-tall pros-ent 13,1 ut-gjør av 12,5 e
-r
- []
-
-[3
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
-[]\T1/lmr/m/n/10.95 En vare kostet op-prin-nelig 500 kr, men prisen er satt ned
- til 350
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
-[]\T1/lmr/m/n/10.95 Det er gitt $[]$ i avs-lag og 1% av 500 er
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
-[]\T1/lmr/m/n/10.95 Man kan også se på pros-ent som et forhold man alltid ut-tr
-ykker
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
-\T1/lmr/m/n/10.95 som en brøk med 100 i nevner. For ek-sem-pel er forholdet mel
--
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
-\T1/lmr/m/n/10.95 Skal vi gjøre om 0,05 til en brøk med 100 i nevener, må vi ut
--
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
-[]\T1/lmr/m/n/10.95 I prak-sis be-tyr dette at vi finner forholdet vi ønsker, o
-g fly-t-ter
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
-[]\T1/lmr/m/n/10.95 Vi har sett at når vi snakker om pros-ent,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
-\T1/lmr/m/n/10.95 snaker vi egentlig om brøker med 100 som
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
-\T1/lmr/m/n/10.95 nevner. Disse brøkene har, som alle an-dre
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
-\T1/lmr/m/n/10.95 brøker, en verdi. Og for å i finne ver-dien
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
-\T1/lmr/m/n/10.95 til en brøk, deler vi tal-let over brøk-streken
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-[]\T1/lmr/m/n/10.95 Når vi deler på 100,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\T1/lmr/m/n/10.95 fly-t-ter vi komma to
- []
-
-[5
-
-] [6] [7]
-Overfull \hbox (4.17358pt too wide) in paragraph at lines 228--232
-[]\T1/lmr/m/n/10.95 Én måte å regne ut hva vi må be-tale, er å starte med å fin
-ne fratrekket:  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
-[]\T1/lmr/m/n/10.95 Det er ikke alltid vi er så heldige at vi får
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
-\T1/lmr/m/n/10.95 ra-batt på et pro-dukt, ofte må vi fak-tisk
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
-\T1/lmr/m/n/10.95 be-tale et til-legg. \T1/lmr/m/it/10.95 Mer-var-diavgiften \T
-1/lmr/m/n/10.95 er et
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
-\T1/lmr/m/n/10.95 slikt til-legg. I Norge må vi be-tale 25% i
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-[][]\T1/lmr/bx/sl/10.95 Eksempel[]\T1/lmr/m/n/10.95 : Ørek-lokkene på bildet
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-\T1/lmr/m/n/10.95 til høyre koster 999,20 kr \T1/lmr/m/sl/10.95 ek-slud-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-\T1/lmr/m/sl/10.95 ert \T1/lmr/m/n/10.95 mva. Men \T1/lmr/m/sl/10.95 inklud-ert
- \T1/lmr/m/n/10.95 mva. må
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-[]\T1/lmr/m/n/10.95 Mer om merver-diavgiften finner
- []
-
-
-! LaTeX Error: File `fig/peltor' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.261 		\includegraphics[scale=0.4]{fig/peltor}}}
-                                                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (22.9014pt too wide) in paragraph at lines 258--263
-[]$[]$ $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--264
-[]\T1/lmr/m/n/10.95 Vi har nå sett på to ek-sem-pler: I det ene
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--264
-\T1/lmr/m/n/10.95 sank prisen på en vare, mens i det an-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--264
-\T1/lmr/m/n/10.95 dre økte den. Når prisen sank med 40%,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--264
-\T1/lmr/m/n/10.95 endte vi opp med å be-tale 60% av orig-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--264
-\T1/lmr/m/n/10.95 i-nal-prisen. Vi sier da at \T1/lmr/m/it/10.95 vek-st-fak-tor
-en \T1/lmr/m/n/10.95 er
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--264
-\T1/lmr/m/n/10.95 0,6. Når prisen økte med 25%, endte vi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--264
-\T1/lmr/m/n/10.95 opp med å be-tale 125% av orig-i-nal-prisen.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--265
-[]\T1/lmr/m/n/9 Mange stusser over at
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--265
-\T1/lmr/m/n/9 or-det vek-st-fak-tor brukes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--265
-\T1/lmr/m/n/9 selv om en stør-relse
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--265
-\T1/lmr/m/sl/9 synker\T1/lmr/m/n/9 , men slik er det.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--265
-\T1/lmr/m/n/9 Kan-skje et bedre ord
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--265
-\T1/lmr/m/n/9 ville være \T1/lmr/m/it/9 en-drings-fak-
- []
-
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-75.
-(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+[3]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+50.
+ (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Underfull \hbox (badness 10000) in paragraph at lines 275--275
-[]\T1/lmr/m/n/10.95 Når en stør-relse synker med $\OML/lmm/m/it/10.95 a$\T1/lmr
-/m/n/10.95 %, en-der vi opp med
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--275
-[]\T1/lmr/m/n/10.95 Når en stør-relse øker med $\OML/lmm/m/it/10.95 a$\T1/lmr/m
-/n/10.95 %, en-der vi opp med
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--275
-[]\T1/lmr/m/n/10.95 Verdien til $[]$ eller $[]$ kalles vek-st-fak-
- []
-
-[8
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 286--286
-[]\T1/lmr/bx/n/10.95 a) \T1/lmr/m/n/10.95 Siden det er 20% rab-batt må vi be-ta
-le $[]$ av
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 286--286
-[]\T1/lmr/bx/n/10.95 b) \T1/lmr/m/n/10.95 Den nye prisen finner vi ved å gange 
-vek-st-fak-toren med
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--297
-[]\T1/lmr/m/n/10.95 En sjoko-lade koster 9,80 kr, ek-sklud-ert mva. På mat-vare
-r er det
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--297
-[]\T1/lmr/bx/n/10.95 a) \T1/lmr/m/n/10.95 Med 15% i til-legg må man be-tale $[]
-$ av
- []
-
-[9] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 308--308
-\T1/lmr/m/n/10.95 Men hvis 10% ist-e-den-for øker med 5 \T1/lmr/m/it/10.95 pros
--
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 309--309
-[]\T1/lmr/m/n/9 I for-rige sek-sjon fant vi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 309--309
-\T1/lmr/m/n/9 at å øke en stør-relse med
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 309--309
-\T1/lmr/m/n/9 5% er det samme som
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 309--309
-\T1/lmr/m/n/9 å gange stør-relsen med
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 334--334
-[]\T1/lmr/m/n/10.95 En dag var 5% av elevene på en skole borte. Da-gen et-ter v
-ar
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 334--334
-[]\T1/lmr/bx/n/10.95 a) $[]$\T1/lmr/m/n/10.95 , der-for har fraværet økt med 2,
-5 pros-ent-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 334--334
-[]\T1/lmr/bx/n/10.95 b) \T1/lmr/m/n/10.95 Her må vi svare på hvor mye en-drin-g
-en, altså 2,5%, ut-gjør av
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 334--334
-\T1/lmr/m/n/10.95 5%. Dette er det samme som å finne hvor mye 2,5 ut-gjør av 5.
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--355
-[]\T1/lmr/bx/n/12 Hva er egentlig forskjellen mel-lom pros-ent og pros-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--355
-[]\T1/lmr/m/n/10.95 Tenk på en skjorte som koster 200 kr. Tenk så at det er git
-t
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--355
-\T1/lmr/m/n/10.95 20% ra-batt på dene skjorten, altså får man $[]$ i
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--355
-\T1/lmr/m/n/10.95 avs-lag. Men si at ra-bat-ten blir en-dret til 50% av orig-i-
-nal-prisen,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--355
-[]\T1/lmr/m/n/10.95 Rabatten har da gått opp fra 20% til 50% av orig-i-nal-pris
-en,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--355
-\T1/lmr/m/n/10.95 fra 40 kr til 100 kr. En økn-ing på 60 kr. Og nå kom-mer po-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--355
-\T1/lmr/m/n/10.95 enget: Ist-e-den-for å spørre \T1/lmr/m/it/10.95 hvor mange p
-ros-ent av orig-i-nal-prisen
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--355
-\T1/lmr/m/it/10.95 har ra-bat-ten økt?\T1/lmr/m/n/10.95 , bruker vi or-det pros
--ent-po-eng. Det samme
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--355
-\T1/lmr/m/n/10.95 spørsmålet blir da \T1/lmr/m/it/10.95 hvor mange pros-ent-po-
-eng har ra-bat-ten økt?
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--355
-\T1/lmr/m/n/10.95 Svaret blir $[]$, altså 30 pros-ent-po-eng. (60 ut-gjør
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--355
-[]\T1/lmr/m/n/10.95 Når vi ist-e-den spør \T1/lmr/m/it/10.95 hvor mye har ra-ba
-t-ten økt i pros-ent?\T1/lmr/m/n/10.95 , mener
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--355
-\T1/lmr/m/n/10.95 vi \T1/lmr/m/it/10.95 hvor mange pros-ent av orig-i-nalra-bat
--ten har ra-bat-ten økt?\T1/lmr/m/n/10.95 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--355
-[]\T1/lmr/m/sl/10.95 Metode 1\T1/lmr/m/n/10.95 : Orig-i-nalra-bat-ten var på 40
- kr og økte med 60 kr.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--355
-[]\T1/lmr/m/n/10.95 Økningen i pros-ent-po-eng er 30, og star-tra-bat-ten var 2
-0%. Hvor
- []
-
-
-LaTeX Warning: Reference `protips' on page 11 undefined on input line 355.
-
-
-LaTeX Warning: Reference `protips' on page 11 undefined on input line 355.
-
-[11
-
-] [12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 357.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 357.
- (./pro.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 357.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 357.
-Package rerunfilecheck Info: File `pro.out' has not changed.
-(rerunfilecheck)             Checksum: 16139FAE18076D64EDCBDE386958EF08;268.
-
-
-LaTeX Warning: There were undefined references.
-
+) [4]
+<../fig/ligo1.pdf, id=89, 227.62039pt x 284.52296pt>
+File: ../fig/ligo1.pdf Graphic file (type pdf)
+<use ../fig/ligo1.pdf>
+Package pdftex.def Info: ../fig/ligo1.pdf  used on input line 161.
+(pdftex.def)             Requested size: 227.61983pt x 284.52225pt.
+ [5 <../fig/ligo1.pdf>]
+[6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
+ (./ligopg.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
+Package rerunfilecheck Info: File `ligopg.out' has not changed.
+(rerunfilecheck)             Checksum: 3352E68A8A61B27488E309A841133486;44.
  ) 
 Here is how much of TeX's memory you used:
- 31365 strings out of 481239
- 616186 string characters out of 5920378
- 934135 words of memory out of 5000000
- 45911 multiletter control sequences out of 15000+600000
- 626361 words of font info for 82 fonts, out of 8000000 for 9000
+ 31212 strings out of 481239
+ 613042 string characters out of 5920378
+ 929362 words of memory out of 5000000
+ 45770 multiletter control sequences out of 15000+600000
+ 576291 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,19n,104p,881b,981s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,8n,104p,872b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
-vips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/shar
-e/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ma
-thsy.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/li
-ne10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxo10.pfb></usr/share/texmf/font
-s/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
-o9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on pro.pdf (12 pages, 289097 bytes).
+vips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/shar
+e/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ma
+thit.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmsy10.pfb>
+Output written on ligopg.pdf (6 pages, 172163 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 152 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 167 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -227,7 +227,9 @@ $ 100\%+124,5\%=224,5\% $, altså er
 \prbxr{0.3}{Mange stusser over at ordet vekstfaktor brukes selv om en størrelse \textsl{synker}, men slik er det. Kanskje et bedre ord ville være \textit{endringsfaktor}?}
 
 \reg[Vekstfaktor I \label{vekstfaktordef}]{
-Når en størrelse endres med $ a\% $, er vekstfaktoren verdien til\footnote{\sym{$ \pm $} betyr at man skal velge enten $ + $ eller $ - $.} $ {100\% \pm a\%} $.
+Når en størrelse endres med $ a\% $, er vekstfaktoren verdien til $ {100\% \pm a\%} $.\vsk
+
+Ved økning skal $ + $ brukes, ved redusering skal $ - $ brukes.
 }
 \eks[1]{
 En størrelse skal økes med 15\%. Hva er vekstfaktoren?
@@ -412,6 +414,32 @@ Andre linje i \rref{propoeng} er egentlig identisk med \rref{vekstfaktendr}.
 		&= 50
 	}
 	Altså har fraværet økt med 50\%.
+}
+\subsection{Gjentatt prosentvis endring}
+Hva om vi foretar en prosentvis endring gjentatte ganger? La oss som et eksempel starte med 2000 og utføre 10\% økning 3 påfølgende ganger (se regel ??): 
+\alg{
+	\text{verdi etter 1. endring}&=\quad\;\mathclap{\overbrace{2000}^{\text{originalverdi}}}\quad\cdot1,10=2\,200	\\
+	\text{verdi etter 2. endring}&=\overbrace{2\,000\cdot1,10}^{\text{2\,200}}\cdot1,10=2\,420 \\
+	\text{verdi etter 3. endring}&=\overbrace{2\,420\cdot1,10\cdot1,10}^{\text{2\,420}}\cdot1,10=2\,662 
+}
+Mellomregningen vi gjorde over kan kanskje virke unødvendig, men utnytter vi skrivemåten for potenser kommer et flott mønster til syne:
+\alg{
+	\text{verdi etter 1. endring}=2\,000\cdot1,10^1=2\,200 \\		
+	\text{verdi etter 2. endring}=2\,000\cdot1,10^2=2\,420 \\	
+	\text{verdi etter 3. endring}=2\,000\cdot1,10^3=2\,662 
+}
+\reg[Gjentatt vekst eller nedgang]{\vs
+	\[ \text{ny verdi}=\text{originalverdi}\cdot \text{vekstfaktor}^{\text{antall endringer}} \]
+}
+\eks[1]{
+Finn den nye verdien når 20\% økning utføres 6 påfølgende ganger med 10\,000 som origialverdi.
+
+\sv
+Vekstfaktoren er $ 1,2 $, og da er
+\alg{
+\text{ny verdi} &= 10\,000\cdot 1,2^6\\
+&=29\,859,84 
+}
 }
 
 \section{Forhold}
