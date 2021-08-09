@@ -4,8 +4,8 @@
 \begin{document}
 \section{Addisjon}
 
-\subsubsection{Oppstilling}
-I denne boka tar vi bare for oss det som kalles addisjon med \textit{oppstilling}. Denne metoden baserer seg på plassverdisystemet, der man trinnvis regner ut summen av enerne, tierne, hundrerne, o.l.
+\subsection{Oppstilling}
+Denne metoden baserer seg på plassverdisystemet, der man trinnvis regner ut summen av enerne, tierne, hundrerne, o.l.
 \begin{center}
 	\parbox{0.3\linewidth}{
 \eks[1]{
@@ -70,9 +70,88 @@ I denne boka tar vi bare for oss det som kalles addisjon med \textit{oppstilling
 \spr{
 Det å skrive 1 på neste sifferplass kalles ''å skrive 1 i mente''.
 }
+\subsection{Tabellmetoden}
+Denne metoden tar utgangspunkt i det éne leddet, og summerer frem til det andre leddet er nådd. Det som i starten kan være litt rart med denne metoden, er at du selv velger fritt hvilke tall du skal legge til, så lenge du når det andre leddet til slutt.
+\begin{center}
+	\parbox{0.3\linewidth}{
+		\eks[1]{
+			$ \colb{273}+\colc{86} = \colo{359} $ \vsk
+			
+			\begin{tabular}{r|r|r}
+				&&\colb{273} \\ \hline
+				6 & 6 & 279 \\
+				30& 36 & 309 \\
+				50& \colc{86} & \colo{359}
+			\end{tabular}
+		}
+	} \qquad
+	\parbox{0.3\linewidth}{
+		\eks[2]{
+			$ \colb{85}+\colc{79}=\colo{164} $  \vsk
+			
+			\begin{tabular}{r|r|r}
+				& & \colb{85} \\ \hline 
+				5 & 5 & 90 \\
+				10 & 15 &100 \\
+				64 & \colc{79} & \colo{164} \\
+			\end{tabular} \vsk
+		}
+	}
+\end{center}
+\newpage
+\fork{Eksempel 1}{
+\begin{figure}
+	\centering
+\subfloat[]{
+\begin{tabular}{r|r|r}
+	&&\colb{273} \\ \hline
+	 &  &  \\
+	\phantom{30}& \phantom{36} &  \\
+	&  & 
+\end{tabular}
+} \qquad
+\subfloat[]{
+	\begin{tabular}{r|r|r}
+		&&\colb{273} \\ \hline
+		6& 6 & 279 \\
+		\phantom{30}& \phantom{36} &  \\
+		&  & 
+	\end{tabular}
+}\vsk 
+
+\subfloat[]{
+	\begin{tabular}{r|r|r}
+		&&\colb{273} \\ \hline
+		6& 6 & 279 \\
+		30& 36 & 309  \\
+		&  & 
+	\end{tabular}
+}
+\qquad
+\subfloat[]{
+	\begin{tabular}{r|r|r}
+		&&\colb{273} \\ \hline
+		6& 6 & 279 \\
+		30& 36 & 309  \\
+		50& 86 & 359
+	\end{tabular}
+}
+\end{figure}
+\begin{enumerate}[label=(\alph*)]
+\item Vi starter med det leddet vi selv ønsker, ofte er det lurt å starte med det største leddet.
+\item Vi legger til $ 6 $. Da har vi så langt lagt til $ 6 $, og $ 273+6=279 $.
+\item Vi legger til 30. Da har vi så langt lagt til 36, og $ 279+30=309 $.
+\item Vi legger til 50. Da har vi så langt lagt til 86, altså har vi nådd det andre leddet, og $ 309+50=359 $.
+\end{enumerate}
+} \vsk
+
+\info{Oppstilling vs tabellmetoden}{
+Ved første øyekast kan kanskje tabellmetoden bare se ut som en innviklet måte å regne addisjon på sammenlignet med oppstilling, men med øving vil mange oppdage at tabellmetoden bedrer evnen til hoderegning. Dessuten er metoden å foretrekke når vi regner med tid (se seksjon ??).   
+}
+
 \section{Subtraksjon}
-\subsection{Med oppstilling}
-Subtraksjon med oppstilling baserer seg på plassverdisystemet, der man trinnvis rekner differansen mellom enerne, tierne, hundrerne, o.l. Metoden tar også utgangspunkt i et mengdeperspektiv, og tillater derfor ikke differanser med negativ verdi (se forklaringen til \textsl{Eksempel 2}).
+\subsection{Oppstilling}
+Subtraksjon med oppstilling baserer seg på plassverdisystemet, der man trinnvis regner differansen mellom enerne, tierne, hundrerne, o.l. Metoden tar også utgangspunkt i et mengdeperspektiv, og tillater derfor ikke differanser med negativ verdi (se forklaringen til \textsl{Eksempel 2}).
 \begin{center}
 	\parbox{0.3\linewidth}{
 \eks[1]{
@@ -112,7 +191,7 @@ Subtraksjon med oppstilling baserer seg på plassverdisystemet, der man trinnvis
 	\subfloat[]{\includegraphics{fig/min1c}}
 \end{figure}
 
-\begin{enumerate}[label=\alph*)]
+\begin{enumerate}[label=(\alph*)]
 	\item Vi finner differansen mellom enerne: $ {9-4=5} $
 	\item Vi finner differansen mellom tierne: $ {8-2=6} $. 
 	\item Vi finner differansen mellom hundrerne: $ {7-3=4} $.
@@ -131,7 +210,7 @@ Subtraksjon med oppstilling baserer seg på plassverdisystemet, der man trinnvis
 		\item Siden vi tok 1 fra de 8 tierne, er der nå bare 7 tiere. Vi finner differansen mellom tierne: $ {7-6=1} $.
 	\end{enumerate}
 }
-\subsection{Med tabellmetoden}
+\subsection{Tabellmetoden}
 Tabellmetoden for subtraksjon tar utgangspunkt i at subtraksjon er en omvendt operasjon av addisjon. For eksempel, svaret på spørsmålet ''Hva er $ 789-324 $?'' er det samme som svaret på spørsmålet ''Hvor mye må jeg legge til på 324 for å få 789?''. Med tabellmetoden følger du ingen spesiell regel underveis, men velger selv tallene du mener passer best for å nå målet.\\
 \begin{center}
 \parbox{0.35\linewidth}{
@@ -309,7 +388,7 @@ $ \colb{789}-\colr{324}=\colc{465} $	 \vsk
 \fork{Å gange tall med 10, 100 osv.}{
 Titallsystemet baserer seg på grupper av ti, hundre, tusen osv., og tideler, hundredeler og tusendeler osv (se \mb, s. 13). Når man ganger et tall med 10, vil alle enere i tallet bli til tiere, alle tiere bli til hundrere osv. Hvert siffer forskyves altså én plass mot venstre. Tilsvarende forskyves hvert siffer to plasser mot venstre når man ganger med 100, tre plasser når man ganger med 1\,000 osv.
 }
-\subsection{Ganging på utvidet form}
+\subsection{Utvidet form}
 Ganging på utvidet form bruker vi for å rekne multiplikasjon mellom flersifrede tall. Metoden baserer seg på distributiv lov (se \mb\,, s. 30). \regv
 \eks[1]{ \vs
 \begin{figure}
@@ -362,6 +441,7 @@ Kompaktmetoden bygger på de samme prinsippene som ganging på utvidet form, men
 		\includegraphics[]{fig/gfleirsifa}
 	\end{figure}
 }
+\newpage
 \fork{Eksempel 1}{
 Vi starter med å gange sifrene i 279 enkeltvis med 4:
 \begin{itemize}
@@ -377,7 +457,7 @@ Så ganger vi sifrene i 279 enkeltvis med 30. Dette kan forenkles til å gange m
 \end{itemize} 
 }
 \section{Divisjon}
-\subsubsection{\delmedtihundre}
+\subsection{\delmedtihundre}
 \reg[Deling med 10, 100, 1\,000 osv. \label{deledesmed10100}]{
 \begin{itemize}
 	\item Når man deler et desimaltall med 10, får man svaret ved å flytte komma en plass til venstre.
@@ -397,6 +477,7 @@ Så ganger vi sifrene i 279 enkeltvis med 30. Dette kan forenkles til å gange m
 		45:100&=45\colr{,}0:100 \\&= 0\colr{,}450 \\&=0\colr{,}45
 	}
 }
+\newpage
 \eks[3]{ \vsb \vsb
 \alg{
 143\colr{,}7 :10 &= 14\colr{,}37 \vn
@@ -408,11 +489,10 @@ Så ganger vi sifrene i 279 enkeltvis med 30. Dette kan forenkles til å gange m
 }
 }
 \fork{Deling med 10, 100, 1\,000 osv.}{
-La oss bruke $ 53,14 $ som et eksempel. Av definisjonen av titallsystemet (se \mb, s. 13) følger det at
-\[ 53,7=5\cdot 100+3\cdot10+7\cdot\frac{1}{10} \]
+Titallsystemet baserer seg på grupper av ti, hundre, tusen osv., og tideler, hundredeler og tusendeler osv (se \mb, s. 13). Når man deler et tall med 10, vil alle enere i tallet bli til tideler, alle tiere bli til enere osv. Hvert siffer forskyves altså én plass mot høyre. Tilsvarende forskyves hvert siffer to plasser mot høyre når man deler med 100, tre plasser når man deler med 1\,000 osv.
 }
 
-\subsubsection{Oppstilling}
+\subsection{Oppstilling}
 Divisjon med oppstilling baserer seg på divisjon tolket som inndeling av mengder (se \mb\,,s. 23)
 
 \begin{center}
@@ -434,7 +514,7 @@ Divisjon med oppstilling baserer seg på divisjon tolket som inndeling av mengde
 }
 \end{center}
 \newpage
-\subsubsection{Tabellmetoden}
+\subsection{Tabellmetoden}
 Tabellmetoden baserer seg på divisjon som omvendt operasjon av ganging. For eksempel er svaret på spørsmålet ''Hva er $ {76:4} $'' det samme som svaret på spørsmålet ''Hvilket tall må jeg gange 4 med for å få 76?''. På samme vis som for tabellmetoden ved subtraksjon er det opp til en selv å velge passende tall for å nå målet.
 \begin{center}
 	\parbox{0.35\linewidth}{
@@ -451,7 +531,7 @@ Tabellmetoden baserer seg på divisjon som omvendt operasjon av ganging. For eks
 	}} \qquad
 \parbox{0.35\linewidth}{
 	\eks[2]{
-		$ \colg{894}:\colb{3}=\colg{298} $	 \vsk
+		$ \colg{894}:\colb{3}=\colo{298} $	 \vsk
 		
 		\begin{tabular}{r|r|r}
 			$ \cdot\, \colb{3} $&\\ \hline
@@ -462,7 +542,8 @@ Tabellmetoden baserer seg på divisjon som omvendt operasjon av ganging. For eks
 			8&24 &\colg{894} \\ \hline
 			\colo{298} &
 		\end{tabular}
-}}
+}} \vsk
+
 \parbox{0.415\linewidth}{
 	\eks[3]{		
 		$ 894:3=298 $	 \vsk
@@ -541,12 +622,65 @@ Skriv 9\,761\,432 på standardform
 \eks[4]{
 Skriv 0,00039 på standardform.
 
-\sv
+\sv \vs
 \begin{enumerate}
 	\item Vi flytter komma 4 plasser til høgre, og får $ 3,9 $.
 	\item Vi ganger dette tallet med $ 10^{-4} $, og får at
 	\[ 0,00039=3,9\cdot10^{-4} \]
 \end{enumerate}
 }
+\section{Rekning med tid}
+Sekunder, minutter og timer er organisert i grupper på 60:
+\alg{
+1\text{ minutt} &= 60\text{ sekund} \\
+1\text{ time} &= 60\text{ minutt} 
+}
+Dette betyr at \textsl{overganger} oppstår i utregninger når vi når 60.\regv
+
+\eks[1]{
+$ \text{2\enh{t} 25\enh{min} } + \text{10\enh{t} 45\enh{min}}= \text{13\enh{t} 10\enh{min} } $\vsk
+
+\textit{Metode 1} \os
+\begin{tabular}{r|r|r}
+ & &10\enh{t} 45\enh{min}  \\ \hline
+ 15\enh{min}  &15\enh{min} & 11\enh{t} 00\enh{min}  \\
+ 10\enh{min} &25\enh{min} & 11\enh{t} 10\enh{min} \\
+ 2\enh{t} & 2\enh{t} 25\enh{min}  & 13\enh{t} 10\enh{min}
+\end{tabular} \vsk
+
+\textit{Metode 2}\os
+\begin{tabular}{r|r|r}
+	& & 10:45 \\ \hline 
+	00:15 & 00:15 & 11:00 \\
+	00:10 & 00:25 & 11:10 \\
+	02:00 & 02:25 & 13:10
+\end{tabular}
+}
+\eks[2]{
+$ \text{14\enh{t} 18\enh{min} } - \text{9\enh{t} 34\enh{min}}= \text{4\enh{t} 44\enh{min} } $\vsk
+
+\textit{Metode 1}\os
+\begin{tabular}{r|r}
+	&  9\enh{t} 34\enh{min} \\ \hline 
+	26\enh{min} & 10\enh{t} 00\enh{min} \\
+	18\enh{min} & 10\enh{t} 18\enh{min} \\
+	4\enh{t} & 14\enh{t} 00\enh{min} \\ \hline
+	4\enh{t} 44\enh{min}
+\end{tabular} \vsk
+
+
+\textit{Metode 2} \os
+\begin{tabular}{r|r}
+ & 09:34 \\ \hline 
+ 00:26 & 10:00 \\
+ 00:18& 10:18 \\
+ 04:00 & 14:18 \\ \hline
+ 04:44 
+\end{tabular}
+}
+
+
+
+
 \end{document}
 

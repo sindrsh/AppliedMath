@@ -271,40 +271,56 @@ Altså må du betale 17\,600 i avdrag det første året.
 }
 
 \subsection{Sparing}
+\subsubsection{Innskuddsrente}
 Vi har sett hvordan vi må betale renter når vi låner penger av en bank, men hvis vi i steden setter penger (gjør et innskudd) i en bank  \textsl{får} vi renter: \regv
 \reg[Innskuddsrente]{
-Om du setter penger i en bank, får du innskuddsrenter. Dette er en prosentandel av I faste tidsintervall (månedlig, årlig etc.) blir 
+Innskuddsrente er en prosentvis økning av pengene du har i banken, gjentatt over faste tidsintervaller (månedlig, årlig o.l.) 
 }
 \eks[1]{
 Du setter inn 20\,000\,kr i en bank som gir 2\% i årlig sparerente. Hvor mye penger har du i banken etter 8 år? 
 
 \sv
-Siden renten er 2\%, er vekstfaktoren 1,02. Startverdien er 20\,000 og tiden er 8:
+For å beregne innskuddsrenter kan vi anvende \rref{??}. Siden renten er 2\%, er vekstfaktoren 1,02. Originalverdien er 20\,000 og antall endringer (tiden) er 8:
 \[ 20\,000\cdot1,02^8\approx 23\,433 \]
 Du har altså ca. 23\,433\,kr i banken etter 8 år med sparing.
 }
-\eks[2]{Du betaler 27\,000\,kr med et kreddittkort som krever 1,4\% rente for hver måned du betaler for seint.\os
-
-\textbf{a)} Hvor mye har du i gjeld to år etter for sein betaling?\os
-\textbf{b)} Hva er den årlige renten ved for sein betaling?
+\subsubsection{Forventet avkastning}
+En annen måte å spare penger på, er å investere i et aksjefond. Da vil man snakke om \textit{forventet avkastning}:\regv
+\reg[Forventet avkastning]{
+Forventet avkastning angir en \textsl{forventet} prosentvis økning av en investering, gjentatt over faste tidsintervaller.
+}
+\eks[1]{
+Du investerer 15\,000 i et aksjefond som har 5\% årlig forventet avkastning. Hvor mye penger er investeringen verd etter 8 år ved en slik avkastning?
 
 \sv
-\textbf{a)} Siden renten er 1,4\%, er vekstfaktoren 1,014. Siden renten er månedlig må vi måle tiden i måneder, og to år er $ {2\cdot12=24} $ måneder. Siden starverdien er 27\,000, får vi:
-\[ 27\,000\cdot1,014^8\approx 37\,649 \]
-Etter to år har du altså ca 37\,649\,kr i gjeld.\os
-
-\textbf{b)} Siden ett år er det samme som 12 måneder blir vekstfaktoren gitt ved: 
-\[ 1,014^{12} \approx1.182\]
+Også for forventet avkastning kan vi bruke \rref{??}. Vekstfaktoren er 1,05, originalverdien er 15\,000 og antall endringer (tiden) er 8:
+\[ 15\,000\cdot1,05^8\approx22\,162 \]
+Etter 8 år er det forventet at investeringen er verdt 22\,162.
 }
+\vsk
 
-\eks[3]{
-Marion har kjøpt seg en ny bil til en verdi av 300\,000 kr, og hun forventer at verdien vil synke med 12\% de neste fire årene. Hva er bilen i så fall verd om fire år?
+\info{Spare med innskuddsrente eller aksjefond?}{
+Som regel er forventet avkastning på et aksjefond høyere enn innskudsrenten du får i en bank, men ulempen er at forventet avkastning ikke gir noen garantier. Forventet avkastning oppgir bare økningen eksperter antar vil skje. Er du heldig kan økningen bli høyere, er du uheldig kan den bli lavere, og til og med ende opp med å være en \textsl{reduksjon} av investeringen din. I verste fall, rett nok i ekstremt sjeldne tilfeller, kan hele investeringen din ende opp med å bli verd 0\enh{kr}. \vsk
 
-\sv
-Siden den årlige nedgangen er 12\%, blir vekstfaktoren 0,88. Starverdien er 300\,000 og tiden er 4:
-\[ 300\,000\cdot0,88^4\approx179\,908 \]
-Marion forventer altså at bilen er verdt ca 179\,908\,kr om fire år.
+Innskuddsrenten kan også forandre seg noe med tiden, men den kan aldri føre til en reduksjon av investeringen din.
 }
+\begin{comment}
+	\eks[2]{Du betaler 27\,000\,kr med et kreddittkort som krever 1,4\% rente for hver måned du betaler for seint.\os
+	
+	\textbf{a)} Hvor mye har du i gjeld to år etter for sein betaling?\os
+	\textbf{b)} Hva er den årlige renten ved for sein betaling?
+	
+	\sv
+	\textbf{a)} Siden renten er 1,4\%, er vekstfaktoren 1,014. Siden renten er månedlig må vi måle tiden i måneder, og to år er $ {2\cdot12=24} $ måneder. Siden starverdien er 27\,000, får vi:
+	\[ 27\,000\cdot1,014^8\approx 37\,649 \]
+	Etter to år har du altså ca 37\,649\,kr i gjeld.\os
+	
+	\textbf{b)} Siden ett år er det samme som 12 måneder blir vekstfaktoren gitt ved: 
+	\[ 1,014^{12} \approx1.182\]
+	}
+\end{comment}
+
+
 \section{Skatt}
 Om du har en inntekt må du som regel betale en del av disse pengene til staten. Disse pengene kalles \textit{skatt} (og noen ganger \textit{avgift}). Hensikten med skatt er at staten skal ha råd til å gi innbyggerne tilbud som skole, helsetjenester og mye mer. I dag blir blir skatten i stor grad beregnet av datasystemer, men det er ditt ansvar å sjekke at beregningene er riktige $ - $ og da er det viktig å forstå hvordan skattesystemet fungerer.\vsk
 
