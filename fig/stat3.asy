@@ -63,3 +63,5 @@ label("katt (72)",(a+dx,c+4dy+tdy),align=E);
 
 filldraw(shift(a,c+5dy)*b,p6);
 label("andre dyr (51)",(a+dx,c+5dy+tdy),align=E);
+
+label("Favorittdyr (frekvens i parantes)", (1.2,1.2));

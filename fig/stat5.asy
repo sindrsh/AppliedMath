@@ -1,6 +1,6 @@
 import inh;
 import figs;
-size(8cm,6cm,keepAspect=false);
+size(11cm,6cm,keepAspect=false);
 
 xaks(0,6,tck=false);
 yaks(0,2800,tck=true,tckl=true,tc=500);
@@ -62,3 +62,19 @@ dott(F,p3);
 draw(A--B--C--D--Ep--F,p3);
 
 dott(B);
+
+
+pair L1 = (6.1,1500);
+pair L2 = (6.5,1500);
+
+draw(L1--L2, black+1bp);
+label("totalt",L2,E);
+pair dY = (0,-200);
+draw(L1+dY--L2+dY, red+1bp);
+label("m. sm.f.",L2+dY,E);
+dY = 2*dY;
+draw(L1+dY--L2+dY, blue+1bp);
+label("u. sm.f.",L2+dY,E);
+
+label(rotate(90)*Label("antall mobiltelefoner solgt"), (-1.2,1300));
+label("år",(3.5,-400));

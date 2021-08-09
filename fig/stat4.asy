@@ -83,3 +83,4 @@ label("8 (2)",(a+dx,c+7dy+tdy),align=E);
 filldraw(shift(a,c+8dy)*b,p9);
 label("14 (1)",(a+dx,c+8dy+tdy),align=E);
 
+label("Epler spist i løpet av uka (frekvens i parantes)", (.5,1.2));

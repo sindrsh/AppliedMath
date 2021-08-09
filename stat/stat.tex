@@ -61,7 +61,7 @@ I vår undersøkelse har vi to 0, to 1, tre 4, to 5, to 6, én 7, to 8 og én 14
 \begin{center}
 	\begin{tabular}{|c|c|}
 		\hline
-		Antall epler & Frekvens\\ \hline
+		antall epler & frekvens\\ \hline
 		0 & 2 \\
 		1 & 2 \\
 		4 & 3 \\
@@ -171,7 +171,12 @@ Altså, i gjennomsnitt spiser de 15 respondentene 4,87 epler i uka.
 } \vsk
 \st{
 \textbf{Undersøkelse 4} \os
-..
+(Utregning utelatt. Verdiene er rundet ned til nærmeste éner).
+\begin{itemize}
+	\item Gjennomsnitt for totalt salg av mobiler: 2302
+	\item Gjennomsnitt for salg av mobiler uten smartfunksjon: 732
+	\item Gjennomsnitt for salg av mobiler med smartfunksjon: 1570
+\end{itemize}
 }
 \subsection{Median}
 \reg[Median]{Medianen er tallet som ender opp i midten av datasettet når det rangeres fra tallet med lavest til høyest verdi.\vsk
@@ -195,6 +200,12 @@ Tallet i midten er 5, altså er medianen 5.
 }
 \st{
 \textbf{Undersøkelse 4} \os
+(Utregning utelatt. Verdiene er rundet ned til nærmeste éner).
+\begin{itemize}
+	\item Median for totalt salg av mobiler: 2307
+	\item Median for salg av mobiler uten smartfunksjon: 545
+	\item Median for salg av mobiler med smartfunksjon: 1570
+\end{itemize}
 }
 \section{Tolking av forskjeller; spredningsmål}
 Ofte vil det også være store forskjeller (stor spredning) mellom dataene som er samlet inn. De matematiske begrepene som forteller noe om dette er \textit{variasjonsbredde}, \textit{kvartilbredde}, \textit{varians} og \textit{standardavvik}.
@@ -256,10 +267,11 @@ Om medianene fra punkt 3: Den med høyest verdi kalles \textit{øvre kvartil} og
 }
 \st{
 \textbf{Undersøkelse 4} \os
+(Utregning utelatt)
 \begin{itemize}
-	\item For mobiltelefoner er kvartilbredden 
-	\item For mobiltelefoner uten smartfunksjoner er kvartilbredden
-	\item For mobiltelefoner med smartfunksjoner er kvartilbredden
+	\item For mobiltelefoner er kvartilbredden: 200 
+	\item For mobiltelefoner uten smartfunksjoner er kvartilbredden: 1010
+	\item For mobiltelefoner med smartfunksjoner er kvartilbredden: 703
 \end{itemize}
 } \vsk
 
@@ -295,18 +307,20 @@ Gjennomsnittet fant vi på side ??. Vi utvider frekvenstabellen vår fra side ??
 	\renewcommand{\arraystretch}{2}
 	\begin{tabular}{|c|c|c|}
 		\hline
-		Antall epler & Frekvens& Kvadrert avvik\\ \hline
-		0 & 2 &$ \left(0-\frac{73}{15}\right)^2 $ \\
-		1 & 2 &$ \left(1-\frac{73}{15}\right)^2 $\\
-		4 & 3 &$ \left(4-\frac{73}{15}\right)^2 $\\
-		5 & 2&$ \left(5-\frac{73}{15}\right)^2 $\\
-		6 & 2 &$ \left(6-\frac{73}{15}\right)^2 $\\
-		7 & 1 &$ \left(7-\frac{73}{15}\right)^2 $\\
-		8 & 2 &$ \left(8-\frac{73}{15}\right)^2 $\\
-		14& 1 &$ \left(9-\frac{73}{15}\right)^2 $\\ \hline 
-		& sum & ?? \\ \hline
+		antall epler & frekvens& frekvens $ \cdot $ kvadrert avvik \\ \hline
+		0 & 2 &$2\cdot \left(0-\frac{73}{15}\right)^2 $ \\
+		1 & 2 &$2\cdot \left(1-\frac{73}{15}\right)^2 $\\
+		4 & 3 &$3\cdot \left(4-\frac{73}{15}\right)^2 $\\
+		5 & 2&$2\cdot \left(5-\frac{73}{15}\right)^2 $\\
+		6 & 2 &$2\cdot \left(6-\frac{73}{15}\right)^2 $\\
+		7 & 1 &$1\cdot \left(7-\frac{73}{15}\right)^2 $\\
+		8 & 2 &$2\cdot \left(8-\frac{73}{15}\right)^2 $\\
+		14& 1 &$1\cdot \left(9-\frac{73}{15}\right)^2 $\\ \hline 
+		sum& 15 & $ 189,7\bar{3} $ \\ \hline
 	\end{tabular}
 \end{center}
+Altså er variansen
+\[ \frac{189,7\bar{3}}{15}\approx 12,65 \]
 }
 \info{Tips}{Det kan være fristende å bruke det rangerte datasettene, men dette øker sjansen for følgefeil.}
 \end{document}
