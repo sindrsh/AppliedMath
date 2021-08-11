@@ -1,10 +1,17 @@
-\input{/home/sindre/P/doc}
-\input{/home/sindre/P/preamb}
+\input{../doc}
+\input{../preamb}
 
 \begin{document}
+\section{Regneark}
 
-\vedle{Introduksjon}
-Når du åpner et Excelark vil du få opp en tabell hvor \textit{radene} er nummerert med tall (1, 2 3 osv), mens \textit{kolonnene} er indeksert med bokstaver (A, B, C osv.). Hvordan radene og kolonnene brukes er avgjørende for å forstå Excel. I figuren under har vi markert det vi kaller \textit{celle B\textsl{3}}. Dette er altså cellen hvor \textsl{rad 3 og kolonne B krysser hverandre}. (Legg også merke til at B3 er markert oppe til venstre i figuren).
+\textit{I denne boka tar vi utgangspunkt i Mircrosofts programvare Excel. Det finnes andre gode regneark på markedet, for eksempel Google Sheets og Libre Office Calc. Disse tre nevnte regnearkene ligner hverandre mye både i utforming og i funksjoner de har å tilby.
+} 
+
+\subsection{Introduksjon}
+
+
+
+Når du åpner et regne-ark vil du få opp en tabell hvor \textit{radene} er nummerert med tall (1, 2 3 osv), mens \textit{kolonnene} er indeksert med bokstaver (A, B, C osv.). Hvordan radene og kolonnene brukes er avgjørende for å forstå Excel. I figuren under har vi markert det vi kaller \textit{celle B\textsl{3}}. Dette er altså cellen hvor \textsl{rad 3 og kolonne B krysser hverandre}. (Legg også merke til at B3 er markert oppe til venstre i figuren).
 
 \begin{figure}[H]
 	\centering
@@ -15,7 +22,7 @@ I hver celle kan vi skrive inn både tall og tekst. Si at Ole har en jobb med 25
 	\centering
 	\includegraphics[scale=0.35]{figs/ex2}
 \end{figure}
-\subsubsection{Utregninger}
+\subsection{Utregninger}
 Vi ønsker nå å finne ukelønnen til Ole.
 Ukelønnen er gitt ved formelen
 \[ \text{ukelønn}={\text{timelønn}\cdot \text{timer i uka}} \]
@@ -32,7 +39,7 @@ Når vi trykket enter-tasten, er det resultatet, 1750, som vises i cellen. Ønsk
 \end{figure}
 \mer Inntastingsfeltet kan også brukes til å taste inn tall og tekst i cellen.
 
-\vedle{Cellereferanser}
+\subsection{Cellereferanser}
 Excels kanskje viktigste egenskap er \textit{cellereferanser}. Dette betyr kort sagt at vi bruker celler istedenfor tall når vi skal gjøre utregninger. I forrige seksjon regnet vi lønnen til Ole ved å gange 250 (timelønnen) med 7 (timer i uka). Ved å bruke cellereferanser kunne vi isteden gjort dette:\vsk
 
 Tallet tilhørende timelønnen (250) står i celle B2, mens tallet tilhørende timer (35) står i celle B3. For å gange tallene i disse cellene kan vi skrive {\tt =B2$ ^* $B3}: 
@@ -48,7 +55,7 @@ Tallet tilhørende timelønnen (250) står i celle B2, mens tallet tilhørende t
 	\includegraphics[scale=0.3]{figs/ex6}
 \end{figure}
 \textsl{Merk:} Du kan også trykke på cellene du ønsker å bruke i formlene dine, slik som vist \net{https://drive.google.com/open?id=1S43og4XFAiYyZeFh7tGClBYXoPSv2i0R}{her}.
-\vedle{Kopiering av celler}
+\subsection{Kopiering og låsing av celler}
 Kopiering av cellene er en metode som hindrer deg i å skrive de samme formlene om og om igjen. Vi ønsker nå å lage at ark som passer til følgende informasjon:
 \begin{itemize}
 	\item Timelønnen til Ole, Dole og Doffen er henholdsvis 300\,kr, 200\,kr og 500\,kr.
@@ -89,16 +96,35 @@ Igjen merker vi oss at regnemetoden for å finne årslønnen er den samme for al
 	\includegraphics[scale=0.3]{figs/ex13}
 \end{figure}
 Skal vi låse en celle \textsl{nedover} må vi sette dollaren foran radnummeret, for eksempel {\tt{B\$1}}.
-\vedle{Småtriks}
+\subsection{Andre nyttige funksjoner}
+\st{
+\textbf{Videoer}
+	\begin{itemize}
+	\item \net{https://drive.google.com/file/d/1o7DuDB4yd47kfJWRGXn5Gp3yQbskZiVC/view?usp=sharing}{Sum bort og sum ned}	
+	\item \net{https://drive.google.com/file/d/1RoEAzBYq0bkf1T-W_iWfKW4cc4inlRtb/view?usp=sharing}{Justere bredde på kolonne}
+	\item \net{https://drive.google.com/file/d/1ZiRWW8CwNgSRvjng6JFxKhFZ5HmWLSXM/view?usp=sharing}{Sette inn rad}
+	\item \net{https://drive.google.com/file/d/1iuDPTMvDeA73HCjhXIp9nhdMdWou2qhI/view?usp=sharing}{Formelvisning}
+	\item \net{https://drive.google.com/file/d/1EdnLdzkRKL_L7ipeEtNc8wyDlS-f2h9X/view?usp=sharing}{Gjøre om til prosenttall}
+	\item \net{https://drive.google.com/file/d/1ueFQnTNYIGEH6lMxXc0o_PWcl7204YVZ/view?usp=sharing}{Endre antall desimaler}
+	\item \net{https://drive.google.com/file/d/1HZAlebp51NlwbO5JyxtFPX0TBbvRmvWu/view?usp=sharing}{Sorter i stigende/synkende rekkefølge}
+	\item \net{https://drive.google.com/file/d/10era8zDW0oCIcZi8ydT4pFKhxR6b-SUw/view?usp=sharing}{Lage søylediagram}
+	\item \net{https://drive.google.com/file/d/1tbXVgy28F4bXqKunZsfYrjiNs-cV6Vk-/view?usp=sharing}{Lage sektordiagram}
+	\item \net{https://drive.google.com/file/d/1ueFQnTNYIGEH6lMxXc0o_PWcl7204YVZ/view?usp=sharing}{Lage linjediagram}
+\end{itemize}}
+
+\st{
+\textbf{Kommandoer} (skrives med {\tt{=}} foran).
+
 \begin{itemize}
-	\item \net{https://drive.google.com/open?id=12NMsdIulmQOoLZ4iY82xPxo7LqSh3QyY}{Sum bort og sum ned}	
-	\item \net{https://drive.google.com/open?id=1V80Ub_WnxMttvotTOC_-ixE81Li3kpQK}{Justere bredde på rad/kolonne}
-	\item \net{https://drive.google.com/open?id=1Q1DUlZu_pfVWzsdLQz5PPTSVrGUp2JF2}{Sette inn rad/kolonne}
-	\item \net{https://drive.google.com/open?id=1OLfrzQs6mwJzamPs4puNR71QwNQ2o-8T}{Formelvisning}
-	\item \net{https://drive.google.com/open?id=1DkFhZRcnljphU04UiZ2Rhtvu7zcbJUNJ}{Regne med prosenttall}
-	\item \net{https://drive.google.com/open?id=1Hmp0XrwXH2b5oeFHl96-i_Wf2ETrLqrU}{Endre antall desimaler}
-	\item Lage søylediagram
-	\item Lage sektordiagram
-	\item Lage linjediagram
-\end{itemize}
+	\item {\tt{SUM}(celle1:celle2)} \\
+	Summerer alle verdiene fra og med celle1 til og med celle2.
+	\item {\tt{AVERAGE}(celle1:celle2)} \\
+	Finner gjennomsnittet for alle verdiene fra og med celle1 til og med celle2.
+	\item {\tt{MEDIAN}(celle1:celle2)} \\
+	Finner medianen for alle verdiene fra og med celle1 til og med celle2.
+	\item {\tt{VAR.P}(celle1:celle2)} \\
+	Finner variansen for alle verdiene fra og med celle1 til og med celle2.
+\end{itemize}	
+}
+
 \end{document}

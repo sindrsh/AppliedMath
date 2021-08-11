@@ -1,124 +1,95 @@
-\input{/home/sindre/P/doc}
-\input{/home/sindre/P/preamb}
+\input{../doc}
+\input{../preamb}
 
 \begin{document}
-
-\textbf{Mål for opplæringen er at eleven skal kunne}
-\begin{itemize}
-	\item gjøre overslag over svar, regne praktiske oppgaver, med og utan digitale verktøy
-	\item redegjøre for omgrepet lineær vekst, vise gangen i slik vekst og bruke dette i praktiske eksempel, også digitalt
-\end{itemize}
-\newpage
-\vedlg{Skrive inn en funksjon}
-\textbf{Funksjon}\bs
-Si vi har funksjonen 
-\[f(x)= \frac{3}{2} x^2 + 3x -3 \]
-For å bruke $ f(x) $ i GeoGebra, skriver vi:
-\g{3/2x\^{}2+3x}
-Når vi ikke gir funksjonen noen navn, vil GeoGebra automatisk gi funksjonen navnet $ f $. I algebrafeltet får vi derfor:
+\subsection{Introduksjon}
+Når du åpner GeoGebra får du et bilde som dette:
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.6]{skrivf}
+	\includegraphics[scale=0.1]{ggbalgoggraf}
 \end{figure}
+Feltet hvor det står ''Skriv inn'' kalles \textit{inntastingsfeltet}. Dette feltet og det blanke feltet under utgjør \textit{algebrafeltet}. Koordinatsystemet til høyre kalles \textit{grafikkfeltet}.
 
-Hvis vi istedenfor har funksjonen
+\subsection{Skrive inn en funksjon}
+Si vi har funksjonen 
+\[f(x)= \frac{3}{2} x^2 + 3x \]
+For å bruke $ f(x) $ i GeoGebra, skriver vi:
+\g{3/2*x\^{}2+3x}
+Når vi ikke gir funksjonen noen navn, vil GeoGebra automatisk gi funksjonen navnet $ f $. I algebrafeltet får vi derfor
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{skrivf}
+\end{figure}
+I grafikkfeltet får vi grafen til $ f $. \vsk
+
+Hvis vi isteden har funksjonen
 \[ P(x)= 0,15x^3 - 0,4 x\]
 er det to ting vi må passe på. Det første er at \textsl{alle desimaltall må skrives med punktum istedenfor komma} i GeoGebra
-. Det andre er at vi ønsker å gi funksjonen navnet $ P(x) $. Vi skriver da:
-\g{P(x)= 0.15x\^{}3 - 0.4x}
-og får:
+. Det andre er at vi ønsker å gi funksjonen navnet $ P(x) $. Vi skriver da
+\g{P(x) = 0.15x\^{}3 - 0.4x}
+og får \vspace{-5pt}
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.6]{pfig}
+	\includegraphics[scale=0.5]{pfig}
 \end{figure}
-{\color{red} \textbf{ADVARSEL}:} Man kan aldri gi funksjoner navnet $ {y(x)} $ i GeoGebra. $ y $ kan bare brukes når man skriver inn uttrykk for en rett linje, altså $ {y=ax +b} $, hvor $ a $ og $ b $ er to valgfrie tall.\vsk
-
-\textbf{Linje}\bs
-Si vi har dette uttrykket for ei linje:
-\[ y = 2x+4 \]
-I GeoGebra lager vi denne linjen ved å skrive akkurat det samme:
-\g{
-2x+4
+\info{Obs!}{
+Man kan aldri gi funksjoner navnet $ {y(x)} $ i GeoGebra. $ y $ kan bare brukes når man skriver inn uttrykk for en rett linje, altså $ {y=ax +b} $, hvor $ a $ og $ b $ er to valgfrie tall.
 }
-Og får dette:
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.6]{lin1}
-\end{figure}
+
+\subsection{Vannette og loddrette linjer}
+
 Ønser vi å lage ei linje som går vannrett gjennom verdien 3 på $ y $-aksen og ei linje som går loddrett gjennom verdien 2 på $ x $-aksen skriver vi:
 \g{y = 3}
 og 
-\g{x =2 }
+\g{x = 2 }
 Da får vi denne figuren:
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.6]{23}
+	\includegraphics[scale=0.5]{23}
 \end{figure}
 
-\begin{comment}
-	\vedlg{Tegne grafen på eksamen}
-	En veldig vanlig oppgave på eksamen er å tegne en graf på et bestemt intervall. La oss bruke Oppgave 5 fra del 2 på 1P-eksamen 2015 som eksempel:
-	\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.6]{opg5}
-	\end{figure}
-	$ 0\leq x \leq 300 $ betyr at vi bare skal tegne grafen hvor $ x $ ligger mellom 0 og 300. For å få til dette bruker vi kommandoen \texttt{Funksjon[ <Funksjon>, <Start>, <Slutt> ]}:
-	\g{f(x)=Funksjon[0.0013x\^{}3-0.59x\^{}2+61x+2000, 0, 300]}
-	Grafen er nå tegnet inn i grafikkfeltet, men det er ikke alltid vi ser den med en gang. Dette er fordi vi ikke har justert aksene våre riktig. For å justere disse må vi bruke knappen \texttt{Flytt grafikkfelt}
-	\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.35]{flytt}
-	\end{figure}
-	Siden vi ikke kan ha negative dager, bør vi her flytte aksekorset slik at origo (punktet $ (0, 0) $) ligger helt nede i venstre hjørne. Etterpå bruker vi \texttt{Flytt grafikkfelt}-knappen og drar i $ x $-aksen slik at bare tallene fra 0$ - $300 er synlige. Etterpå justerer vi $ y $-aksen slik at grafen til $ f $ er synlig for på hele dette intervallet (grafen bør dekke så mye av feltet som mulig):
-	\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.35]{opg5a}
-	\end{figure}
-	Algebrafeltet tar vi med slik at både vi og sensor kan dobbeltsjekke at uttrykket vårt er skrevet inn riktig.
-	
-	Vi bør også skrive på hva de forskjellige aksene forteller oss. Vi leser i oppgaven at $ f(x) $ er vannstanden i mm, mens $ x $ er antall dager. For å skrive på dette bruker vi \texttt{Tekst}-knappen:
-	\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.35]{tekst}
-	\end{figure}
-	Navnelappene plasserer vi i enden av hver akse:
-	\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.35]{tekst2}
-	\end{figure}
-\end{comment}
-
-\vedlg{Finne verdien til en funksjon/linje}
-\textbf{Funksjon}\bs
+\subsection{Å finne verdien til en funksjon}
 Si vi har funksjonen
 \[H(x)= x^2 + 3x -3 \]
-Hvis ønsker å vite hva $ H(2) $ er, skriver vi
+Hvis vi ønsker å vite hva $ H(2) $ er, skriver vi
 \g{H(2)}
-som resulterer i dette:
+som resulterer i dette
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.6]{H}
+	\includegraphics[scale=0.5]{H}
 \end{figure}
 Da vet vi at $ H(2)=7 $.\vsk
 
-\textbf{Linje}\bs
-Skriver vi inn ei linje blir saken litt annerledes, noe vi her skal vise ved å bruke de to linjene gitt ved uttrykkene:
+
+\newpage
+\subsection{Rette linjer}
+Det anbefales på det sterkeste at du bruker funksjonsuttrykk når du behandler linjer i GeoGebra, men det kan være greit å vite om den andre måten man kan gjøre det på. \vsk
+
+La oss se på de to linjene \vs
 \alg{
-y&= x-3 \\
-y&= -2x+1
+	y&= x-3 \vn
+	y&= -2x+1
 }
-Vi skriver disse  linjene inn i GeoGebra og får:
+Vi skriver disse inn i GeoGebra, og får
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.6]{fglin1}
+	\includegraphics[scale=0.5]{fglin1}
 \end{figure}
 Ønsker vi nå å finne hva verdien til $ {y=x-3} $ er når $ {x=2} $, må vi legge merke til at GeoGebra har kalt denne linja for $ f $. Svaret vi søker får vi da ved å skrive $ f(2) $. Ønsker vi samtidig å vite hva $ {y=-2x+1} $ er når $ {x=0} $ må vi skrive $ g(0) $:
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.6]{fglin2}
 \end{figure}
+
+\st{
+\textbf{Videoer}
+\begin{itemize}
+\item \net{}{Finne nullpunktet til en graf.}	
+\end{itemize}
+
+}
 \vedlg{Finne skjæringspunkt}
-Se videoen \net{https://drive.google.com/open?id=1cNkoEsprqnYvKIjX2aouhrr_PGTfTdHc}{skj}.
+Se videoen 
 \vedlg{Finne nullpunkt}
 Se videon
 \net{https://drive.google.com/open?id=12aJaWEhLFlleFm6ajQTEAuNtam1UAjPz}{nullpkt}.
