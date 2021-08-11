@@ -10,7 +10,7 @@
 Dette forteller oss at prisen for kroneis har
 }
 \parbox[r]{0.3\linewidth}{\includegraphics[scale=2]{kr}}\\[2pt]
-blitt ganget med 36. Dette betyr også at den nye prisen utgjør 3600\% av den gamle. I denne sammenhengen kunne vi kalt både 36 og 3600\% for en \textit{indeks}, siden begge tallene forteller noe om hvordan prisen for kroneis har endret seg fra 1953 til 2017. Velger man å bruke prosenttall som indeks er det vanlig å kutte prosentsymbolet, i vårt eksempel ville da indeksen blitt 3600.
+blitt ganget med 36. Dette betyr også at den nye prisen utgjør 3600\% av den gamle. I denne sammenhengen kunne vi kalt både 36 for en \textit{indeks}, siden begge tallene forteller noe om hvordan prisen for kroneis har endret seg fra 1953 til 2017.
 \begin{comment}
 	\regv 
 	\reg[Indeks]{\vsb
@@ -49,10 +49,13 @@ blitt ganget med 36. Dette betyr også at den nye prisen utgjør 3600\% av den g
 \end{itemize}}
 For å sammenligne noe må man alltid starte med noe å sammenligne med, og konsumprisindeksen tar utgangspunkt i prisnivået på de nevnte varene/tjenestene i året 2015. 2015 kalles derfor \textit{basisåret}, og i dette året er indeksen bestemt til å være 100.\regv
 \reg[Basisår]{I et basisår er verdien til indeksen 100. For konsumprisindeksen er basisåret 2015.}\regv
-Tabellen under er hentet fra SSB sine nettsider og viser KPI (konsumprisindeks) for de 7 siste årene:
+Tabellen under er hentet fra SSB sine nettsider og viser KPI (konsumprisindeks) for de 10 siste årene:
 \begin{center}
 	\begin{tabular}{c|c}
 		År &  KPI \\ \hline
+		2020 & 112,2\\
+		2019 & 	110,8\\
+		2018 &  112,2 \\
 		2017&	105,5\\
 		2016&	103,6\\
 		2015&	100\\
@@ -79,59 +82,75 @@ I 2017 var prisindeksen for en vare 109. Hvor mye har har prisen endret seg side
 Prisen har altså endret seg 9\% siden basisåret.
 }
 \subsection{Kroneverdi}
-Vi har nevnt at en kroneis kostet 0,75 \,kr i 1953 og 27\,kr i 2018. Når vi ved to tidspunkt må betale \textsl{forskjellig} pris på den \textsl{samme} varen skyldes det ofte at \textit{kroneverdien} har forandret seg; Prisen på kroneisen har gått opp blant annet fordi kroneverdien har gått ned $ - $ du fikk altså kjøpt mindre varer for hver 1-krone i 2017 enn i 1953.\vsk
+Vi har nevnt at en kroneis kostet 0,75 \,kr i 1953 og 27\,kr i 2018. Når vi ved to tidspunkt må betale \textsl{forskjellig} pris på den \textsl{samme} varen skyldes det ofte at \textit{kroneverdien} har forandret seg; \textsl{Prisen på kroneisen har gått opp blant annet fordi kroneverdien har gått ned $ - $ du fikk altså kjøpt mindre varer for hver 1-krone i 2017 enn i 1953.}\vsk
 
-\prbxl{0.6}{Verdien av 1 krone, altså kroneverdien ved et år, beregner vi ut ifra konsumpris-indeksen.  Vi tar da konsumprisindeksen til basisåret (100) og deler med KPI for}\qquad
-\prbxr{0.3}{Kroneverdien i basisåret (2015) er alltid lik 1.}\\ året vi ønsker å finne kroneverdien til. For eksempel var KPI i 1953 lik 6,9, mens den i 2017 105,5. Kroneverdien for disse årene blir derfor: 
-\alg{
-\text{Kroneverdi i 2017} &= \frac{100}{105,5} \\
-&\approx 0,94\br
-\text{Kroneverdi i 1953} &= \frac{100}{6,9} \\
-&\approx 14,49
-}
-\prbxl{0.5}{Dette forteller oss at 1\,kr i 2017 er verd 0,94 ganger \textsl{mindre} enn 1\,kr i 2015, mens 1\,kr i 1953 er verd 14,49 ganger \textsl{mer}.}\qquad
-\prbxr{0.4}{Om man ganger med et tall som er mindre enn 1, får man et svar som er mindre enn utgangspunktet.}\\
+Verdien av 1 krone ved et år, kroneverdien, beregner vi ut ifra kunsomprisindeksen til basis: \regv
+	
 \reg[Kroneverdi \label{kr}]{\vs
-\[ \text{Kroneverdi}=\frac{100}{\text{KPI}} \]
+\[ \text{kroneverdi}=\frac{100}{\text{KPI}} \]
+\mer Kroneverdien for basisåret (2015) er 1.
 }
-\eks{
+\eks[1]{
 KPI i 2012 var 93,9. Regn ut kroneverdien i 2012.
 
-\sv
-\alg{
-\text{Kroneverdi i 2012} &= \frac{100}{93,9}\\
+\sv \vs
+\algv{
+\text{kroneverdi i 2012} &= \frac{100}{93,9}\\
 &\approx 1,06
 }
-Å betale 1\,kr i 2012 ville vært dete samme som å betale 1,06\,kr i 2015 (basisåret).
+Dette betyr at å betale 1\,kr i 2012 ville vært det samme som å betale 1,06\,kr i basisåret.
+} \vsk
+
+\reg[Realverdi \label{realverdi}]{
+Realverdien til en pengesum er hvor mye en pengesum ville vært verd i basisåret.	
+\[ \text{realverdi} = \text{opprinnelig verdi}\cdot \text{kroneverdi} \]
+}
+\eks{
+I 1928 var KPI 3,2 og i 2020 var KPI 112,2. Hva hadde størst realverdi, 10\,000\enh{kr} i 1928 eller 350\,000\enh{kr} i 2020? 
+
+\sv
+Vi har at
+\algv{
+\text{kroneverdi i 1928} &= \frac{100}{3,2}
+}
+Altså er
+\alg{
+\text{verdien av 10\,000\enh{kr} fra 1928 i basisår}&= 10\,000\enh{kr}\cdot \frac{100}{3,2} \\
+&= 312\,500 \enh{kr}
+}
+Videre er
+\algv{
+	\text{kroneverdi i 2012} &= \frac{100}{112,2}
+}
+Altså er
+\alg{
+	\text{verdien av 350\,000\enh{kr} fra 1928 i basisår}&= 350\,000\cdot \frac{100}{112,2} \\
+	&\approx 311\,943\enh{kr}
+}
+Altså var 10\,000\enh{kr} verd mer i 1928 enn hva 350\,000\enh{kr} var verd i 2020.
 }
 \subsection{Reallønn og nominell lønn}
-Hvor god \textit{råd} vi har avhenger av hvor mye vi tjener og hva prisnivået er. Tenk nå at hadde en årslønn på 500\,000\,kr i både 2011, 2015 og 2017. \hyperref[KPI]{\textsl{Tabell} \ref*{KPI}} forteller oss at du hadde du best råd i 2011 $ - $ fordi da var prisnivået lavest (siden KPI var mindre enn for de to andre årene). I praksis ville dette betydd at selv om lønnen din var den samme alle årene, ville du kunne kjøpt flere varer i 2011 siden de da var billigere. I denne sammenhengen sier vi at \textit{reallønnen} din var høyere i 2011 enn i 2015 og 2017.\\ \vsk
-\prbxl{0.6}{At prisnivået har blitt høyere er det samme som at kroneverdien har blitt lavere. For å regne ut selve verdien til reallønnen, ganger vi den nominelle lønnen med kroneverdien (se ??:}\qquad
-\prbxr{0.3}{Nominell lønn er lønnen du får fra arbeidsgiveren din, altså det vi som oftest bare kaller lønnen.}
-\prbxl{0.7}{\alg{
-		\text{Reallønn i 2017}&= 500\,000\cdot\frac{100}{105,5}\enh{kr} \\
-		& \approx 473\,934 \enh{kr}\br
-		\text{Reallønn i 2015}&= 500\,000\cdot\frac{100}{100}\enh{kr} \\
-		& \approx 500\,000 \enh{kr}\br
-		\text{Reallønn i 2011}&= 500\,000\cdot\frac{100}{93,3} \\
-		& \approx 535\,905 \enh{kr}
-}}
-\prbxr{0.26}{Legg merke til at reallønnen i basisåret\\ 2015 alltid vil ha samme verdi som den nominelle lønnen!}
-\reg[Reallønn]{\vs
-\[ \text{reallønn}=\text{nominell lønn}\cdot\text{kroneverdien}\]
+Hvor god \textit{råd} vi har avhenger av hvor mye vi tjener og hva prisnivået er. Tenk at du  hadde en årslønn på 500\,000\,kr i både 2020 og i 2019. \hyperref[KPI]{\textsl{Tabell} \ref*{KPI}} forteller oss da at du hadde du best råd i 2019, fordi da var prisnivået (KPI) lavere enn i 2020. \vsk
+
+At prisnivået har blitt høyere er det samme som at kroneverdien har blitt lavere. Dette betyr igjen at hvis lønnen din var den samme i 2019 og 2020, er \textsl{realverdien} til lønnen din høyere i 2019 enn i 2020. Den opprinnelige lønnen og realverdien til lønnen er såpass mye brukt i statistikk at de har fått egne navn
+
+\reg[Reallønn og nominell lønn\label{realnomonn}]{
+Nominell lønn er lønn  mottat et gitt år. \vsk
+
+Reallønn er realverdien til den nominelle lønnen. 	
 }
 \eks{
 I 2016 tjente Per 450\,000 kr, mens han i 2012 tjente 420\,000 kr. I 2016 var $ {\text{KPI}=103,6} $, mens i 2012 var $ {\text{KPI}=93,9} $. I hvilket av disse årene hadde Per best råd?
 
 \sv
-For å finne ut hvilket av årene Per hadde best råd, sjekker vi hvilket år han hadde høyest reallønn (KPI-verdiene i utregningen henter vi fra \hyperref[KPI]{\textsl{Tabell 1}}):
+For å finne ut hvilket av årene Per hadde best råd, sjekker vi hvilket år han hadde høyest reallønn\footnote{KPI-verdiene i utregningen henter vi fra \hyperref[KPI]{\textsl{Tabell 1}}} (se \rref{realverdi}):
 \alg{
-\text{Reallønn i 2016}&= 450\,000\cdot\frac{100}{103,6}\enh{kr} \\
-& \approx 434\,363 \enh{kr}\br
-\text{Reallønn i 2012}&= 420\,000\cdot\frac{100}{93,9} \\
+\text{reallønn i 2016}&= 450\,000\cdot\frac{100}{103,6}\enh{kr} \\
+& \approx 434\,363 \enh{kr}\vn
+\text{reallønn i 2012}&= 420\,000\cdot\frac{100}{93,9} \\
 & \approx 447\,284 \enh{kr}
 }
-Vi ser at reallønnen til Per var høyest i 2012, derfor hadde han bedre råd dette året enn i 2016.
+Reallønnen til Per var altså høyest i 2012, derfor hadde han bedre råd da enn i 2016.
 }
 \subsection{Regning med indekser}
 Vi har sett hvordan både verdien av en pris eller en reallønn forandrer seg når KPI øker eller minker. Hvis en verdi har forandret seg, men forholdet mellom verdien og indeksen forblir det samme, sier vi at \textsl{verdien har fulgt indeksen}.\regv

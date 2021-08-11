@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  9 AUG 2021 06:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  11 AUG 2021 07:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1461,760 +1461,760 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--79
 
 [3
 
- <../fig/kake.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
+ <../fig/kake.jpg>] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 []\T1/lmr/m/n/10.95 Å dele med 100 er så-pass enkelt, at vi gjerne kan ut-trykk
 e pros-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 \T1/lmr/m/n/10.95 ent-tall som des-i-mal-tall når vi fore-tar utreg-ninger. I \
 T1/lmr/m/sl/10.95 Ek-sem-pel 5
  []
 
-[4]
+[5]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 124.
+(Font)              <12> on input line 142.
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 []\T1/lmr/m/n/10.95 Å gange med 100 er så-pass enkelt å ta i hodet at man kan t
 a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 \T1/lmr/m/n/10.95 det bort fra selve utreg-nin-gen. \T1/lmr/m/sl/10.95 Ek-sem-p
 el 2 \T1/lmr/m/n/10.95 over kunne vi da
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
 []\T1/lmr/m/n/10.95 I mange situ-asjoner har noe økt eller min-ket med
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
 \T1/lmr/m/n/10.95 en viss pros-ent. I en bu-tikk kan man for ek-sem-pel
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
 \T1/lmr/m/n/10.95 komme over en skjorte som orig-inalt kostet 500 kr,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
 \T1/lmr/m/n/10.95 men selges med 40% \T1/lmr/m/it/10.95 ra-batt\T1/lmr/m/n/10.9
 5 . Dette be-tyr at vi skal
  []
 
-<../fig/sale.png, id=133, 225.84375pt x 225.84375pt>
+<../fig/sale.png, id=143, 225.84375pt x 225.84375pt>
 File: ../fig/sale.png Graphic file (type png)
 <use ../fig/sale.png>
-Package pdftex.def Info: ../fig/sale.png  used on input line 154.
+Package pdftex.def Info: ../fig/sale.png  used on input line 172.
 (pdftex.def)             Requested size: 90.33589pt x 90.33589pt.
 
-Overfull \hbox (22.05032pt too wide) in paragraph at lines 154--154
+Overfull \hbox (22.05032pt too wide) in paragraph at lines 172--172
  [] 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-57.
+75.
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
 []\T1/lmr/m/n/10.95 Skal vi be-tale full pris, må vi be-tale 100%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
 \T1/lmr/m/n/10.95 av 500. Men får vi 40% i ra-batt, skal vi
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 167.
+(Font)              <9> on input line 185.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 167.
+(Font)              <5> on input line 185.
 
-Overfull \hbox (263.54184pt too wide) in paragraph at lines 167--167
+Overfull \hbox (263.54184pt too wide) in paragraph at lines 185--185
 []$[]$ 
  []
 
-[6 <../fig/sale.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 176--176
+[7 <../fig/sale.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
 []\T1/lmr/m/n/10.95 Det er ikke alltid vi er så heldige at vi får
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--176
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
 \T1/lmr/m/n/10.95 ra-batt på et pro-dukt, ofte må vi fak-tisk
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--176
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
 \T1/lmr/m/n/10.95 be-tale et til-legg. [][]Mer-var-diavgiften[][] er et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--176
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
 \T1/lmr/m/n/10.95 slikt til-legg. I Norge må vi be-tale 25% i
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
 []\T1/lmr/m/n/10.95 at vi må be-tale et til-legg på 25%, altså $\OT1/lmr/m/n/10
 .95 125%$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--191
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
 []\T1/lmr/m/n/10.95 For ek-sem-pel koster ørek-lokkene
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--191
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
 \T1/lmr/m/n/10.95 på bildet 999,20 kr \T1/lmr/m/sl/10.95 ek-slud-ert \T1/lmr/m/
 n/10.95 mva.
  []
 
-<../fig/peltor.png, id=144, 416.55624pt x 317.185pt>
+<../fig/peltor.png, id=155, 416.55624pt x 317.185pt>
 File: ../fig/peltor.png Graphic file (type png)
 <use ../fig/peltor.png>
-Package pdftex.def Info: ../fig/peltor.png  used on input line 194.
+Package pdftex.def Info: ../fig/peltor.png  used on input line 212.
 (pdftex.def)             Requested size: 166.61954pt x 126.87173pt.
 
-Overfull \hbox (22.9014pt too wide) in paragraph at lines 191--196
+Overfull \hbox (22.9014pt too wide) in paragraph at lines 209--214
 []$[]$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--203
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
 []\T1/lmr/m/n/10.95 Når en stør-relse synker med $\OML/lmm/m/it/10.95 a$\T1/lmr
 /m/n/10.95 %, en-der vi opp med
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--203
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
 []\T1/lmr/m/n/10.95 Når en stør-relse øker med $\OML/lmm/m/it/10.95 a$\T1/lmr/m
 /n/10.95 %, en-der vi opp med
  []
 
-[7 <../fig/peltor.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 226--226
-[]\T1/lmr/m/n/10.95 På side []6[] ble prisen til en skjorte re-dusert
+[8 <../fig/peltor.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
+[]\T1/lmr/m/n/10.95 På side []7[] ble prisen til en skjorte re-dusert
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--226
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
 \T1/lmr/m/n/10.95 med 40%, og da endte vi opp med å be-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--226
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
 \T1/lmr/m/n/10.95 tale 60% av orig-i-nal-prisen. Vi sier da at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--226
-\T1/lmr/m/it/10.95 vek-st-fak-toren \T1/lmr/m/n/10.95 er 0,6. På side []7[] måt
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
+\T1/lmr/m/it/10.95 vek-st-fak-toren \T1/lmr/m/n/10.95 er 0,6. På side []8[] måt
 te vi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--226
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
 \T1/lmr/m/n/10.95 legge til 25% mva., og da endte vi med
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--226
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
 \T1/lmr/m/n/10.95 å be-tale 125% av orig-i-nal-prisen. Da er
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
 []\T1/lmr/m/n/9 Mange stusser over at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
 \T1/lmr/m/n/9 or-det vek-st-fak-tor brukes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
 \T1/lmr/m/n/9 selv om en stør-relse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
 \T1/lmr/m/sl/9 synker\T1/lmr/m/n/9 , men slik er det.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
 \T1/lmr/m/n/9 Kan-skje et bedre ord
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
 \T1/lmr/m/n/9 ville være \T1/lmr/m/it/9 en-drings-fak-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
+Underfull \hbox (badness 10000) in paragraph at lines 251--251
 []\T1/lmr/m/n/10.95 Når en stør-relse en-dres med $\OML/lmm/m/it/10.95 a\OT1/lm
 r/m/n/10.95 %$\T1/lmr/m/n/10.95 , er vek-st-fak-toren ver-dien til
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
 []\T1/lmr/m/n/10.95 En sjoko-lade koster 9,80 kr, ek-sklud-ert mva. På mat-vare
 r er det
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 323--323
 \T1/lmr/m/n/9 Obs! Hvis 'en-dret orig-i-nalverdi' er min-dre enn 'orig-i-nal ve
 rdi', må man i
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--306
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
 [][][]\T1/lmr/m/sl/10.95 Regel 0.8[][][] \T1/lmr/m/n/10.95 kan se litt vold-som
  ut, og er ikke nød-vendigvis så
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--306
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
 \T1/lmr/m/n/10.95 lett å huske. Hvis du virke-lig har forstått sek-sjon ??, kan
  du
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--306
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
 \T1/lmr/m/n/10.95 uten å bruke denne forme-len finne pros-entvise en-dringer tr
 in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--306
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
 \T1/lmr/m/n/10.95 nvis. I påføl-gende ek-sem-pler viser vi der-for både en trin
 -nvis
  []
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 345--345
 []\T1/lmr/m/n/10.95 I 2019 hadde et fot-bal-lag 20 medlem-mer. I 2020 hadde lag
 et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
+Underfull \hbox (badness 10000) in paragraph at lines 345--345
 \T1/lmr/m/n/10.95 12 medlem-mer. Hvor mange pros-ent av medlemmene fra 2019
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
+Underfull \hbox (badness 10000) in paragraph at lines 345--345
 []\T1/lmr/m/n/10.95 Vi starter med å merke oss at det det medlem-stal-let fra 2
 019
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
+Underfull \hbox (badness 10000) in paragraph at lines 345--345
 []\T1/lmr/m/n/10.95 Vi leg-ger merke til at orig-i-nalver-dien er større enn de
 n en-drede
  []
 
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 333--333
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
 \T1/lmr/m/n/9 Obs! Hvis 'en-dret orig-i-nalverdi' er min-dre enn 'orig-i-nal ve
 rdi', må man
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--335
+Underfull \hbox (badness 10000) in paragraph at lines 353--353
 [][][]\T1/lmr/m/sl/10.95 Regel 0.8[][][] \T1/lmr/m/n/10.95 og [][]\T1/lmr/m/sl/
 10.95 Regel 0.9[][][] \T1/lmr/m/n/10.95 gir begge form-ler som kan brukes til å
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--335
+Underfull \hbox (badness 10000) in paragraph at lines 353--353
 \T1/lmr/m/n/10.95 finne pros-entvise en-dringer. Her er det opp til en selv å v
 elge
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--335
+Underfull \hbox (badness 10000) in paragraph at lines 353--353
 \T1/lmr/m/n/10.95 hvilken man liker best. Som allerede nevnt angående [][]\T1/l
 mr/m/sl/10.95 Regel 0.8[][][]\T1/lmr/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--335
+Underfull \hbox (badness 10000) in paragraph at lines 353--353
 \T1/lmr/m/n/10.95 er også [][]\T1/lmr/m/sl/10.95 Regel 0.9[][][] \T1/lmr/m/n/10
 .95 en litt kro-n-glete formel, og man trenger den
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--335
+Underfull \hbox (badness 10000) in paragraph at lines 353--353
 \T1/lmr/m/n/10.95 ikke hvis man har forstått sek-sjonn ?? og ??. Her vil vi ogs
 å i
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
 []\T1/lmr/m/n/10.95 I 2019 hadde et fot-bal-lag 20 medlem-mer. I 2020 hadde lag
 et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
 \T1/lmr/m/n/10.95 12 medlem-mer. Hvor mange pros-ent av medlemmene fra 2019
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
 []\T1/lmr/m/n/10.95 Vi starter med å merke oss at det det medlem-stal-let fra 2
 019
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
 []\T1/lmr/m/n/10.95 Fotballaget gikk fra å ha 20 til 12 medlem-mer, da har vi a
 t (se
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
 \T1/lmr/m/n/10.95 En vek-st-fak-tor lik 0,6 tilsvarer en en-dring på 40% (se []
 []\T1/lmr/m/sl/10.95 Regel 0.5[][][]\T1/lmr/m/n/10.95 ).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
 []\T1/lmr/m/n/10.95 Vi leg-ger merke til at orig-i-nalver-dien er større enn de
 n en-drede
  []
 
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 359--359
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 377--377
 []\T1/lmr/m/n/10.95 Ofte snakker vi om mange stør-relser sam-tidig,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--359
+Underfull \hbox (badness 10000) in paragraph at lines 377--377
 \T1/lmr/m/n/10.95 og når man da bruker prosent-ordet kan set-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--359
+Underfull \hbox (badness 10000) in paragraph at lines 377--377
 \T1/lmr/m/n/10.95 ninger bli veldig lange og knotete hvis man
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--359
+Underfull \hbox (badness 10000) in paragraph at lines 377--377
 \T1/lmr/m/n/10.95 også snakker om forskjel-lige orig-i-nalverdier.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--359
+Underfull \hbox (badness 10000) in paragraph at lines 377--377
 \T1/lmr/m/n/10.95 For å foren-kle set-nin-gene har vi be-grepet
  []
 
-<../fig/sunglasses.jpeg, id=203, 369.38pt x 369.38pt>
+<../fig/sunglasses.jpeg, id=214, 369.38pt x 369.38pt>
 File: ../fig/sunglasses.jpeg Graphic file (type jpg)
 <use ../fig/sunglasses.jpeg>
-Package pdftex.def Info: ../fig/sunglasses.jpeg  used on input line 363.
+Package pdftex.def Info: ../fig/sunglasses.jpeg  used on input line 381.
 (pdftex.def)             Requested size: 110.81485pt x 110.81485pt.
 
-Overfull \hbox (25.45659pt too wide) in paragraph at lines 363--363
+Overfull \hbox (25.45659pt too wide) in paragraph at lines 381--381
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--366
+Underfull \hbox (badness 10000) in paragraph at lines 384--384
 []\T1/lmr/m/n/10.95 Tenk at et par sol-briller først ble solgt med
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--366
+Underfull \hbox (badness 10000) in paragraph at lines 384--384
 \T1/lmr/m/n/10.95 30% ra-batt av orig-i-nal-prisen, og deretter med
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--366
+Underfull \hbox (badness 10000) in paragraph at lines 384--384
 \T1/lmr/m/n/10.95 80% ra-batt av orig-i-nal-prisen. Da sier vi at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--379
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
 []\T1/lmr/m/n/10.95 ''Rabatten var først 30%, så økte ra-bat-ten med 50 pros-en
 t-po-eng.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--379
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
 []\T1/lmr/m/it/10.95 Forklaring: \T1/lmr/m/n/10.95 ''Ra-bat-ten'' er en stør-re
 lse vi reg-ner ut i fra orig-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--379
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
 \T1/lmr/m/n/10.95 nal-prisen til sol-bril-lene. Når vi sier ''pros-ent-po-eng''
  viser vi til
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--379
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
 \T1/lmr/m/n/10.95 at \T1/lmr/bx/n/10.95 orig-i-nal-prisen fort-satt er ut-gangs
 punk-tet \T1/lmr/m/n/10.95 for den kom-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--379
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
 \T1/lmr/m/n/10.95 mende pros-en-treg-nin-gen. Når prisen er 1000 kr, starter vi
  med
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--379
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
 []$ \T1/lmr/m/n/10.95 i ra-batt. Når vi leg-ger til 50 \T1/lmr/m/sl/10.95 pros-
 ent-po-eng\T1/lmr/m/n/10.95 ,
  []
 
-[13 <../fig/sunglasses.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 387--387
+[14 <../fig/sunglasses.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 []\T1/lmr/m/n/10.95 ''Rabatten var først 30%, så økte ra-bat-ten med 50%. Da bl
 e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--387
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 []\T1/lmr/m/it/10.95 Forklaring: \T1/lmr/m/n/10.95 ''Ra-bat-ten'' er en stør-re
 lse vi reg-ner ut i fra orig-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--387
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 \T1/lmr/m/n/10.95 nal-prisen til sol-bril-lene, men her viser vi til at \T1/lmr
 /bx/n/10.95 ra-bat-ten er
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--387
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 \T1/lmr/bx/n/10.95 ut-gangspunk-tet \T1/lmr/m/n/10.95 for den kom-mende pros-en
 -treg-nin-gen. Når
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--417
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
 []\T1/lmr/m/n/10.95 En dag var 5% av elevene på en skole borte. Da-gen et-ter v
 ar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--417
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
 []\T1/lmr/bx/n/10.95 a) $[]$\T1/lmr/m/n/10.95 , der-for har fraværet økt med 2,
 5 pros-ent-
  []
 
 
-LaTeX Warning: Reference `autgavb' on page 14 undefined on input line 417.
+LaTeX Warning: Reference `autgavb' on page 15 undefined on input line 435.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--417
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
 []\T1/lmr/bx/n/10.95 b) \T1/lmr/m/n/10.95 Her må vi svare på hvor mye en-drin-g
 en, altså 2,5%, ut-gjør av
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--417
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
 \T1/lmr/m/n/10.95 5%. Dette er det samme som å finne hvor mye 2,5 ut-gjør av 5.
 
  []
 
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 443--443
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 461--461
 []\T1/lmr/m/n/10.95 Finn den nye ver-dien når 20% økn-ing ut-føres 6 påføl-gend
 e
  []
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 452--452
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 470--470
 []\T1/lmr/m/n/10.95 Marion har kjøpt seg en ny bil til en verdi av 300000 kr, o
 g hun
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--452
+Underfull \hbox (badness 10000) in paragraph at lines 470--470
 \T1/lmr/m/n/10.95 for-ven-ter at ver-dien vil synke med 12% hvert år de neste f
 ire
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--452
+Underfull \hbox (badness 10000) in paragraph at lines 470--470
 []\T1/lmr/m/n/10.95 Siden den årlige nedgan-gen er 12%, blir vek-st-fak-toren 0
 ,88.
  []
 
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 457--457
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 475--475
 []\T1/lmr/m/n/10.95 Med \T1/lmr/m/it/10.95 forholdet \T1/lmr/m/n/10.95 mel-lom 
 to stør-relser mener
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--457
+Underfull \hbox (badness 10000) in paragraph at lines 475--475
 \T1/lmr/m/n/10.95 vi den éne stør-relsen delt på den an-dre.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--457
+Underfull \hbox (badness 10000) in paragraph at lines 475--475
 \T1/lmr/m/n/10.95 Har vi for ek-sem-pel 1 rød kule og 5 blå
  []
 
-<../fig/bolle3.pdf, id=228, 90.9799pt x 45.74089pt>
+<../fig/bolle3.pdf, id=238, 90.9799pt x 45.74089pt>
 File: ../fig/bolle3.pdf Graphic file (type pdf)
 <use ../fig/bolle3.pdf>
-Package pdftex.def Info: ../fig/bolle3.pdf  used on input line 460.
+Package pdftex.def Info: ../fig/bolle3.pdf  used on input line 478.
 (pdftex.def)             Requested size: 90.97966pt x 45.74077pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--465
+Underfull \hbox (badness 10000) in paragraph at lines 483--483
 []\T1/lmr/m/n/10.95 Forholdet kan vi også skrive som
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--465
+Underfull \hbox (badness 10000) in paragraph at lines 483--483
 []$\T1/lmr/m/n/10.95 . Ver-dien til dette reg-nestykket
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--465
+Underfull \hbox (badness 10000) in paragraph at lines 483--483
 \T1/lmr/m/n/10.95 I denne sam-men-hen-gen kalles 0,2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--466
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
 []\T1/lmr/m/n/9 Om vi skriver forholdet som brøk
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--466
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
 \T1/lmr/m/n/9 eller som de-lestykke vil avhenge
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
+Underfull \hbox (badness 10000) in paragraph at lines 501--501
 []\T1/lmr/bx/n/10.95 a) \T1/lmr/m/n/10.95 Hva er forholdet mel-lom an-tall hand
 -ball-spillere og fot-ball-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
+Underfull \hbox (badness 10000) in paragraph at lines 501--501
 []\T1/lmr/bx/n/10.95 b) \T1/lmr/m/n/10.95 Hva er forholdet mel-lom an-tall fot-
 ball-spillere og hand-ball-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--497
+Underfull \hbox (badness 10000) in paragraph at lines 515--515
 []\T1/lmr/m/n/10.95 Du skal lage et lot-teri der forholdet mel-lom an-tall vin-
 ner-lodd og
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--497
+Underfull \hbox (badness 10000) in paragraph at lines 515--515
 \T1/lmr/m/n/10.95 ta-per-lodd er $[]$. Hvor mange ta-per-lodd må du lage hvis d
 u skal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--497
+Underfull \hbox (badness 10000) in paragraph at lines 515--515
 \T1/lmr/m/n/10.95 Siden ''an-tall vin-ner-lodd'' er uk-jent, kaller vi stør-rel
 sen for $\OML/lmm/m/it/10.95 x$\T1/lmr/m/n/10.95 , og
  []
 
-[17
+[18
 
  <../fig/bolle3.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 504--504
+Underfull \hbox (badness 10000) in paragraph at lines 522--522
 []\T1/lmr/m/n/10.95 En målestokk er forholdet mel-lom en lengde på en mod-ell a
 v en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 504--504
+Underfull \hbox (badness 10000) in paragraph at lines 522--522
 \T1/lmr/m/n/10.95 gjen-stand og den samsvarende leng-den på den virke-lige gjen
 -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 536--536
+Underfull \hbox (badness 10000) in paragraph at lines 554--554
 []\T1/lmr/m/n/10.95 Luftlinjen (den blå) mel-lom Hel-land og Vike er 10,4cm på
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 536--536
+Underfull \hbox (badness 10000) in paragraph at lines 554--554
 \T1/lmr/m/n/10.95 kartet. Hvor langt er det mel-lom Hel-land og Vike i virke-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 536--536
+Underfull \hbox (badness 10000) in paragraph at lines 554--554
 []\T1/lmr/m/n/10.95 Tresfjordbrua er ca 1300 m i virke-ligheten. Hvor lang er
  []
 
-<../fig/vikves.png, id=240, 259.7203pt x 201.00093pt>
+<../fig/vikves.png, id=250, 259.7203pt x 201.00093pt>
 File: ../fig/vikves.png Graphic file (type png)
 <use ../fig/vikves.png>
-Package pdftex.def Info: ../fig/vikves.png  used on input line 536.
+Package pdftex.def Info: ../fig/vikves.png  used on input line 554.
 (pdftex.def)             Requested size: 259.71967pt x 201.00043pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 536--536
+Underfull \hbox (badness 10000) in paragraph at lines 554--554
 []\T1/lmr/m/n/10.95 Avstanden mel-lom Hel-land og Vike på kartet samsvarer med
  []
 
-[18] [19 <../fig/vikves.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 551--551
+[19] [20 <../fig/vikves.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 569--569
 []\T1/lmr/m/n/10.95 Målestokk er omtrent alltid gitt som en brøk med teller lik
  $\OT1/lmr/m/n/10.95 1$\T1/lmr/m/n/10.95 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 555--555
+Underfull \hbox (badness 10000) in paragraph at lines 573--573
 []\T1/lmr/m/n/10.95 På en flaske med sol-bær-sirup kan du for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 555--555
+Underfull \hbox (badness 10000) in paragraph at lines 573--573
 \T1/lmr/m/n/10.95 ek-sem-pel lese sym-bo-let ''2 +5'', som be-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 555--555
+Underfull \hbox (badness 10000) in paragraph at lines 573--573
 \T1/lmr/m/n/10.95 tyr at man skal blande sirup og vann i
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 555--555
+Underfull \hbox (badness 10000) in paragraph at lines 573--573
 \T1/lmr/m/n/10.95 forholdet $[]$. Så heller vi 2dL sirup i en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 555--555
+Underfull \hbox (badness 10000) in paragraph at lines 573--573
 \T1/lmr/m/n/10.95 kanne, må vi fylle på med 5dL vann for å
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--556
+Underfull \hbox (badness 10000) in paragraph at lines 574--574
 []\T1/lmr/m/n/9 Blander du sol-bær-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--556
+Underfull \hbox (badness 10000) in paragraph at lines 574--574
 \T1/lmr/m/n/9 sirup og vann, får du
  []
 
 
-Overfull \hbox (5.1712pt too wide) in paragraph at lines 559--560
+Overfull \hbox (5.1712pt too wide) in paragraph at lines 577--578
 []\T1/lmr/m/n/10.95 Noen ganger bryr vi oss ikke om \T1/lmr/m/it/10.95 hvor mye
  \T1/lmr/m/n/10.95 vi blan-der, så lenge forholdet 
  []
 
-[20]
-<../fig/forh.pdf, id=265, 147.44084pt x 84.43546pt>
+[21]
+<../fig/forh.pdf, id=275, 147.44084pt x 84.43546pt>
 File: ../fig/forh.pdf Graphic file (type pdf)
 <use ../fig/forh.pdf>
-Package pdftex.def Info: ../fig/forh.pdf  used on input line 560.
+Package pdftex.def Info: ../fig/forh.pdf  used on input line 578.
 (pdftex.def)             Requested size: 147.44046pt x 84.43524pt.
 
-Overfull \hbox (2.59718pt too wide) in paragraph at lines 561--568
+Overfull \hbox (2.59718pt too wide) in paragraph at lines 579--586
 \T1/lmr/m/n/10.95 Dette be-tyr én del ut-gjør $[]$ av blandin-gen, siru-pen ut-
 gjør $[]$ av blandin- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 583--583
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
 []\T1/lmr/m/n/10.95 I et malerspann er grønn og rød ma-l-ing blan-det i forhold
 et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 583--583
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
 []$\T1/lmr/m/n/10.95 , og det er 5L av denne blandin-gen. Du ønsker å gjøre om
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 583--583
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
 []\T1/lmr/m/n/10.95 I span-net har vi $[]$ deler. Siden det er 5L i alt, må vi 
 ha
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 583--583
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
 \T1/lmr/m/n/10.95 Når vi har 7 deler rød-ma-l-ing, men ønsker 11, må vi blande 
 oppi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
 []\T1/lmr/m/n/10.95 En kanne som rom-mer 21dL er fylt med en saft der sirup og
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
 []\T1/lmr/bx/n/10.95 a) \T1/lmr/m/n/10.95 Til sam-men består saften av $[]$ del
 er. Fordi 5 av disse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
 \T1/lmr/bx/n/10.95 b) \T1/lmr/m/n/10.95 Vi kan løse denne opp-gaven på samme må
 te som i opp-gave
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
 \T1/lmr/m/n/10.95 a), men det er raskere å merke oss at hvis vi har 15dL vann a
 v i
  []
 
-[21 <../fig/forh.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 605--605
+[22 <../fig/forh.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 623--623
 []\T1/lmr/m/n/10.95 I en fer-dig blan-det saft er forholdet mel-lom sirup og va
 nn lik
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--605
+Underfull \hbox (badness 10000) in paragraph at lines 623--623
 []\T1/lmr/m/n/10.95 Hvor mange deler saft og/eller vann må du legge til for at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--605
+Underfull \hbox (badness 10000) in paragraph at lines 623--623
 []\T1/lmr/m/n/10.95 Brøken vi ønsker, $[]$, kan vi skrive om til en brøk med sa
 mme
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--605
+Underfull \hbox (badness 10000) in paragraph at lines 623--623
 \T1/lmr/m/n/10.95 I vårt op-prin-nelige forhold har vi 3 deler sirup og 5 deler
  vann.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--605
+Underfull \hbox (badness 10000) in paragraph at lines 623--623
 \T1/lmr/m/n/10.95 Skal dette gjøres om til 3 deler sirup og 12 deler vann, må v
 i
  []
 
-[22]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 609.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 609.
+[23]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 627.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 627.
  (./brok.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 609.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 609.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 627.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 627.
 Package rerunfilecheck Info: File `brok.out' has not changed.
 (rerunfilecheck)             Checksum: FCEAAA25DD3CE391E158ECA183676578;563.
 
@@ -2223,10 +2223,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 31557 strings out of 481239
- 618968 string characters out of 5920378
- 936419 words of memory out of 5000000
- 46046 multiletter control sequences out of 15000+600000
+ 31571 strings out of 481239
+ 619140 string characters out of 5920378
+ 936514 words of memory out of 5000000
+ 46053 multiletter control sequences out of 15000+600000
  633106 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,20n,104p,870b,987s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2246,10 +2246,10 @@ f/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10
 type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro9.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsy9.pfb>
-Output written on brok.pdf (22 pages, 986391 bytes).
+Output written on brok.pdf (23 pages, 987632 bytes).
 PDF statistics:
- 367 PDF objects out of 1000 (max. 8388607)
- 307 compressed objects within 4 object streams
- 80 named destinations out of 1000 (max. 500000)
+ 378 PDF objects out of 1000 (max. 8388607)
+ 317 compressed objects within 4 object streams
+ 87 named destinations out of 1000 (max. 500000)
  150 words of extra memory for PDF output out of 10000 (max. 10000000)
 

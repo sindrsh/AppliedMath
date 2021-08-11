@@ -1,5 +1,6 @@
 settings.outformat="pdf";
 defaultpen(fontsize(11 pt));
+settings.render = 5;
 //defaultpen(1bp);
 usepackage("icomma");
 usepackage("amsmath");

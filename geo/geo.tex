@@ -95,14 +95,14 @@ Et eksempel på en størrelse uten dimensjon er ''to hester''. Mens det bare fin
 Når vi regner med størrelser med dimensjoner må vi passe på at alle enhetene er like, hvis ikke gir ikke regnestykkene våre mening. I denne boka skal vi se på disse enhetene:
 \tbs
 \begin{center}
-	\begin{tabular}{c|c}
-		\textbf{Enhet} & \textbf{Forkortelse} \\ \hline
-		meter & m \\\hline
-		gram & g \\\hline
-		liter & L
+	\begin{tabular}{c|c|c}
+		\textbf{Enhet} & \textbf{Forkortelse} &\textbf{Dimensjon}\\ \hline
+		meter & m &lengde\\\hline
+		gram & g &masse\\\hline
+		liter & L & volum
 	\end{tabular}
 \end{center}\tbs
-Noen ganger har vi veldig store eller veldig små størrelser, for eksempel er det ca 40\,075\,000\,m rundt ekvator! For så store tall er det vanlig å bruke en \textit{prefiks}, da kan vi si at det er ca 40\,075 km rundt ekvator. Her står 'km' for 'kilometer' og 'kilo' betyr '1\,000'. Så 1\,000 meter er altså 1 kilometer. Her er de viktigste prefiksene:\tbs
+Noen ganger har vi veldig store eller veldig små størrelser, for eksempel er det ca 40\,075\,000\,m rundt ekvator! For så store tall er det vanlig å bruke en \textit{prefiks}, da kan vi si at det er ca 40\,075 km rundt ekvator. Her står 'km' for 'kilometer' og 'kilo' betyr '1\,000'. Så 1\,000 meter er altså 1 kilometer. Her er prefiksene man oftest\footnote{Rett nok er 'deka' en veldig lite brukt prefiks, men vi har tatt den med fordi den kompletterer tallmønsteret.} møter på i hverdagen:\tbs
 \begin{center}
 	\begin{tabular}{c|c|c}
 		\textbf{Prefiks} & \textbf{Forkortelse}&\textbf{Betydning} \\ \hline
@@ -113,26 +113,17 @@ Noen ganger har vi veldig store eller veldig små størrelser, for eksempel er d
 		centi & c & 0,01\\\hline
 		milli & m & 0,001\\\hline		
 	\end{tabular}
-\end{center}\tbs
+\end{center}
+\newpage
 Bruker vi denne tabellen i kombinasjon med enhetene kan vi for eksempel se at:\vs
 \alg{
 	1000\enh{g}&= 1\enh{kg} \\
 	0,1 \enh{m} &= 1\enh{dm} \\
 	0,01 \enh{L} &= 1\enh{cL}
 }
-Enda ryddigere kan vi få det hvis vi lager en vannrett tabell, med meter, gram eller liter lagt til i midten:
-\begin{center}
-	\begin{tabular}{|c|c|c|c|c|c|c|c}
-		kilo &
-		hekto &
-		deka & m/g/L &
-		desi & 
-		centi & 
-		milli & 		
-	\end{tabular}
-\end{center}
-Vi har sett hvordan prefiksene egentlig bare betyr et tall, og m, g eller L kan vi si har et 1-tall foran seg ($ {4\cdot1\enh{m}} $ er jo det samme som $ 4\enh{m} $). Vi kan da legge merke til at for å komme fra én rute til en annen i tabellen, er det bare snakk om å flytte komma:
-\reg[Omgjøring av prefiks \label{ompref}]{Når vi skal endre prefikser kan vi bruke denne tabellen:
+Enda ryddigere kan vi få det hvis vi lager en vannrett tabell, med meter, gram eller liter lagt til i midten\footnote{Legg merke til at meter, gram og liter er \textsl{enheter med dimensjoner}, mens kilo, hekto osv. er \textsl{dimensjonsløse tall}. Det kan derfor virke litt rart å sette dem opp i samme tabell, men for dette formålet fungerer det helt fint.}: \regv
+
+\reg[\ompref \label{ompref}]{Når vi skal endre prefikser kan vi bruke denne tabellen:
 	\begin{center}
 		\begin{tabular}{|c|c|c|c|c|c|c|c}
 			kilo &
@@ -143,15 +134,15 @@ Vi har sett hvordan prefiksene egentlig bare betyr et tall, og m, g eller L kan 
 			milli & 		
 		\end{tabular}
 	\end{center}
-	Komma må flyttes like mange ganger som antall bokser vi må flytte oss fra opprinnelig prefiks til ny prefiks.\vsk
+	Komma må flyttes like mange ganger som antall ruter vi må flytte oss fra opprinnelig prefiks til ny prefiks.\vsk
 	
-	\textsl{Obs!} For lengde brukes også enheten 'mil' (1 mil er 10\,000\,m). Denne kan legges på til venstre for 'kilo'.
+	{\footnotesize For lengde brukes også enheten 'mil' (1 mil $ = $ 10\,000\,m). Denne kan legges på til venstre for 'kilo'.}
 }
 \eks[1]{
-	Gjør om 23,4\,mL til L.
+	Skriv om 23,4\,mL til antall L.
 	
 	\sv
-	Vi skriver tabellen vår med L i midten og legger merke til at vi må \textsl{tre bokser til venstre} for å komme oss fra mL til L:
+	Vi skriver tabellen vår med L i midten, og legger merke til at vi må \textsl{tre ruter til venstre} for å komme oss fra mL til L:
 	\begin{center}
 		\begin{tabular}{|c|c|c|c|c|c|c|c}
 			kilo &
@@ -162,14 +153,14 @@ Vi har sett hvordan prefiksene egentlig bare betyr et tall, og m, g eller L kan 
 			\color{red} milli & 		
 		\end{tabular}
 	\end{center}
-	Dét betyr at vi må flytte kommaet vårt tre plasser til venstre for å gjøre om mL til L:
+	Det betyr at vi må flytte kommaet vårt tre plasser til venstre for å gjøre om mL til L:
 	\[ 23,4\enh{mL}=0,0234\enh{L} \]
 }
 \eks[2]{
-	Gjør om 30\,hg til cg.
+	Skriv om 30\,hg til antall cg.
 	
 	\sv
-	Vi skriver tabellen vår med g i midten og legger merke til at vi må \textsl{fire bokser til høyre} for å komme oss fra hg til cg:
+	Vi skriver tabellen vår med g i midten og legger merke til at vi må \textsl{fire ruter til høyre} for å komme oss fra hg til cg:
 	\begin{center}
 		\begin{tabular}{|c|c|c|c|c|c|c|c}
 			kilo &
@@ -184,10 +175,10 @@ Vi har sett hvordan prefiksene egentlig bare betyr et tall, og m, g eller L kan 
 	\[ 30\enh{mg}=300\,000\enh{cg} \]
 }
 \eks[3]{
-	Gjør om 12\,500\,dm til mil.
+	Gjør om 12\,500\,dm til antall mil.
 	
 	\sv
-	Vi skriver tabellen vår med m i midten, legger til 'mil', og merker oss at vi må \textsl{fem bokser til høyre} for å komme oss fra hg til cg:
+	Vi skriver tabellen vår med m i midten, legger til 'mil', og merker oss at vi må \textsl{fem ruter til høyre} for å komme oss fra hg til cg:
 	\begin{center}
 		\begin{tabular}{|c|c|c|c|c|c|c|c|c}
 			\color{blue}mil &kilo &
@@ -200,51 +191,117 @@ Vi har sett hvordan prefiksene egentlig bare betyr et tall, og m, g eller L kan 
 	\end{center}
 	Dét betyr at vi må flytte kommaet vårt fem plasser til høyre for å gjøre om mil til cg:
 	\[ 30\enh{dm}=3\,000\,000\enh{mil} \]
-	\textsl{Merk:} 'mil' er en egen enhet, ikke en prefiks. Vi skriver derfor ikke 'milm', men bare 'mil'.
 }
 
+\fork{\ompref}{
+Omgjøring av prefikser handler om å gange/dele med 10, 100 osv. (se seksjon ??) \vsk
+
+La oss som første eksempel skrive om $ 3,452\enh{km} $ til antall meter. Vi har at
+\algv{
+3,452\enh{km}&= 3,452\cdot1000 \enh{m} \\
+&=3\,452\enh{m}
+}
+La oss som andre eksempel skrive om 47\enh{mm} til antall meter. Vi har at
+\algv{
+47\enh{mm}&=47\cdot\frac{1}{1000} \enh{m} \\
+&= (47:1000) \enh{m}\\
+&=0,047\enh{m}
+}
+}
 \section{Volum}
-Når vi ønsker å si noe om hvor mye det er plass til inni en gjenstand, snakker vi om \textit{volumet} av den. Som et mål på volum tenker vi oss \textit{en kube} som har 1 som både bredde, lengde og høyde:
+Når vi ønsker å si noe om hvor mye det er plass til inni en gjenstand, snakker vi om \textit{volumet} av den. Som et mål på volum tenker vi oss \textit{en kube} som har 1 som både bredde, lengde og høgde:
 \fig{vol1}
-En slik kube kan vi kalle''enhetskuben''. Si vi har en firkantet boks med bredde 3, lengde 4 og høyde 2:
+En slik kube kan vi kalle''enhetskuben''. Si vi har en firkantet boks med bredde 3, lengde 4 og høgde 2:
 \fig{vol2}
 Vi kan må merke oss at vi har plass til akkurat 24 enhetskuber i denne boksen:
 \fig{vol2a}
 Og dette kunne vi ha regnet ut slik:
 \[ 3\cdot 4\cdot 2=24\]
 Altså:
-\[\text{bredde}\cdot\text{lengde}\cdot\text{høyde} \]\vsk
+\[\text{bredde}\cdot\text{lengde}\cdot\text{høgde} \]\vsk
 
 \textbf{Grunnflate}\\
-For å regne ut volumet av de mest elementære figurene vi har, kan det være lurt å bruke begrepet \textit{grunnflate}. Slik som for en grunnlinje, er det vårt valg av grunnflate som bestemer hvordan vi skal regne ut høyden. For en slik boks som vi akkurat så på, er det naturlig å velge flaten som ''ligger ned'' til å være grunnflaten, og for å indikere dette brukes ofte $ G $:
+For å regne ut volumet av de mest elementære figurene vi har, kan det være lurt å bruke begrepet \textit{grunnflate}. Slik som for en grunnlinje, er det vårt valg av grunnflate som bestemer hvordan vi skal regne ut høgden. For en slik boks som vi akkurat så på, er det naturlig å velge flaten som ''ligger ned'' til å være grunnflaten, og for å indikere dette brukes ofte $ G $:
 \begin{figure}
 		\centering
 	\includegraphics[]{\fpath{vol2b}}\qquad
 	\includegraphics[]{\fpath{vol2c}}
 \end{figure}
-Grunnflaten har arealet $ 3\cdot4=12 $, mens høyden er 2. Volumet av hele boksen er grunnflaten ganger høyden:
+Grunnflaten har arealet $ 3\cdot4=12 $, mens høgden er 2. Volumet av hele boksen er grunnflatens areal ganger høgden:
 \alg{
-	 V &= G\cdot h\\
-	 &= 12\cdot h\\
+	 V &= 3\cdot 4 \cdot 2 \\
+	 &= G\cdot 2\\
 	 &= 24
 }
-\reg[Volum]{
-Volumet $ V $ av en firkantet boks eller en sylinder med grunnflate $ G $ og høyde $ h $ er:
+\info{Grunnflaten eller grunnflatearealet?}{
+I teksten over har vi først kalt selve grunnflaten for $ G $, og deretter brukt $ G $ for \textsl{grunnflatearealet}. I denne boka er begrepet grunnflate så sterkt knyttet til grunnflatearealet at vi ikke kommer til å skille mellom disse to begrepene.
+}
+\reg[Volum \label{volforml}]{ 
+Volumet $ V $ til en firkantet prisme eller en sylinder med grunnflate $ G $ og høgde $ h $ er
 \[ V = G\cdot h \]
 \begin{figure}
 	\centering
 	\footnotesize
-	\stackunder[6pt]{\includegraphics[scale=0.7]{\fpath{vol3c}}}{Boks}\qquad
+	\stackunder[6pt]{\includegraphics[scale=0.7]{\fpath{vol3c}}}{Firkantet prisme}\qquad\qquad
 	\stackunder[6pt]{\includegraphics[scale=0.7]{\fpath{vol3b}}}{Sylinder}
 \end{figure}
-Volumet $ V $ av en kjegle eller en pyramide med grunnflate $ G $ og høyde $ h $ er:
+Volumet $ V $ til en kjegle eller en pyramide med grunnflate $ G $ og høgde $ h $ er
 \[ V = \frac{G\cdot h}{3} \]
 \begin{figure}
 	\centering
 \footnotesize
-\stackunder[6pt]{\includegraphics[scale=0.7]{\fpath{vol3}}}{Kjegle}\qquad
-\stackunder[6pt]{\includegraphics[scale=0.7]{\fpath{vol3a}}}{Pyramide}
+\stackunder[6pt]{\includegraphics[scale=0.7]{\fpath{vol3}}}{Kjegle}\qquad \qquad    
+\stackunder[6pt]{\includegraphics[scale=0.7]{\fpath{vol3a}}}{Firkantet pyramide}
 \end{figure}
+}
+\info{Obs!}{
+Formlene fra \rref{volforml} gjelder også for prismer, sylindre, kjegler og pyramider som heller (er skjeve). Hvis grunnflaten er plassert horisontalt, er høgden den vertikale avstanden mellom grunnflaten og toppen til figuren.
+\fig{vol4} 
+}
+\newpage
+\eks[1]{
+\fig{vol5}
+En sylinder har radius 7 og høgde 5. Finn volumet til sylinderen.
+\abc{
+\item Finn grunnflaten til sylinderen.
+\item Finn volumet til sylinderen.
+}
+
+\sv \vs
+\abc{
+\item Vi har at (se regel ?? i \mb):
+\alg{
+	\text{grunnflate}&= \pi \cdot 7^2  \\
+	&= 49 \pi
+} 
+\item Dermed er
+\algv{
+	\text{volumet til sylinderen}&= 49\pi\cdot 6 \\
+	&= 294\pi
+}
+}
+}
+\newpage
+\eks[2]{
+En firkantet pyramide har lengde 2, bredde 3 og høgde 5.
+\fig{vol6}
+\abc{
+\item Finn grunnflaten til pyramiden.
+\item Finn volumet til pyramiden.
+}
+\sv  \vs
+\abc{
+\item Vi har at (se regel ?? i \mb)
+\alg{
+\text{grunnflate}&=2\cdot 3 \\
+&= 6 
+}
+\item Dermed er
+\alg{
+\text{volumet til pyramiden}&= 6\cdot 5 \\
+&= 30
+}
+}
 }
 \textbf{Volumet av ei kule} \\
 Som vanlig skiller ting seg ut når vi snakker om renit sirkelformede figurer, og ei \textit{kule} er ikke noe unntak. For den spesielt interesserte kan et bevis for volumformelen leses \net{https://drive.google.com/open?id=0B9-bzK2nA0X2Ty1yNElYQzRETjQ}{her}, men det er altså helt lov til å bykse rett på formelen:\regv
@@ -257,7 +314,9 @@ Som vanlig skiller ting seg ut når vi snakker om renit sirkelformede figurer, o
 \end{figure}
 }
 \section{Omkrets, areal og volum med enheter}
-Når me måler lengder med linjal eller liknande må me passe på å ta med eininga i svaret vårt:
+Når vi måler lengder med linjal eller lignende, må vi passe på å ta med enhetene i svaret vårt. \regv
+
+\eks[1]{
 \begin{figure}
 	\centering
 	\includegraphics[scale=0.06]{\fpath{2t5}}
@@ -272,7 +331,28 @@ Når me måler lengder med linjal eller liknande må me passe på å ta med eini
 		&= 2\cdot 5\enh{cm}^2\\
 		&= 10\enh{cm}^2
 }}
-\prbxr{0.3}{Vi skriv cm$ ^2 $ fordi vi har ganga saman 2 lengder som vi har målt i cm.}
+\prbxr{0.3}{Vi skriver cm$ ^2 $ fordi vi har ganget sammen 2 lengder som vi har målt i cm.}
+}
+\eks[2]{
+En sylinder har radius $ 4\enh{m} $ og høgde $ 2\enh{m} $. Finn volumet til sylinderen.
+
+\sv
+Så lenge vi er sikre på at størrelsene vår har samme enhet (i dette tilfellet meter), kan vi først rekne uten størrelser:
+\alg{
+\text{grunnflate til sylinderen}&=\pi\cdot 4^2 \\
+&= 16 \pi
+}
+\alg{
+\text{volumet til sylinderen}&= 16\pi \cdot2 \\
+&= 32\pi
+}
+Vi har her ganget sammen tre lengder (to faktorer lik 4\enh{m} og én faktor lik $ 2\enh{m} $) med meter som enhet, altså er volumet til sylinderen $ 32\pi\enh{m}^3 $
+} \vsk
+
+\info{Merk}{
+Når vi skal finne volumet til gjenstander, måler vi lengder som høgde, bredde, radius osv., men i det daglige oppgir vi gjerne volum i liter. Da er det verdt å ha med seg at
+\[ 1\enh{L} = 1\enh{dm}^3 \]
+}
 \end{document}
 
 

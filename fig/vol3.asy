@@ -5,6 +5,7 @@ import math;
 settings.outformat="pdf";
 settings.render = 5;
 currentprojection = orthographic(50,50,25);
+import fig3d;
 
 real r=1, h=1.5;
 real v = 135/180*pi;
@@ -20,3 +21,5 @@ label("$h$",1/2*pS,E);
 label("$r$", (pA/2), align=N);
 label("$G$", (-pA/3));
 dot(pO);
+
+mksq3(-(0,0,h),pA,pO,l=0.15);

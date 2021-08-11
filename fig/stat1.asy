@@ -38,7 +38,7 @@ label("8",(19dx+a,0),S);
 fill(shift(21dx+a,0)*scale(1,1)*b,p);
 label("14",(22dx+a,0),S);
 
-label("Antall epler",(6,-1));
+label("antall epler",(6,-1));
 
 
 
