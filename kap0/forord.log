@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  30 JUN 2021 22:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  12 AUG 2021 15:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1386,17 +1386,17 @@ Package rerunfilecheck Info: File `forord.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31072 strings out of 481239
- 611143 string characters out of 5920378
- 925205 words of memory out of 5000000
- 45687 multiletter control sequences out of 15000+600000
+ 31093 strings out of 481239
+ 611334 string characters out of 5920378
+ 926041 words of memory out of 5000000
+ 45708 multiletter control sequences out of 15000+600000
  566911 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,5n,104p,872b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
 public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmri10.pfb>
-Output written on forord.pdf (1 page, 67644 bytes).
+Output written on forord.pdf (1 page, 67396 bytes).
 PDF statistics:
  30 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream

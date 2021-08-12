@@ -133,13 +133,13 @@ Denne metoden tar utgangspunkt i det éne leddet, og summerer frem til det andre
 		&&\colb{273} \\ \hline
 		6& 6 & 279 \\
 		30& 36 & 309  \\
-		50& 86 & 359
+		50& \colc{86} & \colo{359}
 	\end{tabular}
 }
 \end{figure}
 \begin{enumerate}[label=(\alph*)]
 \item Vi starter med det leddet vi selv ønsker, ofte er det lurt å starte med det største leddet.
-\item Vi legger til $ 6 $. Da har vi så langt lagt til $ 6 $, og $ 273+6=279 $.
+\item Vi legger til $ 6 $. Da har vi så langt lagt til $ 6 $, og $ {273+6=279} $.
 \item Vi legger til 30. Da har vi så langt lagt til 36, og $ 279+30=309 $.
 \item Vi legger til 50. Da har vi så langt lagt til 86, altså har vi nådd det andre leddet, og $ 309+50=359 $.
 \end{enumerate}
@@ -262,6 +262,7 @@ $ \colb{789}-\colr{324}=\colc{465} $	 \vsk
 }}
 \end{center}
 \fork{Eksempel 1}{
+	\[ \colb{789}-\colr{324}=\colo{465} \]
 \begin{figure}
 	\centering
 	\subfloat[]{
@@ -276,7 +277,7 @@ $ \colb{789}-\colr{324}=\colc{465} $	 \vsk
 	\subfloat[]{
 	\begin{tabular}{r|r}
 		& \colb{324} \\ \hline
-	   \colb{6}& \colo{330}\\
+	   \colb{6}& \colc{330}\\
 		& \\
 		& \\ \hline
 		&
@@ -286,7 +287,7 @@ $ \colb{789}-\colr{324}=\colc{465} $	 \vsk
 	\begin{tabular}{r|r}
 		& 324 \\ \hline
 		6& \colb{330}\\
-		\colb{70}& \colo{400} \\
+		\colb{70}& \colc{400} \\
 		& \\ \hline
 		&
 	\end{tabular}	
@@ -296,7 +297,7 @@ $ \colb{789}-\colr{324}=\colc{465} $	 \vsk
 		& 324 \\ \hline
 		6& 330\\
 		70& \colb{400} \\
-		\colb{389}& \colo{789}\\ \hline
+		\colb{389}& \colc{789}\\ \hline
 		&
 	\end{tabular}	
 }\qquad
@@ -590,13 +591,13 @@ Et tall skrevet som
 hvor $ {0<a<10} $ og $ n $ er et heltall, er et tall skrevet på standardform.
 }
 \eks[1]{
-Skriv 9800 på standardform.
+Skriv 980 på standardform.
 
 \sv \vsb
-\[ 9\,80 = 9,8\cdot 10^2 \]
+\[ 980 = 9,8\cdot 10^2 \]
 }
 \eks[2]{
-	Skriv 678,4 på standardform.
+	Skriv 0,00671 på standardform.
 	
 	\sv \vsb
 	\[ 0,00671 = 6,71\cdot 10^{-3} \]
@@ -605,13 +606,13 @@ Skriv 9800 på standardform.
 For å skrive om tall på standardform kan du gjøre følgende:
 \begin{enumerate}
 	\item Flytt komma slik at du får et tall som ligger mellom 0 og 10.
-	\item Gang dette tallet med en tierpotens som har eksponent med tallverdi lik antallet plasser du flyttet komma. Flyttet du komma mot venstre/høgre, er eksponenten positiv/negativ. 
+	\item Gang dette tallet med en tierpotens som har eksponent med tallverdi lik antallet plasser du flyttet komma. \qquad  Flyttet du komma mot venstre/høgre, er eksponenten positiv/negativ. 
 \end{enumerate}
 }
 \eks[3]{
-Skriv 9\,761\,432 på standardform
+Skriv 9\,761\,432 på standardform.
 
-\sv
+\sv \vs
 \begin{enumerate}
 \item 	Vi flytter komma 6 plasser til venstre, og får $ 9\colr{,}761432 $
 \item Vi ganger dette tallet med $ 10^6 $, og får at 

@@ -16,7 +16,7 @@ Mange figurer kan deles inn i minst to deler hvor den éne delen bare er en fors
 \reg[Translasjonssymmetri (parallellforskyvning)]{
 En symmetri hvor minst to deler er forskjøvne utgaver av hverandre kalles en \textit{translasjonssymmetri}. \vsk
 
-Når en form forskyves, blir hvert punkt på formen flyttet langs det samme linjestykket.
+Når en form forskyves, blir hvert punkt på formen flyttet langs den samme \vs \text{vektoren}\footnote{En vektor er et linjestykke med retning.}.
 }
 \eks[1]{
 Figuren under viser en translasjonssymmetri som består av to sommerfugler.
@@ -31,7 +31,7 @@ Figuren under viser en translasjonssymmetri som består av to sommerfugler.
 \eks[2]{
 Under vises $ \triangle ABC $ og et blått linjestykke.
 \fig{trans1a}
-Under vises $ \triangle ABC $ forskjøvet med det blå linjestykket. 
+Under vises $ \triangle ABC $ forskjøvet med den blå vektoren. 
 \fig{trans1}
 }
 \reg[Speiling]{En symmetri hvor minst to deler er vendte utgaver av hverandre kalles en \textit{speilingssymmetri} og har minst én \textit{symmetrilinje} (\textit{symmetriakse}).\vsk
@@ -69,6 +69,7 @@ Mønsteret under er rotasjonssymmetrisk. Rotasjonssenteret er i midten av figure
 \begin{figure}
 	\centering
 	\includegraphics[scale=0.2]{\fpath{rot0}}
+	\caption*{Bilder hentet fra \net{https://freesvg.org}{freesvg.org}.}
 \end{figure}
 }
 \newpage
@@ -85,24 +86,17 @@ og
 En form som er en forskjøvet, speilvendt eller rotert utgave av en annen form, kalles en \textit{kongruensavbilding}.
 }
 \section{Størrelser, enheter og prefikser}
-Det vi kan måle og uttrykke med tall, kaller vi \textit{størrelser}. Videre har vi \textit{størrelser med dimensjoner} og \textit{dimensjonsløse størrelser}.\vsk
-
-Et eksempel på en størrelse med dimensjon er ''2 meter''. Dimensjonen er da 'lengde', som vi gjerne måler i meter. Vi sier at meter er en \textit{enhet} for dimensjonen lengde.\vsk
-
-Et eksempel på en størrelse uten dimensjon er ''to hester''. Mens det bare finnes én lengde som er ''2 meter'', ''to hester'' se veldig forskjellig ut, avhengig av hvile to hester det er snakk om.\vsk
-
-\textbf{Regning med dimensjoner}\os
-Når vi regner med størrelser med dimensjoner må vi passe på at alle enhetene er like, hvis ikke gir ikke regnestykkene våre mening. I denne boka skal vi se på disse enhetene:
+Det vi kan måle og uttrykke med tall, kaller vi \textit{størrelser}. En størrelse består gjerne av både en verdi og en \textit{enhet}, og i denne seksjonen skal vi se på disse tre enhetene:
 \tbs
 \begin{center}
 	\begin{tabular}{c|c|c}
-		\textbf{Enhet} & \textbf{Forkortelse} &\textbf{Dimensjon}\\ \hline
+		\textbf{Enhet} & \textbf{Forkortelse} &\textbf{Enhet for}\\ \hline
 		meter & m &lengde\\\hline
 		gram & g &masse\\\hline
 		liter & L & volum
 	\end{tabular}
 \end{center}\tbs
-Noen ganger har vi veldig store eller veldig små størrelser, for eksempel er det ca 40\,075\,000\,m rundt ekvator! For så store tall er det vanlig å bruke en \textit{prefiks}, da kan vi si at det er ca 40\,075 km rundt ekvator. Her står 'km' for 'kilometer' og 'kilo' betyr '1\,000'. Så 1\,000 meter er altså 1 kilometer. Her er prefiksene man oftest\footnote{Rett nok er 'deka' en veldig lite brukt prefiks, men vi har tatt den med fordi den kompletterer tallmønsteret.} møter på i hverdagen:\tbs
+Noen ganger har vi veldig store eller veldig små størrelser, for eksempel er det ca 40\,075\,000\,m rundt ekvator! For så store tall er det vanlig å bruke en \textit{prefiks}, da kan vi si at det er ca 40\,075 km rundt ekvator. Her står 'km' for 'kilometer' og 'kilo' betyr '1\,000'. Så 1\,000\enh{meter}  er altså 1\enh{kilometer} . Her er prefiksene man oftest\footnote{Unntaket er 'deka', som er en veldig lite brukt prefiks, men vi har tatt den med fordi den kompletterer tallmønsteret.} møter på i hverdagen:\tbs
 \begin{center}
 	\begin{tabular}{c|c|c}
 		\textbf{Prefiks} & \textbf{Forkortelse}&\textbf{Betydning} \\ \hline
@@ -121,7 +115,7 @@ Bruker vi denne tabellen i kombinasjon med enhetene kan vi for eksempel se at:\v
 	0,1 \enh{m} &= 1\enh{dm} \\
 	0,01 \enh{L} &= 1\enh{cL}
 }
-Enda ryddigere kan vi få det hvis vi lager en vannrett tabell, med meter, gram eller liter lagt til i midten\footnote{Legg merke til at meter, gram og liter er \textsl{enheter med dimensjoner}, mens kilo, hekto osv. er \textsl{dimensjonsløse tall}. Det kan derfor virke litt rart å sette dem opp i samme tabell, men for dette formålet fungerer det helt fint.}: \regv
+Enda ryddigere kan vi få det hvis vi lager en vannrett tabell, med\\ meter, gram eller liter lagt til i midten\footnote{Legg merke til at meter, gram og liter er \textsl{enheter}, mens kilo, hekto osv. er \textsl{tall}. Det kan derfor virke litt rart å sette dem opp i samme tabell, men for dette formålet fungerer det helt fint.}: \regv
 
 \reg[\ompref \label{ompref}]{Når vi skal endre prefikser kan vi bruke denne tabellen:
 	\begin{center}
@@ -190,7 +184,7 @@ Enda ryddigere kan vi få det hvis vi lager en vannrett tabell, med meter, gram 
 		\end{tabular}
 	\end{center}
 	Dét betyr at vi må flytte kommaet vårt fem plasser til høyre for å gjøre om mil til cg:
-	\[ 30\enh{dm}=3\,000\,000\enh{mil} \]
+	\[ 12\,500\enh{dm}=0,125\enh{mil} \]
 }
 
 \fork{\ompref}{
