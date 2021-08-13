@@ -161,60 +161,49 @@ Hvor mange prosent utgjør 119 av 500?
 }
 
 
-\subsection{Prosentvis endring}
-Når vi snakker om \textit{prosentvis endring}
-\subsubsection{Minkende størrelse} \label{skjorte} \vspace{-25pt}
-\eks[1]{
-\parbox[l][][l]{0.75\linewidth}{
-	I mange situasjoner har noe økt eller minket med en viss prosent. I en butikk kan man for eksempel komme over en skjorte som originalt kostet 500 kr, men selges med 40\% \textit{rabatt}. Dette betyr at vi skal trekke ifra 40\% av originalprisen. }
-\parbox[r][][l]{0.2\linewidth}{
-	\begin{figure}
-		\centering
-		\includegraphics[scale=0.4]{\fpath{sale}}
-\end{figure}} \\[-10pt]
-Her er to måter vi kan tenke på for å finne prisen:
+\subsection{Prosentvis endring; økning eller redusering}
+\subsubsection{Økning} \label{prookning}
+Med utsagnet ''200 økt med 30\%'' menes dette:
 \begin{itemize}
-	\item Vi starter med å finne det vi skal trekke ifra:
-	\alg{
-		\text{40\% av 500}&=\frac{40}{100}\cdot500\br
-		&=200
-	}
-	Videre er
-	\[ 500-200=300 \]
-	Altså må vi betale 300 kr for skjorten.
-	\item \phantom{}\\[-12pt]
-	\prbxl{0.65}{Skal vi betale full pris, må vi betale 100\% av 500. Men får vi 40\% i rabatt, skal vi bare betale $60\%$ av 500:}\qquad
-	\prbxr{0.25}{$ {100\%-40\%=60\% }$}
-	\alg{
-		\text{60\% av 500}&=\frac{60}{100}\cdot500 \br
-		&= 300 
-	}
-	Svaret blir selvsagt det samme, vi må betale 300 kr for skjorten.\vsk
-\end{itemize} 
+	\item Start med 200, og legg til 30\% av 200.
+\end{itemize}
+Altså er
+\algv{
+\text{200 økt med 30\%} &=200+200\cdot 30\% \\
+&=200+60 \\
+&= 260
 }
-\newpage
-\subsubsection{Økende størrelse} \label{oreklokke}
-\parbox[l][][l]{0.6\linewidth}{Det er ikke alltid vi er så heldige at vi får rabatt på et produkt, ofte må vi faktisk betale et tillegg. \net{https://www.skatteetaten.no/bedrift-og-organisasjon/avgifter/mva/slik-fungerer-mva/}{{Mervardiavgiften}} er et slikt tillegg. I Norge må vi betale 25\% i merverdiavgift på mange varer. Det betyr\vspace{1pt}}\qquad
-\prbxr{0.3}{
-		Merverdiavgift \\forkortes til mva.
-} \\[-9pt]
-\prbxl{0.65}{
- at vi må betale et tillegg på 25\%, altså $125\%$ av originalprisen.}\qquad
-\prbxr{0.25}{$ {100\%+25\%=125\%} $}
+I uttrykket over kan vi legge merke  til at 200 er å finne i begge ledd, dette kan vi utnytte til å skrive
+\alg{
+\text{200 økt med 30\%}&=200+200\cdot30\% \\
+&= 200\cdot(1+30\%) \\
+&= 200\cdot(100\%+30\%) \\
+&=200\cdot 130\% 
+}
+Dette betyr at
+\[ \text{200 økt med 30\% = 130\% av 200} \] 
 
-\parbox[l][][l]{0.485\linewidth}{
-	For eksempel koster øreklokkene på bildet 999,20 kr \textsl{eksludert} mva. Men \textsl{inkludert} mva. må vi betale
-	\alg{
-		\text{125\% av 999,20}&=\frac{125}{100}\cdot999,20\br
-		&= 1249
-	}
-	Altså 1249 kr.\vsk
-}\quad
-\parbox[r][][l]{0.55\linewidth}{
-	{\vspace{4pt}
-		\includegraphics[scale=0.4]{\fpath{peltor}}}}
-\vsk
-\subsubsection{Oppsummering}
+\subsubsection{Redusering} \label{proredusering}
+Med utsagnet ''Reduser 200 med 60\%'' menes dette:
+\begin{itemize}
+	\item Start med 200, og trekk ifra 60\% av 200
+\end{itemize}
+Altså er 
+\algv{
+\text{200 redusert med 60\%} &= 200-200\cdot 60\% \\
+&= 200-120 \\
+&= 80
+}
+Også her legger vi merke til at 200 opptrer i begge ledd i utregningen:
+\alg{
+\text{200 økt med 30\%} &= 200-200\cdot60\% \\
+&= 200\cdot(1-60\%) \\
+&= 200\cdot 40\%
+}
+Dette betyr at
+\[ \text{200 redusert med 60\%}= \text{40\% av 200} \]
+
+\subsubsection{Prosentvis økning eller endring oppsummert}
 \reg[Prosentvis endring]{\vs
 	\begin{itemize}
 		\item Når en størrelse synker med $ a $\%, ender vi opp med $ (100\% - a\%) $ av størrelsen.
@@ -223,29 +212,77 @@ Her er to måter vi kan tenke på for å finne prisen:
 	\end{itemize}
 }
 \eks[1]{ \label{vekstfakteks}
-Hva er \colb{210} senket med \colr{70}\%?
-
-\sv
-$ 100\%-\colr{70}\%=\colc{30}\% $, altså er
-\alg{
-\colb{210}\text{ senket med } \colr{70}\% &=\colc{30}\% \text{ av } \colb{210} \br &=\frac{\colc{30}}{100}\cdot\colb{210}\br
-&=63 
-}
+	Hva er \colb{210} redusert med \colr{70}\%?
+	
+	\sv
+	$ 100\%-\colr{70}\%=\colc{30}\% $, altså er
+	\alg{
+		\colb{210}\text{ senket med } \colr{70}\% &=\colc{30}\% \text{ av } \colb{210} \br &=\frac{\colc{30}}{100}\cdot\colb{210}\br
+		&=63 
+	}
 }
 \eks[2]{
-Hva er 208,9 økt med 124,5\%?
+	Hva er 208,9 økt med 124,5\%?
+	
+	\sv
+	
+	$ 100\%+124,5\%=224,5\% $, altså er
+	\alg{
+		208,9 \text{ økt med } 124,5 &= 224,5\% \text{ av } 208,9 \br
+		&=\frac{224,5}{100}\cdot208,9
+	}
+}
+\spr{
+\textit{Rabatt} er en pengesum som skal trekkes ifra en pris når det gis tilbud. Dette kalles også et \textit{avslag} på prisen. Rabatt oppgis enten i antall kroner eller som prosentdel av prisen. \vsk
 
+\net{https://www.skatteetaten.no/bedrift-og-organisasjon/avgifter/mva/slik-fungerer-mva/}{{\textit{Mervardiavgiften}}} (mva.) er en avgift som legges til prisen på de aller fleste varer som selges. Merverdiavgift oppgis som regel som en prosentdel av prisen.
+}
+
+\eks[3]{
+\parbox[l][][l]{0.75\linewidth}{
+	I en butikk koster en skjorte først 500 kr, men selges nå med 40\% \textit{rabatt}. Dette betyr at vi skal trekke ifra 40\% av originalprisen. \os
+
+	Hva er den nye prisen på skjorta?}
+\parbox[r][][l]{0.2\linewidth}{
+	\begin{figure}
+		\centering
+		\includegraphics[scale=0.3]{\fpath{sale}}
+\end{figure}} \\[-10pt]
 \sv
+(Vi tar ikke med kr i utregningene)\os
 
-$ 100\%+124,5\%=224,5\% $, altså er
+Skal vi betale full pris, må vi betale 100\% av 500. Men får vi 40\% i rabatt, skal vi bare betale $100\%-40\%=60\%$ av 500:
+	\alg{
+	\text{60\% av 500}&=\frac{60}{100}\cdot500 \br
+	&= 300 
+}
+Med rabatt koster altså skjorta 300\enh{kr}.
+}
+\newpage
+\eks[4]{
+\parbox[l][][l]{0.485\linewidth}{
+	På øreklokkene på bildet står det at prisen er 999,20 kr \textsl{eksludert} mva. og 1\,249 \textsl{inkludert} mva. For øreklokker er mva. 25\% av prisen. \os
+	
+	Undersøk om prisen som er oppgitt inkludert mva. er riktig.
+}\quad
+\parbox[r][][l]{0.55\linewidth}{
+	{\vspace{4pt}
+		\includegraphics[scale=0.3]{\fpath{peltor}}}}
+		
+\sv 
+
+(Vi tar ikke med kr i utregningene)\os
+
+Når vi inkluderer mva., må vi betale $ 100\%+25\% $ av 999,20: 
 \alg{
-208,9 \text{ økt med } 124,5 &= 224,5\% \text{ av } 208,9 \br
-&=\frac{224,5}{100}\cdot208,9
+	\text{125\% av 999,20}&=\frac{125}{100}\cdot999,20\br
+	&= 1249
 }
+Altså 1249 kr.
 }
-\subsection{Vekstfaktor} \vspace{-12pt}
-\prbxl{0.6}{På side \pageref{skjorte} ble prisen til en skjorte redusert med 40\%, og da endte vi opp med å betale 60\% av originalprisen. Vi sier da at \textit{vekstfaktoren} er 0,6. På side \pageref{oreklokke} måtte vi legge til 25\% mva., og da endte vi med å betale 125\% av originalprisen. Da er vekstfaktoren 1,25.}\qquad
-\prbxr{0.3}{Mange stusser over at ordet vekstfaktor brukes selv om en størrelse \textsl{synker}, men slik er det. Kanskje et bedre ord ville være \textit{endringsfaktor}?}
+\subsection{Vekstfaktor}
+\prbxl{0.5}{På side \pageref{prookning} økte vi 200 med 30\%, og endte da opp med 130\% av 200. Vi sier da at \textit{vekstfaktoren} er 1,3. På side \pageref{proredusering} reduserte vi 200 med 60\%, og endte da opp med 40\% av 200. Da er vekstfaktoren 0,40.}\qquad
+\prbxr{0.4}{Mange stusser over at ordet vekstfaktor brukes selv om en størrelse \textsl{synker}, men slik er det. Kanskje et bedre ord ville være \textit{endringsfaktor}?}
 
 \reg[Vekstfaktor I \label{vekstfaktordef}]{
 Når en størrelse endres med $ a\% $, er vekstfaktoren verdien til $ {100\% \pm a\%} $.\vsk
@@ -266,7 +303,8 @@ $ 100\%-19,7\%=80,3\% $, altså er vekstfaktoren 0,803
 } \vsk
 La oss se tilbake til \textsl{Eksempel 1} på side \pageref{vekstfakteks}, hvor 210 skulle senkes med 70\%. Da er vekstfaktoren 0,3. Videre er
 \[ 0,3\cdot210=63 \]
-Altså, for å finne ut hvor mye 210 senket med 70\% er, kan vi gange 210 med vekstfaktoren (forklar for deg selv hvorfor!).
+Altså, for å finne ut hvor mye 210 senket med 70\% er, kan vi gange 210 med vekstfaktoren (forklar for deg selv hvorfor!). \regv
+
 \reg[Prosentvis endring med vekstfaktor \label{vekstfaktendr}]{ \vs
 \[ \text{endret originalverdi}=\text{vekstfaktor}\cdot \text{originalverdi} \]	
 }
@@ -276,9 +314,7 @@ Altså, for å finne ut hvor mye 210 senket med 70\% er, kan vi gange 210 med ve
 	\textbf{b)} Finn den nye prisen.
 	
 	\sv 
-	\textbf{a)} Siden det er 20\% rabbatt, må vi betale 
-	\[ 100\%-20\%= 80\% \]
-	av originalprisen. Vekstfaktoren er derfor 0,8. \os
+	\textbf{a)} Siden det er 20\% rabbatt, må vi betale $ 100\%-20\%= 80\% $	av originalprisen. Vekstfaktoren er derfor 0,8. \os
 	
 	\textbf{b)} Vi har at
 	\[ 0,8\cdot1000  = 800 \]
@@ -289,22 +325,25 @@ Altså, for å finne ut hvor mye 210 senket med 70\% er, kan vi gange 210 med ve
 	\textbf{b)} Hva koster sjokoladen inkludert mva?
 	
 	\sv
-	\textbf{a)} Med 15\% i tillegg må man betale
-	\[ 100\%+15\%= 115\% \]
+	\textbf{a)} Med 15\% i tillegg må vi betale
+	$ 100\%+15\%= 115\% $
 	av prisen eksludert mva. Vekstfaktoren er derfor 1,15.\vsk
 	
 	\textbf{b)} \vs
 	\[ 1,15\cdot 9.90=12,25 \]
 	Sjokoladen koster 12,25 kr inkludert mva.
 } \vsk
-Vi kan også omksrive likningen fra \rref{vekstfaktendr} for å få et uttrykk for vekstfaktoren:
-\reg[Vekstfaktor II \label{vekstfaktexpr}]{ \vs
+Vi kan også omksrive likningen\footnote{Se kapittel ?? for hvordan skrive om likninger.} fra \rref{vekstfaktendr} for å få et uttrykk for vekstfaktoren: \regv
+
+\reg[Vekstfaktor II \label{vekstfaktfrm}]{ \vs
 \[ \text{vekstfaktor}=\frac{\text{endret originalverdi}}{\text{originalverdi}} \]
 }
 \subsubsection{Å finne den prosentvise endringen}
 Når man skal finne en prosentvis endring, er det viktig å være klar over at det er snakk om prosent \textsl{av} en helhet. Denne helheten man har som utgangspunkt er den originale verdien. \vsk
 
-La oss som et eksempel si at Jakob tente 10\,000 kr i 2019 og 12\,000 kr i 2020. Vi kan da stille spørsmålet ''Hvor mye endret lønnen til Jakob seg med fra 2019 til 2020 i prosent?''. Spørsmålet tar utgangspunkt i lønnen fra 2019, dette betyr at 10\,000 er vår originale verdi. To måter å finne den prosentvise endringen på er disse (vi tar ikke med 'kr' i utregningene):
+La oss som et eksempel si at Jakob tente 10\,000 kr i 2019 og 12\,000 kr i 2020. Vi kan da stille spørsmålet ''Hvor mye endret lønnen til Jakob seg med fra 2019 til 2020 i prosent?''. \vsk
+
+Spørsmålet tar utgangspunkt i lønnen fra 2019, dette betyr at 10\,000 er vår originale verdi. To måter å finne den prosentvise endringen på er disse (vi tar ikke med kr i utregningene):
 \begin{itemize}
 \item Lønnen til Jakob endret seg fra 10\,000 til 12\,000, en forandring på $12\,000-10\,000= 2\,000 $. Videre er (se \rref{proaavb})
 \alg{
@@ -321,8 +360,7 @@ Fra 2019 til 2020 økte altså lønnen til Jakob med en vekstfaktor lik 1,2 (se 
 \end{itemize}
 \reg[Prosentvis endring I \label{proendra}]{ \vs
 \[ \text{prosentvis endring}=\frac{\text{endret originalverdi}-\text{originalverdi}}{\text{originalverdi}}\cdot100 \]
-\footnotesize
-Obs! Hvis 'endret originalverdi' er mindre enn 'original verdi', må man i steden regne ut '$ \text{originalverdi}-\text{endret original} $'
+Hvis 'prosentvis endring' er et positivt/negativt tall, er det snakk om en prosentvis økning/reduksjon. 
 } 
 \info{Kommentar}{\rref{proendra} kan se litt voldsom ut, og er ikke nødvendigvis så lett å huske. Hvis du virkelig har forstått seksjon ??, kan du uten å bruke denne formelen finne prosentvise endringer trinnvis. I påfølgende eksempler viser vi derfor både en trinnvis løsningsmetode og en metode ved bruk av formel.} 
 \eks[1]{
@@ -338,43 +376,39 @@ Fotballaget gikk fra å ha 20 til 12 medlemmer, altså var det $ 20-12=8 $ som s
 I 2020 hadde altså 40\% av medlemmene fra 2019 sluttet. \vsk
 
 \textit{Løsningsmetode 2; formel} \os
-Vi legger merke til at originalverdien er større enn den endrede verdien, da har vi at
+Vi har at
 \alg{
-\text{prosentvis endring}&=\frac{20-12}{20}\cdot100\br
-&=\frac{8}{20}\cdot 100 \br
-&=40
+\text{prosentvis endring}&=\frac{12-20}{20}\cdot100\br
+&=-\frac{8}{20}\cdot 100 \br
+&=-40
 }
-I 2020 hadde altså 40\% av medlemmene fra 2019 sluttet.
+I 2020 hadde altså 40\% av medlemmene fra 2019 sluttet. \vsk
+
+{\footnotesize \mer At medlemmer slutter, innebærer en \textsl{reduksjon} i medlemstall. Vi forventet derfor at 'prosentvis endring' skulle være et negativt tall.}
 } \regv
 
 \reg[Prosentvis endring II \label{proendrb}]{\vs
-	\[ \text{prosentvis endring}=100\left(\frac{\text{endret originalverdi}}{\text{originalverdi}}-1\right) \]
-	\footnotesize
-	Obs! Hvis 'endret originalverdi' er mindre enn 'original verdi', må man ''snu'' regnestykket inni parantesen til $ 1-\dfrac{\text{endret originalverdi}}{\text{originalverdi}} $.
+	\[ \text{prosentvis endring}=100\left(\text{vekstfaktor}-1\right) \]
+	
 }
-\info{Merk}{\rref{proendra} og \rref{proendrb} gir begge formler som kan brukes til å finne prosentvise endringer. Her er det opp til en selv å velge hvilken man liker best. Som allerede nevnt angående \rref{proendra}, er også \rref{proendrb} en litt kronglete formel, og man trenger den ikke hvis man har forstått seksjonn ?? og ??. Her vil vi også i påfølgende eksempler vise to løsningsmetoder. 
+\info{Merk}{\rref{proendra} og \rref{proendrb} gir begge formler som kan brukes til å finne prosentvise endringer, her er det opp til en selv å velge hvilken man liker best.
 } 
 \eks[1]{
-	I 2019 hadde et fotballag 20 medlemmer. I 2020 hadde laget 12 medlemmer. Hvor mange prosent av medlemmene fra 2019 hadde sluttet i 2020?
+	I 2019 tjente du 12\,000\enh{kr} og i 2020 tjente du 10\,000\enh{kr}. Beskriv endringen din i inntekt, inntekten i 2019 som utganspunkt.
 	
-	\sv	
-	
-	Vi starter med å merke oss at det det medlemstallet fra 2019 som er originalverdien vår. \vsk
-	
-	\textit{Løsningsmetode 1; trinnvis metode}\os
-	Fotballaget gikk fra å ha 20 til 12 medlemmer, da har vi at (se \rref{vekstfaktexpr})
-	\[ \text{vekstfaktor}=\frac{12}{20}=0,6 \]
-	En vekstfaktor lik 0,6 tilsvarer en endring på 40\% (se \rref{vekstfaktordef}). 	I 2020 hadde altså 40\% av medlemmene fra 2019 sluttet. \vsk
-	
-	\textit{Løsningsmetode 2; formel} \os
-	Vi legger merke til at originalverdien er større enn den endrede verdien, da har vi at
-	\alg{
-		\text{prosentvis endring}&=100\left(1-\frac{12}{20}\right)\\
-		&=100\left(1-0,6\right) \\
-		&=100\cdot0.4 \\
-		&=40
-	}
-	I 2020 hadde altså 40\% av medlemmene fra 2019 sluttet.
+	\sv
+	Her er 12\,000 vår originalveri. Av \rref{vekstfaktfrm} har vi da at
+\alg{
+	\text{vekstfaktor}&= \frac{10\,000}{12\,000}\\
+	&= 0,8
+}
+Dermed er 
+\algv{
+\text{prosentvis endring} &=100(0,8-1) \\
+&= 100(-0,2) \\
+&= -20
+}
+Altså er lønnen \textsl{redusert} med 20\% i 2020 sammenliknet med lønnen i 2019.
 }
 \subsection{Prosentpoeng} \vspace{-20pt}
 \prbxl{0.65}{Ofte snakker vi om mange størrelser samtidig, og når man da bruker prosent-ordet kan setninger bli veldig lange og knotete hvis man også snakker om forskjellige originalverdier. For å forenkle setningene har vi begrepet \textit{prosentpoeng}.}
@@ -391,27 +425,28 @@ $ 80\%-30\%=50\% $
 
 \textsl{Hvorfor kan vi ikke si at rabatten har økt med 50\%?}\vsk
 
-Si at solbrillene hadde originalpris 1\,000 kr.
+Tenk at solbrillene hadde originalpris 1\,000 kr.
 30\% rabatt på 1\,000 kr tilsvarer 300 kr i rabatt. 80\% rabatt på 1000 kr tilsvarer 800 kr i rabatt. Men hvis vi øker 300 med 50\% får vi $ 300\cdot1,5=450 $, og det er ikke det samme som 800! Saken er at vi har to forskjellige originalverdier som utgangspunkt:\regv
 
 \st{''Rabatten var først 30\%, så økte rabatten med 50 prosentpoeng. Da ble rabatten 80\%.'' \vsk
 
-\textit{Forklaring:} ''Rabatten'' er en størrelse vi regner ut i fra orignalprisen til solbrillene. Når vi sier ''prosentpoeng'' viser vi til at \textbf{originalprisen fortsatt er utgangspunktet} for den kommende prosentregningen. Når prisen er 1\,000 kr, starter vi med $ {1\,000\enh{kr}\cdot0,3=300\enh{kr}} $  i rabatt. Når vi legger til 50 \textsl{prosentpoeng}, legger vi til 50\% av originalprisen, altså $ 1\,000\enh{kr}\cdot0,5=500\enh{kr} $. Totalt blir det 800\,kr i rabatt, som utgjør $ 80\% $ av originalprisen.
+\textit{Forklaring:} ''Rabatten'' er en størrelse vi regner ut i fra orignalprisen til solbrillene. Når vi sier ''prosentpoeng'' viser vi til at \textbf{originalprisen fortsatt er utgangspunktet} for den kommende prosentregningen. Når prisen er 1\,000 kr, starter vi med $ {1\,000\enh{kr}\cdot0,3=300\enh{kr}} $  i rabatt. Når vi legger til 50 \textsl{prosentpoeng}, legger vi til 50\% av originalprisen, altså $ {1\,000\enh{kr}\cdot0,5=500\enh{kr}} $. Totalt blir det 800\,kr i rabatt, som utgjør $ 80\% $ av originalprisen.
 }
 \st{''Rabatten var først 30\%, så økte rabatten med 50\%. Da ble rabatten 45\%.''\vsk
 
 \textit{Forklaring:} ''Rabatten'' er en størrelse vi regner ut i fra orignalprisen til solbrillene, men her viser vi til at \textbf{rabatten er utgangspunktet} for den kommende prosentregningen. Når prisen er 1\,000\,kr, starter vi med 300\,kr i rabatt. Videre er
 \[ 300\enh{kr} \text{ økt med } 50\%=300\enh{kr}\cdot1,5=450\enh{kr} \]
 og 
-\[ \text{Antall prosent 450 utgjør av 1\,000}=\frac{450}{100}=45 \]
+\[ \text{antall prosent 450 utgjør av 1\,000}=\frac{450}{100}=45 \]
 Altså er den nye rabatten 45\%.
-}
+} \vsk
+
 I de to (gule) tekstboksene over regnet vi ut den økte rabatten via originalprisen på solbrillene (1\,000\,kr). Dette er streng tatt ikke nødvendig:
 \begin{itemize}
 	\item Rabatten var først 30\%, så økte rabatten med 50 prosentpoeng. Da ble rabatten 
 	\[ 30\%+50\%= 80\% \]
 	\item Rabatten var først 30\%, så økte rabatten med 50\%. Da ble rabatten
-	\[ 30\%\cdot 1.5 =45\% \]
+	\[ 30\%\cdot 1,5 =45\% \]
 \end{itemize}
 \reg[Prosentpoeng \label{propoeng}]{
 $ a\% $ økt/minket med $ b $ prosentpoeng $ = a\%\pm b\% $.\vsk
@@ -423,8 +458,8 @@ Andre linje i \rref{propoeng} er egentlig identisk med \rref{vekstfaktendr}.
 }
 \eks{
 	En dag var 5\% av elevene på en skole borte. Dagen etter var 7,5\% av elevene borte. \os
-	\textbf{a)} Hvor mye økte fraværet i prosentpoeng?\os
-	\textbf{b)} Hvor mye økte fraværet i prosent?
+	\textbf{a)} Hvor mange prosentpoeng økte fraværet med?\os
+	\textbf{b)} Hvor mange prosent økte fraværet med?
 	
 	\sv
 	\textbf{a)} $ {7,5\%-5\%=2,5\%} $, derfor har fraværet økt med 2,5 prosentpoeng. \vsk
@@ -435,6 +470,13 @@ Andre linje i \rref{propoeng} er egentlig identisk med \rref{vekstfaktendr}.
 		&= 50
 	}
 	Altså har fraværet økt med 50\%.
+}
+\info{Merk}{
+Å i \textsl{Eksempel 1} over stille spørsmålet
+	''Hvor mange prosentpoeng økte fraværet med?'',
+er det samme som å stille spørsmålet
+
+	''Hvor mange prosent av det totale elevantallet økte fraværet med?''.
 }
 \subsection{Gjentatt prosentvis endring}
 Hva om vi foretar en prosentvis endring gjentatte ganger? La oss som et eksempel starte med 2000 og utføre 10\% økning 3 påfølgende ganger (se regel ??): 
@@ -479,7 +521,7 @@ Med \textit{forholdet} mellom to størrelser mener vi den éne størrelsen delt 
 \parbox[r][][l]{0.3\linewidth}{
 \fig{bolle3}
 }
-\st{\[ \text{forholdet mellom antall røde kuler og blå kuler}=\frac{1}{5} \]}\regv
+\st{\[ \text{forholdet mellom antall røde kuler og antall blå kuler}=\frac{1}{5} \]}\regv
 \prbxl{0.51}{
 Forholdet kan vi også skrive som $ {1:5} $. Verdien til dette regnestykket er
 	\[ 1:5=0,2 \]
@@ -487,7 +529,7 @@ I denne sammenhengen kalles 0,2 \textit{forholdstallet}.}\qquad
 \prbxr{0.4}{Om vi skriver forholdet som brøk eller som delestykke vil avhenge litt av oppgavene vi skal løse.} \vsk
 \reg[Forhold]{\vs
 	\[\text{forholdet mellom \textit{a} og \textit{b}}= \frac{a}{b} \]
-	Verdien til brøken over kalles forholdstallet $ {a:b} $.
+	Verdien til brøken over kalles forholdstallet.
 }
 \eks[1]{
 	I en klasse er det 10 handballspillere og 5 fotballspillere. \os
@@ -502,73 +544,56 @@ I denne sammenhengen kalles 0,2 \textit{forholdstallet}.}\qquad
 	\textbf{b)} \[ \frac{5}{10}=0,5 \]
 	Forholdet mellom antall handballspillere og fotballspillere er 0,5.
 }
-\eks[2]{
-	Du skal lage et lotteri der forholdet mellom antall vinnerlodd og taperlodd er $ \frac{1}{8} $. Hvor mange taperlodd må du lage hvis du skal ha 160 vinnerlodd?
-	
-	\sv
-	Vi vet at:
-	\[ \frac{\text{antall vinnerlodd}}{\text{antall taperlodd}}=\frac{1}{8} \]
-	Siden ''antall vinnerlodd'' er ukjent, kaller vi størrelsen for $ x $, og får da at
-	\alg{
-		\frac{x}{160}&=\frac{1}{8} \br
-		\frac{x}{\cancel{160}}\cdot\cancel{160}&=\frac{1}{8}\cdot160 \br
-		x &= 20
-	}
-	Vi må altså lage 20 vinnerlodd. 
-}
+
 \subsection{Målestokk}
-I \mb\,(s.145\,-\,149) har vi sett på formlike trekantar. Prinsippet om at forholdet mellom samsvarande sider er det samme kan utvides til å gjelde de fleste andre former, som f. eks. firkanter, sirkler, prismer, kuler osv. Dette er et fantastisk prinsipp som gjør at små tegninger eller figurer (modeller) kan gi oss informasjon om størrelsene til virkelige gjenstander.
-\reg[Målestokk]{
-En målestokk er forholdet mellom en lengde på en modell av en gjenstand og den samsvarende lengden på den virkelige gjenstand.
-\[ \text{målestokk}=\frac{\text{en lengde i en modell}}{\text{den samsvarende lengde i virkeligheten}
+I \mb\,(s.145\,-\,149) har vi sett på formlike trekantar. Prinsippet om at forholdet mellom samsvarande sider er det samme kan utvides til å gjelde de fleste andre former, som f. eks. firkanter, sirkler, prismer, kuler osv. Dette er et fantastisk prinsipp som gjør at små tegninger eller figurer (modeller) kan gi oss informasjon om størrelsene til virkelige gjenstander.\regv
+
+\reg[Målestokk \label{maalstk}]{
+En målestokk er forholdet mellom en lengde på en modell av en gjenstand og den samsvarende lengden på den virkelige gjenstanden.
+\[ \text{målestokk}=\frac{\text{en lengde i en modell}}{\text{den samsvarende lengden i virkeligheten}
 } \]
 }
 \eks[1]{
-Kartet under har målestokk $ {1:25\,000} $. 
-\abc{
-\item Luftlinjen (den blå) mellom Helland og Vike er  10,4\enh{cm} på kartet. Hvor langt er det mellom Helland og Vike i virkeligheten?
-\item Tresfjordbrua er ca 1300 m i virkeligheten. Hvor lang er Tresfjordbrua på kartet?
-}
-\begin{figure}
-	\centering
-	\includegraphics[]{\fpath{vikves}}
-\end{figure}
+På en tegning av et hus er en vegg 6\enh{cm}. I virkeligheten er denne veggen 12\enh{m}. \os 
+
+Hva er målestokken på tegningen?
+
 \sv
-\abc{
-\item Avstanden mellom Helland og Vike på kartet samsvarer med avstanden mellom Helland og Vike. Vi setter
-	\[ x=\text{avstanden mellom Helland og Vike i virkeligheten} \]
-	Da har vi at 
-	\alg{
-		\frac{10,4\enh{cm}}{x} &= \frac{1}{25\,000} \br
-		x&=10,4\enh{cm}\cdot25\,000 \\
-		&=260\,000\enh{cm}
-	}
-	Altså er det 2,6\enh{km} mellom Helland og Vike.
-\item Vi setter¨
-\[ x=\text{lengden til Tresfjordbrua på kartet} \]
-Da har vi at
+Først må vi passe på at lengdene har samme benevning\footnote{Se seksjon ??}. Vi gjør om 12\enh{m} til antall cm:
+\[ 12\enh{m}=1200\enh{cm} \]
+Nå har vi at
 \alg{
-\frac{x}{1\,300\enh{m}}&=\frac{1}{25\,000} \br
-x&=\frac{1\,300\enh{m}}{25\,000} \\
-&=0,052 \enh{m}
+\text{målestokk}&=\frac{6\enh{cm}}{12\enh{cm}} \br
+&= \frac{6}{12}
 }
-Altså er Tresfjordbrua $ 5,2 $ cm lang på kartet.
+Vi bør også prøve å forkorte brøken så mye som mulig:
+\[ \text{målestokk}=\frac{1}{6} \]
 }
-}
+
 \info{Tips}{
-Målestokk er omtrent alltid gitt som en brøk med teller lik $ 1 $. Dette gjør at man kan lage seg disse reglene:
+Målestokk på kart er omtrent alltid gitt som en brøk med teller lik $ 1 $. Dette gjør at man kan lage seg disse reglene:
 \begin{tcolorbox}[boxrule=0.3 mm,arc=0mm,colback=white] \alg{
 		\text{lengde i virkelighet}&=\text{lengde på kart}\cdot \text{nevner til målestokk} \vn
 		\text{lengde i virkelighet}&=\frac{\text{lengde på kart}}{\text{nevner til målestokk}}
 }
 \end{tcolorbox}
-
-Oppgavene fra \textsl{Eksempel 1} kunne vi da løst slik:
-\abc{
-\item $ \text{Virkelig avstand mellom Helland og Vike}=10,4\enh{cm}\cdot 25\,000 $ \\
-$ \phantom{6Virkelig avstand mellom Helland og Vike}=260\,000\enh{cm} $
-\item $ \text{Lengde til Tresfjordbrua på kart}=\frac{1\,300\enh{m}}{25\,000}=0,0052 \enh{m}$
 }
+\eks[2]{
+	Kartet under har målestokk $ {1:25\,000} $. 
+	\abc{
+		\item Luftlinjen (den blå) mellom Helland og Vike er  10,4\enh{cm} på kartet. Hvor langt er det mellom Helland og Vike i virkeligheten?
+		\item Tresfjordbrua er ca 1300 m i virkeligheten. Hvor lang er Tresfjordbrua på kartet?
+	}
+	\begin{figure}
+		\centering
+		\includegraphics[]{\fpath{vikves}}
+	\end{figure}
+	\sv
+	\abc{
+		\item $ \text{Virkelig avstand mellom Helland og Vike}=10,4\enh{cm}\cdot 25\,000 $ \\
+		$ \phantom{6Virkelig avstand mellom Helland og Vike}=260\,000\enh{cm} $
+		\item $ \text{Lengde til Tresfjordbrua på kart}=\frac{1\,300\enh{m}}{25\,000}=0,0052 \enh{m}$
+	}
 }
 \subsection{Blandingsforhold}
 I mange sammenhenger skal vi blande to sorter i riktig forhold.
@@ -577,32 +602,18 @@ I mange sammenhenger skal vi blande to sorter i riktig forhold.
 \prbxr{0.3}{Blander du solbærsirup og vann, får du solbærsaft :)}
 \vsk
 
-Noen ganger bryr vi oss ikke om \textit{hvor mye} vi blander, så lenge forholdet er rikitig. For eksempel kan vi blande én bøtte med solbærsirup med fem bøtter vann, og fortsatt være sikker på at forholdet er riktig $ - $ selv om vi ikke vet hvor mange liter bøtta rommer! Når vi bare bryr oss om forholdet, bruker vi ordet \textit{del}. Symbolet ''2+5'' på sirupflasken leser vi da som ''2 deler sirup på 5 deler vann''. Dette betyr at saften vår i alt inneholder $ {2+5}=7 $ deler:\vspace{3pt}
+Noen ganger bryr vi oss ikke om \textit{hvor mye} vi blander, så lenge forholdet er rikitig. For eksempel kan vi blande to fulle bøtter med solbærsirup med fem fulle bøtter vann, og fortsatt være sikre på at forholdet er riktig, selv om vi ikke vet hvor mange liter bøtta rommer! Når vi bare bryr oss om forholdet, bruker vi ordet \textit{del}. Symbolet ''2+5'' på sirupflasken leser vi da som ''2 deler sirup på 5 deler vann''. Dette betyr at saften vår i alt inneholder $ {2+5}=7 $ deler:\vspace{3pt}
 \fig{forh}
-Dette betyr én del utgjør $ \frac{1}{7} $ av blandingen, sirupen utgjør $ \frac{2}{7} $ av blandingen og vann utgjør $ \frac{5}{7} $ av blandingen.
+Dette betyr 1 del utgjør $ \frac{1}{7} $ av blandingen, sirupen utgjør $ \frac{2}{7} $ av blandingen og vannet utgjør $ \frac{5}{7} $ av blandingen.\regv
+
 \reg[Deler i et forhold]{En blanding med forholdet $ {a:b} $ har til sammen $ {a+b} $ deler.
 	\begin{itemize}
-		\item én del utgjør $ \frac{1}{a+b} $ av blandingen.
+		\item 1 del utgjør $ \frac{1}{a+b} $ av blandingen.
 		\item $ a $ utgjør $ \frac{a}{a+b} $ av blandingen.
 		\item $ b $ utgjør $ \frac{b}{a+b} $ av blandingen.
 	\end{itemize}
 }
 \eks[1]{
-	I et malerspann er grønn og rød maling blandet i forholdet ${ 3:7} $, og det er 5\,L av denne blandingen. Du ønsker å gjøre om forholdet til $ 3:11 $.\os
-	Hvor mye rød maling må du helle oppi spannet?
-	
-	\sv
-	I spannet har vi \y{3+7=10} deler. Siden det er 5\,L i alt, må vi ha at:\vs
-	\alg{
-		\text{én del}&=\frac{1}{10} \text{ av 5\,L} \br
-		&= \frac{1\cdot5}{10} \text{\,L} \br
-		&= 0,5 \enh{L}
-	}
-	Når vi har 7 deler rødmaling, men ønsker 11, må vi blande oppi 4 deler til. Da trenger vi:
-	\[ 4\cdot0,5 \enh{L}=2\enh{L} \]
-	Vi må helle oppi 2\,L rødmaling for å få forholdet $ {3:11} $.
-}
-\eks[2]{
 	En kanne som rommer 21\,dL er fylt med en saft der sirup og vann er blandet i forholdet $ {2:5} $. \os
 	\textbf{a)} Hvor mye vann er det  kannen?\os
 	\textbf{b)} Hvor mye sirup er det i kannen?
@@ -615,6 +626,21 @@ Dette betyr én del utgjør $ \frac{1}{7} $ av blandingen, sirupen utgjør $ \fr
 		&= 15\enh{dL}
 	}
 	\textbf{b)} Vi kan løse denne oppgaven på samme måte som i oppgave a), men det er raskere å merke oss at hvis vi har 15\,dL vann av i alt 21\,dL, må vi ha $ (21-15)\enh{dL}=6\enh{dL} $ sirup.
+}
+\eks[2]{
+	I et malerspann er grønn og rød maling blandet i forholdet ${ 3:7} $, og det er 5\,L av denne blandingen. Du ønsker å gjøre om forholdet til $ 3:11 $.\os
+	Hvor mye rød maling må du helle oppi spannet?
+	
+	\sv
+	I spannet har vi \y{3+7=10} deler. Siden det er 5\,L i alt, må vi ha at:\vs
+	\alg{
+		\text{1 del}&=\frac{1}{10} \text{ av 5\,L} \br
+		&= \frac{1\cdot5}{10} \text{\,L} \br
+		&= 0,5 \enh{L}
+	}
+	Når vi har 7 deler rødmaling, men ønsker 11, må vi blande oppi 4 deler til. Da trenger vi
+	\[ 4\cdot0,5 \enh{L}=2\enh{L} \]
+	Vi må helle oppi 2\,L rødmaling for å få forholdet $ {3:11} $.
 }
 \eks[3]{I en ferdig blandet saft er forholdet mellom sirup og vann lik $ {3:5} $.\os
 	Hvor mange deler saft og/eller vann må du legge til for at forholdet skal bli $ {1:4} $?

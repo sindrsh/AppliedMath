@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  11 AUG 2021 10:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  13 AUG 2021 15:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1336,27 +1336,27 @@ n/10.95 forhold-
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--11
-\T1/lmr/m/n/10.95 stall som forteller oss hvor mye stør-relser
+\T1/lmr/m/n/10.95 stall som forteller hvor mye stør-relser har
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--11
-\T1/lmr/m/n/10.95 har foran-dret seg. For ek-sem-pel kostet
+\T1/lmr/m/n/10.95 foran-dret seg. For ek-sem-pel kostet kro-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--11
-\T1/lmr/m/n/10.95 kro-neisen 0,75kr (!) da den ble lansert i
+\T1/lmr/m/n/10.95 neisen ca 0,75kr (!) da den ble lansert
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--11
-\T1/lmr/m/n/10.95 1953, mens den i 2017 kostet ca 27kr .
+\T1/lmr/m/n/10.95 i 1953, mens den i 2021 kostet ca 27kr.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--11
-\T1/lmr/m/n/10.95 Forholdet mel-lom prisen i 2017 og i 1953
+\T1/lmr/m/n/10.95 Forholdet mel-lom prisen i 2053 og i 2017
  []
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
@@ -1412,40 +1412,50 @@ File: kr.jpg Graphic file (type jpg)
 Package pdftex.def Info: kr.jpg  used on input line 12.
 (pdftex.def)             Requested size: 96.35971pt x 105.99573pt.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
-1.
+2.
 
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
 []\T1/lmr/m/n/10.95 Matvarer og alko-hol-frie
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
 []\T1/lmr/m/n/10.95 Alkoholholdige drikke-varer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
 []\T1/lmr/m/n/10.95 Møbler, hush-old-ningsar-tik-ler
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 []\T1/lmr/m/n/10.95 Hotell- og restau-rant-tjen-
  []
 
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 51.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 51.
 
 Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[][][][]\T1/lmr/m/n/9 Hvilket år som er ba-sisår foran-drer seg med tiden. Før 
+2015 ble ba-sisår var 1998
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 []\T1/lmr/m/n/10.95 I et ba-sisår er ver-dien til in-dek-sen 100. For kon-sumpr
 isin-dek-sen
  []
 
 
-Overfull \hbox (4.0163pt too wide) in paragraph at lines 41--51
-\T1/lmr/m/n/10.95 med, og kon-sumprisin-dek-sen tar ut-gangspunkt i pris-nivået
- på de nevnte 
+Overfull \hbox (33.32788pt too wide) in paragraph at lines 42--52
+\T1/lmr/m/n/10.95 sumprisin-dek-sen tar ut-gangspunkt i pris-nivået på de nevnt
+e varene/tjenestene 
  []
 
 [1
@@ -1454,512 +1464,450 @@ Overfull \hbox (4.0163pt too wide) in paragraph at lines 41--51
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./kr.jpg>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 67.
+(caption)                particular \caption on input line 68.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]\T1/lmr/m/n/10.95 I 2017 var prisin-dek-sen for en vare 109. Hvor mye har har
- prisen
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]\T1/lmr/m/n/10.95 I juli 2021 var KPI for mat-varer 109,4. Hvor mye har prise
+n på
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]$[]$\T1/lmr/m/n/10.95 . Prisen på mat-varer har altså økt med 9,4%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[]\T1/lmr/m/n/10.95 I juli 2021 var KPI for sko 98,0. Hvor mye har prisen på sk
+o
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-\T1/lmr/m/n/10.95 Dette be-tyr at å be-tale 1kr i 2012 ville vært det samme som
- å
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+[]\T1/lmr/m/n/10.95 Ordet \T1/lmr/m/it/10.95 kro-n-everdi \T1/lmr/m/n/10.95 bru
+kes også når man sam-men-likner ver-dien av
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+\T1/lmr/m/n/10.95 1kr opp mot ver-dien av uten-landsk va-l-uta. Kro-n-everdi ut
+ ifra et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 []\T1/lmr/m/n/10.95 Realverdien til en penge-sum er hvor mye en penge-sum ville
  vært
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--131
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 []\T1/lmr/m/n/10.95 I 1928 var KPI 3,2 og i 2020 var KPI 112,2. Hva hadde størs
 t
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--131
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 \T1/lmr/m/n/10.95 Altså var 10000kr verd mer i 1928 enn hva 350000kr var verd i
 
  []
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 164--164
 []\T1/lmr/m/n/10.95 I 2016 tjente Per 450000 kr, mens han i 2012 tjente 420000 
 kr. I
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 164--164
 \T1/lmr/m/n/10.95 2016 var $[]$, mens i 2012 var $[]$. I hvilket av
  []
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 154.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 154.
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 164--164
 []\T1/lmr/m/n/10.95 For å finne ut hvilket av årene Per hadde best råd, sjekker
  vi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 164--164
 \T1/lmr/m/n/10.95 Reallønnen til Per var altså høyest i 2012, der-for hadde han
 
  []
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
-[]\T1/lmr/m/n/10.95 Hvis en verdi føl-ger in-dek-sen, for-blir forholdet mel-lo
-m verdi og
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\T1/lmr/m/n/10.95 En verdi er sagt å ha \T1/lmr/m/it/10.95 fulgt in-deks \T1/
+lmr/m/n/10.95 hvis verdi og in-deks ved to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
-[]\T1/lmr/m/n/10.95 I 2013 fikk Sofie 600000 kr i lønn. I 2013 var KPI 95,9, me
-ns
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/lmr/m/n/10.95 Tabellen un-der viser en over-sikt over prisen reg-istr-ert
+ i en bu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
-\T1/lmr/m/n/10.95 den i 2017 var 105,5. Hva måtte Sofie få i lønn i 2017 for at
- løn-
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/lmr/m/n/10.95 I 2010 var KPI 92,1 og i 2020 var KPI 12,2. Har prisen på noe
+n
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
-\T1/lmr/m/n/10.95 nen skulle fulgt in-dek-sen? (Obs! Dette er det samme som å s
-i at
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/lmr/m/n/10.95 Altså er det rimelig å si at prisen for sjoko-lade har fulgt 
+in-deks,
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
-[]\T1/lmr/m/n/10.95 Skal løn-nen følge in-dek-sen, må forholdet mel-lom løn-nen
- og KPI
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
-\T1/lmr/m/n/10.95 Siden løn-nen i 2017 er uk-jent, kaller vi denne for $\OML/lm
-m/m/it/10.95 x$ \T1/lmr/m/n/10.95 i den videre
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
-\T1/lmr/m/n/10.95 Lønnen til Sofie bør altså være 660000 kr for at løn-nen skal
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-[]\T1/lmr/m/n/10.95 I 2005 kostet en sykkel 1500kr, mens den i 2014 ville koste
-t
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-\T1/lmr/m/n/10.95 1784kr om prisen hadde fulgt kon-sumprisin-dek-sen. I 2005 va
-r
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-[]\T1/lmr/m/n/10.95 Skal prisen følge in-dek-sen må forholdet mel-lom pris og i
-n-deks
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-\T1/lmr/m/n/10.95 Siden KPI i 2014 er uk-jent, kaller vi denne for $\OML/lmm/m/
-it/10.95 x$\T1/lmr/m/n/10.95 . Vi ut-nyt-ter
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-\T1/lmr/m/n/10.95 også at vi for en lign-ing med én brøk på hver side kan ''snu
-
- []
-
-[6] [7
+[5] [6] [7
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 230--230
-[]\T1/lmr/m/n/10.95 Hvis ter-min-beløpene hadde vært like
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 230--230
-\T1/lmr/m/n/10.95 store, ville det ist-e-den vært et an-nu-itet-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 230--230
-\T1/lmr/m/n/10.95 slån. Hvis lå-ne-sum, rente og ned-be-tal-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 230--230
-\T1/lmr/m/n/10.95 ingstid er lik, vil et se-rielån alltid med-føre
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 230--230
-\T1/lmr/m/n/10.95 minst ut-gifter to-talt sett. For pri-vat-per-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 230--230
-\T1/lmr/m/n/10.95 soner er det likevel veldig pop-ulært å
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 230--230
-\T1/lmr/m/n/10.95 velge an-nu-itet-slån på grunn av at det er
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 230--230
-\T1/lmr/m/n/10.95 let-tere å plan-legge økonomien når man
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 231--231
-[]\T1/lmr/m/sl/9 Merk: \T1/lmr/m/n/9 Du har alltid rett
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 231--231
-\T1/lmr/m/n/9 til å be-tale resterende
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 231--231
-\T1/lmr/m/n/9 gjeld når du selv ønsker
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 231--231
-\T1/lmr/m/n/9 det. Da avs-luttes lånet
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 231--231
-\T1/lmr/m/n/9 og du be-taler hverken
- []
-
-
-Overfull \hbox (21.27065pt too wide) in paragraph at lines 229--232
-\T1/lmr/m/n/10.95 store.  $[]$ $[]$  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
 []\T1/lmr/m/n/10.95 Kredittkort er et be-tal-ingskort som virker
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
 \T1/lmr/m/n/10.95 slik at hvis du f.eks bruker ko-rtet for å be-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
 \T1/lmr/m/n/10.95 tale for 10000kr i en bu-tikk, så blir ikke
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
 \T1/lmr/m/n/10.95 10000kr trekt fra kon-toen din $\OMS/lmsy/m/n/10.95 ^^@$ \T1/
 lmr/m/n/10.95 ist-e-den
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
 \T1/lmr/m/n/10.95 låner du pen-gene fra banken. Et-ter en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
 \T1/lmr/m/n/10.95 tid som er av-talt med banken vil banken
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
 \T1/lmr/m/n/10.95 kreve renter av gjelden din. Hvor-dan du
  []
 
-<kred.jpg, id=134, 1204.5pt x 903.375pt>
+<kred.jpg, id=136, 1204.5pt x 903.375pt>
 File: kred.jpg Graphic file (type jpg)
 <use kred.jpg>
-Package pdftex.def Info: kred.jpg  used on input line 235.
+Package pdftex.def Info: kred.jpg  used on input line 242.
 (pdftex.def)             Requested size: 120.45705pt x 90.34279pt.
 
-Overfull \hbox (18.0261pt too wide) in paragraph at lines 235--235
+Overfull \hbox (18.0261pt too wide) in paragraph at lines 242--242
 [][] 
  []
 
 
-Overfull \hbox (3.05965pt too wide) in paragraph at lines 253--253
+Overfull \hbox (3.05965pt too wide) in paragraph at lines 260--260
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--276
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
 []\T1/lmr/m/n/10.95 Fra en bank låner du 300000 kr med 3% i årlig rente. Lånet 
 skal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--276
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
 []\T1/lmr/bx/n/10.95 a) \T1/lmr/m/n/10.95 Siden 300000kr skal be-tales over 5 å
 r, blir det årlige av-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--276
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
 \T1/lmr/bx/n/10.95 b) \T1/lmr/m/n/10.95 Når tredje ter-min-beløp er be-talt, ha
 r du be-talt tre av-drag.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--276
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
 []\T1/lmr/bx/n/10.95 c) \T1/lmr/m/n/10.95 Ut ifra opp-gave b) vet vi at gjelden
  er 180000 kr når fjerde
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--276
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
 []\T1/lmr/bx/n/10.95 d) \T1/lmr/m/n/10.95 Ter-min-beløpet tilsvarer av-drag plu
 ss renter. Ut ifra opp-gave
  []
 
 [8 <./kred.jpg>] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 290--290
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
 []\T1/lmr/m/n/10.95 Fra en bank låner du 100000kr med 6,4% årlig rente. Lånet s
 kal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--290
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
 \T1/lmr/m/n/10.95 be-tales tilbake som et an-nu-itet-slån over 5 år, og banken 
 har da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--290
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
 []\T1/lmr/m/n/10.95 Det første året er gjelden 100000kr, i renter må du be-tale
  6,4%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--297
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
 []\T1/lmr/m/n/10.95 Innskuddsrente er en pros-entvis økn-ing av pen-gene du har
  i
  []
 
 
-Overfull \hbox (2.27702pt too wide) in paragraph at lines 294--297
+Overfull \hbox (2.27702pt too wide) in paragraph at lines 304--307
 \T1/lmr/m/n/10.95 Vi har sett hvor-dan vi må be-tale renter når vi låner penger
  av en bank, 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
 []\T1/lmr/m/n/10.95 Du set-ter inn 20000kr i en bank som gir 2% i årlig spar-er
 ente.
  []
 
 
-LaTeX Warning: Hyper reference `??' on page 10 undefined on input line 305.
+LaTeX Warning: Hyper reference `??' on page 10 undefined on input line 315.
 
 
-LaTeX Warning: Reference `??' on page 10 undefined on input line 305.
+LaTeX Warning: Reference `??' on page 10 undefined on input line 315.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
 []\T1/lmr/m/n/10.95 For å beregne innskud-dsrenter kan vi an-vende []\T1/lmr/m/
 sl/10.95 Regel [][]\T1/lmr/m/n/10.95 . Siden
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
 \T1/lmr/m/n/10.95 renten er 2%, er vek-st-fak-toren 1,02. Orig-i-nalver-dien er
  20000 og
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 310--310
+Underfull \hbox (badness 10000) in paragraph at lines 320--320
 []\T1/lmr/m/n/10.95 Forventet avkast-ning an-gir en \T1/lmr/m/sl/10.95 for-ven-
 tet \T1/lmr/m/n/10.95 pros-entvis økn-ing av en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
 []\T1/lmr/m/n/10.95 Du in-vesterer 15000 i et ak-sje-fond som har 5% årlig for-
 ven-tet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
 \T1/lmr/m/n/10.95 avkast-ning. Hvor mye penger er in-vesterin-gen verd et-ter 8
  år
  []
 
 
-LaTeX Warning: Hyper reference `??' on page 11 undefined on input line 318.
+LaTeX Warning: Hyper reference `??' on page 11 undefined on input line 328.
 
 
-LaTeX Warning: Reference `??' on page 11 undefined on input line 318.
+LaTeX Warning: Reference `??' on page 11 undefined on input line 328.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
 []\T1/lmr/m/n/10.95 Også for for-ven-tet avkast-ning kan vi bruke []\T1/lmr/m/s
 l/10.95 Regel [][]\T1/lmr/m/n/10.95 . Vek-st-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
 \T1/lmr/m/n/10.95 fak-toren er 1,05, orig-i-nalver-dien er 15000 og an-tall en-
 dringer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
 []\T1/lmr/m/n/10.95 Som regel er for-ven-tet avkast-ning på et ak-sje-fond høye
 re enn
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
 \T1/lmr/m/n/10.95 innskud-srenten du får i en bank, men ulem-pen er at for-ven-
 tet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
 \T1/lmr/m/n/10.95 avkast-ning ikke gir noen garantier. For-ven-tet avkast-ning 
 opp-gir
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
 \T1/lmr/m/n/10.95 bare øknin-gen eksperter an-tar vil skje. Er du heldig kan øk
 nin-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
 \T1/lmr/m/n/10.95 gen bli høyere, er du uheldig kan den bli la-vere, og til og 
 med
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
 \T1/lmr/m/n/10.95 ende opp med å være en \T1/lmr/m/sl/10.95 re-duk-sjon \T1/lmr
 /m/n/10.95 av in-vesterin-gen din. I ver-ste
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
 \T1/lmr/m/n/10.95 fall, rett nok i ek-stremt sjeldne til-feller, kan hele in-ve
 sterin-gen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
 []\T1/lmr/m/n/10.95 Innskuddsrenten kan også foran-dre seg noe med tiden, men d
 en
  []
 
 [11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 348--348
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+[]\T1/lmr/m/n/10.95 I ek-samen-sopp-gaver og i virke-ligheten vil du fort op-pd
+age at
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+\T1/lmr/m/n/10.95 skat-tesys-te-mer er pre-sen-tert på en litt an-nen måte enn 
+i denne
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+\T1/lmr/m/n/10.95 boka. Dette er blant an-net fordi skat-tere-g-lene kan foran-
+dre
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+\T1/lmr/m/n/10.95 seg fra år til år, og i denne boka har vi tatt ut-gangspunkt 
+i
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+\T1/lmr/m/n/10.95 skat-tere-g-lene for 2018. Det vik-tig-ste er ikke at du husk
+er spe-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+\T1/lmr/m/n/10.95 si-fikt disse re-g-lene, men at du lærer deg hva som menes me
+d
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+\T1/lmr/m/n/10.95 be-grepene \T1/lmr/m/it/10.95 brut-tolønn, fradrag, skat-te-g
+runnlag, trygdeavgift \T1/lmr/m/n/10.95 og
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 []\T1/lmr/m/n/10.95 De fleste må be-tale 23% av det som kalles
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--348
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 \T1/lmr/m/it/10.95 skat-te-grunnlaget\T1/lmr/m/n/10.95 , som er \T1/lmr/m/it/10
 .95 brut-toløn-nen \T1/lmr/m/n/10.95 mi-nus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--348
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 \T1/lmr/m/it/10.95 fradrag\T1/lmr/m/n/10.95 . Brut-toløn-nen er løn-nen du mot-
 tar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--348
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 \T1/lmr/m/n/10.95 fra ar-bei-ds-giver, mens fradrag kan være mye
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--348
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 \T1/lmr/m/n/10.95 forskjel-lig. \T1/lmr/m/it/10.95 Per-son-fradrag \T1/lmr/m/n/
 10.95 og \T1/lmr/m/it/10.95 min-ste-fradrag \T1/lmr/m/n/10.95 er
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--349
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 []\T1/lmr/m/n/9 Skattegrunnlag
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--349
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 \T1/lmr/m/n/9 kalles noen ganger
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--350
-[]\T1/lmr/m/n/10.95 skattebetalere får, i til-legg kan man blant
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+[]\T1/lmr/m/n/10.95 blant an-net få fradrag hvis man be-taler \T1/lmr/m/it/10.9
+5 fag-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--350
-\T1/lmr/m/n/10.95 an-net få fradrag hvis man be-taler \T1/lmr/m/it/10.95 fag-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 350--350
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
 \T1/lmr/m/it/10.95 foren-ingskon-ti-gent \T1/lmr/m/n/10.95 eller har gitt penge
 r til
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--351
-[]\T1/lmr/m/n/9 Fagforeningskontigent er
+Overfull \hbox (6.393pt too wide) in paragraph at lines 362--362
+[]\T1/lmr/m/n/9 Fagforeningskontigent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--351
-\T1/lmr/m/n/9 det du be-taler for å være
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\T1/lmr/m/n/9 er det du be-taler
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--377
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\T1/lmr/m/n/9 for å være med i en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
 []\T1/lmr/m/n/10.95 Bruttolønnen til Mag-nus er 500000kr. Han får 56000kr i per
 -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--377
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
 \T1/lmr/m/n/10.95 son-fradrag 97600kr i min-ste-fradrag, i til-leg be-taler han
  1000kr
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--377
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
 []\T1/lmr/m/n/10.95 Hva må Mag-nus be-tale hvis han skat-ter 23% av skat-te-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--377
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
 []\T1/lmr/m/n/10.95 Vi starter med å regne ut skat-te-grunnlaget, som er brut-t
 oløn-nen
  []
@@ -1967,87 +1915,87 @@ oløn-nen
 [13
 
 ]
-Overfull \hbox (10.6099pt too wide) in paragraph at lines 380--390
+Overfull \hbox (10.6099pt too wide) in paragraph at lines 391--401
 \T1/lmr/m/n/10.95 staten bruker til å dekke [][]Folketryg-den[][]. Hva man må b
 e-tale i trygdeavgift 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--403
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
 []\T1/lmr/m/n/10.95 Jonas og beste-moren hans, Line, har begge 150000kr i lønn.
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--403
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
 []\T1/lmr/bx/n/10.95 a) \T1/lmr/m/n/10.95 Siden Jonas er mel-lom 17 år og 69 år
 , skal han be-tale 8,2% i
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--403
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
 \T1/lmr/m/n/10.95 Altså skal Jonas be-tale 1230kr i trygdeavgift. Fordi Line er
  over
  []
 
 [14]
-Overfull \hbox (23.95888pt too wide) in paragraph at lines 435--435
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 470--470
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 449.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 449.
+ [15]
+Underfull \hbox (badness 10000) in paragraph at lines 485--485
 []\T1/lmr/m/n/10.95 Emblas brut-tolønn er 550000kr. Hun be-taler 1500kr i året 
 for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 470--470
+Underfull \hbox (badness 10000) in paragraph at lines 485--485
 \T1/lmr/m/n/10.95 medlem-skap i \T1/lmr/m/sl/10.95 LO \T1/lmr/m/n/10.95 (Norges
  største fag-foren-ing) og har 409900
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 470--470
+Underfull \hbox (badness 10000) in paragraph at lines 485--485
 \T1/lmr/m/n/10.95 (Den to-tale trinnskat-ten har vi hen-tet fra utreg-nin-gen i
  \T1/lmr/m/sl/10.95 Ek-sem-
  []
 
-[15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 503--503
-[]\T1/lmr/m/n/10.95 Lisa prøver å tenke på sine månedlige in-ntek-ter og ut-fit
-er, og
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 518--518
+[]\T1/lmr/m/n/10.95 Lisa prøver vil lage en over-sikt over sine månedlige in-nt
+ek-ter og
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 503--503
+Underfull \hbox (badness 10000) in paragraph at lines 518--518
 []\T1/lmr/m/n/10.95 Hun tar på seg kveldsvak-ter på en gam-le-hjem. Av dette
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 550--550
 []\T1/lmr/m/n/10.95 I ek-sem-pelet fra for-rige delsek-sjon (0.4.1[]) satt vi o
 pp et måneds-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 550--550
 \T1/lmr/m/n/10.95 bud-sjett for Lisa. I mars viste det seg at dette ble de fak-
 tiske
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 550--550
 []\T1/lmr/m/n/10.95 Hun ble så op-phengt i å lese om funksjoner at hun ikke
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 550--550
 \T1/lmr/m/n/10.95 fikk job-bet så mye som hun hadde tenkt. Net-toløn-nen ble
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 550--550
 \T1/lmr/m/n/10.95 Lisa gikk altså med 2060kr i over-skudd, men 600kr min-dre en
 n
  []
@@ -2055,26 +2003,26 @@ n
 [17
 
 ] [18]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 537.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 537.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 552.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 552.
  (./oko.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 537.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 537.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 552.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 552.
 Package rerunfilecheck Info: File `oko.out' has not changed.
-(rerunfilecheck)             Checksum: A09E1E22D8312F0053272DD4EE5CC25E;1042.
+(rerunfilecheck)             Checksum: 42CED5596D2696EB6C8BEE2377482F1D;1034.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 31416 strings out of 481239
- 616474 string characters out of 5920378
- 935297 words of memory out of 5000000
- 45940 multiletter control sequences out of 15000+600000
- 622436 words of font info for 88 fonts, out of 8000000 for 9000
+ 31445 strings out of 481239
+ 616816 string characters out of 5920378
+ 935359 words of memory out of 5000000
+ 45964 multiletter control sequences out of 15000+600000
+ 638236 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,17n,104p,869b,985s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,17n,104p,869b,987s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ma
@@ -2086,10 +2034,10 @@ share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/te
 xmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
 ro9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on oko.pdf (18 pages, 460096 bytes).
+Output written on oko.pdf (18 pages, 458126 bytes).
 PDF statistics:
- 265 PDF objects out of 1000 (max. 8388607)
- 228 compressed objects within 3 object streams
- 65 named destinations out of 1000 (max. 500000)
+ 267 PDF objects out of 1000 (max. 8388607)
+ 230 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
 

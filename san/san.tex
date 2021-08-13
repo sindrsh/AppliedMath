@@ -2,56 +2,59 @@
 \input{../preamb}
 %\input{/home/sindre/akademiet/bok/preamb}
 \begin{document}
-
 \section{Grunnprinnsippet}
-\setlength\itemsep{0 pt}
-Selve prinsippet bak sannsynlighetsregning er at vi spør oss hvor mange \textit{gunstige utfall}  vi har i et utvalg av \textit{mulige utfall} . Sannsynligheten for en \textit{hendelse} er da gitt som et forholdstall mellom disse:
-$$\text{sannsynlighet for en hendelse}=\frac{\text{gunstige utfall}}{\text{mulige utfall}}$$
-
-Når vi kaster en terning, kaller vi det \textit{å få en sekser} for en hendelse. Og fordi en terning har seks forskjellige sider, sier vi at det er seks mulige utfall. Av disse sidene er det bare én som er en sekser, derfor har vi ett gunstig utfall. 
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.3]{tern}
-\end{figure}Sannsynligheten for å få en sekser er altså $ \frac{1}{6} $:
-\alg{
-\text{sannsynlighet for å få en sekser}&= \frac{\text{gunstige utfall}}{\text{mulige utfall}}\br
-&=\frac{\text{sider med sekser på}}{\text{totalt antall sider}} \br
-&= \frac{1}{6}
-}
-For å unngå lange uttrykk bruker vi ofte enkeltbokstaver for å indikere en hendelse. Istedenfor å skrive \textit{få en sekser}, kan vi bruke bokstaven \textit{S}, og for å indikere at vi spør om sannsynligheten for en hendelse bruker vi bokstaven \textit{P}. Når vi skriver $P(S)$ betyr dette \textit{sannsynligheten for å få en sekser}:
+Selve prinsippet bak sannsynlighetsregning er at vi spør oss hvor mange \textit{gunstige utfall}  vi har i et utvalg av \textit{mulige utfall}. Sannsynligheten for en \textit{hendelse} er da gitt som et forholdstall mellom disse \regv
+\reg[Sannsynlighet for en hendelse \label{grnprsp}]{
+\[ \text{sannsynlighet for en hendelse}=\frac{\text{antall gunstige utfall}}{\text{antall mulige utfall}} \]
+} \vsk
+Når vi kaster en terning, kaller vi 'å få en firer' en hendelse. Og da en terning har seks forskjellige sider, er det seks mulige utfall.
+\fig{san1}
+Hvis vi ønsker 'å få en firer', er det bare 1 av disse 6 utfallene som gir oss det vi ønsker, altså er
+\[ \text{sannsynlighet for å få en firer}=
+ \frac{1}{6} \]
+\prbxl{0.6}{For å unngå lange uttrykk bruker vi gjerne enkeltbokstaver for å indikere en hendelse. Istedenfor å skrive 'å få en firer', kan vi bruke bokstaven \textit{F}, og for å indikere at vi snakker om sannsynligheten for en hendelse bruker vi bokstaven \textit{P}.}\qquad \prbxr{0.3}{$ P $ kommer av det engelske ordet for sannsynlighet, \textit{probability}.} \\[5pt]
+Når vi skriver $P(S)$ betyr dette 'sannsynligheten for å få en en firer':
 \[ P(S)=\frac{1}{6} \]
-Hva med det motsatte, altså sannsynligheten for å \textsl{ikke} få en sekser? For å uttrykke at noe er motsatt av en hendelse, setter vi en strek over navnet. Hendelsen \textit{å ikke få en sekser} skriver vi altså som $ \bar{S} $. \textit{Å ikke få en sekser} er det samme som \textit{å få enten en ener, en toer, en treer, en firer eller en femmer}, derfor har denne hendelsen fem gunstige utfall. Det betyr at:
+Hva med det motsatte, altså sannsynligheten for å \textsl{ikke} å få en firer? For å uttrykke at noe er motsatt av en hendelse, setter vi en strek over navnet. Hendelsen 'å \textsl{ikke} få en firer' skriver vi altså som $ \bar{F} $. Det 'å \textsl{ikke} få en firer' er det samme som 'å få \textsl{enten} en ener, en toer, en treer, en femmer \textsl{eller} en sekser', derfor har denne hendelsen 5 gunstige utfall. Det betyr at
 \[ P(\bar{S})=\frac{5}{6} \]
+\reg[Symboler for sannsynlighet]{
+$ P(A) $ er sannsynligheten for at hendelsen $ A $	inntreffer. \vsk
+
+$ A $ og $ \bar{A} $ er motsatte hendelser. \vsk
+
+$ P(\bar{A}) $ er sannsynligheten for at $ A $ \textsl{ikke} inntreffer, og omvendt.
+}
+\info{Obs!}{
+ Som regel er det en god vane å forkorte brøker når det lar seg gjøre, men i sannsynlighetsregning vil det ofte lønne seg å la være. Du vil derfor oppdage at mange brøker i kommende seksjoner kunne vært forkortet.
+}
 \section{Hendelser med og uten felles utfall}
-\subsection{Hendelser uten felles utfall}
-\begin{wrapfigure}[4]{r}{0.25\linewidth}
-	\begin{shaded*}
-		Symbolet $ \cup $ kalles \textit{union}.
-	\end{shaded*}
-\end{wrapfigure}
-La oss nå i tillegg kalle hendelsen å \textit{få en femmer} for \textit{F}. Hendelsen \textit{å få en femmer \textsl{eller} en sekser} skriver vi da som $ F\cup S $ . Det er to av seks sider på en terning som er fem \textsl{eller} seks, sannsynligheten for \textit{å få en femmer \textsl{eller} en sekser} er derfor $ \frac{2}{6} $:
-$$P(F\,\cup\,S)=\frac{2}{6}$$ 
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.3]{tern2}
-\end{figure}
+\subsection{Hendelser uten felles utfall} \vspace{-5pt}
+\prbxl{0.6}{La oss kalle hendelsen å 'å få en treer' (på en terning) for \textit{T}. Hendelsen 'å få en treer \textsl{eller} en firer' skriver vi da som $ T\cup F $.} \qquad
+\prbxr{0.3}{Symbolet \sym{$ \cup $} kalles \textit{union}.}
+Det er 2 av 6 sider på en terning som er tre \textsl{eller} fire, sannsynligheten for 'å få en treer \textsl{eller} en firer' er derfor $ \frac{2}{6} $:
+\[ P(F\,\cup\,S)=\frac{2}{6} \]
+\fig{san1a}
 
 Det samme svaret hadde vi fått ved å legge sammen sannsynlighetene $P(F)$ og $P(S)$:
-\[ P(F\,\cup\,S)=P(F)+P(S)=\frac{1}{6}+\frac{1}{6}=\frac{2}{6} \]
-Å finne $ P(F\cup S) $ ved å legge sammen $ P(F) $ og $ P(S) $ kan vi gjøre fordi $ F $ og $ S $ ikke har noen \textit{felles utfall}. $ F $ og $ S $ har ingen felles utfall på grunn av dette: Hvis man får en femmer, kan man umulig ha fått en sekser samtidig. Og får man en sekser, kan man umulig ha fått en femmer samtidig.
-\reg[Hendelser uten felles utfall \label{uf}]{For to hendelser \textit{A} og \textit{B} som ikke har noen felles utfall, er sannsynligheten for $ A $ \textsl{eller} $ B $ lik sannsynligheten for \textit{A} pluss sannsynligheten for \textit{B}:
+\[ P(T\,\cup\,F)=P(T)+P(F)=\frac{1}{6}+\frac{1}{6}=\frac{2}{6} \]
+Å finne $ P(T\cup F) $ ved å summere $ P(T) $ og $ P(F) $ kan vi gjøre fordi $ T $ og $ F $ ikke har noen \textit{felles utfall}. Dette er fordi ingen sider på trekanten viser \textsl{både} en treer og en firer. \regv
+
+\reg[Hendelser uten felles utfall \label{ufutf}]{For to hendelser \textit{A} og \textit{B} uten felles utfall, er
 	\[ P(A\,\cup\,B)=P(A)+P(B) \] \vs\vs}
 \eks{
-Du trekker opp en kule fra en bolle hvor det ligger én rød, to blå og én grønn kule. Hva er sannsynligheten for at du trekker opp en rød $ (R) $ \textsl{eller} en blå $ (B) $ kule?
+Du trekker opp en kule fra en bolle hvor det ligger én rød, to blå og én grønn kule. Hva er sannsynligheten for at du trekker opp en rød \textsl{eller} en blå kule?
 
-\sv \vs
+\sv
+Vi kaller hendelsene 'å få en rød kule' for $ R $ og hendelsen 'å få en blå kule' for $ B $.
 \begin{itemize}
-	\item Det er i alt fire mulige utfall. 
-	\item Siden alle kulene bare har én farge, er det ingen av hendelsene $ R $, $ B $ eller $ G $ som har felles utfall.
-	\item Sannsynligheten for å trekke en rød kule er: $ P(R)=\frac{1}{4}$ 
-	\item Sannsynligheten for å trekke en blå kule er: $P(B)=\frac{2}{4} $. 
+	\item Det er i alt 4 mulige utfall (kuler). 
+	\item Siden alle kulene bare har én farge, er det ingen av hendelsene $ R $ og $ B $ som har felles utfall.
+	\item Sannsynligheten for å trekke en rød kule er
+	\[ P(R)=\frac{1}{4} \] 
+	\item Sannsynligheten for å trekke en blå kule er
+	\[ P(B)=\frac{2}{4} \] 
 \end{itemize}
-	Sannsynligheten for å få en rød \textsl{eller} en blå kule blir derfor: 
+	Sannsynligheten for å få en rød \textsl{eller} en blå kule er dermed 
 	 \alg{
 		P(R\cup B)&=P(R)+P(B)\br
 		&=\frac{1}{4}+\frac{2}{4} \br
@@ -59,46 +62,47 @@ Du trekker opp en kule fra en bolle hvor det ligger én rød, to blå og én gr�
 	 }
 }
 \subsection{Summen av alle sannsynligheter er 1}
-Tenk nå at vi kaster en terning og at vi godtar hendelsen \textit{å få en sekser} $ (S) $ \textsl{eller} hendelsen \textit{å ikke få en sekser} $ (\bar{S}) $. Vi har tidligere sett at $ {P(S)=\frac{1}{6}} $ og at $ {P(\bar{S})=\frac{5}{6} }$. Av ?? vet vi at sannsynligheten for \textit{å få en sekser} \textsl{eller} \textit{å ikke få en sekser} er:
-\alg{
-P(S\cup\bar{S})&=P(S)+P(\bar{S})\br
+Tenk at vi kaster en terning og at vi holder både 'å få en firer' og 'å ikke få en firer' for gunstige hendelser . Vi har tidligere sett at $ {P(F)=\frac{1}{6}} $, $ {P(\bar{F})=\frac{5}{6} }$, og at $ F $ og $ \bar{F} $ ikke har felles utfall. Av \rref{ufutf} har vi da at
+\algv{
+P(F\cup\bar{F})&=P(F)+P(\bar{F})\br
 &= \frac{1}{6}+\frac{5}{6} \\
 &= 1
 }
-\begin{wrapfigure}[6]{r}{0.4\linewidth}
-	\vs\vs
-	\begin{shaded}
-		Alle hendelser som kan skje? Hva med \textit{få en ener}, \textit{få en toer} osv.? Jo, de ligger alle innbakt i $ \bar{S} $.
-	\end{shaded}
-\end{wrapfigure}
-Dette er egentlig ikke så overraskende, for kaster vi en terning er det to ting som kan skje: Enten får vi en sekser, eller så får vi det ikke. Summen $ P(S)+P(\bar{S}) $ er derfor summen av sannsynlighetene for alle hendelser som kan skje. Hvis vi ''godtar'' alle hendelser, så er alle utfall gunstige. Antall gunstige utfall blir derfor det samme som antall mulige utfall, og forholdet mellom dem blir da 1: 
-
+Enten så skjer $ F $, eller så skjer den ikke. Og skjer den ikke, så skjer $ \bar{F} $. Hvis vi sier at \textsl{både} $ F $ og $ \bar{F} $ er gunstige hendelser, sier vi altså at alle mulige utfall er gunstige, og da gir  \rref{grnprnsp} en sannsynlighet lik 1. \regv
+ 
 \reg[Summen av alle sannsynligheter \label{sumer1}]{
-Summen av sannsynlighetene for alle hendelser er alltid lik 1.
-}
-Slik som i tilfellet av \textit{å få en sekser}/\textit{å ikke få en sekser}, vil det alltid være slik at en hendelse $ A $ og den motsatte hendelsen $ \bar A $ til sammen utgjør alle hendelser. Av ?? har vi da at:
+Summen av sannsynlighetene for alle mulige hendelser er alltid lik 1.
+} \vsk
+
+En hendelse $ A $ og den motsatte hendelsen $ \bar A $ vil til sammen alltid utgjøre alle hendelser. Av \rref{sumer1} har vi da at
 \alg{
 P(A)+P(\bar{A})&=1 \\
-P(\bar{A}) &= 1-P(A)
+P(A) &= 1-P(\bar{A})
 }
-\reg[Motsatte hendelser \label{motsatt}]{
-Sannsynligheten for at en hendelse $ A $ \textsl{ikke} vil skje er gitt som:
-\[ P(\bar{A})=1-P(A) \]\vs\vs
+\reg[Motsatte hendelser \label{motsatt}]{\vs
+\[ P(A)=1-P(\bar{A}) \]\vs\vs
 }
 \eks{
 I en klasse med 25 elever er det 12 jenter og 13 gutter. Èn elev skal tilfeldig trekkes ut til å være med i en matematikkonkurranse. \vsk
 
-\textbf{a)} Hva er sannsynligheten for at en gutt $ (G) $ blir trukket? \br
-\textbf{b)} Hva er sannsynligheten for at en gutt \textsl{ikke} blir trukket?
+\abc{
+\item Hva er sannsynligheten for at en gutt blir trukket? 
+\item Hva er sannsynligheten for at en gutt \textsl{ikke} blir trukket?}
 
 \sv
-\textbf{a)} Sannsynligheten for at en gutt blir trukket er: $ P(G)=\frac{13}{25} $ \br
-\textbf{b)} Sannsynligheten for at en gutt \textsl{ikke} blir trukket er:
+Vi kaller hendelsen 'en gutt blir trukket' for $ G $.
+\abc{
+\item Sannsynligheten for at en gutt blir trukket er
+\[ P(G)=\frac{13}{25} \]
+\item Sannsynligheten for at en gutt \textsl{ikke} blir trukket er
 \alg{P(\bar{G})&=1-P(G) \\
-&=	1-\frac{13}{25} \\
+	&=	1-\frac{13}{25} \\
 	&= \frac{12}{25}
 }
 \mer At en gutt \textsl{ikke} blir trukket er det samme som at en jente blir trukket.
+}
+
+
 }
 \subsection{Felles utfall}	
 	Noen ganger er det slik at to hendelser kan ha \textit{felles utfall}. La oss se på en vanlig kortstokk med $52$ kort som er likt delt inn i typene spar, hjerter, ruter og kløver.  Kort som er av arten knekt, dame, kong eller ess kalles honnørkort.	
@@ -107,12 +111,11 @@ I en klasse med 25 elever er det 12 jenter og 13 gutter. Èn elev skal tilfeldig
 		\includegraphics[scale=0.45]{kort}
 	\end{figure}  
 
-\parbox[l][][l]{0.5\linewidth}{Tenk at vi trekker opp et kort fra en blandet kortstokk. 
-	Vi ønsker å finne sannsynligheten for at kortet som trekkes 
-	er kløver \textsl{eller} honnør \textsl{eller} begge deler.
-	Vi starter med å telle opp de gunstige utfallene for kløverkort og finner at antallet er 13.}\qquad
-\parbox[r][][l]{0.4\linewidth}{\begin{shaded}%
-		Et kort som kløver kong er et kløverkort, men det er også et honnørkort, og derfor er det begge deler: både kløverkort \textsl{og} honnørkor.\end{shaded}}
+\prbxl{0.5}{Tenk at vi trekker opp et kort fra en blandet kortstokk. 
+	Vi ønsker å finne sannsynligheten for 'å trekke kløver \textsl{eller} honnør \textsl{eller} begge deler'.
+	Vi starter med å telle opp de gunstige utfallene for kløverkort og finner at antallet er 13.}
+\qquad
+\prbxr{0.4}{Et kort som kløver kong er et kløverkort, men det er også et honnørkort, og derfor er det begge deler; \textsl{både} kløverkort \textsl{og} honnørkor.}
 	
 	\begin{figure}[H]
 		\centering
@@ -129,28 +132,24 @@ Så vi har altså telt opp ${13+16=29}$ gunstige utfall. Men nå støter vi på 
 		\centering
 		\includegraphics[scale=0.45]{kort4}
 	\end{figure}
-Men det finnes jo for eksempel ikke to kløver ess i en kortstokk, så skal vi regne ut hvor mange kort som oppfyller kravet om å være kløver, honnør \textsl{eller} begge deler $ - $ ja, så må vi trekke ifra antallet kort vi har telt dobbelt:
+Det finnes jo for eksempel ikke to kløver ess i en kortstokk, så skal vi regne ut hvor mange kort som oppfyller kravet om å være kløver, honnør \textsl{eller} begge deler $ - $ ja, så må vi trekke ifra antallet kort vi har telt dobbelt:
 $$ 13+16-4=25 $$
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=0.45]{kort3}
 	\end{figure}
 
-La nå \textit{K} være hendelsen \textit{trekke et kløverkort} og \textit{H} være hendelsen \textit{trekke et honnørkort}. Siden det er 25 kort som er kløver, honnør \textsl{eller} begge deler av i alt 52, får vi:
+La \textit{K} være hendelsen 'å trekke et kløverkort' og \textit{H} være hendelsen 'å trekke et honnørkort'. Siden det er 25 kort som er kløver, honnør \textsl{eller} begge deler av i alt 52 kort, har vi at
 $$P(K\cup\,H)=\frac{25}{52}$$
 
-Siden vi har 13 kløverkort og 16 honnørkort, får vi videre at:
+Siden vi har 13 kløverkort og 16 honnørkort, får vi videre at
 $$P(K)=\frac{13}{52} \text{\; og \;} P(H)=\frac{16}{52}$$
-\begin{wrapfigure}[1]{r}{0.25\textwidth}
-	\vs\vs
-	\begin{shaded*}
-		Symbolet $ \cap $ kalles \textit{snitt}.
-	\end{shaded*}
-\end{wrapfigure}
-Vi har sett at fire kort er \textsl{både} kløver \textsl{og} honnørkort, dette skriver vi som: 
-$$K\,\cap\,H=4$$
-Vi sier da at \textit{K} og \textit{H} har fire \textit{felles utfall}.
-Sannsynligheten for $K\,\cap\,H$ blir:
+\prbxl{0.6}{
+Vi har sett at fire kort er \textsl{både} kløver \textsl{og} honnørkort, dette skriver vi som}\qquad
+\prbxr{0.3}{Symbolet \sym{$ \cap $} kalles \textit{snitt}.} \vs
+\[ K\,\cap\,H=4 \]
+Vi sier da at \textit{K} og \textit{H} har 4 \textit{felles utfall}.
+Sannsynligheten for $K\,\cap\,H$ er
 \[ P(K\,\cap\,H)=\frac{4}{52} \]
 
 Nå som vi har funnet $ P(K), P(H)$ og $P(K\cup H)$ kan vi igjen finne  $P(K\,\cap\,H)$ på følgende måte:
@@ -160,52 +159,58 @@ P(K\,\cup\,H)&=P(K)+P(H)-P(K\,\cap\,H) \br
 &= \frac{25}{52}
 \end{align*}
 
-\reg[Hendelser med felles utfall]{For to hendelser $ A $ og $ B $ er sannsynligheten for \textit{A \textsl{eller} B}, lik sannsynligheten for \textit{A} pluss sannsynligheten for \textit{B}, fratrukket sannynligheten for \textsl{både} $ A $ og $ B $:
+\reg[Hendelser med felles utfall \label{mfutf}]{For to hendelser $ A $ og $ B $ er
 	\[ P(A\,\cup\,B)=P(A)+P(B)-P(A\,\cap\,B) \]\vs\vs}
-\eks{
-I en klasse på 20 personer spiller 7 personer fotball (\textit{F}), og 10 personer spiller handball (\textit{H}). Av disse er det 4 som spiller både fotball og handball. Tenk deg at du trekker ut én person fra klassen. Hva er sjansen for at denne personen spiller fotball \textsl{eller} handball?
+\eks{ \label{eksfothand}
+I en klasse på 20 personer spiller 7 personer fotball og 10 personer spiller handball. Av disse er det 4 som spiller både fotball og handball. Tenk deg at du trekker ut én person fra klassen. Hva er sjansen for at denne personen spiller fotball \textsl{eller} handball?
 		
-\sv \vs
-\begin{itemize}
-\item Sannsynligheten for at en person spiller fotball er: $ P(F)=\frac{7}{20}$
-\item Sannsynligheten for at en person spiller handball er: $ P(H)=\frac{10}{20} $
-\item Sannsynligheten for at en person spiller \textsl{både} fotball og handball er: $P(F\cap H)=\frac{4}{20} $	
+\sv
+Vi lar $ F $ være hendelsen 'spiller fotball' og $ H $ være hendelsen 'spiller handball'.
+\begin{itemize} 
+\item Sannsynligheten for at en person spiller fotball er
+\[ P(F)=\frac{7}{20} \]
+\item Sannsynligheten for at en person spiller handball er
+\[ P(H)=\frac{10}{20} \]
+\item Sannsynligheten for at en person spiller \textsl{både} fotball og handball er
+\[ P(F\cap H)=\frac{4}{20} \]	
 \end{itemize}
 
-Sannsynligheten for at en person spiller fotball \textsl{eller} handball er derfor: \alg{
+Sannsynligheten for at en person spiller fotball \textsl{eller} handball er derfor \alg{
 P(F\cup H)&= P(F)+P(H)-P(F\cap H)\br
 &=\frac{7}{20}+\frac{10}{20}-\frac{4}{20}\br
 &=\frac{13}{20}
 } 
 Sjansen er altså $ \frac{13}{20} $.
 }
+\info{Merk}{
+Hvis man anvender \rref{mfutf} på to hendelser uten felles utfall, ender man opp med \rref{ufutf}. 
+}
 \subsection{Venndiagram}
-Noen ganger blir vi bedt om å sette opp informasjonen vi får i et \textit{venndiagram}. Målet med et venndiagram er å lage en figur som beskriver antallet av de enkelte utfallene og de \textit{felles} utfallene. La oss bruke eksempelet over til å lage en slik figur. For klassen der noen spiller fotball, noen handball og noen begge deler, kan vi lage et venndiagram som vist under.
+Målet med et venndiagram er å lage en figur som illustrerer antallet av de enkelte utfallene og de \textit{felles} utfallene. La oss bruke eksempelet på side \pageref{eksfothand} til å lage en slik figur. For klassen der noen spiller fotball, noen handball og noen begge deler, kan vi lage et venndiagram som vist under.
 \begin{figure}
 	\centering
 	\includegraphics[]{\fpath{venn}}
 \end{figure}
-Den grønne ellipsen (strekt sirkel) representerer de som spiller fotball ($ F $) og den blå de som spiller handball ($ H $). Fordi noen spiller \textit{begge} sportene ($ F\cap H $), har vi tegnet ellipsene litt over i hverandre. Nå vet vi at 7 spiller fotball, 10 spiller handball og fire av disse gjør \textit{begge }deler. Dette kan vi skrive inn i diagrammet vårt på følgende måte:
+Den grønne ellipsen\footnote{En ellipse er en ''strekt'' sirkel.} representerer de som spiller fotball ($ F $) og den blå de som spiller handball ($ H $). Da noen spiller \textsl{begge} sportene ($ F\cap H $), har vi tegnet ellipsene litt over i hverandre. Videre vet vi at 7 spiller fotball, 10 spiller handball og 4 av disse gjør \textsl{begge }deler. Dette illustreres slik:
 \begin{figure}
 	\centering
 	\includegraphics[]{\fpath{vennb}}
 \end{figure}
-Diagrammet forteller slik at tre personer spiller \textsl{bare} fotball og 6 spiller \textsl{bare} handball. Men så er det fire stykker som spiller \textsl{både} fotball og handball, til sammen er det derfor syv som spiller fotball og ti som spiller handball.
-\eks[1]{I en matematikklasse på Akademiet VGS Ålesund er det 31 elever. I denne klassen er det 15 elever som tar buss til skolen og 9 elever som tar båt. Av disse er det 3 stykker som tar både buss og båt. \vsk
+Diagrammet forteller nå at 3 personer spiller \textsl{bare} fotball og 6 spiller \textsl{bare} handball. I tilleg spiller 4 stykker \textsl{både} fotball og handball. (Til sammen er det derfor 7 som spiller fotball og 10 som spiller handball.) \regv
+\eks[1]{I en skoleklasse er det 31 elever. I denne klassen er det 15 elever som tar buss til skolen og 9 elever som tar båt. Av disse er det 3 stykker som tar både buss og båt.
 
-\textbf{a)} Sett opp et venndiagram som beskriver informasjonen som er gitt.\br
+\abc{
+\item Sett opp et venndiagram som illustrerer gitt informasjon.\br
 
-\textbf{b)} Én person trekkes tilfeldig ut av klassen. Hva er sannsynligheten for at denne personen tar buss eller båt til skolen?
-
+\item Én person trekkes tilfeldig ut av klassen. Hva er sannsynligheten for at denne personen tar buss \textsl{eller} båt til skolen?
+}
 \sv
-\textbf{a)}
-Siden 3 elever tar \textsl{både} buss og båt, er det \y{15-3=12} som \textsl{bare} tar buss og \y{9-3} som \textsl{bare} tar båt. Vi lar $ A $ bety \textit{tar buss} og $ B $ bety \textit{tar båt}, venndiagrammet vårt blir da seende slik ut:
-\begin{figure}
-	\centering
-	\includegraphics[]{\fpath{venne}}
-\end{figure}
-\textbf{b)} Sannsynligheten for at en person tar buss eller båt kan vi skrive som \y{P(A\cup B) }. Siden 15 elever tar buss, 9 tar båt og 3 tar begge deler, er det i alt \y{15+9-3=21} elever som tar buss eller båt. Siden det er 31 elever i alt å velge mellom, får vi at:
-\[ P(A\cup B)=\frac{21}{31} \]\vs
+\abc{
+\vs	
+\item Siden 3 elever tar \textsl{både} buss og båt, er det \y{15-3=12} som \textsl{bare} tar buss og \y{9-3=6} som \textsl{bare} tar båt. Vi lar $ A $ bety 'tar buss' og $ B $ bety 'tar båt', venndiagrammet vårt blir da seende slik ut:
+\fig{venne}
+\item Sannsynligheten for at en person tar buss \textsl{eller} båt kan vi skrive som \y{P(A\cup B) }. Siden 15 elever tar buss, 9 tar båt og 3 tar begge deler, er det i alt \y{15+9-3=21} elever som tar buss \textsl{eller} båt. Da det er 31 elever i alt å velge mellom, er
+\[ P(A\cup B)=\frac{21}{31} \]\vs}
 }
 \eks[2]{
 Om en klasse med 29 elever vet vi følgende:
@@ -271,50 +276,53 @@ Deretter fyller vi inn tabellen ut ifra informasjonene vi har:
 \end{center}
 
 \section{Gjentatte trekk \label{komb}}
-\subsection{Kombinasjoner}
+\subsection{Permutasjoner}
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.8]{\fpath{bolle}}
 	\vs
 \end{figure}
-La oss tenke oss at vi har en bolle med fire kuler som er nummererte fra 1 til 4. I et forsøk trekker vi opp én og én kule fram til vi har trukket opp tre kuler. Etterpå leser vi opp \textit{kombinasjonen} vi har fått. Hvis vi for eksempel først trekker kule 2, deretter kule 4, og så kule 3, får vi kombinasjonen $2\; 4\; 3$.
+La oss tenke oss at vi har en bolle med fire kuler som er nummererte fra 1 til 4. I et forsøk trekker vi opp én og én kule fram til vi har trukket opp tre kuler. Hvis vi for eksempel først trekker kule 2, deretter kule 4, og så kule 3, får vi \textit{permutasjonen} $2\; 4\; 3$. \vsk
  
-Legger vi kulene tilbake og foretar trekningen på nytt, får vi kanskje kombinasjonen $1\; 3\; 4$, eller kanskje $4\;1\; 2$, eller en helt annen kombinasjon. Så hvor mange forskjellige kombinasjoner kan vi få? La oss lage en figur som hjelper oss. Før første trekning ligger det fire kuler i bollen, vi kan derfor si at vi har 4 veier å gå. Enten trekker vi kule 1, eller kule 2, eller kule 3, eller kule 4:
+Hvor mange forskjellige permutasjoner kan vi få? La oss lage en figur som hjelper oss. Ved første trekning er det 4 kuler å plukke av, vi kan derfor si at vi har 4 veier å gå. Enten trekker vi kule 1, eller kule 2, eller kule 3, eller kule 4:
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.8]{\fpath{komb0}}
+\includegraphics[scale=0.8]{\fpath{perm1a}}
 \end{figure}
-Kula vi trekker opp legger vi ut av bollen og trekker så andre gang. For hver av de fire veiene vi kunne gå i første trekning får vi nå tre nye veier å følge \textendash \,altså har vi nå  $3\cdot4=12$ veier vi kan gå.\\
+Kula vi trekker opp legger vi ut av bollen, og trekker så for andre gang. For hver av de 4 veiene vi kunne gå i første trekning får vi nå 3 nye veier å følge. Altså har vi nå  $3\cdot4=12$ veier vi kan gå.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.8]{\fpath{komb1}}
+	\includegraphics[scale=0.8]{\fpath{perm1b}}
 \end{figure}
  
-Den andre kula vi trekker opp legger vi også ut av bollen,  så  for hver av de 12 veiene fra 2. trekning, får vi nå to nye mulige veier å gå. Totalt antall veier blir derfor $12\cdot2=24$. 
+Den andre kula vi trekker opp legger vi også ut av bollen,  så  for hver av de 12 veiene fra 2. trekning, får vi nå to nye mulige veier å gå. Totalt antall veier (permutasjoner) blir derfor $12\cdot2=24$. 
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.8]{\fpath{komb}}
+\includegraphics[scale=0.8]{\fpath{perm1c}}
 \end{figure}
 
 Denne utregningen kunne vi også ha skrevet slik:
 \[ 4\cdot3\cdot2=24 \]
-Dette fordi vi har fire veier å gå i første trekning, for hver av disse tre veier å gå i andre trekning og for hver av disse to veier å gå i tredje trekning. Vi sier da at vi har 24 mulige kombinasjoner.
-\reg[Kombinasjoner]{Når vi foretar flere trekninger etter hverandre, finner vi alle mulige kombinasjoner ved å gange sammen de mulige utfallene i hver trekning.
+\reg[Permutasjoner]{Når vi foretar flere trekninger etter hverandre, finner vi alle mulige permutasjoner ved å gange sammen de mulige utfallene i hver trekning.
 }
 
 \eks{	
-	I en klasse med 15 personer trekker vi tilfeldig ut tre elever som skal danne et klasseråd. Hvor mange forskjellige klasseråd kan 
-	dannes?
+	Av de 29 bokstavene i alfabetet ønsker vi å lage et ord som består av 3 bokstaver. Vi godkjenner ord som ikke har noen betydning, men en bokstav kan bare brukes én gang i ordet.\os
+	
+	Hvor mange ord kan vi lage?
 
 	\sv
-	Å trekke ut tre personer kan sees på som en trekning hvor vi tilfeldig tar ut én og én, fram til vi har tre personer. Antall forskjellige klasseråd som da kan oppstå er:
-	$$\underbrace{15}_{\substack{\text{mulige utfall}\\\text{1. trekning}}}\cdot\underbrace{14}_{\substack{\text{mulige utfall}\\\text{2. trekning}}}\cdot\underbrace{13}_{\substack{\text{mulige utfall}\\\text{3. trekning}}}=2730$$}
+	Først har vi 29 bokstaver å trekke fra, deretter 28 bokstaver, og til slutt 27 bokstaver. Dermed er antall permutasjoner gitt som
+	\[ \underbrace{29}_{\substack{\text{mulige utfall}\\\text{1. trekning}}}\cdot\underbrace{28}_{\substack{\text{mulige utfall}\\\text{2. trekning}}}\cdot\underbrace{27}_{\substack{\text{mulige utfall}\\\text{3. trekning}}}=21\,924 \]
+	Vi kan altså lage 21\,924 forskjellige ord.
+}
 \eks[2]{
-	Vi kaster om krone eller mynt fire ganger etter hverandre. Hvor mange mulige utfall har vi da?
+	Vi kaster om krone eller mynt fire ganger etter hverandre. Hvor mange permutasjoner har vi da?
 	
-	\sv	\vs \vs
+	\sv
+	Hver gang vi kaster om krone eller mynt, har vi to mulige utfall. Antall permutasjoner er derfor gitt som
 	\[ 2\cdot2\cdot2\cdot2=16 \]\vs}
 
 
@@ -323,23 +331,23 @@ Dette fordi vi har fire veier å gå i første trekning, for hver av disse tre v
 \centering
 \includegraphics{\fpath{bolle2}}
 \end{figure}
-La oss tenke at vi har en med bolle sju kuler. Tre av dem er grønne, to er blå og to er røde. Si at vi tar opp først én kule av bollen, og deretter én til. Vi spør oss nå hva sannsynligheten er for at vi trekker opp to grønne kuler. Hvis vi lar $ G $ bety \textit{trekke en grønn kule}, kan vi skrive denne sannsynligheten som $ P(GG) $.
+Tenke at vi har en med bolle sju kuler. Tre av dem er grønne, to er blå og to er røde. Si at vi tar opp først én kule av bollen, og deretter én til. Vi spør oss nå hva sannsynligheten er for at vi trekker opp to grønne kuler. Hvis vi lar $ G $ bety 'å trekke en grønn kule', kan vi skrive denne sannsynligheten som $ P(GG) $.\vsk
 
-For å komme fram til et svar, starter vi med å spørre oss hvor mange \textit{gunstige} kombinasjoner vi har. Siden vi i første trekning har 3 gunstige utfall, og i andre trekning 2 gunstige utfall, har vi $3\cdot2=6$ gunstige kombinasjoner. Totalt velger vi blant 7 kuler i første trekning og 6 kuler i andre trekning. Antall \textit{mulige} kombinasjoner er derfor $7\cdot6=42$\,. Sannsynligheten for å få to grønne kuler blir da:
+For å komme fram til et svar, starter vi med å finne ut hvor mange \textsl{gunstige} permutasjoner vi har. Siden vi i første trekning har 3 gunstige utfall, og i andre trekning 2 gunstige utfall, har vi $3\cdot2=6$ gunstige perutasjoner. Totalt velger vi blant 7 kuler i første trekning og 6 kuler i andre trekning. Antall \textsl{mulige} permutasjoner er derfor $7\cdot6=42$\,. Sannsynligheten for å få to grønne kuler blir da
 \begin{equation}
 P(GG)=\frac{3\cdot2}{7\cdot6}=\frac{6}{42} \label{trekk}
 \end{equation}
-La oss nå i hver trekning se på sannsynligheten for å få en grønn kule, med krav om at dette skal skje i begge trekninger. I første trekning har vi 3 grønne av i alt 7 kuler, dermed får vi at:
-\[ P(G \text{ i første trekning})=\frac{3}{7} \]
-\begin{wrapfigure}[]{r}{0.6\linewidth}
-	\vspace{-22 pt}
-	\begin{shaded*}
-		Symbolet $ | $ betyr \textit{\textsl{gitt} at ... har skjedd}. $ P(G|G) $ er derfor en forkortelse for \textit{sannsynligheten for å trekke en grønn kule, gitt at en grønn kule er trukket.}
-	\end{shaded*}
-\end{wrapfigure}
-I andre trekning tas det for gitt at en grønn kule er plukket opp ved første trekning, og dermed er ute av bollen. Vi har da 2 av 6 kuler som er grønne:
+\rule{\linewidth}{1pt}
+La oss nå i hver trekning se på sannsynligheten for å få en grønn kule, med krav om at dette skal skje i begge trekninger. I første trekning har vi 3 grønne av i alt 7 kuler, altså er
+\[ P(G)=\frac{3}{7} \]
+\prbxl{0.5}{I andre trekning tas det for gitt at en grønn kule er plukket opp ved første trekning, og dermed er ute av bollen. Vi har da 2 av 6 kuler som er grønne:
 \[ P(G|G)=\frac{2}{6} \]
-Hvis vi nå ganger sammen sannsynligheten fra første trekning, med sannsynligheten fra andre trekning, ser vi at regnestykket blir det samme som i ligning (\ref{trekk}):
+}
+\qquad
+\prbxr{0.4}{Symbolet \sym{$ | $} betyr \textit{\textsl{gitt} at ... har skjedd}. $ P(G|G) $ er derfor en forkortelse for 'sannsynligheten for å trekke en grønn kule, \textsl{gitt} at en grønn kule er trukket'.}
+
+
+Hvis vi ganger sammen sannsynligheten fra første trekning, med sannsynligheten fra andre trekning, ser vi at regnestykket blir det samme som i ligning \eqref{trekk}:
 \[ P(GG)=\frac{3}{7}\cdot\frac{2}{6}=\frac{6}{42} \]
 
 \reg[Sannsynlighet ved gjentatte trekk \label{kombsans}]{Sannsynligheten for at $ A $ vil skje, \textsl{gitt} at $ B$ har skjedd, skrives som \y{P(A|B)}. \vsk\\
@@ -349,22 +357,24 @@ Sannsynligheten for at $ A $  trekkes først, deretter $ B $, deretter $ C $ og 
 }
 
 \eks{
-	I en bolle ligger to blå og to røde kuler. Vi lar  $ B $ bety  \textit{blå kule trekkes} og  $ R $ bety \textit{rød kule trekkes}. Vi trekker én og én kule opp av bollen, fram til vi har hentet opp tre kuler. Hva er sannsynligheten for at vi først trekker en blå kule, deretter en rød, og til slutt en blå? 
+	I en bolle ligger to blå og to røde kuler.  Vi trekker én og én kule opp av bollen, fram til vi har hentet opp tre kuler. Hva er sannsynligheten for at vi først trekker en blå kule, deretter en rød, og til slutt en blå? 
 		
 		\sv 
-		Sannsynligheten for først en blå, så en rød, så en blå kule, kan vi skrive som $P(BRB)$.
+		Vi lar  $ B $ bety  'å trekke blå kule' og  $ R $ bety 'å trekke rød kule'.	Sannsynligheten for først en blå, så en rød, og så en blå kule, skriver vi da som $P(BRB)$.
 		\begin{itemize}
-			\item 	Sannsynligheten for \textit{B} i første trekning er: $P(B)=\frac{2}{4}$.
-			\item Sannsynligheten for \textit{R} i andre trekning, \textsl{gitt} \textit{B} i første er: $P(R|B)=\frac{2}{3}$.
+			\item 	Sannsynligheten for \textit{B} i første trekning er $P(B)=\frac{2}{4}$.
+			\item Sannsynligheten for \textit{R} i andre trekning, \textsl{gitt} \textit{B} i første er
+			\[ P(R|B)=\frac{2}{3} \]
 			
-			\item Sannsynligheten for \textit{B} i tredje trekning, \textsl{gitt} \textit{B} i første og \textit{R} i andre er:
-			$P(B|RB)=\frac{1}{2}$.
+			\item Sannsynligheten for \textit{B} i tredje trekning, \textsl{gitt} \textit{B} i første og \textit{R} i andre er
+			\[ P(B|RB)=\frac{1}{2} \]
 		\end{itemize}
-	  Vi får dermed:
+	  Altså har vi at
 		\begin{align*}
 		P(BRB)&=P(B)\cdot P(R|B)\cdot P(B|RB)\br
 		&= \frac{2}{4}\cdot\frac{2}{3}\cdot\frac{1}{2} \br
-		&= \frac{4}{24}
+		&= \frac{4}{24} \br
+		&= \frac{1}{6}
 		\end{align*}}
 
 \subsection{Valgtre}
@@ -400,7 +410,7 @@ P(GB\cup BG)&=P(GB)+P(BG) \\
 \reg[Kobinasjoner på et valgtre]{	For å finne sannsynlighetene til en kombinasjon på et valgtre, ganger vi sammen sannsynlighetene langs veien vi må følge for å komme til kombinasjonen. }
 \eks{I en bolle med 10 kuler er tre kuer grønne, to er blå og fem er røde. Du trekker to kuler ut av bollen. La $ G, B $ og $ R $ henholdsvis bety å trekke en blå, grønn eller rød kule.\vsk
 
-\textbf{a)}  Tegn et valgtre som skisserer hvilke kombinasjoner av $ B $, $ G $ og $ R $ du kan få.	\br
+\textbf{a)}  Tegn et valgtre som skisserer hvilke permutasjoner av $ B $, $ G $ og $ R $ du kan få.	\br
 \textbf{b)} Hva er sannsynligheten for at du trekker to røde kuler? \br
 \textbf{c)} Hva er sannsynligheten for at du trekker én blå og én grønn kule? \br
 \textbf{d)} Hva er sannsynligheten for at du trekker \textsl{minst} én blå eller én grønn kule?

@@ -58,27 +58,90 @@ mkline(F2((1*h,0)),  a=W);
 mkline(F2((2*h,0)), a=NE);
 mkline(F2((3*h,0)), a=NE);
 
-label("1. trekning",((n-1)*h+0.8*h,0));
+label("3. trkn.",((n-1)*h+0.8*h,2*y));
+label("2. trkn.",((n-1)*h+0.8*h,y));
+label("1. trkn.",((n-1)*h+0.8*h,0));
 
-pair A = (0,0);
+
 // venstre1
-mkball(A, l, p=cc);
+pair A = (0,0);
+mkball(A, l, p=lc);
+
+mkball(B, c, p=lc);
+mkball(C, c1, p=cc);
+mkball(D, r, p=rc);
+mkline(F(A,B), a=NW);
+mkline(F(A,C));
+mkline(F(A,D),a=NE);
 
 // senter1
 dx = h;
 mkball(A, c, p=cc);
 
+mkball(B, l, p=lc);
+mkball(C, c1, p=cc);
+mkball(D, r, p=rc);
+mkline(F(A,B), a=NW);
+mkline(F(A,C));
+mkline(F(A,D),a=NE);
 
 // senter2
 dx = 2*h;
 mkball(A, c1, p=cc);
 
+mkball(B, l, p=lc);
+mkball(C, c, p=cc);
+mkball(D, r, p=rc);
+mkline(F(A,B), a=NW);
+mkline(F(A,C));
+mkline(F(A,D),a=NE);
 
 // hoyre
 dx = 3*h;
 mkball(A, r, p=cc);
 
-draw((0,0)--(-7.2,0), white);
+mkball(B, l, p=lc);
+mkball(C, c, p=cc);
+mkball(D, c1, p=rc);
+mkline(F(A,B), a=NW);
+mkline(F(A,C));
+mkline(F(A,D),a=NE);
+
+
+// new level
+
+y = 2*y;
+dx =0;
+real dh = 1.2;
+
+void mknext(pair A,string l1=l, string l2=r){
+	pair G = (A.x-dh,y);
+	pair H = (A.x+dh,y);
+
+	mkball(G, l1, p=lc);
+	mkball(H, l2, p=rc);
+	mkline(F(A,G), a=NW);
+	mkline(F(A,H),a=NE);			
+}
+
+mknext(B, c1,r);
+mknext(C, c,r);
+mknext(D, c,c1);
+
+dx = h;
+mknext(B, c1,r);
+mknext(C, l,r);
+mknext(D, l,c1);
+
+dx = 2*h;
+mknext(B, c,r);
+mknext(C, l,r);
+mknext(D, l,c);
+
+dx = 3*h;
+mknext(B, c,c1);
+mknext(C, l,c1);
+mknext(D, l,c);
 
 
 

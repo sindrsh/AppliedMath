@@ -5,12 +5,13 @@
 \begin{document}
 \newpage
 \section{Indeksregning}
-\parbox{0.6\linewidth}{Innenfor økonomi er \textit{indekser} forholdstall som forteller oss hvor mye størrelser har forandret seg. For eksempel kostet kroneisen 0,75\,kr (!) da den ble lansert i 1953, mens den i 2017 kostet ca 27\,kr . Forholdet mellom prisen i 2017 og i 1953 er altså:
-	\[ \frac{\text{pris 2018}}{\text{pris 1953}}=\frac{27}{0,75}= 36 \]
-Dette forteller oss at prisen for kroneis har
+\subsection{Introduksjon}
+\parbox{0.6\linewidth}{Innenfor økonomi er \textit{indekser} forholdstall som forteller hvor mye størrelser har forandret seg. For eksempel kostet kroneisen ca 0,75\,kr (!) da den ble lansert i 1953, mens den i 2021 kostet ca 27\,kr. Forholdet mellom prisen i 2053 og i 2017 er da
+	\[ \frac{\text{pris 2021}}{\text{pris 1953}}=\frac{27}{0,75}= 36 \]
 }
 \parbox[r]{0.3\linewidth}{\includegraphics[scale=2]{kr}}\\[2pt]
-blitt ganget med 36. Dette betyr også at den nye prisen utgjør 3600\% av den gamle. I denne sammenhengen kunne vi kalt både 36 for en \textit{indeks}, siden begge tallene forteller noe om hvordan prisen for kroneis har endret seg fra 1953 til 2017.
+I denne sammenhengen  er tallet 36 en indeks for prisforskjellen på kroneis i 1953 og 2021.
+
 \begin{comment}
 	\regv 
 	\reg[Indeks]{\vsb
@@ -29,7 +30,7 @@ blitt ganget med 36. Dette betyr også at den nye prisen utgjør 3600\% av den g
 	}
 \end{comment}
 \subsection{Konsumprisindeks og basisår}
-\textit{Konsumprisindeksen} (KPI) er en indeks som beskriver prisnivået på varer og tjenester som en typisk husstand i Norge bruker penger på i løpet av et år. Disse varene er:
+\textit{Konsumprisindeksen} (KPI) er en indeks som beskriver prisnivået på varer og tjenester som en typisk husstand i Norge bruker penger på i løpet av et år. Disse varene er \vs
 
 \parbox[t]{0.49\linewidth}{\begin{itemize}
 		\item Matvarer og alkoholfrie drikkevarer
@@ -47,9 +48,9 @@ blitt ganget med 36. Dette betyr også at den nye prisen utgjør 3600\% av den g
 		\item Hotell- og restauranttjenester
 		\item Andre varer og tjenester
 \end{itemize}}
-For å sammenligne noe må man alltid starte med noe å sammenligne med, og konsumprisindeksen tar utgangspunkt i prisnivået på de nevnte varene/tjenestene i året 2015. 2015 kalles derfor \textit{basisåret}, og i dette året er indeksen bestemt til å være 100.\regv
-\reg[Basisår]{I et basisår er verdien til indeksen 100. For konsumprisindeksen er basisåret 2015.}\regv
-Tabellen under er hentet fra SSB sine nettsider og viser KPI (konsumprisindeks) for de 10 siste årene:
+For å sammenligne noe må man alltid ha et utgangspunkt, og konsumprisindeksen tar utgangspunkt i prisnivået på de nevnte varene/tjenestene i året 2015. 2015 kalles da \textit{basisåret}\footnote{Hvilket år som er basisår forandrer seg med tiden. Før 2015 ble basisår var 1998 det.}, og i dette året er indeksen satt til 100.\regv
+\reg[Basisår]{I et basisår er verdien til indeksen 100. For konsumprisindeksen er 2015 basisåret.}\regv
+Tabellen under er hentet fra SSB sine nettsider og viser samlet KPI for de 10 siste årene:
 \begin{center}
 	\begin{tabular}{c|c}
 		År &  KPI \\ \hline
@@ -64,27 +65,32 @@ Tabellen under er hentet fra SSB sine nettsider og viser KPI (konsumprisindeks) 
 		2012&	93,9\\
 		2011&	93,3\\
 	\end{tabular}
-	\captionof{table}{Kunsumprisindeksen for årene 2010-2017 \label{KPI}}
+	\captionof{table}{Kunsumprisindeksen for årene 2010-2021 \label{KPI}}
 \end{center}
 Ut ifra tabellen kan vi for eksempel lese dette:
 \begin{itemize}
-	\item Fordi KPI for 2017 er 105,5 har prisene steget med 5,5\% siden 2015.
-	\item Fordi KPI i 2011 er 93,3 var prisene 7,7\% lavere i 2011 enn i 2015.
+	\item Da KPI for 2017 er 105,5\,, har prisene steget med 5,5\% siden 2015.
+	\item Da KPI i 2011 er 93,3\,, var prisene 7,7\% lavere i 2011 enn i 2015.
 \end{itemize}
 \reg[Prosentvis endring fra basisår]{\vs
 \[ \text{indeks}-100=\text{prosentvis endring fra basisår} \]
 }
-\eks{
-I 2017 var prisindeksen for en vare 109. Hvor mye har har prisen endret seg siden basisåret?
+\eks[1]{
+I juli 2021 var KPI for	matvarer 109,4. Hvor mye har prisen på matvarer endret seg sammenlignet med basisåret?
 
-\sv \vs
-\[ 109-100=9 \]
-Prisen har altså endret seg 9\% siden basisåret.
+\sv $ {109,4-100=9,4}  $. Prisen på matvarer har altså økt med 9,4\% sammenlignet med basisåret.
+}
+\eks[2]{
+I juli 2021 var KPI for sko 98,0. Hvor mye har prisen på sko endret seg sammenlignet med basisåret?
+
+\sv 
+$ 98,0-100=-2 $. Prisen på sko har altså blitt redusert med 2\% sammenlignet med basisåret.  
 }
 \subsection{Kroneverdi}
-Vi har nevnt at en kroneis kostet 0,75 \,kr i 1953 og 27\,kr i 2018. Når vi ved to tidspunkt må betale \textsl{forskjellig} pris på den \textsl{samme} varen skyldes det ofte at \textit{kroneverdien} har forandret seg; \textsl{Prisen på kroneisen har gått opp blant annet fordi kroneverdien har gått ned $ - $ du fikk altså kjøpt mindre varer for hver 1-krone i 2017 enn i 1953.}\vsk
+Vi har nevnt at en kroneis kostet 0,75 \,kr i 1953 og 27\,kr i 2020. Når vi ved to tidspunkt må betale \textsl{forskjellig} pris på den \textsl{samme} varen skyldes det ofte at \textit{kroneverdien} har forandret seg;\textsl{ 1\enh{kr} i 1957 var verd mer enn 1\enh{kr} i 2020
+}\vsk
 
-Verdien av 1 krone ved et år, kroneverdien, beregner vi ut ifra kunsomprisindeksen til basis: \regv
+Kroneverdien for et gitt år beregnes ut i fra KPI til basisåret (100): \regv
 	
 \reg[Kroneverdi \label{kr}]{\vs
 \[ \text{kroneverdi}=\frac{100}{\text{KPI}} \]
@@ -98,8 +104,12 @@ KPI i 2012 var 93,9. Regn ut kroneverdien i 2012.
 \text{kroneverdi i 2012} &= \frac{100}{93,9}\\
 &\approx 1,06
 }
-Dette betyr at å betale 1\,kr i 2012 ville vært det samme som å betale 1,06\,kr i basisåret.
+Dette betyr at 1\,kr i 2012 tilsvarer 1,06\enh{kr} i basisåret.
 } \vsk
+
+\info{Obs!}{
+Ordet \textit{kroneverdi} brukes også når man sammenlikner verdien av 1\enh{kr} opp mot verdien av utenlandsk valuta. Kroneverdi ut ifra et basisår og kroneverdi ut ifra en valuta er ikke det samme.
+}
 
 \reg[Realverdi \label{realverdi}]{
 Realverdien til en pengesum er hvor mye en pengesum ville vært verd i basisåret.	
@@ -130,7 +140,7 @@ Altså er
 Altså var 10\,000\enh{kr} verd mer i 1928 enn hva 350\,000\enh{kr} var verd i 2020.
 }
 \subsection{Reallønn og nominell lønn}
-Hvor god \textit{råd} vi har avhenger av hvor mye vi tjener og hva prisnivået er. Tenk at du  hadde en årslønn på 500\,000\,kr i både 2020 og i 2019. \hyperref[KPI]{\textsl{Tabell} \ref*{KPI}} forteller oss da at du hadde du best råd i 2019, fordi da var prisnivået (KPI) lavere enn i 2020. \vsk
+Hvor god \textit{råd} vi har avhenger av hvor mye vi tjener og hva prisnivået er. Tenk at du  hadde en årslønn på 500\,000\,kr i både 2020 og i 2019. \hyperref[KPI]{\textsl{Tabell \ref*{KPI}}} forteller oss da at du hadde du best råd i 2019, fordi da var prisnivået (KPI) lavere enn i 2020. \vsk
 
 At prisnivået har blitt høyere er det samme som at kroneverdien har blitt lavere. Dette betyr igjen at hvis lønnen din var den samme i 2019 og 2020, er \textsl{realverdien} til lønnen din høyere i 2019 enn i 2020. Den opprinnelige lønnen og realverdien til lønnen er såpass mye brukt i statistikk at de har fått egne navn
 
@@ -152,47 +162,42 @@ For å finne ut hvilket av årene Per hadde best råd, sjekker vi hvilket år ha
 }
 Reallønnen til Per var altså høyest i 2012, derfor hadde han bedre råd da enn i 2016.
 }
-\subsection{Regning med indekser}
-Vi har sett hvordan både verdien av en pris eller en reallønn forandrer seg når KPI øker eller minker. Hvis en verdi har forandret seg, men forholdet mellom verdien og indeksen forblir det samme, sier vi at \textsl{verdien har fulgt indeksen}.\regv
-\reg[Verdi som følger indeks]{Hvis en verdi følger indeksen, forblir forholdet mellom verdi og indeksen det samme:
-\[ \frac{\text{verdi 1}}{\text{indeks 1}} = \frac{\text{verdi 2}}{\text{indeks 2}} \]
+
+\reg[Verdi som følger indeks]{
+En verdi er sagt å ha \textit{fulgt indeks} hvis verdi og indeks ved to tidspunkt er like.
+\[ \frac{\text{verdi ved tidspunkt 1}}{\text{indeks ved tidspunkt 1}} = \frac{\text{verdi ved tidspunkt 2}}{\text{indeks ved tidspunkt 2}} \]
 }
+
 \eks[1]{
-I 2013 fikk Sofie 600\,000 kr i lønn. I 2013 var KPI 95,9, mens den i 2017 var 105,5. Hva måtte Sofie få i lønn i 2017 for at lønnen skulle fulgt indeksen? (Obs! Dette er det samme som å si at reallønnen skal forbli den samme).
+	Tabellen under viser en oversikt over prisen registrert i en butikk på to varer ved to forskjellige tidspunkt. 
+	\begin{center}
+		\begin{tabular}{r|r|r|}
+			& \textbf{2010} & \textbf{2020}	\\ \hline
+			sjokolade & 11,00\enh{kr} & 13,40\enh{kr} \\
+			brus	& 12,50\enh{kr} & 19,00\enh{kr}
+		\end{tabular}
+	\end{center}
+I 2010 var KPI 92,1 og i 2020 var KPI 12,2.
+Har prisen på noen av varene fulgt indeks?
 
 \sv
-Skal lønnen følge indeksen, må forholdet mellom lønnen og KPI være lik for de to årene:
-\alg{
-\frac{\text{lønn i 2017}}{\text{KPI i 2017}}=\frac{\text{lønn i 2013}}{\text{KPI i 2013}}
-}
-Siden lønnen i 2017 er ukjent, kaller vi denne for $ x $ i den videre utregningen:
-\alg{
-\frac{x}{105,5}&=\frac{600\,000}{95,9} \br
-&= \frac{600\,000}{95,9}\cdot 105,5 \\
-&\approx 660\,000
-}
-Lønnen til Sofie bør altså være 660\,000 kr for at lønnen skal følge konsumprisindeksen.
-}
-\eks[2]{
-I 2005 kostet en sykkel 1\,500\,kr, mens den i 2014 ville kostet 1\,784\,kr om prisen hadde fulgt konsumprisindeksen. I 2005 var KPI 82,3. Hva var den i 2014?
 
-\sv
-Skal prisen følge indeksen må forholdet mellom pris og indeks være det samme:
+Vi har at
 \alg{
-	\frac{\text{pris i 2014}}{\text{KPI i 2014}}=\frac{\text{pris i 2005}}{\text{KPI i 2005}}
+\frac{\text{pris på sjokolade i 2010}}{\text{KPI i 2010}} &= \frac{11}{92,1}\approx 0,119 \vn
+\frac{\text{pris på sjokolade i 2020}}{\text{KPI i 2020}} &= \frac{13,40}{112,1}\approx 0,119
 }
-Siden KPI i 2014 er ukjent, kaller vi denne for $ x $. Vi utnytter også at vi for en ligning med én brøk på hver side kan ''snu brøkene på hodet'':\vs
+Videre er
 \alg{
-	\frac{x}{\text{pris i 2014}}&=\frac{\text{KPI i 2005}}{\text{pris i 2005}} \\
-\frac{x}{1784}	&= \frac{82,3}{1500} \\
-x &= \frac{82,3}{1500}\cdot1784 \\
- &\approx 97,9
+	\frac{\text{pris på brus i 2010}}{\text{KPI i 2010}} &= \frac{12,5}{92,1}\approx 0,136 \vn
+	\frac{\text{pris på brus i 2020}}{\text{KPI i 2020}} &= \frac{19}{112,1}\approx 0,169
 }
-KPI i 2014 var altså 97,9.
+Altså er det rimelig å si at prisen for sjokolade har fulgt indeks, mens prisen for brus ikke har gjort det.
 }
+
 \section{Lån og sparing}
 \subsection{Lån}
-Noen ganger har vi  ikke nok penger til å kjøpe det vi ønsker oss og må derfor ta opp et lån fra en bank. Banken gir oss da en viss \textit{lånesum} mot at vi betaler tilbake denne, og \textit{renter}, i løpet av en bestemt tid. Det vanligste er at vi underveis betaler banken det som kalles \textit{terminbeløp}, som på sin side består av \textit{avdrag} og renter. Det vi til enhver tid skylder banken kaller vi \textit{gjelden}. La oss se på et eksempel å å holde styr på alle disse begrepene:\vsk
+Noen ganger har vi  ikke nok penger til å kjøpe det vi ønsker oss, og må derfor ta opp et lån fra en bank. Banken gir oss da en viss \textit{lånesum} mot at vi betaler tilbake denne, og \textit{renter}, i løpet av en bestemt tid. Det vanligste er at vi underveis betaler banken det som kalles \textit{terminbeløp}, som på sin side består av \textit{avdrag} og renter. Det vi til enhver tid skylder banken kaller vi \textit{gjelden}. \vsk
 
 Si at en bank låner  oss 100\,000\,kr, som da er lånesummen. Lånet skal tilbakebetales i løpet av 5 år, med ett terminbeløp hvert år, og renten er 10\%. Det finnes forskjellige måter å betale tilbake et lån på, men følgende vil som regel gjelde:
 \begin{itemize}
@@ -224,11 +229,13 @@ Si at en bank låner  oss 100\,000\,kr, som da er lånesummen. Lånet skal tilba
 	\end{tabular}\os
 \raggedright 
 Og slik fortsetter det de neste tre årene.
+\item \textbf{Lånet er fullført når gjelden er lik 0\enh{kr} og alle renter er betalt.}\os
+Hvis vi har betalt avdrag lik 20\,000\enh{kr} i 5 år, er gjelden lik 0\enh{kr}. Har vi da betalt alle rentene også, er lånet fullført. \os
+
+{\footnotesize\mer Du har alltid rett til å betale større avdrag enn det som først er avtalt. Betaler du hele gjelden vil lånet avsluttes så lenge eventuelle renter også er betalt.}
 \end{itemize}\vsk
 \textbf{Serielån og annuitetslån}\os
-To veldig vanlige typer lån er \textit{serielån} og \textit{annuitetslån}. Lånet fra eksempelet vi akkurat har sett på er et serielån fordi avdragene er like store. 
-\prbxl{0.6}{Hvis terminbeløpene hadde vært like store, ville det isteden vært et annuitetslån. Hvis lånesum, rente og nedbetalingstid er lik, vil et serielån alltid medføre minst utgifter totalt sett. For privatpersoner er det likevel veldig populært å velge annuitetslån på grunn av at det er lettere å planlegge økonomien når man betaler det samme beløpet hvar gang.}\qquad
-\prbxr{0.3}{\textsl{Merk:} Du har alltid rett til å betale resterende gjeld når du selv ønsker det. Da avsluttes lånet og du betaler hverken flere avdrag eller renter.}\vsk
+To veldig vanlige typer lån er \textit{serielån} og \textit{annuitetslån}. Lånet fra eksempelet vi akkurat har sett på er et serielån fordi avdragene er like store. Hvis terminbeløpene hadde vært like store, ville det isteden vært et annuitetslån. Hvis lånesum, rente og nedbetalingstid er lik, vil et serielån alltid medføre minst utgifter totalt sett. For privatpersoner er det likevel veldig populært å velge annuitetslån på grunn av at det er lettere å planlegge økonomien når man betaler det samme beløpet hvar gang. \vsk
 
 \textbf{Kredittkort}\os
 \prbxl{0.6}{Kredittkort er et betalingskort som virker slik at hvis du f.eks bruker kortet for å betale for 10\,000\,kr i en butikk, så blir ikke 10\,000\,kr trekt fra kontoen din $ - $ isteden låner du pengene fra banken. Etter en tid som er avtalt med banken vil banken kreve renter av gjelden din. Hvordan du betaler}\qquad
@@ -246,7 +253,7 @@ denne gjelden er delvis opp til deg selv, men generelt har kredittkort veldig h�
 	&ny gjeld $ =  $ gammel gjeld $ - $ avdrag \\
 	renter & gjeld $ \cdot $ rente \\
 	terminbeløp & avdrag $ + $ renter \\
-	Serielån & Lån hvor avdragene er like store. \\
+	serielån & Lån hvor avdragene er like store. \\
 	annuitetslån & Lån hvor terminbeløpene er like store. \\
 	kredittkort & Betalingskort som oppretter et lån fra banken.
 \end{tabular}
@@ -284,7 +291,10 @@ Det første året er gjelden 100\,000\,kr, i renter må du betale 6,4\% av denne
 \[ 100\,000\cdot0,064=6\,400 \]
 Altså må du betale 6\,400\,kr i renter det første året.\vsk
 
-Siden $ {\textit{terminbeløp}=avdrag+\textit{renter} }$, må $ \textit{avdrag}=\textit{terminbeløp}-\\\textit{avdrag} $:
+Vi har at
+\[ \text{terminbeløp}=\text{avdrag}+\text{renter} \]
+Dermed er
+\[ {\text{avdrag}=\text{terminbeløp}-\text{avdrag}} \]
 \[ =24\,000-6400=17\,600 \]
 Altså må du betale 17\,600 i avdrag det første året.
 }
@@ -343,12 +353,13 @@ Innskuddsrenten kan også forandre seg noe med tiden, men den kan aldri føre ti
 \section{Skatt}
 Om du har en inntekt må du som regel betale en del av disse pengene til staten. Disse pengene kalles \textit{skatt} (og noen ganger \textit{avgift}). Hensikten med skatt er at staten skal ha råd til å gi innbyggerne tilbud som skole, helsetjenester og mye mer. I dag blir blir skatten i stor grad beregnet av datasystemer, men det er ditt ansvar å sjekke at beregningene er riktige $ - $ og da er det viktig å forstå hvordan skattesystemet fungerer.\vsk
 
-Obs! \textsl{I eksamensoppgaver vil du oppdage at skattesystemer er presentert på en litt annen måte enn i denne boka. Dette er blant annet fordi skattereglene kan forandre seg fra år til år, og i denne boka har vi valgt å presentere skattereglene for 2018. Det viktigste er likevel ikke at du husker spesifikt disse reglene, men at du lærer deg hva som menes med begrepene \textit{bruttolønn, fradrag, skattegrunnlag, tyrgdeavgift} og \textit{nettolønn}}
+\info{Obs!}{I eksamensoppgaver og i virkeligheten vil du fort oppdage at skattesystemer er presentert på en litt annen måte enn i denne boka. Dette er blant annet fordi skattereglene kan forandre seg fra år til år, og i denne boka har vi tatt utgangspunkt i skattereglene for 2018. Det viktigste er ikke at du husker spesifikt disse reglene, men at du lærer deg hva som menes med begrepene \textit{bruttolønn, fradrag, skattegrunnlag, trygdeavgift} og \textit{nettolønn}.}
 \subsection{Bruttolønn, fradrag og skattegrunnlag}
-\prbxl{0.68}{De fleste må betale 23\% av det som kalles \textit{skattegrunnlaget}, som er \textit{bruttolønnen} minus \textit{fradrag}. Bruttolønnen er lønnen du mottar fra arbeidsgiver, mens fradrag kan være mye forskjellig. \textit{Personfradrag} og  \textit{minstefradrag} er noe alle}\qquad
-\prbxr{0.22}{Skattegrunnlag kalles noen ganger \textit{trekkgrunnlag}.} \\[-6pt]
-\prbxl{0.6}{ skattebetalere får, i tillegg kan man blant annet få fradrag hvis man betaler \textit{fagforeningskontigent} eller har gitt penger til veldedige formål.}\qquad
-\prbxr{0.3}{Fagforeningskontigent er det du betaler for å være med i en \net{https://no.wikipedia.org/wiki/Fagforening}{fagforening}.}\regv
+\prbxl{0.68}{De fleste må betale 23\% av det som kalles \textit{skattegrunnlaget}, som er \textit{bruttolønnen} minus \textit{fradrag}. Bruttolønnen er lønnen du mottar fra arbeidsgiver, mens fradrag kan være mye forskjellig. \textit{Personfradrag} og  \textit{minstefradrag} er noe alle skattebetalere får, i tillegg kan man }\qquad
+\prbxr{0.22}{Skattegrunnlag kalles noen ganger \textit{trekkgrunnlag}.} \\[-16pt]
+
+\prbxl{0.66}{blant annet få fradrag hvis man betaler \textit{fagforeningskontigent} eller har gitt penger til veldedige formål.}\qquad
+\prbxr{0.24}{Fagforeningskontigent er det du betaler for å være med i en \net{https://no.wikipedia.org/wiki/Fagforening}{fagforening}.}\regv
 
 \reg[Bruttolønn, fradrag og skattegrunnlag]{\vs
 \begin{center}
@@ -407,26 +418,29 @@ Av lønnen din må du også betale en viss prosent av forskjellige intervall, de
 \begin{center}
 	\begin{tabular}{l| r |r}
 		& Intervall & Skatt \\ \hline
-		Trinn 1	& 169 000 $ - $ 237 900\,kr&	1,4\% \\
-		Trinn 2	& 237 900 $ - $ 598 050\,kr&	3,3\%  \\
-		Trinn 3	& 598 050 $ - $ 962 050\,kr&	12,4\%  \\
+		Trinn 1	& 169 000\,-\,237 900\,kr&	1,4\% \\
+		Trinn 2	& 237 900\,-\,598 050\,kr&	3,3\%  \\
+		Trinn 3	& 598 050\,-\,962 050\,kr&	12,4\%  \\
 		Trinn 4	& Over 962 050\,kr	&15,4\% 
 	\end{tabular}
 \end{center}
 Trinnskatt betales av bruttolønnen.
 }
 \eks{
-Hvis du tjener 550\,000 blir utregningen av trinnskatt slik:\vs
+Hvis du tjener 550\,000 blir utregningen av trinnskatt slik:
+
 \begin{center}
+\small
 		\begin{tabular}{c|l}
 \multirow{3}{*}{Trinn 1} 
-& Fordi hele lønnen liger over 237\,900\,kr, må du betale \\
-&1,4\% av  ${(237\,900-169\,000)\enh{kr} = 68\,900\enh{kr}}  $. \os
-& Skatt for trinn 1 blir altså $ 68\,900\enh{kr}\cdot0,014\approx 965\enh{kr} $.\\ \hline
+\\[-14pt] \hline \\
+& Da hele lønnen er over 237\,900\,kr, må du betale \\
+&skatt av  ${(237\,900-169\,000)\enh{kr} = 68\,900\enh{kr}}  $. \os
+& Skatt for trinn 1 blir da $ 68\,900\enh{kr}\cdot0,014\approx 965\enh{kr} $.\os \hline \\
 \multirow{4}{*}{Trinn 2} 
-& Siden 550\,000\,kr er over 237\,900\,kr, men under 598\,050\,kr,\\
-& må du betale 3,3\% av ${(550\,000-237\,900)\enh{kr} = 312\,100\enh{kr}}  $.  \os
-& Skatt for trinn 2 blir altså $ 312\,100\enh{kr}\cdot0,033\approx 10\,299\enh{kr} $. \\ \hline
+& Da 550\,000\,kr er over 237\,900\,kr, men under 598\,050\,kr,\\
+& må du betale skatt av ${(550\,000-237\,900)\enh{kr} = 312\,100\enh{kr}}  $.  \os
+& Skatt for trinn 2 blir da $ 312\,100\enh{kr}\cdot0,033\approx 10\,299\enh{kr} $. \os \hline \\
 \multirow{2}{*}{Totalt} 
 & Totalt må du betale $ {965\enh{kr}+10\,299\enh{kr}=11\,264\enh{kr}} $\\
 & i trinnskatt.
@@ -434,7 +448,8 @@ Hvis du tjener 550\,000 blir utregningen av trinnskatt slik:\vs
 \end{center}
 }
 \subsection{Nettolønn}
-Det du sitter igjen med etter å ha betalt skatt, trygdeavgift og fagforeningskontigent kalles \textit{nettolønnen}. Med tanke på de tre tidligere delseksjonene kan vi sett opp et regnestykke som dette:
+Det du sitter igjen med etter å ha betalt skatt, trygdeavgift og fagforeningskontigent kalles \textit{nettolønnen}. Med tanke på de tre tidligere delseksjonene kan vi sett opp et regnestykke som dette: \regv
+
 \reg[Nettolønn]{
 \begin{center}\vsb
 	\begin{tabular}{c r}
@@ -450,7 +465,7 @@ Det du sitter igjen med etter å ha betalt skatt, trygdeavgift og fagforeningsko
 \eks{
 Emblas bruttolønn er 550\,000\,kr. Hun betaler 1500\,kr i året for medlemskap i \textsl{LO} (Norges største fagforening) og har 409\,900 som skattegrunnlag. Embla er 28 år.\os
 
-Hva er nettolønnen til hennes?
+Hva er nettolønnen til Embla?
 
 \sv \vsb
 \begin{center}
@@ -474,7 +489,7 @@ Når man skal planlegge økonomien sin kan det være lurt å sette opp en oversi
 
 \regv
 \eks{
-Lisa prøver å tenke på sine månedlige inntekter og utfiter, og kommer fram til dette:
+Lisa prøver vil lage en oversikt over sine månedlige inntekter og utgifter, og kommer fram til dette:
 \begin{itemize}
 	\item Hun tar på seg kveldsvakter på en gamlehjem. Av dette forventer hun ca. 4\,000 i nettolønn. \\
 	\item Hun bruker ca. 4\,500 kr i måneden på mat.
