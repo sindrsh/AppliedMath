@@ -305,7 +305,7 @@ Den andre kula vi trekker opp legger vi også ut av bollen,  så  for hver av de
 
 Denne utregningen kunne vi også ha skrevet slik:
 \[ 4\cdot3\cdot2=24 \]
-\reg[Permutasjoner]{Når vi foretar flere trekninger etter hverandre, finner vi alle mulige permutasjoner ved å gange sammen de mulige utfallene i hver trekning.
+\reg[Produktregelen for permutasjoner]{Når vi foretar flere trekninger etter hverandre, finner vi alle mulige permutasjoner ved å gange sammen de mulige utfallene i hver trekning.
 }
 
 \eks{	
@@ -324,21 +324,26 @@ Denne utregningen kunne vi også ha skrevet slik:
 	\sv
 	Hver gang vi kaster om krone eller mynt, har vi to mulige utfall. Antall permutasjoner er derfor gitt som
 	\[ 2\cdot2\cdot2\cdot2=16 \]\vs}
+\info{Kombinasjoner}{
+I dagligtale blir ofte ordet \textit{kombinasjoner} brukt istedenfor permutasjoner, men innenfor sannsynlighetsregning har kombinasjoner og permutasjoner forskjellig betydning. Den store forskjellen er at permutasjoner tar hensyn til rekkefølge, mens kombinasjoner ikke gjør det. \vsk
 
+Si vi ønsker å danne et ord med to bokstaver ved hjelp av med bokstavene $ A $, $ B $ og $ C $, og at vi godtar gjenbruk av bokstav. Da har vi 9 mulige permutasjoner:
+\[ AA, AB, AC, BB, BA, BC, CC, CA, CB \]
+Kombinasjoner derimot viser til en unik sammensetting når rekkefølge ikke tas hensyn til, for eksempel er $ AB $ og $ BA $ den samme kombinasjonen. I dette tilfelle har vi altså 6 kombinasjoner
+\[ AA, AB, AC, BB, BC, CC \]
+}
 
 \subsection{Sannsynlighet ved gjentatte trekk}
-\begin{figure}[H]
-\centering
-\includegraphics{\fpath{bolle2}}
-\end{figure}
-Tenke at vi har en med bolle sju kuler. Tre av dem er grønne, to er blå og to er røde. Si at vi tar opp først én kule av bollen, og deretter én til. Vi spør oss nå hva sannsynligheten er for at vi trekker opp to grønne kuler. Hvis vi lar $ G $ bety 'å trekke en grønn kule', kan vi skrive denne sannsynligheten som $ P(GG) $.\vsk
-
-For å komme fram til et svar, starter vi med å finne ut hvor mange \textsl{gunstige} permutasjoner vi har. Siden vi i første trekning har 3 gunstige utfall, og i andre trekning 2 gunstige utfall, har vi $3\cdot2=6$ gunstige perutasjoner. Totalt velger vi blant 7 kuler i første trekning og 6 kuler i andre trekning. Antall \textsl{mulige} permutasjoner er derfor $7\cdot6=42$\,. Sannsynligheten for å få to grønne kuler blir da
+\prbxl{0.5}{Tenk at vi har en med bolle sju kuler. Tre av dem er grønne, to er blå og to er røde. Si at vi tar opp først én kule av bollen, og deretter én til. Hva er sannsynligheten for at vi trekker opp to grønne kuler?} \qquad
+\fgbxr{0.4}{
+\fig{bolle2}
+}
+Hvis vi lar $ G $ bety 'å trekke en grønn kule', kan vi skrive denne sannsynligheten som $ P(GG) $. For å komme fram til et svar, starter vi med å finne ut hvor mange \textsl{gunstige} permutasjoner vi har. Siden vi i første trekning har 3 gunstige utfall, og i andre trekning 2 gunstige utfall, har vi $3\cdot2=6$ gunstige perutasjoner. Totalt velger vi blant 7 kuler i første trekning og 6 kuler i andre trekning. Antall \textsl{mulige} permutasjoner er derfor $7\cdot6=42$\,. Sannsynligheten for å få to grønne kuler blir da
 \begin{equation}
-P(GG)=\frac{3\cdot2}{7\cdot6}=\frac{6}{42} \label{trekk}
+P(GG)=\frac{3\cdot2}{7\cdot6}=\frac{6}{42}=\frac{1}{7} \label{trekk}
 \end{equation}
 \rule{\linewidth}{1pt}
-La oss nå i hver trekning se på sannsynligheten for å få en grønn kule, med krav om at dette skal skje i begge trekninger. I første trekning har vi 3 grønne av i alt 7 kuler, altså er
+La oss også finne sannsynligheten for å få en grønn kule for hver trekning isolert sett. I første trekning har vi 3 grønne av i alt 7 kuler, altså er
 \[ P(G)=\frac{3}{7} \]
 \prbxl{0.5}{I andre trekning tas det for gitt at en grønn kule er plukket opp ved første trekning, og dermed er ute av bollen. Vi har da 2 av 6 kuler som er grønne:
 \[ P(G|G)=\frac{2}{6} \]
@@ -347,12 +352,12 @@ La oss nå i hver trekning se på sannsynligheten for å få en grønn kule, med
 \prbxr{0.4}{Symbolet \sym{$ | $} betyr \textit{\textsl{gitt} at ... har skjedd}. $ P(G|G) $ er derfor en forkortelse for 'sannsynligheten for å trekke en grønn kule, \textsl{gitt} at en grønn kule er trukket'.}
 
 
-Hvis vi ganger sammen sannsynligheten fra første trekning, med sannsynligheten fra andre trekning, ser vi at regnestykket blir det samme som i ligning \eqref{trekk}:
-\[ P(GG)=\frac{3}{7}\cdot\frac{2}{6}=\frac{6}{42} \]
+Hvis vi ganger sammen sannsynligheten fra første trekning med sannsynligheten fra andre trekning, blir regnestykket det samme som i ligning \eqref{trekk}:
+\[ P(GG)=\frac{3}{7}\cdot\frac{2}{6}=\frac{6}{42}=\frac{1}{7} \]
 
-\reg[Sannsynlighet ved gjentatte trekk \label{kombsans}]{Sannsynligheten for at $ A $ vil skje, \textsl{gitt} at $ B$ har skjedd, skrives som \y{P(A|B)}. \vsk\\
+\reg[Sannsynlighet ved gjentatte trekk \label{permsans}]{Sannsynligheten for at $ A $ vil skje, \textsl{gitt} at $ B$ har skjedd, skrives som \y{P(A|B)}. \vsk\\
 
-Sannsynligheten for at $ A $  trekkes først, deretter $ B $, deretter $ C $ og så videre ($ ... $) er:
+Sannsynligheten for at $ A $ skjer først, deretter $ B $, deretter $ C $, og så videre ($ ... $) er
 \[ P(ABC...)=P(A)\cdot P(B|A)\cdot P(C|AB)\cdot... \]
 }
 
@@ -378,7 +383,7 @@ Sannsynligheten for at $ A $  trekkes først, deretter $ B $, deretter $ C $ og 
 		\end{align*}}
 
 \subsection{Valgtre}
-Vi kan utnytte ?? for å lage en hjelpetegning når vi har å gjøre med gjentatte trekk. Tegningen vi her skal ende opp med kalles et \textit{valgtre}. Vi tegner da en lignende figur som vi gjorde i delkapittel \ref{komb}, men langs alle veier skriver vi nå på sannsynligheten for utfallet veien leder oss til. 
+Vi kan utnytte \rref{permsans} for å lage en hjelpetegning når vi har å gjøre med gjentatte trekk. Tegningen vi her skal ende opp med kalles et \textit{valgtre}. Vi tegner da en lignende figur som vi gjorde i delkapittel \ref{komb}, men langs alle veier skriver vi nå på sannsynligheten for utfallet veien leder oss til. 
 \begin{figure}[H]
 \centering
 \includegraphics{\fpath{bolle2}}
@@ -393,27 +398,28 @@ Og sånn fortseter vi til vi har ført opp alle sannsynlighetene til hver vei:  
 \includegraphics[]{\fpath{tree}}
 \end{figure}
 
-For å få en rask oversikt over de forskjellige kombinasjonene veiene fører til, kan det være lurt å skrive opp disse under hver ende av treet: 
+For å få en rask oversikt over de forskjellige permutasjonene veiene fører til, kan det være lurt å skrive opp disse under hver ende av treet: 
 
-La oss nå bruke valgtret over for å finne sannsynligheten for å trekke én grønn og én blå kule. \textit{GB} og \textit{BG} er da de gunstige kombinasjonene. Ved å gange sammen sannsynlighetene langs veien til \textit{GB}, finner vi at:
+La oss nå bruke valgtret over for å finne sannsynligheten for å trekke én grønn og én blå kule. \textit{GB} og \textit{BG} er da de gunstige permutasjonene. Ved å gange sammen sannsynlighetene langs veien til \textit{GB}, finner vi at:
 \[ P(GB)=\frac{3}{7}\cdot\frac{2}{6}=\frac{6}{42} \]
 På samme måte kan vi finne \textit{P(BG)}:
 \[ P(BG)=\frac{2}{7}\cdot\frac{3}{6}=\frac{6}{42} \]
 Sannsynligheten for at \textit{GB eller BG} inntreffer blir (se \rref{uf}):
 \begin{align*}
 P(GB\cup BG)&=P(GB)+P(BG) \\
-		&=\frac{6}{42}+\frac{6}{42} \\
-		&= \frac{12}{42}
+		&=\frac{6}{42}+\frac{6}{42} \br
+		&= \frac{12}{42} \br
+		&= \frac{2}{7}
 \end{align*}
 
 
-\reg[Kobinasjoner på et valgtre]{	For å finne sannsynlighetene til en kombinasjon på et valgtre, ganger vi sammen sannsynlighetene langs veien vi må følge for å komme til kombinasjonen. }
+\reg[Permutasjoner på et valgtre]{	For å finne sannsynlighetene til en permutasjon på et valgtre, ganger vi sammen sannsynlighetene langs veien vi må følge for å komme til permutasjonen. }
 \eks{I en bolle med 10 kuler er tre kuer grønne, to er blå og fem er røde. Du trekker to kuler ut av bollen. La $ G, B $ og $ R $ henholdsvis bety å trekke en blå, grønn eller rød kule.\vsk
 
 \textbf{a)}  Tegn et valgtre som skisserer hvilke permutasjoner av $ B $, $ G $ og $ R $ du kan få.	\br
 \textbf{b)} Hva er sannsynligheten for at du trekker to røde kuler? \br
 \textbf{c)} Hva er sannsynligheten for at du trekker én blå og én grønn kule? \br
-\textbf{d)} Hva er sannsynligheten for at du trekker \textsl{minst} én blå eller én grønn kule?
+\textbf{d)} Hva er sannsynligheten for at du trekker \textsl{minst} én blå \textsl{eller} én grønn kule?
 
 \sv
 \textbf{a)}
@@ -427,7 +433,7 @@ P(GB\cup BG)&=P(GB)+P(BG) \\
 	&= \frac{2}{90} \br
 	&= \frac{1}{45}
 }
-\textbf{c)} Både kombinasjonen $ GB $ og $ BG $ gir oss én blå og én grønn kule. Vi starter med å finne sannsynligheten for hver av dem:
+\textbf{c)} Både permutasjonen $ GB $ og $ BG $ gir oss én blå og én grønn kule. Vi starter med å finne sannsynligheten for hver av dem:
 \alg{
 P(GB)&= \frac{3}{10}\cdot\frac{5}{9} \br
 &= \frac{15}{90} \br
@@ -444,14 +450,14 @@ P(GB\cup BG) &= P(GB)+P(BG) \\
 &= \frac{2}{6} \br
 &= \frac{1}{3}
 }
-\textbf{d)} For å svare på denne oppgaven kan vi selvsagt legge sammen sannsynligheten for kombinasjonene $ GG $, $ GB $, $ GR$, $ BG $, $ BB $, $ BR $, $ RG $ og $ RB $, men vi sparer oss veldig mye arbeid hvis vi merker oss dette: Å få \textsl{minst} én blå eller én grønn kule er det motsatte av å \textsl{bare} få røde kuler. Sjansen for dette, å få to røde kuler, fant vi i oppgave b). Av \rref{motsatt} har vi at:
+\textbf{d)} For å svare på denne oppgaven kan vi selvsagt legge sammen sannsynligheten for permutasjonene $ GG $, $ GB $, $ GR$, $ BG $, $ BB $, $ BR $, $ RG $ og $ RB $, men vi sparer oss veldig mye arbeid hvis vi merker oss dette: Å få \textsl{minst} én blå eller én grønn kule er det motsatte av å \textsl{bare} få røde kuler. Sjansen for dette, å få to røde kuler, fant vi i oppgave b). Av \rref{motsatt} har vi at
 \alg{
 P(\bar{R}) &= 1-P(R) \br
 &= 1- \frac{1}{45} \br
 &= \frac{45}{45}-\frac{1}{45} \br
 &= \frac{44}{45}
 }
-Sjasen for å få \textsl{minst} én blå eller én grønn kule er altså $ \frac{44}{45} $.
+Sjasen for å få \textsl{minst} én blå \textsl{eller} én grønn kule er altså $ \frac{44}{45} $.
 }
 
 \end{document}

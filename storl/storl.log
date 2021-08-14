@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  13 AUG 2021 11:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  14 AUG 2021 07:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1562,7 +1562,7 @@ Package rerunfilecheck Info: File `storl.out' has not changed.
 Here is how much of TeX's memory you used:
  31260 strings out of 481239
  614062 string characters out of 5920378
- 934146 words of memory out of 5000000
+ 934145 words of memory out of 5000000
  45837 multiletter control sequences out of 15000+600000
  609276 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
