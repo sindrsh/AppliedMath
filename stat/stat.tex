@@ -56,7 +56,7 @@ Skal vi presentere våre undersøkelser, bør vi vise datasett slik at det er le
 \subsection{Frekvenstabell}
 I en frekvenstabell setter man opp dataene i en tabell som viser hvor mange ganger hver unike data dukker opp. Dette antallet kalles\\ \textit{frekvensen}.\regv
 
-\st{
+\st{ \label{frkvtbund2}
 \textbf{Undersøkelse 2} \os	
 I vår undersøkelse har vi to 0, to 1, tre 4, to 5, to 6, én 7, to 8 og én 14. I en frekvenstabell skriver vi da
 \begin{center}
@@ -143,7 +143,7 @@ Vi summerer verdiene fra datasettet, og deler med antall verdier:
 } \normalsize
 Altså, i gjennomsnitt holdt de 10 deltakerne pusten i 72,7\\ sekunder. 
 }
-\st{ 
+\st{  \label{gjsnund2}
 \textbf{Undersøkelse 2} \os
 \textit{Metode 1} \\[-5pt]
 \footnotesize
@@ -254,7 +254,7 @@ Kvartilbredden til et datasett kan finnes på følgende måte:
 Om medianene fra punkt 3: Den med høyest verdi kalles \textit{øvre kvartil} og den med lavest verdi kalles \textit{nedre kvartil}.
 } \regv
 \st{
-\textbf{Undersøkelse 2} \os
+\textbf{Undersøkelse 1} \os
 \begin{enumerate}
 	\item $ 38\quad40\quad47\quad 56\quad 61\quad79\quad 84\quad97\quad 101\quad 124 $
 	\item $ \color{blue}38\quad40\quad47\quad 56\quad 61 \quad \color{red}79\quad 84\quad97\quad 101\quad 124 $
@@ -264,7 +264,7 @@ Om medianene fra punkt 3: Den med høyest verdi kalles \textit{øvre kvartil} og
 \end{enumerate}
 }
 \st{
-\textbf{Undersøkelse 1}\os
+\textbf{Undersøkelse 2}\os
 \begin{enumerate}
 	\item $ 0\quad0\quad 1\quad 1\quad 4\quad 4\quad 4\quad  5\quad 5\quad  6\quad6\quad  7\quad8\quad8 \quad14 $
 	\item $ \color{blue}0\quad0\quad 1\quad 1\quad 4\quad 4\quad 4\quad  {\color{black}5}\quad \color{red} 5\quad  6\quad6\quad  7\quad8\quad8 \quad14 $
@@ -283,7 +283,11 @@ Om medianene fra punkt 3: Den med høyest verdi kalles \textit{øvre kvartil} og
 \end{itemize}
 } \vsk
 
-\subsection{Avvik og varians}
+\spr{
+Nedre kvartil, medianen og øvre kvartil blir også omtalt som henholdsvis \textit{1. kvartil}, \textit{2. kvartil} og \textit{3. kvartil}.
+}
+
+\subsection{Avvik, varians og standardavvik}
 \reg[Varians]{
 Differansen mellom en verdi og gjennomsnittet i et datasett kalles \textit{avviket} til verdien. \vsk
 	
@@ -292,25 +296,29 @@ Variansen til et datasett kan finnes på følgende måte:
 	\item Kvadrer avviket til hver verdi i datasettet, og summer disse.
 	\item Divider med antall verdier i datasettet.
 \end{enumerate} 
+
+\textit{Standardavviket} er kvadratroten av variansen.
 }
 \eks{ \label{vareks}
 Gitt datasettet 
-\[\color{blue} 2\quad 5\quad 9\quad 6\quad 8 \]
+\[\color{blue} 2\quad 5\quad 9\quad 8\quad 10 \]
 Da har vi at
-\[ \text{gjennomsnitt}=\frac{\colb{2+5+9+6+8}}{5}=\colr{6} \]
+\[ \text{gjennomsnitt}=\frac{\colb{2+5+9+8+10}}{5}=\colr{6} \]
 Og videre er
 \alg{
-\text{variansen}= \frac{(\colb{2}-\colr{6})^2+(\colb{5}-\colr{6})^2+(\colb{9}-\colr{6})^2+(\colb{6}-\colr{6})^2+(\colb{8}-\colr{6})^2}{5}
+\text{variansen}&= \frac{(\colb{2}-\colr{6})^2+(\colb{5}-\colr{6})^2+(\colb{9}-\colr{6})^2+(\colb{8}-\colr{6})^2+(\colb{8}-\colr{6})^2}{5} \\ 
+&= 6,8
 }
+Da er $ \text{standardavviket}=\sqrt{6,8}\approx2,6 $.
 }
 \st{
 \textbf{Undersøkelse 1} \os
 (Utregning utelatt)\os
-Variansen er 754,01
+Variansen er 754,01.
 }
 \st{
 \textbf{Undersøkelse 2} \os
-Gjennomsnittet fant vi på side ??. Vi utvider frekvenstabellen vår fra side ??:
+Gjennomsnittet fant vi på side \pageref{gjsnund2}. Vi utvider frekvenstabellen vår fra side ??:
 \begin{center}
 	\renewcommand{\arraystretch}{2}
 	\begin{tabular}{|c|c|c|}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  14 AUG 2021 07:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  14 AUG 2021 21:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1385,53 +1385,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--17
  men vi har tatt den med
  []
 
-[1
 
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
 [][][][]\T1/lmr/m/n/9 Legg merke til at me-ter, gram og liter er \T1/lmr/m/sl/9
  en-heter\T1/lmr/m/n/9 , mens kilo, hekto osv. er \T1/lmr/m/sl/9 tall\T1/lmr/m/
 n/9 . Det
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
 \T1/lmr/m/n/9 kan der-for virke litt rart å sette dem opp i samme tabell, men f
 or dette for-målet
  []
 
+[1
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 \T1/lmr/m/n/10.95 Komma må fly-ttes like mange ganger som an-tall ruter vi må
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 []\T1/lmr/m/n/9 For lengde brukes også en-heten 'mil' (1 mil $\OT1/lmr/m/n/9 =$
  \T1/lmr/m/n/9 10000m). Denne kan legges
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 []\T1/lmr/m/n/10.95 Vi skriver tabellen vår med L i midten, og leg-ger merke ti
 l at vi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \T1/lmr/m/n/10.95 Det be-tyr at vi må fly-tte kom-maet vårt tre plasser til ven
 -stre for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
 []\T1/lmr/m/n/10.95 Vi skriver tabellen vår med g i midten og leg-ger merke til
  at vi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
 \T1/lmr/m/n/10.95 Dét be-tyr at vi må fly-tte kom-maet vårt fire plasser til hø
 yre for
  []
@@ -1560,10 +1560,10 @@ Package rerunfilecheck Info: File `storl.out' has not changed.
 (rerunfilecheck)             Checksum: D1F6D1C1C41111C2C0D3A6BE99A13347;145.
  ) 
 Here is how much of TeX's memory you used:
- 31260 strings out of 481239
- 614062 string characters out of 5920378
- 934145 words of memory out of 5000000
- 45837 multiletter control sequences out of 15000+600000
+ 31254 strings out of 481239
+ 613882 string characters out of 5920378
+ 934186 words of memory out of 5000000
+ 45831 multiletter control sequences out of 15000+600000
  609276 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,11n,104p,871b,985s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1577,10 +1577,10 @@ type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/pub
 lic/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro9.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on storl.pdf (6 pages, 228445 bytes).
+Output written on storl.pdf (6 pages, 233396 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
+ 116 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  21 named destinations out of 1000 (max. 500000)
  29 words of extra memory for PDF output out of 10000 (max. 10000000)
 

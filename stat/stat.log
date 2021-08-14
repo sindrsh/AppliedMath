@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  11 AUG 2021 07:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  14 AUG 2021 22:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1600,79 +1600,85 @@ Underfull \hbox (badness 10000) in paragraph at lines 284--284
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 295--295
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
+[]\T1/lmr/m/n/10.95 Nedre kvar-til, me-di-a-nen og øvre kvar-til blir også om-t
+alt som
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
 []\T1/lmr/m/n/10.95 Differansen mel-lom en verdi og gjen-nom-snit-tet i et data
 sett
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--295
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
 []\T1/lmr/m/n/10.95 Kvadrer avviket til hver verdi i dataset-tet, og sum-mer
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
-[]\T1/lmr/m/n/10.95 Gjennomsnittet fant vi på side ??. Vi utvider frekven-sta-b
-ellen
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
+[]\T1/lmr/m/n/10.95 Gjennomsnittet fant vi på side []8[]. Vi utvider frekven-st
+a-bellen vår
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--341
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
 []\T1/lmr/m/n/10.95 For mo-bil-tele-foner uten smart-funksjoner er var-i-ansen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--341
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
 []\T1/lmr/m/n/10.95 For mo-bil-tele-foner med smart-funksjoner er var-i-ansen
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 348--348
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 []\T1/lmr/m/n/10.95 La oss se hva som skjer hvis vi gjen-tar utreg-nin-gen fra 
 \T1/lmr/m/sl/10.95 Ek-sem-pel
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--348
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/lmr/m/n/10.95 Men brøken $[]$ er jo per defin-isjon gjen-nom-snit-tet til
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--348
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/lmr/m/n/10.95 dataset-tet, og dermed blir ut-trykket over lik 0. Dette vil 
 gjelde
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--348
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/lmr/m/n/10.95 for alle datasett, så i denne sam-men-hen-gen gir ikke tal-le
 t 0 noen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--348
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/lmr/m/n/10.95 yt-terligere in-for-masjon om dataset-tet. Om vi de-r-i-mot k
 vadr-erer
  []
 
-[14] [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 349.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 349.
+[15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 357.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 357.
  (./stat.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 349.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 349.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 357.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 357.
 Package rerunfilecheck Info: File `stat.out' has not changed.
-(rerunfilecheck)             Checksum: 3627F30DDC29B513C12336063AFEBCBA;949.
+(rerunfilecheck)             Checksum: 22569DE090B14AC65E87F2176F256C4C;964.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 31437 strings out of 481239
- 617062 string characters out of 5920378
- 934084 words of memory out of 5000000
- 45963 multiletter control sequences out of 15000+600000
+ 31444 strings out of 481239
+ 617122 string characters out of 5920378
+ 934292 words of memory out of 5000000
+ 45970 multiletter control sequences out of 15000+600000
  630943 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,13n,104p,870b,985s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1689,10 +1695,10 @@ m/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/f
 onts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb>
-Output written on stat.pdf (15 pages, 271387 bytes).
+Output written on stat.pdf (15 pages, 273151 bytes).
 PDF statistics:
- 282 PDF objects out of 1000 (max. 8388607)
- 243 compressed objects within 3 object streams
+ 283 PDF objects out of 1000 (max. 8388607)
+ 244 compressed objects within 3 object streams
  57 named destinations out of 1000 (max. 500000)
  150 words of extra memory for PDF output out of 10000 (max. 10000000)
 
