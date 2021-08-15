@@ -18,7 +18,7 @@ Blant temaene som dekkes er
 
 ### Filer
 
-- [Anvendt matematikk for grunnskole og VGS](https://github.com/sindrsh/AppliedMath/blob/master/P.pdf)
+- [Anvendt matematikk for grunnskole og VGS](https://github.com/sindrsh/AppliedMath/blob/master/AM.pdf)
  
 Den komplette filstrukturen for læreverket er tilgjengelig på GitHub (trykk på _View on GitHub_ øverst på denne siden)
 
