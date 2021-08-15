@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  14 AUG 2021 18:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  15 AUG 2021 15:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1857,14 +1857,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 579--579
  []
 
 
-LaTeX Warning: Hyper reference `delemed10100' on page 15 undefined on input lin
-e 582.
-
-
-LaTeX Warning: Reference `delemed10100' on page 15 undefined on input line 582.
-
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 593--593
 []$\OT1/lmr/m/n/10.95 10[]$ \T1/lmr/m/n/10.95 er en potens med grun-ntall 10 og
  ek-spo-nent $\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 2$\T1/lmr/m/n/10.95 , s
@@ -1903,7 +1895,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 617--617
 [16] [17] [18
 
 ] [19]
-<../fig/avrnd0.pdf, id=433, 142.26149pt x 17.8266pt>
+<../fig/avrnd0.pdf, id=438, 142.26149pt x 17.8266pt>
 File: ../fig/avrnd0.pdf Graphic file (type pdf)
 <use ../fig/avrnd0.pdf>
 Package pdftex.def Info: ../fig/avrnd0.pdf  used on input line 703.
@@ -1916,7 +1908,7 @@ LaTeX Font Warning: Command \boldmath invalid in math mode on input line 720.
 LaTeX Font Warning: Command \mathversion invalid in math mode on input line 720
 .
 
-<../fig/avrnda.pdf, id=434, 142.26149pt x 17.8266pt>
+<../fig/avrnda.pdf, id=439, 142.26149pt x 17.8266pt>
 File: ../fig/avrnda.pdf Graphic file (type pdf)
 <use ../fig/avrnda.pdf>
 Package pdftex.def Info: ../fig/avrnda.pdf  used on input line 720.
@@ -1928,7 +1920,7 @@ LaTeX Font Warning: Command \boldmath invalid in math mode on input line 720.
 LaTeX Font Warning: Command \mathversion invalid in math mode on input line 720
 .
 
-<../fig/avrndb.pdf, id=435, 142.26149pt x 17.8266pt>
+<../fig/avrndb.pdf, id=440, 142.26149pt x 17.8266pt>
 File: ../fig/avrndb.pdf Graphic file (type pdf)
 <use ../fig/avrndb.pdf>
 Package pdftex.def Info: ../fig/avrndb.pdf  used on input line 720.
@@ -1940,7 +1932,7 @@ LaTeX Font Warning: Command \boldmath invalid in math mode on input line 720.
 LaTeX Font Warning: Command \mathversion invalid in math mode on input line 720
 .
 
-<../fig/avrndc.pdf, id=436, 142.26149pt x 17.8266pt>
+<../fig/avrndc.pdf, id=441, 142.26149pt x 17.8266pt>
 File: ../fig/avrndc.pdf Graphic file (type pdf)
 <use ../fig/avrndc.pdf>
 Package pdftex.def Info: ../fig/avrndc.pdf  used on input line 720.
@@ -1952,7 +1944,7 @@ LaTeX Font Warning: Command \boldmath invalid in math mode on input line 720.
 LaTeX Font Warning: Command \mathversion invalid in math mode on input line 720
 .
 
-<../fig/avrndd.pdf, id=437, 142.26149pt x 19.95454pt>
+<../fig/avrndd.pdf, id=442, 142.26149pt x 19.95454pt>
 File: ../fig/avrndd.pdf Graphic file (type pdf)
 <use ../fig/avrndd.pdf>
 Package pdftex.def Info: ../fig/avrndd.pdf  used on input line 720.
@@ -2064,22 +2056,18 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 792.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 792.
 Package rerunfilecheck Info: File `rek.out' has not changed.
 (rerunfilecheck)             Checksum: 1BDF051E7095404A0584BBD80E1C9657;1128.
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 31673 strings out of 481239
- 621132 string characters out of 5920378
- 937374 words of memory out of 5000000
- 46138 multiletter control sequences out of 15000+600000
+ 31679 strings out of 481239
+ 621185 string characters out of 5920378
+ 937522 words of memory out of 5000000
+ 46143 multiletter control sequences out of 15000+600000
  615627 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,12n,104p,869b,1085s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
 -ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
@@ -2088,15 +2076,16 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
 ype1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro9.
-pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb>
-Output written on rek.pdf (23 pages, 339346 bytes).
+re/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmro9.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmsy9.pfb>
+Output written on rek.pdf (23 pages, 355127 bytes).
 PDF statistics:
- 568 PDF objects out of 1000 (max. 8388607)
- 491 compressed objects within 5 object streams
- 96 named destinations out of 1000 (max. 500000)
+ 578 PDF objects out of 1000 (max. 8388607)
+ 500 compressed objects within 5 object streams
+ 97 named destinations out of 1000 (max. 500000)
  302 words of extra memory for PDF output out of 10000 (max. 10000000)
 

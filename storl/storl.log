@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  14 AUG 2021 21:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  15 AUG 2021 15:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1455,6 +1455,20 @@ re for
  []
 
 
+LaTeX Warning: Hyper reference `Ganging' on page 3 undefined on input line 122.
+
+
+
+LaTeX Warning: Reference `Ganging' on page 3 undefined on input line 122.
+
+
+LaTeX Warning: Hyper reference `Divisjon' on page 3 undefined on input line 122
+.
+
+
+LaTeX Warning: Reference `Divisjon' on page 3 undefined on input line 122.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 122--122
 []\T1/lmr/m/n/10.95 Omgjøring av pre-fikser han-dler om å gange/dele med 10, 10
 0
@@ -1557,13 +1571,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 188.
 Package rerunfilecheck Info: File `storl.out' has not changed.
-(rerunfilecheck)             Checksum: D1F6D1C1C41111C2C0D3A6BE99A13347;145.
+(rerunfilecheck)             Checksum: 3B0918075FD1B209B5758B231466744C;146.
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 31254 strings out of 481239
- 613882 string characters out of 5920378
- 934186 words of memory out of 5000000
- 45831 multiletter control sequences out of 15000+600000
+ 31260 strings out of 481239
+ 613932 string characters out of 5920378
+ 934365 words of memory out of 5000000
+ 45837 multiletter control sequences out of 15000+600000
  609276 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,11n,104p,871b,985s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1577,7 +1595,7 @@ type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/pub
 lic/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro9.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on storl.pdf (6 pages, 233396 bytes).
+Output written on storl.pdf (6 pages, 234217 bytes).
 PDF statistics:
  116 PDF objects out of 1000 (max. 8388607)
  96 compressed objects within 1 object stream

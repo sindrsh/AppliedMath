@@ -89,7 +89,7 @@ Når andeler oppgis i det daglige, er det vanlig å bruke brøker med 100 i nevn
 	}
 
 	\sv
-	(Se delemed10100osvv ??)
+	(Se \rref{deledesmed10100})
 	\abc{
 		\item $ 12\%=\dfrac{12}{100}=0,12 $
 		\item $ 19,6\%=\dfrac{19,6}{100}=0,196 $
@@ -163,7 +163,7 @@ Hvor mange prosent utgjør 119 av 500?
 }
 
 
-\subsection{Prosentvis endring; økning eller redusering}
+\subsection{Prosentvis endring; økning eller redusering \label{Proendring}}
 \subsubsection{Økning} \label{prookning}
 Med utsagnet ''200 økt med 30\%'' menes dette:
 \st{
@@ -344,7 +344,7 @@ av prisen eksludert mva. Vekstfaktoren er derfor 1,15.
 Sjokoladen koster 12,25 kr inkludert mva.
 }
 } \vsk
-Vi kan også omksrive likningen\footnote{Se kapittel ?? for hvordan skrive om likninger.} fra \rref{vekstfaktendr} for å få et uttrykk for vekstfaktoren: \regv
+Vi kan også omksrive likningen\footnote{Se \refkap{Lig} for hvordan skrive om likninger.} fra \rref{vekstfaktendr} for å få et uttrykk for vekstfaktoren: \regv
 
 \reg[Vekstfaktor II \label{vekstfaktfrm}]{ \vs
 \[ \text{vekstfaktor}=\frac{\text{endret originalverdi}}{\text{originalverdi}} \]
@@ -367,13 +367,13 @@ Vi har at
 \alg{
 \frac{12\,000}{10\,000}=1,2
 }
-Fra 2019 til 2020 økte altså lønnen til Jakob med en vekstfaktor lik 1,2 (se \rref{vekstfaktexpr}). Denne vekstfaktoren tilsvarer en endring lik 20\% (se \rref{vekstfaktordef}). Det betyr at lønnen økte med 20\%.
+Fra 2019 til 2020 økte altså lønnen til Jakob med en vekstfaktor lik 1,2 (se \rref{vekstfaktendr}). Denne vekstfaktoren tilsvarer en endring lik 20\% (se \rref{vekstfaktordef}). Det betyr at lønnen økte med 20\%.
 \end{itemize}
 \reg[Prosentvis endring I \label{proendra}]{ \vs
 \[ \text{prosentvis endring}=\frac{\text{endret originalverdi}-\text{originalverdi}}{\text{originalverdi}}\cdot100 \]
 Hvis 'prosentvis endring' er et positivt/negativt tall, er det snakk om en prosentvis økning/reduksjon. 
 } 
-\info{Kommentar}{\rref{proendra} kan se litt voldsom ut, og er ikke nødvendigvis så lett å huske. Hvis du virkelig har forstått seksjon ??, kan du uten å bruke denne formelen finne prosentvise endringer trinnvis. I påfølgende eksempler viser vi derfor både en trinnvis løsningsmetode og en metode ved bruk av formel.} 
+\info{Kommentar}{\rref{proendra} kan se litt voldsom ut, og er ikke nødvendigvis så lett å huske. Hvis du virkelig har forstått \refdsec{Proendring}, kan du uten å bruke denne formelen finne prosentvise endringer trinnvis. I påfølgende eksempler viser vi derfor både en trinnvis løsningsmetode og en metode ved bruk av formel.} 
 \newpage
 \eks[1]{
 I 2019 hadde et fotballag 20 medlemmer. I 2020 hadde laget 12 medlemmer. Hvor mange prosent av medlemmene fra 2019 hadde sluttet i 2020?
@@ -470,19 +470,23 @@ $ a\% $ økt/minket med $ b\% $ $ = $ $ a\%\cdot(1\pm b\%) $
 Andre linje i \rref{propoeng} er egentlig identisk med \rref{vekstfaktendr}.
 }
 \eks{
-	En dag var 5\% av elevene på en skole borte. Dagen etter var 7,5\% av elevene borte. \os
-	\textbf{a)} Hvor mange prosentpoeng økte fraværet med?\os
-	\textbf{b)} Hvor mange prosent økte fraværet med?
+	En dag var 5\% av elevene på en skole borte. Dagen etter var 7,5\% av elevene borte.
+\abc{
+\item Hvor mange prosentpoeng økte fraværet med?
+\item Hvor mange prosent økte fraværet med?
+}
 	
 	\sv
-	\textbf{a)} $ {7,5\%-5\%=2,5\%} $, derfor har fraværet økt med 2,5 prosentpoeng. \vsk
-	
-	\textbf{b)} Her må vi svare på hvor mye endringen, altså 2,5\%, utgjør av 5\%. Dette er det samme som å finne hvor mye 2,5 utgjør av 5. (Se tilbake til ligning \eqref{autgavb}). 1\% av 5 er 0,05, derfor får vi:
-	\alg{
-		\text{Antall prosent 2,5 utgjør av 5}&=\frac{2,5}{0,05} \\
-		&= 50
-	}
-	Altså har fraværet økt med 50\%.
+\abc{
+\item $ {7,5\%-5\%=2,5\%} $, derfor har fraværet økt med 2,5 prosentpoeng. \vsk
+
+\item Her må vi svare på hvor mye endringen, altså 2,5\%, utgjør av 5\%. Av \rref{proaavb} har vi at	
+\alg{
+	\text{Antall prosent 2,5\% utgjør av 5\%}&=2,5\%\cdot \frac{100}{5\%} \\
+	&= 50
+}
+Altså har fraværet økt med 50\%.
+}
 }
 \info{Merk}{
 Å i \textsl{Eksempel 1} over stille spørsmålet
@@ -499,13 +503,13 @@ Hva om vi foretar en prosentvis endring gjentatte ganger? La oss som et eksempel
 	\text{verdi etter 2. endring}&=\overbrace{2\,000\cdot1,10}^{\text{2\,200}}\cdot1,10=2\,420 \\
 	\text{verdi etter 3. endring}&=\overbrace{2\,420\cdot1,10\cdot1,10}^{\text{2\,420}}\cdot1,10=2\,662 
 }
-Mellomregningen vi gjorde over kan kanskje virke unødvendig, men utnytter vi skrivemåten for potenser\footnote{Se \mb, s.??} kommer et flott mønster til syne:
+Mellomregningen vi gjorde over kan kanskje virke unødvendig, men utnytter vi skrivemåten for potenser\footnote{Se \mb, s.101} kommer et flott mønster til syne:
 \alg{
 	\text{verdi etter 1. endring}=2\,000\cdot1,10^1=2\,200 \\		
 	\text{verdi etter 2. endring}=2\,000\cdot1,10^2=2\,420 \\	
 	\text{verdi etter 3. endring}=2\,000\cdot1,10^3=2\,662 
 }
-\reg[Gjentatt vekst eller nedgang]{\vs
+\reg[Gjentatt vekst eller nedgang \label{progjen}]{\vs
 	\[ \text{ny verdi}=\text{originalverdi}\cdot \text{vekstfaktor}^{\text{antall endringer}} \]
 }
 \eks[1]{

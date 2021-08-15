@@ -164,6 +164,9 @@ P(K\,\cup\,H)&=P(K)+P(H)-P(K\,\cap\,H) \br
 
 \reg[Hendelser med felles utfall \label{mfutf}]{For to hendelser $ A $ og $ B $ er
 	\[ P(A\,\cup\,B)=P(A)+P(B)-P(A\,\cap\,B) \]\vs\vs}
+\info{Merk}{
+	Hvis man anvender \rref{mfutf} på to hendelser uten felles utfall, ender man opp med \rref{ufutf}. 
+}
 \newpage
 \eks{ \label{eksfothand}
 I en klasse på 20 personer spiller 7 personer fotball og 10 personer spiller handball. Av disse er det 4 som spiller både fotball og handball. Tenk deg at du trekker ut én person fra klassen. Hva er sjansen for at denne personen spiller fotball \textsl{eller} handball?
@@ -186,9 +189,7 @@ P(F\cup H)&= P(F)+P(H)-P(F\cap H)\br
 } 
 Sjansen er altså $ \frac{13}{20} $.
 }
-\info{Merk}{
-Hvis man anvender \rref{mfutf} på to hendelser uten felles utfall, ender man opp med \rref{ufutf}. 
-}
+
 \subsection{Venndiagram}
 Målet med et venndiagram er å lage en figur som illustrerer antallet av de enkelte utfallene og de \textit{felles} utfallene. La oss bruke eksempelet på side \pageref{eksfothand} til å lage en slik figur. For klassen der noen spiller fotball, noen handball og noen begge deler, kan vi lage et venndiagram som vist under.
 \begin{figure}
@@ -411,7 +412,7 @@ La oss nå bruke valgtret over for å finne sannsynligheten for å trekke én gr
 \[ P(GB)=\frac{3}{7}\cdot\frac{2}{6}=\frac{6}{42} \]
 På samme måte kan vi finne \textit{P(BG)}:
 \[ P(BG)=\frac{2}{7}\cdot\frac{3}{6}=\frac{6}{42} \]
-Sannsynligheten for at \textit{GB eller BG} inntreffer blir (se \rref{uf}):
+Sannsynligheten for at '\textit{GB} \textsl{eller} \textit{BG}' inntreffer er (se \rref{mfutf}):
 \begin{align*}
 P(GB\cup BG)&=P(GB)+P(BG) \\
 		&=\frac{6}{42}+\frac{6}{42} \br
