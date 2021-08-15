@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  12 AUG 2021 07:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  15 AUG 2021 07:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1515,14 +1515,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
  (./ggb.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
-Package rerunfilecheck Info: File `ggb.out' has not changed.
-(rerunfilecheck)             Checksum: 9A4D3C1009F44D2720BAF1BD2924AAFF;423.
+
+
+Package rerunfilecheck Warning: File `ggb.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ggb.out':
+(rerunfilecheck)             Before: 9A4D3C1009F44D2720BAF1BD2924AAFF;423
+(rerunfilecheck)             After:  BB7501E71F396011455C987B147052F2;424.
  ) 
 Here is how much of TeX's memory you used:
- 31383 strings out of 481239
- 616162 string characters out of 5920378
- 930010 words of memory out of 5000000
- 45954 multiletter control sequences out of 15000+600000
+ 31388 strings out of 481239
+ 616187 string characters out of 5920378
+ 930164 words of memory out of 5000000
+ 45959 multiletter control sequences out of 15000+600000
  600950 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,8n,104p,869b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1538,7 +1545,7 @@ c/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/te
 xmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
 sy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmtt10.pfb>
-Output written on ggb.pdf (7 pages, 434674 bytes).
+Output written on ggb.pdf (7 pages, 434673 bytes).
 PDF statistics:
  164 PDF objects out of 1000 (max. 8388607)
  125 compressed objects within 2 object streams

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  13 AUG 2021 11:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  15 AUG 2021 07:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1406,36 +1406,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--37
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--37
 \T1/lmr/m/n/10.95 ut-trykk. La $\OML/lmm/m/it/10.95 k$ \T1/lmr/m/n/10.95 stå fo
-r 'kost-nad for tax-i-turen' og $\OML/lmm/m/it/10.95 x$ \T1/lmr/m/n/10.95 stå f
-or 'an-tall
+r 'kost-nad for tax-i-turen' og $\OML/lmm/m/it/10.95 x$ \T1/lmr/m/n/10.95 for '
+an-tall
  []
 
 [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Hyper reference `farteks' on page 2 undefined on input line 49.
-
-
-LaTeX Warning: Reference `farteks' on page 2 undefined on input line 49.
-
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 49.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 49.
 
 Underfull \hbox (badness 10000) in paragraph at lines 49--49
-[]\T1/lmr/m/n/10.95 Vi har sett (\T1/lmr/m/sl/10.95 Ek-sem-pel 1\T1/lmr/m/n/10.
-95 , s. []) at streknin-gen $\OML/lmm/m/it/10.95 s$ \T1/lmr/m/n/10.95 vi har kj
-ørt,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-\T1/lmr/m/n/10.95 farten $\OML/lmm/m/it/10.95 f$ \T1/lmr/m/n/10.95 vi har holdt
-, og tiden $\OML/lmm/m/it/10.95 t$ \T1/lmr/m/n/10.95 vi har brukt kan settes i 
-sam-
+[]\T1/lmr/m/n/10.95 Vi har sett at streknin-gen $\OML/lmm/m/it/10.95 s$ \T1/lmr
+/m/n/10.95 vi har kjørt, farten $\OML/lmm/m/it/10.95 f$ \T1/lmr/m/n/10.95 vi ha
+r holdt,
  []
 
 
@@ -1451,258 +1438,283 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--49
 nger
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
 []\T1/lmr/m/it/10.95 Ohms lov \T1/lmr/m/n/10.95 sier at strøm-men $\OML/lmm/m/i
 t/10.95 I$ \T1/lmr/m/n/10.95 gjen-nom en met-allisk leder (med
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-[]\T1/lmr/m/n/10.95 Strøm måles i Am-pere (A), spen-ning i Volt (V) og mot-stan
-d i
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+\T1/lmr/m/n/10.95 Strøm måles i Am-pere (A), spen-ning i Volt (V) og mot-stand 
+i
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-[]\T1/lmr/bx/n/10.95 b) \T1/lmr/m/n/10.95 Hvis strøm-men er 2A og spen-nin-gen 
-12V, hva er da re-sis-
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]\T1/lmr/m/n/10.95 Hvis strøm-men er 2A og spen-nin-gen 12V, hva er da re-sis-
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-[]\T1/lmr/bx/n/10.95 a) \T1/lmr/m/n/10.95 Vi gjør om forme-len slik at $\OML/lm
-m/m/it/10.95 R$ \T1/lmr/m/n/10.95 står alene på én side av likhet-
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]\T1/lmr/m/n/10.95 Vi gjør om forme-len slik at $\OML/lmm/m/it/10.95 R$ \T1/lm
+r/m/n/10.95 står alene på én side av likhet-
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 []\T1/lmr/m/n/10.95 Si vi har målt en tem-per-atur $\OML/lmm/m/it/10.95 T[]$ \T
 1/lmr/m/n/10.95 i an-tall grader Cel-sius ($[]\OML/lmm/m/it/10.95 C$\T1/lmr/m/n
 /10.95 ).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 \T1/lmr/m/n/10.95 Tem-per-a-turen $\OML/lmm/m/it/10.95 T[]$ \T1/lmr/m/n/10.95 m
 ålt i an-tall grader Fahren-heit ($[]\OML/lmm/m/it/10.95 F$\T1/lmr/m/n/10.95 ) 
 er da gitt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
-[]\T1/lmr/bx/n/10.95 b) \T1/lmr/m/n/10.95 Hvis en tem-per-atur er målt til 59$[
-]\OML/lmm/m/it/10.95 F$\T1/lmr/m/n/10.95 , hva er da tem-per-a-turen
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+[]\T1/lmr/m/n/10.95 Hvis en tem-per-atur er målt til 59$[]\OML/lmm/m/it/10.95 F
+$\T1/lmr/m/n/10.95 , hva er da tem-per-a-turen
  []
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 []\T1/lmr/m/n/10.95 Tenk at klassen ønsker å dra på en klas-se-tur som til sam-
 men
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 \T1/lmr/m/n/10.95 koster 11000kr. For å dekke ut-giftene har dere allerede skaf
 -fet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 \T1/lmr/m/n/10.95 2000kr, resten skal skaffes gjen-nom loddsalg. For hvert lodd
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 []\T1/lmr/m/n/10.95 Lag en lign-ing for hvor mange lodd klassen må selge for å 
 få
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 126.
+(Font)              <10> on input line 139.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 126.
+(Font)              <7> on input line 139.
 
-Overfull \hbox (11.44917pt too wide) detected at line 126
+Overfull \hbox (11.44917pt too wide) detected at line 139
 [] \OT1/lmr/m/n/10 + [] \OMS/lmsy/m/n/10 ^^A [] \OT1/lmr/m/n/10 = []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 \T1/lmr/m/n/10.95 Den en-este stør-relsen vi ikke vet om er 'an-tall lodd'. Vi 
 er-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 \T1/lmr/m/n/10.95 stat-ter[][][] \T1/lmr/m/it/10.95 an-tall lodd \T1/lmr/m/n/10
 .95 med $\OML/lmm/m/it/10.95 x$\T1/lmr/m/n/10.95 , og set-ter ver-di-ene til de
  an-dre
  []
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
+[4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 []\T1/lmr/m/n/10.95 En ven-neg-jeng ønsker å spleise på en bil som koster 50000
  kr,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 \T1/lmr/m/n/10.95 men det er usikkert hvor mange per-soner som skal være med på
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 []\T1/lmr/bx/n/10.95 a) \T1/lmr/m/n/10.95 Kall 'an-tall per-soner som blir med 
 på å spleise' for $\OML/lmm/m/it/10.95 P$ \T1/lmr/m/n/10.95 og
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 []\T1/lmr/bx/n/10.95 a) \T1/lmr/m/n/10.95 Siden prisen på bilen skal de-les på 
 an-tall per-soner som er
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 150--150
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 []\T1/lmr/m/n/10.95 Et punkt hvor to funksjoner har samme verdi kalles et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
 []\T1/lmr/m/n/10.95 Vi kan finne skjæringspunk-tet både ved en \T1/lmr/m/sl/10.
 95 grafisk \T1/lmr/m/n/10.95 og en \T1/lmr/m/sl/10.95 al-ge-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
 []\T1/lmr/m/n/10.95 Vi teg-ner grafene til funksjonene inn i det samme ko-or-di
 -nat-sys-
  []
 
-<../fig/lig1.pdf, id=97, 227.61035pt x 199.1741pt>
+<../fig/lig1.pdf, id=109, 227.61035pt x 199.1741pt>
 File: ../fig/lig1.pdf Graphic file (type pdf)
 <use ../fig/lig1.pdf>
-Package pdftex.def Info: ../fig/lig1.pdf  used on input line 184.
+Package pdftex.def Info: ../fig/lig1.pdf  used on input line 197.
 (pdftex.def)             Requested size: 227.60979pt x 199.17361pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
 \T1/lmr/m/n/10.95 Vi leser av at funksjonene har samme verdi når $[]$, og da ha
 r
  []
 
-[6
+[7
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+] [8 <../fig/lig1.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 238--238
 []\T1/lmr/m/n/10.95 En klasse plan-leg-ger en tur som kr-ever buss-reise. De få
 r tilbud
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 238--238
 \T1/lmr/m/n/10.95 Videre løser vi nå opp-gaven både med en grafisk og en al-ge-
 
  []
 
-<../fig/lig2.pdf, id=104, 227.62039pt x 199.1741pt>
+<../fig/lig2.pdf, id=133, 227.62039pt x 199.1741pt>
 File: ../fig/lig2.pdf Graphic file (type pdf)
 <use ../fig/lig2.pdf>
-Package pdftex.def Info: ../fig/lig2.pdf  used on input line 225.
+Package pdftex.def Info: ../fig/lig2.pdf  used on input line 238.
 (pdftex.def)             Requested size: 227.61983pt x 199.17361pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 238--238
 \T1/lmr/m/n/10.95 Vi leser av at funksjonene har samme verdi når $[]$. Dette
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 238--238
 \T1/lmr/m/n/10.95 be-tyr at bus-sel-skapene tilbyr samme pris hvis klassen skal
  kjøre
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 238--238
 \T1/lmr/m/n/10.95 Busselskapene tilbyr altså samme pris hvis klassen skal kjøre
 
  []
 
-[7 <../fig/lig1.pdf>] [8 <../fig/lig2.pdf>]
-<../fig/lig3.pdf, id=130, 256.07669pt x 227.62039pt>
+[9]
+<../fig/lig3.pdf, id=138, 256.07669pt x 227.62039pt>
 File: ../fig/lig3.pdf Graphic file (type pdf)
 <use ../fig/lig3.pdf>
-Package pdftex.def Info: ../fig/lig3.pdf  used on input line 249.
+Package pdftex.def Info: ../fig/lig3.pdf  used on input line 262.
 (pdftex.def)             Requested size: 256.07607pt x 227.61983pt.
- [9]
-Underfull \hbox (badness 10000) in paragraph at lines 252--252
+ [10 <../fig/lig2.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 []\T1/lmr/m/n/10.95 Det kan kan-skje virke litt rart at vi kaller $\OML/lmm/m/i
 t/10.95 x$\T1/lmr/m/n/10.95 -verdier for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--252
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 \T1/lmr/m/n/10.95 nullpunkt, punkt har jo både en $\OML/lmm/m/it/10.95 x$\T1/lm
 r/m/n/10.95 -verdi og en $\OML/lmm/m/it/10.95 y$\T1/lmr/m/n/10.95 -verdi. Men
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--252
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 \T1/lmr/m/n/10.95 når det er snakk om nullpunkt, er det un-der-forstått at $[]$
 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--252
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 \T1/lmr/m/n/10.95 og da er det tilstrekke-lig å vite $\OML/lmm/m/it/10.95 x$\T1
 /lmr/m/n/10.95 -verdien for å avgjøre hvilket
  []
 
-[10 <../fig/lig3.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+[11 <../fig/lig3.pdf>] [12]
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+[]\T1/lmr/m/n/10.95 er det to uk-jente, trengs minst to likninger for å finne
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+[]\T1/lmr/m/n/10.95 er det tre uk-jente, trengs minst tre likninger for å finne
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--282
+[]\T1/lmr/m/n/10.95 Et lineært likn-ings-sett bestående av to uk-jente, $\OML/l
+mm/m/it/10.95 x$ \T1/lmr/m/n/10.95 og $\OML/lmm/m/it/10.95 y$\T1/lmr/m/n/10.95 
+, kan løses
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--282
 []\T1/lmr/m/n/10.95 sette ut-trykket fra punkt 1 inn i den an-dre liknin-gen, o
 g
  []
 
-[11
+[13
 
-] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 334--334
+] [14]
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
 []\T1/lmr/m/n/10.95 Ved innset-tingsme-to-den kan man ofte spare seg for en del
  utreg-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--334
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
 \T1/lmr/m/n/10.95 n-ing ved å velge liknin-gen og den uk-jente som gir det fine
 ste
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--334
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
 \T1/lmr/m/n/10.95 ut-trykket innled-ningsvis. Vi ob-serverer at [][] gir et fin
 t ut-trykk
  []
 
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
 []\T1/lmr/m/n/10.95 ''Broren min er dobbelt så gam-mel som meg. Til sam-men er 
 vi 9
  []
 
-[14]
-<../fig/ligset1.pdf, id=190, 227.62039pt x 227.62039pt>
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
+[]\T1/lmr/m/n/10.95 Et lineært likn-ings-sett bestående av to uk-jente, $\OML/l
+mm/m/it/10.95 x$ \T1/lmr/m/n/10.95 og $\OML/lmm/m/it/10.95 y$\T1/lmr/m/n/10.95 
+, kan løses
+ []
+
+[17]
+<../fig/ligset1.pdf, id=214, 227.62039pt x 227.62039pt>
 File: ../fig/ligset1.pdf Graphic file (type pdf)
 <use ../fig/ligset1.pdf>
-Package pdftex.def Info: ../fig/ligset1.pdf  used on input line 415.
+Package pdftex.def Info: ../fig/ligset1.pdf  used on input line 429.
 (pdftex.def)             Requested size: 227.61983pt x 227.61983pt.
- [15] [16 <../fig/ligset1.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 416.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 416.
+ [18 <../fig/ligset1.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 430.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 430.
  (./lig.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 416.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 416.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 430.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 430.
 Package rerunfilecheck Info: File `lig.out' has not changed.
 (rerunfilecheck)             Checksum: 2CF3B8DB4ACF1B11792BDF509DB86597;654.
 
@@ -1711,15 +1723,15 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 31439 strings out of 481239
- 616890 string characters out of 5920378
- 937378 words of memory out of 5000000
- 45964 multiletter control sequences out of 15000+600000
+ 31445 strings out of 481239
+ 616862 string characters out of 5920378
+ 936497 words of memory out of 5000000
+ 45960 multiletter control sequences out of 15000+600000
  633973 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,20n,104p,869b,990s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
+ 70i,20n,104p,869b,985s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
 -ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
@@ -1735,10 +1747,10 @@ ic/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmro9.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmsy9.pfb>
-Output written on lig.pdf (16 pages, 312099 bytes).
+Output written on lig.pdf (18 pages, 314042 bytes).
 PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
- 248 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
+ 310 PDF objects out of 1000 (max. 8388607)
+ 264 compressed objects within 3 object streams
+ 68 named destinations out of 1000 (max. 500000)
  105 words of extra memory for PDF output out of 10000 (max. 10000000)
 

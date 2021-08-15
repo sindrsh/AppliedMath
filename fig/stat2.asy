@@ -1,6 +1,6 @@
 import inh;
 import figs;
-size(9cm,5cm,keepAspect=false);
+size(9cm,5.5cm,keepAspect=false);
 
 path b = unitsquare;
 pen p = blue;
@@ -31,7 +31,7 @@ label("katt",(13dx+a,0),S);
 fill(shift(15dx+a,0)*scale(1,51)*b,p);
 label("andre",(16dx+a,0),S);
 
-label("favorittdyr",(5,-30));
+label("''Hva er favorittdyret ditt?''",(5,110));
 
 
 

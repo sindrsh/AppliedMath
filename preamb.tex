@@ -102,6 +102,7 @@
 \newcommand{\mer}{\textsl{Merk}: }
 \newcommand\vsk{\vspace{11pt}}
 \newcommand\vs{\vspace{-11pt}}
+\newcommand\vsabc{\vspace{-5pt}}
 \newcommand\vsb{\vspace{-16pt}}
 \newcommand\sv{\vsk \textbf{Svar:} \vspace{4 pt}\\}
 \newcommand\br{\\[5 pt]}
@@ -180,7 +181,7 @@
 
 \newcommand{\metode}[2]{
 \textsl{#1} \\[-8pt]
-\rule{#2}{1pt}
+\rule{#2}{0.75pt}
 }
 
 \newcommand{\linje}{\rule{\linewidth}{1pt} }
@@ -190,6 +191,11 @@
 \begin{enumerate}[label=\alph*),leftmargin=18pt]
 #1
 \end{enumerate}
+}
+\newcommand{\abcs}[2]{
+	\begin{enumerate}[label=\alph*),start=#1,leftmargin=18pt]
+		#2
+	\end{enumerate}
 }
 
 \newcommand{\abch}[1]{

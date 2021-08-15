@@ -1,6 +1,6 @@
 import inh;
 import figs;
-size(8cm,4cm,keepAspect=false);
+size(8cm,5.5cm,keepAspect=false);
 
 path b = unitsquare;
 pen p = blue;
@@ -38,7 +38,8 @@ label("8",(19dx+a,0),S);
 fill(shift(21dx+a,0)*scale(1,1)*b,p);
 label("14",(22dx+a,0),S);
 
-label("antall epler",(6,-1));
+label("antall epler",(6,-0.75));
 
+label("''Hvor mange epler spiser du i løpet av uka?''",(5,3.5));
 
 

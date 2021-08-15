@@ -29,14 +29,14 @@ Figuren under viser en translasjonssymmetri som består av to sommerfugler.
 }
 \newpage
 \eks[2]{
-Under vises $ \triangle ABC $ og et blått linjestykke.
+Under vises $ \triangle ABC $ og en blå vektor.
 \fig{trans1a}
 Under vises $ \triangle ABC $ forskjøvet med den blå vektoren. 
 \fig{trans1}
 }
 \reg[Speiling]{En symmetri hvor minst to deler er vendte utgaver av hverandre kalles en \textit{speilingssymmetri} og har minst én \textit{symmetrilinje} (\textit{symmetriakse}).\vsk
 
-Når en et punkt speiles, blir det forskjøvet vinkelrett på symmetrilinja fram til det nye og det opprinnelige punktet har samme avstand til symmetrilinja.
+Når et punkt speiles, blir det forskjøvet vinkelrett på symmetrilinja, fram til det nye og det opprinnelige punktet har samme avstand til symmetrilinja.
 } 
 \newpage
 \eks[1]{
@@ -86,7 +86,7 @@ og
 En form som er en forskjøvet, speilvendt eller rotert utgave av en annen form, kalles en \textit{kongruensavbilding}.
 }
 \section{Tredimensjonal geometri}
-I \mb\;har vi sett på todimensjonale figurer som trekanter, firkler, sirkler o.l. Alle todimensjonale figurer kan tegnes inn i et koordinatsystem med to akser.
+I \mb har vi sett på todimensjonale figurer som trekanter, firkanter, sirkler o.l. Alle todimensjonale figurer kan tegnes inn i et koordinatsystem med to akser.
 \fig{3da}
 For å tegne inn \textit{tredimensjonale} figurer trengs derimot tre akser:
 \fig{3db}
@@ -151,25 +151,21 @@ Området som ''ligger utenpå'' en tredimensjonal figur kaller vi \textit{overfl
 \end{enumerate}
 }
 \section{Volum}
-Når vi ønsker å si noe om hvor mye det er plass til inni en gjenstand, snakker vi om \textit{volumet} av den. Som et mål på volum tenker vi oss \textit{en kube} som har 1 som både bredde, lengde og høgde:
+Når vi ønsker å si noe om hvor mye det er plass til inni en gjenstand, snakker vi om \textit{volumet} av den. Som et mål på volum tenker vi oss en kube med sidelengde 1.
 \fig{vol1}
-En slik kube kan vi kalle''enhetskuben''. Si vi har en firkantet boks med bredde 3, lengde 4 og høgde 2:
+En slik kube kan vi kalle 'enerkuben'. Si vi har en firkantet prisme med bredde 3, lengde 4 og høgde 2.
 \fig{vol2}
-Vi kan må merke oss at vi har plass til akkurat 24 enhetskuber i denne boksen:
+I denne er det plass til akkurat 24 enerkuber.
 \fig{vol2a}
-Og dette kunne vi ha regnet ut slik:
+Dette kunne vi ha regnet ut slik:
 \[ 3\cdot 4\cdot 2=24\]
-Altså:
+Altså
 \[\text{bredde}\cdot\text{lengde}\cdot\text{høgde} \]\vsk
-
-\textbf{Grunnflate}\\
-For å regne ut volumet av de mest elementære figurene vi har, kan det være lurt å bruke begrepet \textit{grunnflate}. Slik som for en grunnlinje, er det vårt valg av grunnflate som bestemer hvordan vi skal regne ut høgden. For en slik boks som vi akkurat så på, er det naturlig å velge flaten som ''ligger ned'' til å være grunnflaten, og for å indikere dette brukes ofte $ G $:
-\begin{figure}
-		\centering
-	\includegraphics[]{\fpath{vol2b}}\qquad
-	\includegraphics[]{\fpath{vol2c}}
-\end{figure}
-Grunnflaten har arealet $ 3\cdot4=12 $, mens høgden er 2. Volumet av hele boksen er grunnflatens areal ganger høgden:
+\newpage
+\subsubsection{Grunnflate}
+For å regne ut volumet av de mest elementære figurene vi har, kan det være lurt å bruke begrepet \textit{grunnflate}. Slik som for en grunnlinje (se \mb, s. ??), er det vårt valg av grunnflate som bestemer hvordan vi skal regne ut høgden. For prismen fra forrige side, er det naturlig å velge flaten som ligger horisontalt til å være grunnflaten, og for å indikere dette brukes ofte $ G $:
+\fig{vol2b}
+Grunnflaten har arealet $ 3\cdot4=12 $, mens høgden er 2. Volumet av hele prismen er grunnflatens areal ganget med høgden:
 \alg{
 	 V &= 3\cdot 4 \cdot 2 \\
 	 &= G\cdot 2\\
@@ -195,10 +191,11 @@ Volumet $ V $ til en kjegle eller en pyramide med grunnflate $ G $ og høgde $ h
 \stackunder[6pt]{\includegraphics[scale=0.7]{\fpath{vol3}}}{Kjegle}\qquad \qquad    
 \stackunder[6pt]{\includegraphics[scale=0.7]{\fpath{vol3a}}}{Firkantet pyramide}
 \end{figure}
-}
-\info{Obs!}{
+}\vsk
+\info{Merk}{
 Formlene fra \rref{volforml} gjelder også for prismer, sylindre, kjegler og pyramider som heller (er skjeve). Hvis grunnflaten er plassert horisontalt, er høgden den vertikale avstanden mellom grunnflaten og toppen til figuren.
 \fig{vol4} 
+(For spisse gjenstander som kjegler og pyramider finnes det selvsagt bare ett valg av grunnflate.)
 }
 \newpage
 \eks[1]{
@@ -244,11 +241,10 @@ En firkantet pyramide har lengde 2, bredde 3 og høgde 5.
 &= 30
 }
 }
-}
-\textbf{Volumet av ei kule} \\
-Som vanlig skiller ting seg ut når vi snakker om renit sirkelformede figurer, og ei \textit{kule} er ikke noe unntak. For den spesielt interesserte kan et bevis for volumformelen leses \net{https://drive.google.com/open?id=0B9-bzK2nA0X2Ty1yNElYQzRETjQ}{her}, men det er altså helt lov til å bykse rett på formelen:\regv
-\reg[Volumet av ei kule]{
-	Volumet $ V $ av ei kule med radius $ r $ er:
+} \vsk
+
+\reg[Volumet til ei kule]{
+	Volumet $ V $ til ei kule med radius $ r $ er:
 	\[ V = \frac{4\cdot\pi\cdot r^3}{3} \]
 \begin{figure}
 	\centering
@@ -258,15 +254,15 @@ Som vanlig skiller ting seg ut når vi snakker om renit sirkelformede figurer, o
 \section{Omkrets, areal og volum med enheter}
 Når vi måler lengder med linjal eller lignende, må vi passe på å ta med enhetene i svaret vårt. \regv
 
-\eks[1]{
+\eks[1]{ \vs
 \begin{figure}
 	\centering
-	\includegraphics[scale=0.06]{\fpath{2t5}}
+	\includegraphics[scale=0.04]{\fpath{2t5}}
 \end{figure}
 \alg{
 	\text{Omkretsen til rektangelet} &= 5\enh{cm}+2\enh{cm}+5\enh{cm}+2\enh{cm} \\
 	&= 14\enh{cm}
-}
+} \vs
 
 \prbxl{0.65}{\alg{
 		\text{Arealet til rektangelet}&=2\enh{cm}\cdot5\enh{cm} \\
@@ -288,7 +284,7 @@ Så lenge vi er sikre på at størrelsene vår har samme enhet (i dette tilfelle
 \text{volumet til sylinderen}&= 16\pi \cdot2 \\
 &= 32\pi
 }
-Vi har her ganget sammen tre lengder (to faktorer lik 4\enh{m} og én faktor lik $ 2\enh{m} $) med meter som enhet, altså er volumet til sylinderen $ 32\pi\enh{m}^3 $
+Vi har her ganget sammen tre lengder (to faktorer lik 4\enh{m} og én faktor lik $ 2\enh{m} $) med meter som enhet, altså er volumet til sylinderen $ 32\pi\enh{m}^3 $.
 } \vsk
 
 \info{Merk}{

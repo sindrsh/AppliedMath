@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  28 JUL 2021 08:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  15 AUG 2021 08:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1373,62 +1373,55 @@ LaTeX Font Info:    Trying to load font information for U+esint on input line 7
 (/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
-9.
-
-(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Overfull \hbox (3.88893pt too wide) in paragraph at lines 83--84
+Overfull \hbox (3.88893pt too wide) in paragraph at lines 75--76
 []|[]| 
  []
 
 
-Overfull \hbox (1.9828pt too wide) in paragraph at lines 104--105
+Overfull \hbox (1.9828pt too wide) in paragraph at lines 96--97
 []|[]| 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (2.0041pt too wide) in paragraph at lines 142--143
+Overfull \hbox (2.0041pt too wide) in paragraph at lines 131--132
 []|[]| 
  []
 
 
-Overfull \hbox (4.10112pt too wide) in paragraph at lines 169--170
+Overfull \hbox (4.10112pt too wide) in paragraph at lines 158--159
 []|[]| 
  []
 
 
-Overfull \hbox (3.85751pt too wide) in paragraph at lines 178--179
+Overfull \hbox (3.85751pt too wide) in paragraph at lines 167--168
 []|[]| 
  []
 
 [2] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 228.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 228.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
  (./pensum.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 228.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 228.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
 Package rerunfilecheck Info: File `pensum.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31107 strings out of 481239
- 611991 string characters out of 5920378
- 940528 words of memory out of 5000000
- 45720 multiletter control sequences out of 15000+600000
- 563016 words of font info for 57 fonts, out of 8000000 for 9000
+ 31094 strings out of 481239
+ 611316 string characters out of 5920378
+ 941206 words of memory out of 5000000
+ 45711 multiletter control sequences out of 15000+600000
+ 562651 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,13n,104p,869b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
-vips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/shar
-e/texmf/fonts/type1/public/lm/lmr10.pfb>
-Output written on pensum.pdf (3 pages, 63812 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
+public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb>
+Output written on pensum.pdf (3 pages, 62765 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 33 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  4 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

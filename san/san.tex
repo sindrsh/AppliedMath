@@ -3,7 +3,7 @@
 %\input{/home/sindre/akademiet/bok/preamb}
 \begin{document}
 \section{Grunnprinnsippet}
-Selve prinsippet bak sannsynlighetsregning er at vi spør oss hvor mange \textit{gunstige utfall}  vi har i et utvalg av \textit{mulige utfall}. Sannsynligheten for en \textit{hendelse} er da gitt som et forholdstall mellom disse \regv
+Selve prinsippet bak sannsynlighetsregning er at vi spør oss hvor mange \textit{gunstige utfall}  vi har i et utvalg av \textit{mulige utfall}. Sannsynligheten for en \textit{hendelse} er da gitt som et forholdstall mellom disse. \regv
 \reg[Sannsynlighet for en hendelse \label{grnprsp}]{
 \[ \text{sannsynlighet for en hendelse}=\frac{\text{antall gunstige utfall}}{\text{antall mulige utfall}} \]
 } \vsk
@@ -41,6 +41,7 @@ Det samme svaret hadde vi fått ved å legge sammen sannsynlighetene $P(F)$ og $
 
 \reg[Hendelser uten felles utfall \label{ufutf}]{For to hendelser \textit{A} og \textit{B} uten felles utfall, er
 	\[ P(A\,\cup\,B)=P(A)+P(B) \] \vs\vs}
+\newpage
 \eks{
 Du trekker opp en kule fra en bolle hvor det ligger én rød, to blå og én grønn kule. Hva er sannsynligheten for at du trekker opp en rød \textsl{eller} en blå kule?
 
@@ -61,6 +62,7 @@ Vi kaller hendelsene 'å få en rød kule' for $ R $ og hendelsen 'å få en bl�
 		&= \frac{3}{4} 	 
 	 }
 }
+\newpage
 \subsection{Summen av alle sannsynligheter er 1}
 Tenk at vi kaster en terning og at vi holder både 'å få en firer' og 'å ikke få en firer' for gunstige hendelser . Vi har tidligere sett at $ {P(F)=\frac{1}{6}} $, $ {P(\bar{F})=\frac{5}{6} }$, og at $ F $ og $ \bar{F} $ ikke har felles utfall. Av \rref{ufutf} har vi da at
 \algv{
@@ -68,7 +70,7 @@ P(F\cup\bar{F})&=P(F)+P(\bar{F})\br
 &= \frac{1}{6}+\frac{5}{6} \\
 &= 1
 }
-Enten så skjer $ F $, eller så skjer den ikke. Og skjer den ikke, så skjer $ \bar{F} $. Hvis vi sier at \textsl{både} $ F $ og $ \bar{F} $ er gunstige hendelser, sier vi altså at alle mulige utfall er gunstige, og da gir  \rref{grnprnsp} en sannsynlighet lik 1. \regv
+Enten så skjer $ F $, eller så skjer den ikke. Og skjer den ikke, så skjer $ \bar{F} $. Hvis vi sier at \textsl{både} $ F $ og $ \bar{F} $ er gunstige hendelser, sier vi altså at alle mulige utfall er gunstige, og da gir  \rref{grnprsp} en sannsynlighet lik 1. \regv
  
 \reg[Summen av alle sannsynligheter \label{sumer1}]{
 Summen av sannsynlighetene for alle mulige hendelser er alltid lik 1.
@@ -79,9 +81,11 @@ En hendelse $ A $ og den motsatte hendelsen $ \bar A $ vil til sammen alltid utg
 P(A)+P(\bar{A})&=1 \\
 P(A) &= 1-P(\bar{A})
 }
-\reg[Motsatte hendelser \label{motsatt}]{\vs
-\[ P(A)=1-P(\bar{A}) \]\vs\vs
+\reg[Motsatte hendelser \label{motsatt}]{
+For en hendelse $ A $ er
+\[ P(A)=1-P(\bar{A}) \]
 }
+\newpage
 \eks{
 I en klasse med 25 elever er det 12 jenter og 13 gutter. Èn elev skal tilfeldig trekkes ut til å være med i en matematikkonkurranse. \vsk
 
@@ -101,9 +105,8 @@ Vi kaller hendelsen 'en gutt blir trukket' for $ G $.
 }
 \mer At en gutt \textsl{ikke} blir trukket er det samme som at en jente blir trukket.
 }
-
-
 }
+\newpage
 \subsection{Felles utfall}	
 	Noen ganger er det slik at to hendelser kan ha \textit{felles utfall}. La oss se på en vanlig kortstokk med $52$ kort som er likt delt inn i typene spar, hjerter, ruter og kløver.  Kort som er av arten knekt, dame, kong eller ess kalles honnørkort.	
 	\begin{figure}[H]
@@ -161,6 +164,7 @@ P(K\,\cup\,H)&=P(K)+P(H)-P(K\,\cap\,H) \br
 
 \reg[Hendelser med felles utfall \label{mfutf}]{For to hendelser $ A $ og $ B $ er
 	\[ P(A\,\cup\,B)=P(A)+P(B)-P(A\,\cap\,B) \]\vs\vs}
+\newpage
 \eks{ \label{eksfothand}
 I en klasse på 20 personer spiller 7 personer fotball og 10 personer spiller handball. Av disse er det 4 som spiller både fotball og handball. Tenk deg at du trekker ut én person fra klassen. Hva er sjansen for at denne personen spiller fotball \textsl{eller} handball?
 		
@@ -196,7 +200,8 @@ Den grønne ellipsen\footnote{En ellipse er en ''strekt'' sirkel.} representerer
 	\centering
 	\includegraphics[]{\fpath{vennb}}
 \end{figure}
-Diagrammet forteller nå at 3 personer spiller \textsl{bare} fotball og 6 spiller \textsl{bare} handball. I tilleg spiller 4 stykker \textsl{både} fotball og handball. (Til sammen er det derfor 7 som spiller fotball og 10 som spiller handball.) \regv
+Diagrammet forteller nå at 3 personer spiller \textsl{bare} fotball og 6 spiller \textsl{bare} handball. I tilleg spiller 4 stykker \textsl{både} fotball og handball. (Til sammen er det derfor 7 som spiller fotball og 10 som spiller handball.) 
+\newpage
 \eks[1]{I en skoleklasse er det 31 elever. I denne klassen er det 15 elever som tar buss til skolen og 9 elever som tar båt. Av disse er det 3 stykker som tar både buss og båt.
 
 \abc{
@@ -212,6 +217,7 @@ Diagrammet forteller nå at 3 personer spiller \textsl{bare} fotball og 6 spille
 \item Sannsynligheten for at en person tar buss \textsl{eller} båt kan vi skrive som \y{P(A\cup B) }. Siden 15 elever tar buss, 9 tar båt og 3 tar begge deler, er det i alt \y{15+9-3=21} elever som tar buss \textsl{eller} båt. Da det er 31 elever i alt å velge mellom, er
 \[ P(A\cup B)=\frac{21}{31} \]\vs}
 }
+\newpage
 \eks[2]{
 Om en klasse med 29 elever vet vi følgende:
 \begin{itemize}
@@ -324,6 +330,7 @@ Denne utregningen kunne vi også ha skrevet slik:
 	\sv
 	Hver gang vi kaster om krone eller mynt, har vi to mulige utfall. Antall permutasjoner er derfor gitt som
 	\[ 2\cdot2\cdot2\cdot2=16 \]\vs}
+\newpage
 \info{Kombinasjoner}{
 I dagligtale blir ofte ordet \textit{kombinasjoner} brukt istedenfor permutasjoner, men innenfor sannsynlighetsregning har kombinasjoner og permutasjoner forskjellig betydning. Den store forskjellen er at permutasjoner tar hensyn til rekkefølge, mens kombinasjoner ikke gjør det. \vsk
 
@@ -332,7 +339,7 @@ Si vi ønsker å danne et ord med to bokstaver ved hjelp av med bokstavene $ A $
 Kombinasjoner derimot viser til en unik sammensetting når rekkefølge ikke tas hensyn til, for eksempel er $ AB $ og $ BA $ den samme kombinasjonen. I dette tilfelle har vi altså 6 kombinasjoner
 \[ AA, AB, AC, BB, BC, CC \]
 }
-
+\newpage
 \subsection{Sannsynlighet ved gjentatte trekk}
 \prbxl{0.5}{Tenk at vi har en med bolle sju kuler. Tre av dem er grønne, to er blå og to er røde. Si at vi tar opp først én kule av bollen, og deretter én til. Hva er sannsynligheten for at vi trekker opp to grønne kuler?} \qquad
 \fgbxr{0.4}{

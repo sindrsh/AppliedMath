@@ -1,9 +1,13 @@
 import inh;
 import figs;
-size(11cm,6cm,keepAspect=false);
+size(11cm,6.5cm,keepAspect=false);
 
+
+mkgrid((0,6),(0,2500),dx=10,dy=500);
 xaks(0,6,tck=false);
 yaks(0,2800,tck=true,tckl=true,tc=500);
+
+
 
 pen p2 = blue;
 pen p3 = red;
@@ -78,3 +82,5 @@ label("u. sm.f.",L2+dY,E);
 
 label(rotate(90)*Label("antall mobiltelefoner solgt"), (-1.2,1300));
 label("år",(3.5,-400));
+
+label("Mobiltelefonsalg i Norge 2009-2015",(3.5,3000));
