@@ -4,17 +4,16 @@
 
 _Anvendt matematikk_ er en gratis lærebok (i PDF-format) beregnet for grunnskole (5.-10.klasse) og VGS (1P og 2P). Boka presenterer anvendelser av matematikken som er omtalt i boka [Matematikkens byggesteiner](https://sindrsh.github.io/FirstPrinciplesOfMath/).
 
-Blant temaene som dekkes er
-- Reknestrategier for de fire rekneartene
+Temaene som dekkes er
+- Utregningsmetoder
 - Størrelser og enheter
-- Areal, omkrets og volum
-- Prosentrekning
-- Forhold og målestokk
+- Statistikk
+- Geometri
+- Brøkregning 
+- Likninger, formler og funksjoner
 - Økonomi
 - Sannsynlighet
-- Statistikk
-- Excel og GeoGebra
-- Programmering
+- Programmering, regneark og GeoGebra
 
 ### Filer
 
