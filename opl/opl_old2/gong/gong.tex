@@ -1,0 +1,91 @@
+\input{/home/sindre/G/doc}
+\input{/home/sindre/G/preamb}
+
+% Innhenting av eksternt dokument
+\usepackage{xr}
+\externaldocument{/home/sindre/G/G}
+\usepackage{refcount}
+
+\newcounter{ttl}
+
+\newcommand{\gnga}{
+Kunne 1-9 gongen
+}
+\newcommand{\ara}{
+	Forstå areal som antall einingsruter
+}
+\newcommand{\ttl}[1]{
+\stepcounter{ttl}
+{\Large \textbf{\thesection\; #1}} \vsk
+
+}
+
+\newcommand{\lst}[5]{
+	\textbf{Øvingsområde}\\ #1  \vsk
+	
+	\textbf{Utstyr}\\ #2 \vsk
+	
+	\textbf{Tid}\\ #3 \vsk
+	
+	\textbf{Elevinndeling}\\ #4 \vsk
+	
+	\textbf{Gjennomføring}\\ #5 \vsk
+	
+}
+
+\newcommand{\fork}{\textbf{Forkunnskapar}\\}
+\newcommand{\forb}{\textbf{Forberedelsar}\\}
+\newcommand{\opgvr}{\textbf{Oppgaver}}
+
+\begin{document}
+
+\setcounterref{section}{Ganging}	
+\subsection{Kast terning og fyll brettet}
+\lst{	\begin{itemize}
+		\item \gnga
+		\item \ara
+\end{itemize}}
+{\textsl{Med digitale hjelpemiddel:} OneNote, Explain Everything og terningar\\
+\textsl{Utan digitale hjelpemiddel:} Utskrift av ruteark, fargeblyantar}
+{45 min\,+}
+{Grupper på 2-3}
+{
+
+\begin{enumerate}
+	\item Kvar elev får utdelt eit $ 10\cdot10 $ ruteark. 
+	\begin{center}
+		\includegraphics[scale=0.075]{gong1}
+	\end{center}
+ Utskriftsversjon finn du \net{https://drive.google.com/open?id=1dV2pIzJ19Pkhm-y16nGIcZoXmIhfiHgY}{her}.\vsk
+ 
+\textit{Ved digitale hjelpemiddel til stades, del fila i OneNote og få elevane til å laste den inn i Exlain Everything.}
+	\item Elevane byttar på å kaste to terningar, desse dannar gangestykker som elevane skal teikne inn i sine ruteark.\vsk
+	
+	\textit{Eksempel:} I sin første runde får Ola 3 og 2 på sine to terningar. Han kan derfor teikne inn ein boks som er 2 ruter høg og 3 ruter brei, eller omvend, der han sjølv vil:
+\begin{center}
+	\includegraphics[scale=0.075]{gong1b}
+\end{center}
+\item Elevane kan plassere boksane kor dei vil på brettet, men boksar kan ikkje overlappe.
+\item Spelet er ferdig når alle deltakarar i samme spelerunde ender opp med boksar dei ikkje har plass til.
+\end{enumerate}
+\textit{For å få med alle gangestykker kan ein bruke 3 terningar i staden for berre to. Da kan elevane gonge summen av to terningar med den resterande terningen så lenge summen blir mindre eller lik 10.}
+}
+\newpage
+
+\subsection{Gangekonkurranse}
+\lst{	\begin{itemize}
+		\item \gnga
+\end{itemize}}
+{Ingen spesielle}
+{20 min\,+}
+{Ingen}
+{	
+	\begin{enumerate}
+		\item Alle elevar stiller på ei rekke. Lærar plukker ut to elevar som møter kvarandre i gangeduell.
+		\item Lærar roper opp eit gangestykke. Den av dei to elevane som roper svaret først får gå eit skritt fram.
+
+	\end{enumerate}
+
+}
+
+\end{document}
