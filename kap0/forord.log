@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  16 AUG 2021 17:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  18 AUG 2021 20:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1419,14 +1419,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--37
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--37
-[]\T1/lmr/m/n/10.95 Boka blir op-p-datert så snart som råd et-ter at skrive-fei
-l og lig-
+[]\T1/lmr/m/n/10.95 Boka blir op-p-datert så snart som råd når skrive-feil og l
+ig-nende
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--37
-\T1/lmr/m/n/10.95 nende blir op-pdaget. Jeg vil der-for råde alle til å laste n
-ed en ny
+\T1/lmr/m/n/10.95 blir op-pdaget, jeg vil der-for råde alle til å laste ned en 
+ny ver-
  []
 
 
@@ -1463,7 +1463,7 @@ Here is how much of TeX's memory you used:
 public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmtt10.pfb>
-Output written on forord.pdf (2 pages, 95345 bytes).
+Output written on forord.pdf (2 pages, 94927 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream

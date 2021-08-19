@@ -1,0 +1,68 @@
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{luainputenc}
+\usepackage{lmodern} % load a font with all the characters
+\usepackage{geometry}
+\geometry{verbose,paperwidth=16.1 cm, paperheight=24 cm, inner=2.3cm, outer=1.8 cm, bmargin=2cm, tmargin=1.8cm}
+\setlength{\parindent}{0bp}
+\usepackage{import}
+\usepackage[subpreambles=false]{standalone}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{esint}
+\usepackage{babel}
+\usepackage{tabu}
+\usepackage[dvipsnames, table]{xcolor}
+\makeatother
+\makeatletter
+
+
+%referances
+\newcommand{\net}[2]{{\color{blue}\href{#1}{#2}}}
+
+%Spaces
+\newcommand{\vsk}{\\[12pt]}
+\newcommand{\vs}{\vspace{-12pt}}
+
+% Tabell for opplegg
+
+\newcommand{\ovlist}[1]{
+\vspace{-16pt}
+\begin{itemize}
+	#1
+\end{itemize}
+}
+
+\newcommand{\lst}[5]{
+\rule{\linewidth}{1pt}
+\footnotesize
+	\textbf{Øvingsområde}\\ #1 
+	
+	\textbf{Utstyr}\\ #2  \\
+	
+	\begin{tabular}{@{} p{4cm} l} 
+		\textbf{Tid} & \textbf{Elevinndeling} \\
+		#3  & #4
+	\end{tabular} 
+
+\rule{\linewidth}{1pt}	\vsk
+\normalsize
+	\textbf{Gjennomføring}\\ #5 \vsk
+}
+%
+
+\newcounter{opl}
+%\numberwithin{opl}{article}
+
+\newcommand{\opl}[1]{
+\newpage
+{\refstepcounter{opl} %\phantomsection 
+\large \textbf{\theopl \;#1} \vsk}
+}
+
+% Headlines
+\newcommand{\fork}{\textbf{Forkunnskapar}\\}
+\newcommand{\forb}{\textbf{Forberedelsar}\\}
+\newcommand{\opgvr}{\textbf{Oppgaver}}
+
+\usepackage{datetime2}
+\usepackage[]{hyperref}

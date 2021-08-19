@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  15 AUG 2021 16:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  18 AUG 2021 20:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1380,7 +1380,7 @@ File: uesint.fd
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Overfull \hbox (4.32411pt too wide) in paragraph at lines 20--22
 []\T1/lmr/m/n/10.95 Prosjektet som denne boka er en vik-tig del av er un-der st
-adig utvikling, 
+adig utvikling. 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
@@ -1405,7 +1405,7 @@ Package rerunfilecheck Info: File `laer.out' has not changed.
 Here is how much of TeX's memory you used:
  31178 strings out of 481239
  612838 string characters out of 5920378
- 928208 words of memory out of 5000000
+ 927218 words of memory out of 5000000
  45782 multiletter control sequences out of 15000+600000
  572324 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1415,7 +1415,7 @@ ips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmtt10.pfb>
-Output written on laer.pdf (2 pages, 120216 bytes).
+Output written on laer.pdf (2 pages, 119688 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  40 compressed objects within 1 object stream

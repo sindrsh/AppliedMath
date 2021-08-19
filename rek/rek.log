@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  15 AUG 2021 15:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  19 AUG 2021 21:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1493,18 +1493,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--146
 
 Underfull \hbox (badness 10000) in paragraph at lines 146--146
 []\T1/lmr/m/n/10.95 Vi leg-ger til $\OT1/lmr/m/n/10.95 6$\T1/lmr/m/n/10.95 . Da
- har vi så langt lagt til $\OT1/lmr/m/n/10.95 6$\T1/lmr/m/n/10.95 , og
+ har vi to-talt lagt til $\OT1/lmr/m/n/10.95 6$\T1/lmr/m/n/10.95 , og videre er
+
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 146--146
-[]\T1/lmr/m/n/10.95 Vi leg-ger til 30. Da har vi så langt lagt til 36, og
+[]\T1/lmr/m/n/10.95 Vi leg-ger til 30. Da har vi to-talt lagt til 36, og videre
+ er
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 146--146
-[]\T1/lmr/m/n/10.95 Vi leg-ger til 50. Da har vi så langt lagt til 86, altså ha
-r vi
+[]\T1/lmr/m/n/10.95 Vi leg-ger til 50. Da har vi to-talt lagt til 86, altså har
+ vi
  []
 
 
@@ -1515,14 +1517,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--150
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 150--150
-\T1/lmr/m/n/10.95 in-nviklet måte å regne ad-dis-jon på sam-men-lignet med opp-
-still-
+\T1/lmr/m/n/10.95 in-nviklet måte å regne ad-dis-jon på samen-lignet med opp-st
+ill-ing,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 150--150
-\T1/lmr/m/n/10.95 ing, men med øv-ing vil mange op-pdage at tabell-me-to-den be
-drer
+\T1/lmr/m/n/10.95 men med øv-ing vil mange op-pdage at tabell-me-to-den bedrer
  []
 
 
@@ -1682,13 +1683,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 331--331
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 361--361
-[]\T1/lmr/m/n/10.95 Svaret når man gan-gar et des-i-mal-tall med 10 får man ved
+[]\T1/lmr/m/n/10.95 Når man ganger et des-i-mal-tall med 10, får man svaret ved
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 361--361
-[]\T1/lmr/m/n/10.95 Svaret når man gan-gar et heltall med 100, får man ved å
+[]\T1/lmr/m/n/10.95 Når man ganger et heltall med 100, får man svaret ved å
  []
 
 
@@ -1821,8 +1822,8 @@ ss mot
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 495--495
-\T1/lmr/m/n/10.95 høyre. Tilsvarende forskyves hvert sif-fer to plasser mot høy
-re
+\T1/lmr/m/n/10.95 hø-gre. Tilsvarende forskyves hvert sif-fer to plasser mot hø
+-gre
  []
 
 <fig/del1.pdf, id=371, 80.16951pt x 68.07433pt>
@@ -1952,7 +1953,7 @@ Package pdftex.def Info: ../fig/avrndd.pdf  used on input line 720.
 
 Overfull \hbox (12.33527pt too wide) in paragraph at lines 723--724
 \T1/lmr/m/n/10.95 tig, noen ganger er det vik-tigere at vi fort kan avgjøre hva
- svaret omtrent 
+ svaret \T1/lmr/m/sl/10.95 omtrent 
  []
 
 [20
@@ -1962,12 +1963,6 @@ Overfull \hbox (12.33527pt too wide) in paragraph at lines 723--724
 Underfull \hbox (badness 10000) in paragraph at lines 729--729
 []\T1/lmr/m/n/10.95 At noe er ''omtrent det samme som'' skriver vi ofte som ''c
 irka''
- []
-
-
-Overfull \hbox (5.41139pt too wide) in paragraph at lines 733--735
-\T1/lmr/m/n/10.95 Vi ser at 98,2 ca. er lik 100. Skriver vi 100 ist-e-den-for 9
-8,2 i reg-nestykket 
  []
 
 [21]
@@ -2060,7 +2055,7 @@ Package rerunfilecheck Info: File `rek.out' has not changed.
 Here is how much of TeX's memory you used:
  31679 strings out of 481239
  621185 string characters out of 5920378
- 937522 words of memory out of 5000000
+ 937546 words of memory out of 5000000
  46143 multiletter control sequences out of 15000+600000
  615627 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2082,7 +2077,7 @@ nts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.p
 fb></usr/share/texmf/fonts/type1/public/lm/lmro9.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></us
 r/share/texmf/fonts/type1/public/lm/lmsy9.pfb>
-Output written on rek.pdf (23 pages, 355127 bytes).
+Output written on rek.pdf (23 pages, 355181 bytes).
 PDF statistics:
  578 PDF objects out of 1000 (max. 8388607)
  500 compressed objects within 5 object streams

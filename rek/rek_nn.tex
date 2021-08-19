@@ -1,0 +1,793 @@
+\input{../doc}
+\input{../preamb}
+
+\begin{document}
+\section{Addisjon}
+
+\subsection{Oppstilling}
+Denne metoden baserer seg på plassverdisystemet, der ein trinnvis rekner ut summen av einarane, tiarane, hundrerane, o.l.
+\begin{center}
+	\parbox{0.3\linewidth}{
+\eks[1]{
+	\begin{figure}
+		\centering
+		\includegraphics[]{fig/plus1}
+	\end{figure}
+}
+}\qquad
+\parbox{0.3\linewidth}{
+\eks[2]{
+	\begin{figure}
+		\centering
+		\includegraphics[]{fig/plus2}
+	\end{figure}
+}
+}\\[12pt]
+\parbox{0.3\linewidth}{
+\eks[3]{
+	\begin{figure}
+		\centering
+		\includegraphics[]{fig/plus3}
+	\end{figure}
+}}\qquad
+\parbox{0.3\linewidth}{
+\eks[4]{
+	\begin{figure}
+		\centering
+		\includegraphics[]{fig/plus4}
+	\end{figure}
+}}
+\end{center}
+\fork{Eksempel 1}{
+\begin{figure}
+	\centering
+	\subfloat[]{\includegraphics{fig/plus1a}}\qquad
+	\subfloat[]{\includegraphics{fig/plus1b}}\qquad
+	\subfloat[]{\includegraphics{fig/plus1c}}
+\end{figure}
+
+\begin{enumerate}[label=\alph*)]
+	\item Vi legg saman einarane: $ 4+2=6 $
+	\item Vi legg saman tiarane: $ 3+1=4 $
+	\item Vi legg saman hundra: $ 2+6=8 $
+\end{enumerate}
+} \newpage
+\fork{Eksempel 2}{
+	\begin{figure}
+		\centering
+		\subfloat[]{\includegraphics{fig/plus2a}}\qquad
+		\subfloat[]{\includegraphics{fig/plus2b}}\qquad
+		\subfloat[]{\includegraphics{fig/plus2c}}
+	\end{figure}
+	
+	\begin{enumerate}[label=\alph*)]
+		\item Vi legg saman einarane: $ 3+6=9 $
+		\item Vi legg saman tiarane: $ {7+8=15} $. Sidan 10 tiarar er det same som 100, legg vi til 1 på hundreplassen, og skriv opp dei resterande 5 tiarane på tiarplassen.
+		\item Vi legg saman hundra: $ 1+2=3 $.
+	\end{enumerate}
+} \vsk
+
+\spr{
+Det å skrive 1 på neste sifferplass kallast ''å skrive 1 i mente''.
+}
+\subsection{Tabellmetoden}
+Denne metoden tar utgangspunkt i det éine leddet, og summerer fråm til det andre leddet er nådd. Det som i starten kan vere litt rart med denne metoden, er at du sjølv velg fritt kva tall du skal legge til, så lenge du når det andre leddet til slutt.
+\begin{center}
+	\parbox{0.3\linewidth}{
+		\eks[1]{
+			$ \colb{273}+\colc{86} = \colo{359} $ \vsk
+			
+			\begin{tabular}{r|r|r}
+				&&\colb{273} \\ \hline
+				6 & 6 & 279 \\
+				30& 36 & 309 \\
+				50& \colc{86} & \colo{359}
+			\end{tabular}
+		}
+	} \qquad
+	\parbox{0.3\linewidth}{
+		\eks[2]{
+			$ \colb{85}+\colc{79}=\colo{164} $  \vsk
+			
+			\begin{tabular}{r|r|r}
+				& & \colb{85} \\ \hline 
+				5 & 5 & 90 \\
+				10 & 15 &100 \\
+				64 & \colc{79} & \colo{164} \\
+			\end{tabular} \vsk
+		}
+	}
+\end{center}
+\newpage
+\fork{Eksempel 1}{
+\begin{figure}
+	\centering
+\subfloat[]{
+\begin{tabular}{r|r|r}
+	&&\colb{273} \\ \hline
+	 &  &  \\
+	\phantom{30}& \phantom{36} &  \\
+	&  & 
+\end{tabular}
+} \qquad
+\subfloat[]{
+	\begin{tabular}{r|r|r}
+		&&\colb{273} \\ \hline
+		6& 6 & 279 \\
+		\phantom{30}& \phantom{36} &  \\
+		&  & 
+	\end{tabular}
+}\vsk 
+
+\subfloat[]{
+	\begin{tabular}{r|r|r}
+		&&\colb{273} \\ \hline
+		6& 6 & 279 \\
+		30& 36 & 309  \\
+		&  & 
+	\end{tabular}
+}
+\qquad
+\subfloat[]{
+	\begin{tabular}{r|r|r}
+		&&\colb{273} \\ \hline
+		6& 6 & 279 \\
+		30& 36 & 309  \\
+		50& \colc{86} & \colo{359}
+	\end{tabular}
+}
+\end{figure}
+\begin{enumerate}[label=(\alph*)]
+\item Vi startar med det leddet vi sjølv ønsker, ofte er det lurt å starte med det største leddet.
+\item Vi legg til $ 6 $. Da har vi totalt lagt til $ 6 $, og vidare er $ {273+6=279} $.
+\item Vi legg til 30. Da har vi så totalt lagt til 36, og vidare er $ 279+30=309 $.
+\item Vi legg til 50. Da har vi totalt lagt til 86, altså har vi nådd det andre leddet, og vidare er $ 309+50=359 $.
+\end{enumerate}
+} \vsk
+
+\info{Oppstilling versus tabellmetoden}{
+	Ved første augekast kan kanskje tabellmetoden bare sjå ut som ein innvikla måte å rekne addisjon på samanlikna med oppstilling, men med øving vil mange oppdage at tabellmetoden betrer evnen til hoderekning. Dessuten er metoden å foretrekke når vi rekner med tid (sjå \refsec{regningmedtid}).   
+}
+
+\section{Subtraksjon}
+\subsection{Oppstilling}
+Subtraksjon med oppstilling baserer seg på plassverdisystemet, der ein trinnvis rekner differansen mellom einarane, tiarane, hundra, o.l. Metoden tar også utgangspunkt i eit mengdeperspektiv, og tillet derfor ikkje differansar med negativ verdi (sjå forklaringa til \textsl{Eksempel 2}).
+\begin{center}
+	\parbox{0.3\linewidth}{
+\eks[1]{
+	\begin{figure}
+		\centering
+		\includegraphics[]{fig/min1}
+	\end{figure}
+}} \qquad
+\parbox{0.3\linewidth}{
+\eks[2]{
+	\begin{figure}
+		\centering
+		\includegraphics[]{fig/min2}
+	\end{figure}
+}} \\[12pt]
+\parbox{0.3\linewidth}{
+\eks[3]{
+	\begin{figure}
+		\centering
+		\includegraphics[]{fig/min3}
+	\end{figure}
+}}\qquad
+\parbox{0.3\linewidth}{
+\eks[4]{
+	\begin{figure}
+		\centering
+		\includegraphics[]{fig/min4}
+	\end{figure}
+}}
+
+\end{center}
+\fork{Eksempel 1}{ \vs
+\begin{figure}
+	\centering
+	\subfloat[]{\includegraphics{fig/min1a}}\qquad
+	\subfloat[]{\includegraphics{fig/min1b}}\qquad
+	\subfloat[]{\includegraphics{fig/min1c}}
+\end{figure}
+
+\begin{enumerate}[label=(\alph*)]
+	\item Vi finn differansen mellom einarane: $ {9-4=5} $
+	\item Vi finn differansen mellom tiarane: $ {8-2=6} $. 
+	\item Vi finn differansen mellom hundra: $ {7-3=4} $.
+\end{enumerate}
+}
+\newpage
+\fork{Eksempel 2}{ \vs
+	\begin{figure}
+		\centering
+		\subfloat[]{\includegraphics{fig/min2a}}\qquad
+		\subfloat[]{\includegraphics{fig/min2b}}
+	\end{figure}
+	
+	\begin{enumerate}[label=(\alph*)]
+		\item Vi merker oss at 7 er større enn 3, derfor tar vi 1 tiar frå dei 8 på tiarplassen. Dette markerer vi ved å sette ein strek over 8. Så finn vi differansen mellom einarane: $ {13-7=6} $
+		\item Sidan vi tok 1 frå dei 8 tiarane, er der no berre 7 tiarar. Vi finn differansen mellom tiarane: $ {7-6=1} $.
+	\end{enumerate}
+}
+\subsection{Tabellmetoden}
+Tabellmetoden for subtraksjon tek utgangspunkt i at subtraksjon er ein omvend operasjon av addisjon. For eksempel, svaret på spørsmålet ''Kva er $ 789-324 $?'' er det same som svaret på spørsmålet ''Kor mykje må eg legge til på 324 for å få 789?''. Med tabellmetoden følg du ingen spesiell regel underveis, men velg sjølv talla du meiner passar best for å nå målet.\\
+\begin{center}
+\parbox{0.35\linewidth}{
+\eks[1]{
+$ \colb{789}-\colr{324}=\colc{465} $	 \vsk
+
+\begin{tabular}{r|r}
+	& \colr{324} \\ \hline
+	6&330 \\
+	70&400 \\
+	389&\colb{789} \\ \hline
+	\colc{465}
+\end{tabular}
+}} \qquad
+\parbox{0.35\linewidth}{
+	\eks[2]{
+		$ \colb{83}-\colr{67}=\colc{16} $	 \vsk
+		
+		\begin{tabular}{r|r}
+			& \colr{67} \\ \hline
+			3&70 \\
+			13&\colb{83} \\ \hline
+			\colc{16}
+		\end{tabular} \vspace{14pt}
+}} \\[12pt]
+\parbox{0.35\linewidth}{
+	\eks[3]{
+		$ 564-478=86 $\vsk
+		
+		\begin{tabular}{r|r}
+			& 478 \\ \hline
+			2&480 \\
+			20&500 \\ 
+			64&564\\ \hline
+			86
+		\end{tabular}
+}} \qquad 
+\parbox{0.4\linewidth}{
+	\eks[4]{
+		$ {206,1-31,7=174,4} $\vsk
+		
+		\begin{tabular}{r|r}
+			& 31,7 \\ \hline
+			0,3& 32\phantom{,0} \\
+			70\phantom{,0}&102\phantom{,0} \\ 
+			104,1&206,1\\ \hline
+			174,4
+		\end{tabular}
+}}
+\end{center}
+\fork{Eksempel 1}{
+	\[ \colb{789}-\colr{324}=\colo{465} \]
+\begin{figure}
+	\centering
+	\subfloat[]{
+	\begin{tabular}{r|r}
+		& \colr{324} \\ \hline
+		& \\
+		& \\
+		& \\ \hline
+		&
+	\end{tabular}	
+} \qquad
+	\subfloat[]{
+	\begin{tabular}{r|r}
+		& \colb{324} \\ \hline
+	   \colb{6}& \colc{330}\\
+		& \\
+		& \\ \hline
+		&
+	\end{tabular}
+}\qquad
+	\subfloat[]{
+	\begin{tabular}{r|r}
+		& 324 \\ \hline
+		6& \colb{330}\\
+		\colb{70}& \colc{400} \\
+		& \\ \hline
+		&
+	\end{tabular}	
+}  \\[12pt]
+\subfloat[]{
+	\begin{tabular}{r|r}
+		& 324 \\ \hline
+		6& 330\\
+		70& \colb{400} \\
+		\colb{389}& \colc{789}\\ \hline
+		&
+	\end{tabular}	
+}\qquad
+\subfloat[]{
+	\begin{tabular}{r|r}
+		& 324 \\ \hline
+		\colb{6}& 330\\
+		\colb{70}& 400 \\
+		\colb{389}& 789\\ \hline
+		\colo{465}&
+	\end{tabular}	
+}
+\end{figure}
+\begin{enumerate}[label=(\alph*)]
+	\item Vi startar med 324.
+	\item Vi legg til 6, og får $ {324+6=330} $
+	\item Vi legg til 70, og får $ {70+330=400} $
+	\item Vi legg til 389, og får $ {389+400=789} $. Da er vi framme på 789.
+	\item Vi summerer tala vi har lagt til:  $ {6+70+389=465} $
+\end{enumerate}
+}
+\section{Ganging} \label{Ganging}
+\subsection{Ganging med 10, 100, 1\,000 osv.}
+\reg[Å gonge heiltal med 10, 100 osv. \label{gangheiltalmed10100}]{
+	\vs
+	\begin{itemize}
+		\item Når ein gongar eit heiltal med 10, får ein svaret ved å legge til sifferet 0 bak heiltalet.
+		\item Når ein gongar eit heiltal med 100, får ein svaret ved å legge til sifra 00 bak heiltalet.
+		\item Det same mønsteret gjelder for talla 1\,000, 10\,000 osv.
+	\end{itemize}
+}
+\eks[1]{\vsb \vsb
+	\alg{
+		6\cdot \colb{10} &= 6\colb{0}\vn
+		79\cdot \colb{10} &= 79\colb{0} \vn
+		802\cdot\colb{10}&=802\colb{0}
+	}
+}
+\eks[2]{ \vsb \vsb
+\alg{ 
+6\cdot\colb{100} &= 6\colb{00} \vn
+79\cdot\colb{100} &= 7\,9\colb{00} \vn
+802\cdot\colb{100} &=80\,2\colb{00}
+}
+}
+\eks[3]{ \vsb \vsb
+\alg{ 
+	6\cdot\colb{1\,000} &= 6\,\colb{000} \vn
+	79\cdot\colb{10\,000} &= 79\colb{0\,000} \vn
+	802\cdot\colb{100\,000} &=80\,2\colb{00\,000}
+}
+}
+\newpage
+\reg[Å gonge desimaltal med 10, 100 osv. \label{gangdesmed10100}]{
+	\vs
+	\begin{itemize}
+		\item Når ein gongar  eit  desimaltal med 10, får ein svaret ved å flytte komma en plass til høgre.
+		\item Når ein gongar eit heiltal med 100, får ein svaret ved å flytte komma to plasser til høgre.
+		\item Det same mønsteret gjelder for tallene 1\,000, 10\,000 osv.
+	\end{itemize}
+}
+\eks[1]{\vsb \vsb
+	\alg{
+		7\colr{,}9\cdot 10 &= 79\colr{,}=79 \vn
+		38\colr{,}02\cdot10&=380\colr{,}2 \vn
+		0\colr{,}57\cdot 10 &=05\colr{,}7=5\colr{,}7 \vn
+		0\colr{,}194\cdot 10&= 01\colr{,}94=1\colr{,}94
+	}
+}
+\eks[2]{ \vsb \vsb
+	\alg{
+		7\colr{,}9\cdot 100 &= 790\colr{,}=790 \vn
+		38\colr{,}02\cdot100&=3802\colr{,}=3\,802 \vn
+		0\colr{,}57\cdot 100 &=057\colr{,}=57 \vn
+		0\colr{,}194\cdot 100&= 019\colr{,}4=19\colr{,}4
+	}
+}
+\eks[3]{ \vsb \vsb
+	\alg{
+	7\colr{,}9\cdot 1\,000 &= 7900\colr{,}=7\,900 \vn
+	38\colr{,}02\cdot10\,000&=38020\colr{,}=38\,020 \vn
+	0\colr{,}57\cdot 100\,000 &=05\colr{,}7=57000\colr{,}=57\,000
+}
+}
+\info{Merk}{
+\rref{gangheiltalmed10100} er berre  eit  spesialtilfelle av \rref{gangdesmed10100}. For eksempel, å bruke \rref{gangheiltalmed10100} på reknestykket $ {7\cdot 10} $ gir same resultat som å bruke \rref{gangdesmed10100} på reknestykket $ {7,0\cdot 10} $. 
+}
+\newpage
+\fork{Å gonge tall med 10, 100 osv.}{
+Titalsystemet baserer seg på grupper av ti, hundre, tusen osv., og tidelar, hundredelar og tusendelar osv. (sjå \mb, s. 13). Når ein gongar  eit  tall med 10, vil alle einarane i talet bli til tiarar, alle tiarar bli til hundra osv. Kvart siffer forskyvast altså éin plass mot venstre. Tilsvarende forskyvast kvart siffer to plassar mot venstre når ein gongar med 100, tre plassar når ein gongar med 1\,000 osv.
+}
+\subsection{Utvida form og kompaktmetoden}
+\subsubsection{Utvida form}
+Gonging på utvida form bruker vi for å rekne multiplikasjon mellom fleirsifra tall. Metoden baserer seg på distributiv lov (sjå \mb\,, s. 30). \regv
+\eks[1]{ \vs
+\begin{figure}
+	\centering
+	\includegraphics[]{fig/gang1}
+\end{figure}
+}
+\eks[2]{ \vs
+\begin{figure}
+	\centering
+	\includegraphics[]{fig/gfleirsif}
+\end{figure}
+}
+\fork{Eksempel 1}{
+24 kan skrivast som $ 20+4 $, altså er
+\[ 24\cdot3 =(20+4)\cdot3 \]
+Vidare er 
+\algv{
+(20+4)\cdot 3 &=20\cdot 3 + 4\cdot 3 \\
+&= 60+12 \\
+&= 72
+}
+}
+\newpage
+\fork{Eksempel 2}{
+Vi har at
+\alg{
+279&=200+70+9 \\
+34 &=30+4 	
+}
+Altså er
+\alg{
+279\cdot34&= (200+70+9)\cdot (30+4) 
+}
+Vidare er 
+{
+\footnotesize
+\alg{
+(200+70+9)\cdot (30+4) &=200\cdot 30+70\cdot30+9\cdot30+200\cdot4+70\cdot4+9\cdot4
+\\
+&=9486}
+} \vs
+}
+\subsubsection{Kompaktmetoden}
+Kompaktmetoden bygger på dei same prinsippa som gonging på utvida form, men har ein skrivemåte som gjer utrekninga kortare. \regv
+
+\eks[1]{
+	\begin{figure}
+		\centering
+		\includegraphics[]{fig/gfleirsifa}
+	\end{figure}
+}
+\newpage
+\fork{Eksempel 1}{
+Vi startar med å gonge sifra i 279 enkeltvis med 4:
+\begin{itemize}
+	\item $ 9\cdot 6=36 $, da skriv vi 6 på einarplassen og 3 i mente.
+	\item $ 7\cdot4 =28$, da skriv vi 8 på tiarplassen og 2 i mente.
+	\item $ 2\cdot 4=8 $, da skriv vi 8 på hundrerplassen.
+\end{itemize}
+Så gongar vi sifra i 279 enkeltvis med 30. Dette kan forenklast til å gonge med 3, så lenge vi plasserer sifra én plass forskyvde til venstre i forhold til da vi gonga med 4:
+\begin{itemize}
+	\item $ 9\cdot 3=27 $, da skriv vi 7 på tiarplassen og 2 i mente. 
+	\item $ 7\cdot3=21 $, da skriv vi 1 på hundrerplassen og 2 i mente.
+	\item $ 2\cdot3=6 $, da skriv vi 6 på tusenplassen.
+\end{itemize} 
+}
+\section{Divisjon} \label{Divisjon}
+\subsection{\delmedtihundre}
+\reg[Deling med 10, 100, 1\,000 osv. \label{deledesmed10100}]{ \vs
+\begin{itemize}
+	\item Når ein deler  eit  desimaltal med 10, får ein svaret ved å flytte komma en plass til venstre.
+	\item Når ein deler  eit  desimaltal med 10, får ein svaret ved å flytte komma to plasser til venstre.
+	\item Det same mønsteret gjelder for tallene 1\,000, 10\,000 osv.
+\end{itemize}
+}
+\eks[1]{ \vsb \vsb
+	\alg{
+200:10&=200\colr{,}0:10 \\&=20\colr{,}00\\&=20	\vn
+45:10&=45\colr{,}0:10 \\&= 4\colr{,}50 \\&=4\colr{,}5
+}
+}
+\eks[2]{ \vsb \vsb
+	\alg{
+		200:100&=200\colr{,}0:100 \\&=2\colr{,}000\\&=2	\vn
+		45:100&=45\colr{,}0:100 \\&= 0\colr{,}450 \\&=0\colr{,}45
+	}
+}
+\newpage
+\eks[3]{ \vsb \vsb
+\alg{
+143\colr{,}7 :10 &= 14\colr{,}37 \vn
+143\colr{,}7 :100 &= 1\colr{,}437 \vn
+143\colr{,}7 :1\,000 &= 0\colr{,}1437 \vn
+93\colr{,}6:10 &= 9\colr{,}36 \vn
+93\colr{,}6:100 &= 0\colr{,}936 \vn
+93\colr{,}6:1\,000 &= 0\colr{,}0936
+}
+}
+\fork{Deling med 10, 100, 1\,000 osv.}{
+Titalsystemet baserer seg på grupper av ti, hundre, tusen osv., og tideler, hundredeler og tusendeler osv (sjå \mb, s. 13). Når ein deler  eit  tall med 10, vil alle einare i tallet bli til tidelar, alle tiarar bli til einarar osv. Kvart siffer forskyvast altså éin plass mot høgre. Tilsvarande forskyvast kvart siffer to plassar mot høgre når ein deler med 100, tre plassar når ein deler med 1\,000 osv.
+}
+
+\subsection{Oppstilling}
+Divisjon med oppstilling baserer seg på divisjon tolka som inndeling av mengder (sjå \mb\,,s. 23)
+
+\begin{center}
+	\parbox{0.3\linewidth}{
+	\eks[1]{ \vsb
+		\begin{figure}
+			\centering
+			\includegraphics[]{fig/del1}
+		\end{figure} \vspace{18pt}
+	}
+}\qquad
+\parbox{0.45\linewidth}{
+	\eks[1]{ \vspace{-5pt}
+		\begin{figure}
+			\centering
+			\includegraphics[]{fig/del2}
+		\end{figure}
+	}
+}
+\end{center}
+\newpage
+\subsection{Tabellmetoden}
+Tabellmetoden baserer seg på divisjon som omvend operasjon av gonging. For eksempel er svaret på spørsmålet ''Kva er $ {76:4} $'' det same som svaret på spørsmålet ''Kva tal må eg gonge 4 med for å få 76?''. På same vis som for tabellmetoden ved subtraksjon er det opp til ein sjølv å velge passande tal for å nå målet.
+\begin{center}
+	\parbox{0.35\linewidth}{
+		\eks[1]{
+			$ \colg{76}:\colb{4}=\colo{19} $	 \vsk
+			
+			\begin{tabular}{r|r|r}
+				$ \cdot\, \colb{4} $&\\ \hline
+				10&40&40 \\
+				9& 36 &\colg{76} \\ \hline
+				\colo{19}&
+			\end{tabular}
+		\vspace{42pt}
+	}} \qquad
+\parbox{0.35\linewidth}{
+	\eks[2]{
+		$ \colg{894}:\colb{3}=\colo{298} $	 \vsk
+		
+		\begin{tabular}{r|r|r}
+			$ \cdot\, \colb{3} $&\\ \hline
+			200& 600 &600 \\
+			60&120 &720 \\
+			60&120 &840 \\
+			10& 30&870 \\
+			8&24 &\colg{894} \\ \hline
+			\colo{298} &
+		\end{tabular}
+}} \vsk
+
+\parbox{0.415\linewidth}{
+	\eks[3]{		
+		$ 894:3=298 $	 \vsk
+		
+		\begin{tabular}{r|r|r}
+			$ \cdot\, 3 $&\\ \hline
+			300& 900&900 \\
+			$ -2 $& $ -6 $ &894 \\ \hline
+			298&
+		\end{tabular} \vsk
+	
+\footnotesize	
+\mer same reknestykke som i \textsl{Eksempel 2}, men ei anna utrekning.
+}
+}
+\end{center}
+\section{Standardform}
+Vi kan utnytte \rref{gangdesmed10100} og \rref{deledesmed10100}, og det vi kan om potenser\footnote{sjå \mb\,s 101-106.}, til å skrive tal på \textit{standardform}. \vsk
+
+La oss sjåpå tallet 6\,700. Av \rref{gangdesmed10100} veit vi at
+\[ 6\,700=6,7\cdot1\,000 \]
+Og sidan $ 1000=10^3 $, er
+\[ 6\,700=6,7\cdot1\,000=6,7\cdot 10^3 \]
+\st{
+$ 6,7\cdot10^3 $ er 6\,700 skriven på standardform fordi
+\begin{itemize}
+	\item 6,7 er større enn 0 og mindre enn 10.
+	\item $ 10^3 $ er ein potens med grunntal 10 og eksponent 3, som er  eit  heiltal.
+	\item 6,7 og $ 10^3 $ er gonga saman.
+\end{itemize}
+}
+\linje \\[12pt]
+
+La oss også sjå på tallet  0,093. Av \rref{deledesmed10100} har vi at
+\[ 0,093=9,3: 100 \]
+Men å dele med 100 er det same som å gonge med $ 10^{-2} $, altså er
+\[ 0,093=9,3: 100=9,3\cdot10^{-2} \]
+\st{
+$ 9,3\cdot10^{-2} $ er 0,093 skriven på standardform fordi	
+\begin{itemize}
+	\item 9,3 er større enn 0 og mindre enn 10.
+	\item $ 10^{-2} $ er ein potens med grunntal 10 og eksponent $ -2 $, som er  eit  heiltal.
+	\item $ 9,3 $ og $ 10^{-2} $ er gonga saman.
+\end{itemize} 
+}
+\reg[Standardform]{
+Eit tall skriven som
+\[ a\cdot 10^n \]
+kor $ {0<a<10} $ og $ n $ er  eit  heiltal, er  eit  tal skriven på standardform.
+}
+\eks[1]{
+Skriv 980 på standardform.
+
+\sv \vsb
+\[ 980 = 9,8\cdot 10^2 \]
+}
+\eks[2]{
+	Skriv 0,00671 på standardform.
+	
+	\sv \vsb
+	\[ 0,00671 = 6,71\cdot 10^{-3} \]
+}
+\info{Tips}{
+For å skrive om tall på standardform kan du gjere følgande:
+\begin{enumerate}
+	\item Flytt komma slik at du får  eit  tal som ligg mellom 0 og 10.
+	\item Gong dette tallet med ein tiarpotens som har eksponent med talverdi lik antallet plassar du flytta komma. \qquad  Flytta du komma mot venstre/høgre, er eksponenten positiv/negativ. 
+\end{enumerate}
+}
+\eks[3]{
+Skriv 9\,761\,432 på standardform.
+
+\sv \vs
+\begin{enumerate}
+\item 	Vi flyttar komma 6 plassar til venstre, og får $ 9\colr{,}761432 $
+\item Vi gongar dette tallet med $ 10^6 $, og får at 
+\[ 9\,761\,432=9,761432\cdot 10^6 \] 
+\end{enumerate}
+}
+\newpage
+\eks[4]{
+Skriv 0,00039 på standardform.
+
+\sv \vs
+\begin{enumerate}
+	\item Vi flyttar komma 4 plasser til høgre, og får $ 3,9 $.
+	\item Vi gongar dette tallet med $ 10^{-4} $, og får at
+	\[ 0,00039=3,9\cdot10^{-4} \]
+\end{enumerate}
+}
+\section{Regning med tid \label{regningmedtid}}
+Sekund, minutt og timar er organisert i grupper på 60:
+\alg{
+1\text{ minutt} &= 60\text{ sekund} \\
+1\text{ time} &= 60\text{ minutt} 
+}
+Dette betyr at \textsl{overgongar} oppstår i utrekningar når vi når 60.\regv
+
+\eks[1]{
+$ \text{2\enh{t} 25\enh{min} } + \text{10\enh{t} 45\enh{min}}= \text{13\enh{t} 10\enh{min} } $\vsk
+
+\metode{Utrekningsmetode 1}{0.35\linewidth}
+\os
+\begin{tabular}{r|r|r}
+ & &10\enh{t} 45\enh{min}  \\ \hline
+ 15\enh{min}  &15\enh{min} & 11\enh{t} 00\enh{min}  \\
+ 10\enh{min} &25\enh{min} & 11\enh{t} 10\enh{min} \\
+ 2\enh{t} & 2\enh{t} 25\enh{min}  & 13\enh{t} 10\enh{min}
+\end{tabular} \vsk \vsk
+
+\metode{Utrekningsmetode 2}{0.35\linewidth}\os
+\begin{tabular}{r|r|r}
+	& & 10:45 \\ \hline 
+	00:15 & 00:15 & 11:00 \\
+	00:10 & 00:25 & 11:10 \\
+	02:00 & 02:25 & 13:10
+\end{tabular}
+}
+\newpage
+\eks[2]{
+$ \text{14\enh{t} 18\enh{min} } - \text{9\enh{t} 34\enh{min}}= \text{4\enh{t} 44\enh{min} } $\vsk
+
+\metode{Utrekningsmetode 1}{0.35\linewidth} \os
+\begin{tabular}{r|r}
+	&  9\enh{t} 34\enh{min} \\ \hline 
+	26\enh{min} & 10\enh{t} 00\enh{min} \\
+	18\enh{min} & 10\enh{t} 18\enh{min} \\
+	4\enh{t} & 14\enh{t} 00\enh{min} \\ \hline
+	4\enh{t} 44\enh{min}
+\end{tabular} \vsk \vsk
+
+
+\metode{Utrekningsmetode 1}{0.35\linewidth} \os
+\begin{tabular}{r|r}
+ & 09:34 \\ \hline 
+ 00:26 & 10:00 \\
+ 00:18& 10:18 \\
+ 04:00 & 14:18 \\ \hline
+ 04:44 
+\end{tabular}
+}
+
+\section{Avrunding og overslagsregning}
+
+\subsection{Avrunding}
+Ved \textit{avrunding} av  eit  tall minkar vi antal siffer forskjellige frå 0 i eit  tall. Vidare kan ein runde av til \textsl{næraste einar}, \textsl{næraste tiar} eller liknande.\regv
+\eks[1]{
+Ved avrunding til \textsl{næraste einar} avrundast
+\begin{itemize}
+	\item 1, 2, 3 og 4 \textsl{ned} til 0 fordi dei er nærare 0 enn 10.
+	\item 6, 7, 8 og 9 \textsl{opp} til 10 fordi dei er nærare 10 \\enn 0.
+\end{itemize}	
+5 avrundast også opp til 10.
+\fig{avrnd0}
+}
+
+\eks[2]{ \vs
+\begin{itemize}
+	\item $\boldmath \textbf{63 avrundet til næraste tiar} = 60 $ \\
+	Dette fordi 63 er nærmere 60 enn 70.
+	\fig{avrnda}
+	\item $\boldmath \textbf{78 avrundet til næraste tiar} = 80 $ \\
+	Dette fordi 78 er nærmere 80 enn 70.
+	\fig{avrndb}
+	\item $\boldmath \textbf{359 avrundet til næraste hundrer} = 400 $\\
+	Dette fordi 359 er nærmere 400 enn 300.
+	\fig{avrndc}
+	\item $ \boldmath \textbf{11,8 avrundet til næraste einar} = 12$ \\
+	Dette fordi 11,8 er nærmere 12 enn 11.
+	\fig{avrndd}
+\end{itemize}
+}
+
+\subsection{Overslagsrekning}
+Det er ikkje alltid vi trenger å vite svaret på reknestykker helt nøyaktig, noen ganger er det viktigere at vi fort kan avgjøre hva svaret \textsl{omtrent} er det samme som, aller helst ved hoderekning. Når vi finn svar som omtrent er rett, seier vi at vi gjer eit \textit{overslag}. \textsl{Eit overslag inneber at vi avrundar tala som inngår i et reknestykke slik at utrekninga blir enklare}. \vsk
+
+\textit{Obs!} Avrunding ved overslag treng ikkje å innebere avrunding til næraste tier o.l.\vsk
+
+\spr{
+At noko er ''omtrent det same som'' skriv vi ofte som ''cirka'' (ca.). Symbolet for ''cirka'' er \sym{$ \approx $}.
+} 
+
+\subsubsection{Overslag ved addisjon og gonging}
+La oss gjere  eit overslag på reknestykket
+\[ 98,2+24,6 \]
+Vi ser at $ 98,2\approx 100 $. Skriv vi 100 i staden for 98,2 i reknestykket vårt, får vi noko som er litt meir enn det nøyaktige svaret. Skal vi endre på 24,6 bør vi derfor gjere det til eit tal som er litt mindre. 24,6 er ganske nære 20, så vi kan skrive 
+\[ 98,2+24,6 \approx 100 + 20 = 120 \]
+Når vi gjer overslag på tal som leggast saman, bør vi altså prøve å gjere det eine talet større (runde opp) og  eit  tal mindre (runde ned).\\
+
+\linje
+Det same gjeld også viss vi har gonging, for eksempel
+\[ 1689\cdot12 \]
+Her avrundar vi 12 til 10. For å ''veie opp'' for at svaret da blir litt mindre enn det eigentlege, avrundar vi 1689 opp til 1700. Da får vi
+\[ 1689\cdot12\approx 1700\cdot 10 =17\,000 \]
+\subsubsection{Overslag ved subtraskjon og deling}
+Skal  eit  tal trekkast frå  eit  anna, blir det litt annleis. La oss gjere  eit overslag på
+\[ 186,4-28,9 \]
+Hvis vi rundar 186,4 opp til 190 får vi  eit  svar som er større enn det eigentlege, derfor bør vi også trekke frå litt meir. Det kan vi gjere ved også å runde 28,9 oppover (til 30):
+\alg{
+	186,4-28,9&\approx 190-30 \\&=160
+}
+Same prinsippet gjeld for deling: 
+\[ 145:17 \]
+Vi avrundar 17 opp til 20. Deler vi noko med 20 i staden for 17, blir svaret mindre. Derfor bør vi også runde 145 oppover (til 150):
+\[ 145:17 \approx 150:20 = 75 \]
+
+\subsubsection{Overslagsregning oppsummert}
+\reg[Overslagsrekning \label{tipsoverslag}]{ \vs
+\begin{itemize}
+	\item Ved addisjon eller multiplikasjon mellom to tal, avrund gjerne  eit  tal opp og  eit  tal ned.
+	\item Ved subtraksjon eller deling mellom to tal, avrund gjerne begge tal ned eller begge tal opp.
+\end{itemize}	
+}
+\eks[]{
+	Rund av og finn omtrentleg svar for reknestykka.\os
+	
+	\abch{
+	\item $ {23,1+174,7} $ 
+	\item $ {11,8\cdot107,2} $ 		
+	} \os
+\abchs{3}{
+	\item $ {37,4-18,9} $  \ \ 
+	\item $ {1054:209} $
+}
+ \vspace{-2pt}
+ 
+	\sv  \vspace{-7pt}
+	\abc{
+	\item $ 32,1 + 174,7 \approx 30+170 = 200 $
+	\item $ 11,8 \cdot 107,2 \approx 10\cdot110 = 1100 $
+	\item $ 37,4 - 18,9 \approx 40-20 = 20 $
+	\item $ 1054:209 \approx 1000:200 = 5 $
+}
+} \vsk
+
+\info{Kommentar
+}{
+Det fins ingen konkrete reglar for kva ein \textsl{kan} eller ikkje \textsl{kan} tillate seg av forenklingar når ein gjer eit overslag, det som er kalt \rref{tipsoverslag} er strengt tatt ikkje ein regel, men eit  nyttig tips.\vsk
+
+Ein kan også spørre seg hvor langt unna det faktiske svaret ein kan tillate seg å være ved overslagsregning. Heller ikkje dette er det noko fasitsvar på, men ei grei føring er at overslaget og det faktiske svaret skal vere av same \textit{størrelsesorden}. Litt enkelt sagt betyr dette at hvis det faktiske svaret har med tusenar å gjere, bør også overslaget ha med tusenar å gjere. Meir nøyaktig sagt betyr det av det faktiske svaret og ditt overslag bør ha same tiarpotens når dei er skrivne på standardform.
+}
+
+
+\end{document}s
+

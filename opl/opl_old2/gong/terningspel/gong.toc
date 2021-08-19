@@ -1,2 +1,0 @@
-\babel@toc {english}{}
-\contentsline {subsection}{\numberline {4.1}Kast terning og fyll brettet}{1}{subsection.4.1}
