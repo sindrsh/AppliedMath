@@ -1,0 +1,296 @@
+\input{../doc}
+\input{../preamb}
+
+\begin{document}
+\section{Symmetri}
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.19]{\fpath{sym}}\;
+	\includegraphics[scale=0.16]{\fpath{symb}}\;
+	\includegraphics[scale=0.16]{\fpath{symc}}
+	\caption*{Bilder henta fra \net{https://freesvg.org}{freesvg.org}.}
+\end{figure}
+Mange figurar kan delast inn i minst to delar der den éine delen berre er ei forskyvd, speilvend eller rotert utgåve av den andre. Dette kallast \textit{symmetri}\index{symmetri}. Dei tre komande regelboksane definerer dei tre variantene for symmetri, men merk dette: Symmetri blir som regel intuitivt forstått ved å studere figurar, men er omstendeleg å skildre med ord. Her vil det derfor, for mange, vere ein fordel å hoppe rett til eksempla. \vsk
+
+\reg[Translasjonssymmetri (parallellforskyvning)]{
+Ein symmetri der minst to deler er forskyvde utgåver av kvarandre kallast en \textit{translasjonssymmetri}. \vsk
+
+Når ei form forskyvast, blir kvart punkt på forma flytta langs den samme \vs \text{vektoren}\footnote{Ein vektor er eit linjestykke med retning.}.
+}
+\eks[1]{
+Figuren under viser ein translasjonssymmetri som består av to sommerfuglar.
+\begin{figure}
+	\centering
+	\subfloat{\includegraphics[scale=0.2]{\fpath{btfly0}}}\quad
+	\subfloat{\includegraphics[scale=0.2]{\fpath{btfly0}}}
+	\caption*{Bilde henta fra \net{https://freesvg.org}{freesvg.org}.}
+\end{figure}
+}
+\newpage
+\eks[2]{
+Under visast $ \triangle ABC $ og ein blå vektor.
+\fig{trans1a}
+Under visast $ \triangle ABC $ forskyvd med den blå vektoren. 
+\fig{trans1}
+}
+\reg[Speiling]{Ein symmetri der minst to delar er vende utgåver av kvarandre kallast ein \textit{speilingssymmetri} og har minst éin \textit{symmetrilinje} (\textit{symmetriakse}).\vsk
+
+Når eit punkt speilast, blir det forskjyvd vinkelrett på symmetrilinja, fram til det nye og det opprinnelege punktet har samme avstand til symmetrilinja.
+} 
+\newpage
+\eks[1]{
+Sommerfuglen er ein speilsymmetri, med den raude linja som symmetrilinje.
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.3]{\fpath{btfly}}
+\end{figure}
+}
+\eks[2]{
+	Den raude linja og den blå linja er begge symmetrilinjer til det grøne rektangelet.
+	\fig{sym2}
+}
+\eks[3]{
+Under visast ei form laga av punkta $ A, B, C, D, E $ og $ F $, og denne forma speila om den blå linja.
+\fig{sym3}
+}
+\reg[Rotasjonssymmetri]{
+Ein symmetri der minst to delar er ei rotert utgåve av kvarandre kallast ein \textit{rotasjonssymmetri} og har alltid eit tilhørande \textit{rotasjonspunkt} og ein \textit{rotasjonsvinkel}. \vsk
+
+Når eit punkt roterast vil det nye og det opprinnelege punktet
+\begin{itemize}
+	\item ligge langs den same sirkelbogen, som har sentrum i rotasjonspunktet. 
+	\item med rotasjonspunktet som toppunkt danne rotasjonsvinkelen.
+\end{itemize} 
+Viss rotasjonsvinkelen er eit positivt tal, vil det nye punktet forflyttast langs sirkelbogen \textsl{mot} klokka. Hvis rotasjonsvinkelen er eit negativt tall, vil det nye punktet forflyttast langs sirkelbogen \textsl{med} klokka.
+}
+\eks[1]{
+Mønsteret under er rotasjonssymmetrisk. Rotasjonssenteret er i midten av figuren og rotasjonsvinkelen er $ 120^\circ $
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.2]{\fpath{rot0}}
+	\caption*{Bilde henta fra \net{https://freesvg.org}{freesvg.org}.}
+\end{figure}
+}
+\newpage
+\eks[2]{
+Figuren under viser $ \triangle ABC $ rotert $ 80^\circ $ om rotasjonspunktet $ P $.
+\fig{rot1}
+Da er
+\[ PA='PA \quad,\quad PB=PB'\quad,\quad PC=PC' \]
+og
+\[ \angle APA'=\angle BPB'=\angle CPC'=80^\circ \]
+} \vsk
+
+\spr{
+Ei form som er ei forskyvd, speilvend eller rotert utgåve av ei anna form, kallast ei \textit{kongruensavbilding}.
+}
+\section{Tredimensjonal geometri}
+I \mb \;har vi sett på todimensjonale figurar som trekantar, firkantar, sirklar o.l. Alle todimensjonale figurar kan teiknast inn i et koordinatsystem med to akser.
+\fig{3da}
+For å teikne \textit{tredimensjonale} figurar trengs derimot tre aksar:
+\fig{3db}
+Mens eit rektangel seiast å ha ei breidde og ei høgde, kan vi seie at boksen over har ei bredde, ei høgde \textsl{og} ei lengde (dybde). \vsk
+
+Området som ''ligg utanpå'' ein tredimensjonal figur kallar vi \textit{overflata}. Overflata til boksen over består av 6 rektangel. Mangekantar som er delar av ei overflate kallast \textit{sideflater}.
+
+\reg[Tredimensjonale figurer]{
+\parbox[l][][l]{0.4\linewidth}{
+	\centering
+	\fig{fprism}	
+}
+\parbox[r][][l]{0.6\linewidth}{
+	\textbf{Firkanta prisme}\\
+	Har to like og fire like rektangel som sideflater. Alle sideflatene som er i kontakt, står vinkelrette på kvarandre.
+}
+\parbox[l][][l]{0.4\linewidth}{
+	\centering
+	\fig{kube}	
+}
+\parbox[r][][l]{0.6\linewidth}{
+	\textbf{Kube}\\
+	Firkanta prisme med kvadrat som sideflater.
+}
+\parbox[l][][l]{0.4\linewidth}{
+	\centering
+	\fig{tprism}	
+}
+\parbox[r][][l]{0.6\linewidth}{
+	\textbf{Trekanta prisme}\\
+	To av sideflatene er like trekanter som er parallelle. Har tre sideflater som er trekantar.
+}
+\parbox[l][][l]{0.4\linewidth}{
+	\centering
+	\fig{fpyr}	
+}
+\parbox[r][][l]{0.6\linewidth}{
+	\textbf{Firkanta pyramide}\\
+	Har ett rektangel og fire trekanter\\som sideflater.
+}
+\parbox[l][][l]{0.4\linewidth}{
+	\centering
+	\fig{tpyr}	
+}
+\parbox[r][][l]{0.6\linewidth}{
+	\textbf{Trekanta pyramide}\\
+	Har fire trekanter som sideflater.
+}
+\parbox[l][][l]{0.4\linewidth}{
+	\centering
+	\fig{kjegle}	
+}
+\parbox[r][][l]{0.6\linewidth}{
+	\textbf{Kjegle}\\
+	Ein del av overflata er ein sirkel, den resterende delen er ein samanbretta sektor.
+}
+}
+\newpage
+\info{Tips}{Det er ikkje så lett å se for seg hva en \textsl{sammenbretta sektor} er, men prøv dette: 
+\begin{enumerate}
+	\item Teikn ein sektor på eit ark. Klipp ut sektoren, og føy saman dei to kantene på sektoren. Da har du ei kjegle utan bunn.
+\end{enumerate}
+}
+\section{Volum}
+Når vi ønsker å seie noko om kor mykje det er plass til inni ein gjenstand, snakkar vi om \textit{volumet} til den. Som eit mål på volum tenker vi oss ei kube med sidelengde 1.
+\fig{vol1}
+Ei slik kube kan vi kalle 'einarkuba'. Sei vi har ei firkanta prisme med breidde 3, lengde 4 og høgde 2.
+\fig{vol2}
+I denne er det plass til akkurat 24 einarkuber.
+\fig{vol2a}
+Dette kunne vi ha rekna slik:
+\[ 3\cdot 4\cdot 2=24\]
+Altså
+\[\text{breidde}\cdot\text{lengde}\cdot\text{høgde} \]\vsk
+\newpage
+\subsubsection{Grunnflate}
+For å rekne ut volumet til dei mest elementære figurane vi har, kan det være lurt å bruke omgrepet \textit{grunnflate}. Slik som for ei grunnlinje\footnote{sjå \mb, s. 81.}, er det vårt valg av grunnflate som avgjer korleis vi skal rekne ut høgda. For prisma fra førre side, er det naturleg å velge flata som ligg horisontalt til å vere grunnflata, og for å indikere dette skriv ein ofte bokstaven $ G $:
+\fig{vol2b}
+Grunnflata har arealet $ 3\cdot4=12 $, mens høgda er 2. Volumet til heile prisma er grunnflata sitt areal gonga med høgda:
+\alg{
+	 V &= 3\cdot 4 \cdot 2 \\
+	 &= G\cdot 2\\
+	 &= 24
+}
+\info{Grunnflata eller grunnflatearealet?}{
+I teksten over har vi først kalla sjølve grunnflata for $ G $, og så brukt $ G $ for \textsl{grunnflatearealet}. I denne boka er omgrepet \textsl{grunnflate} så sterkt knytt til \textsl{grunnflatearealet} at vi ikkje skiller mellom desse to.
+}
+\reg[Volum \label{volforml}]{ 
+Volumet $ V $ til ei firkanta prisme eller ein sylinder med grunnflate $ G $ og høgde $ h $ er
+\[ V = G\cdot h \]
+\begin{figure}
+	\centering
+	\footnotesize
+	\stackunder[6pt]{\includegraphics[scale=0.7]{\fpath{vol3c}}}{Firkanta prisme}\qquad\qquad
+	\stackunder[6pt]{\includegraphics[scale=0.7]{\fpath{vol3b}}}{Sylinder}
+\end{figure}
+Volumet $ V $ til ei kjegle eller ei pyramide med grunnflate $ G $ og høgde $ h $ er
+\[ V = \frac{G\cdot h}{3} \]
+\begin{figure}
+	\centering
+\footnotesize
+\stackunder[6pt]{\includegraphics[scale=0.7]{\fpath{vol3}}}{Kjegle}\qquad \qquad    
+\stackunder[6pt]{\includegraphics[scale=0.7]{\fpath{vol3a}}}{Firkanta pyramide}
+\end{figure}
+}\vsk
+\info{Merk}{
+Formlane frå \rref{volforml} gjeld også for prismer, sylindrar, kjegler og pyramider som heller (er skeive). Vis grunnflata er plassert horisontalt, er høgda den vertikale avstanden mellom grunnflata og toppen til figuren.
+\fig{vol4} 
+(For spisse gjenstandar som kjegler og pyramider finst det sjølvsagt bare eitt valg av grunnflate.)
+}
+\newpage
+\eks[1]{
+\fig{vol5}
+Ein sylinder har radius 7 og høgde 5.
+\abc{
+\item Finn grunnflata til sylinderen.
+\item Finn volumet til sylinderen.
+}
+
+\sv \vs
+\abc{
+\item Vi har at\footnote{se \mb, s. 140.}:
+\algv{
+	\text{grunnflate}&= \pi \cdot 7^2  \\
+	&= 49 \pi
+} 
+\item Dermed er
+\algv{
+	\text{volumet til sylinderen}&= 49\pi\cdot 6 \\
+	&= 294\pi
+}
+}
+}
+\newpage
+\eks[2]{
+Ei firkanta pyramide har lengde 2, bredde 3 og høgde 5.
+\fig{vol6}
+\abc{
+\item Finn grunnflata til pyramiden.
+\item Finn volumet til pyramiden.
+}
+\sv  \vs
+\abc{
+\item Vi har at\footnote{se \mb, s. 140.}
+\algv{
+\text{grunnflate}&=2\cdot 3 \\
+&= 6 
+}
+\item Dermed er
+\algv{
+\text{volumet til pyramiden}&= 6\cdot 5 \\
+&= 30
+}
+}
+} \vsk
+
+\reg[Volumet til ei kule]{
+	Volumet $ V $ til ei kule med radius $ r $ er:
+	\[ V = \frac{4\cdot\pi\cdot r^3}{3} \]
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.7]{\fpath{vol3d}}
+\end{figure}
+}
+\section{Omkrets, areal og volum med enheter}
+Når vi måler lengder med linjal eller liknande, må vi passe på å ta med nemningane i svaret vårt. \regv
+
+\eks[1]{ \vs
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.04]{\fpath{2t5}}
+\end{figure}
+\alg{
+	\text{omkretsen til rektangelet} &= 5\enh{cm}+2\enh{cm}+5\enh{cm}+2\enh{cm} \\
+	&= 14\enh{cm}
+} \vs
+
+\prbxl{0.65}{\alg{
+		\text{arealet til rektangelet}&=2\enh{cm}\cdot5\enh{cm} \\
+		&= 2\cdot 5\enh{cm}^2\\
+		&= 10\enh{cm}^2
+}}
+\prbxr{0.3}{Vi skriv 'cm$ ^2 $' fordi vi har gonga sammen 2 lengder som vi har målt i 'cm'.}
+}
+\eks[2]{
+Ein sylinder har radius $ 4\enh{m} $ og høgde $ 2\enh{m} $. Finn volumet til sylinderen.
+
+\sv
+Så lenge vi er sikre på at størrelsane vår har same nemning (i dette tilfellet 'm'), kan vi først rekne uten størrelser:
+\alg{
+\text{grunnflate til sylinderen}&=\pi\cdot 4^2 \\
+&= 16 \pi
+}
+\alg{
+\text{volumet til sylinderen}&= 16\pi \cdot2 \\
+&= 32\pi
+}
+Vi har her ganget sammen tre lengder (to faktorer lik 4\enh{m} og én faktor lik $ 2\enh{m} $) med meter som enhet, altså er volumet til sylinderen $ 32\pi\enh{m}^3 $.
+} \vsk
+
+\info{Merk}{
+Når vi finn volumet til gjenstandar, måler vi gjerne lengder som høgde, breidde, radius og liknande. Desse lengdene har eininga 'meter'. Men i det daglege oppgir vi gjerne volum med eininga 'liter'. Da er det verd å ha med seg at
+\[ 1\enh{L} = 1\enh{dm}^3 \]
+}
+\end{document}
+
+

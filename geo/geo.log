@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  15 AUG 2021 15:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  21 AUG 2021 07:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1510,8 +1510,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 6
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Underfull \hbox (badness 10000) in paragraph at lines 66--66
-[]\T1/lmr/m/n/10.95 ligge langs den samme sirkel-buen med sen-trum i ro-tasjon-
-
+[]\T1/lmr/m/n/10.95 ligge langs den samme sirkel-buen, som har sen-trum i ro-
  []
 
 
@@ -1673,8 +1672,8 @@ Overfull \hbox (3.63052pt too wide) in paragraph at lines 146--146
  <../fig/3da.pdf> <../fig/3db.pdf>] [7 <../fig/fprism.pdf> <../fig/kube.pdf> <.
 ./fig/tprism.pdf> <../fig/fpyr.pdf> <../fig/tpyr.pdf> <../fig/kjegle.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 152--152
-[]\T1/lmr/m/n/10.95 Det er ikke så lett å se for seg hva en sam-men-bret-tet se
-k-tor er,
+[]\T1/lmr/m/n/10.95 Det er ikke så lett å se for seg hva en \T1/lmr/m/sl/10.95 
+sam-men-bret-tet sek-tor \T1/lmr/m/n/10.95 er,
  []
 
 
@@ -1714,19 +1713,20 @@ Package pdftex.def Info: ../fig/vol2b.pdf  used on input line 167.
 
 Underfull \hbox (badness 10000) in paragraph at lines 176--176
 []\T1/lmr/m/n/10.95 I tek-sten over har vi først kalt selve grun-n-flaten for $
-\OML/lmm/m/it/10.95 G$\T1/lmr/m/n/10.95 , og
+\OML/lmm/m/it/10.95 G$\T1/lmr/m/n/10.95 , og så
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 176--176
-\T1/lmr/m/n/10.95 deretter brukt $\OML/lmm/m/it/10.95 G$ \T1/lmr/m/n/10.95 for 
-\T1/lmr/m/sl/10.95 grun-n-flatearealet\T1/lmr/m/n/10.95 . I denne boka er be-
+\T1/lmr/m/n/10.95 brukt $\OML/lmm/m/it/10.95 G$ \T1/lmr/m/n/10.95 for \T1/lmr/m
+/sl/10.95 grun-n-flatearealet\T1/lmr/m/n/10.95 . I denne boka er be-grepet \T1/
+lmr/m/sl/10.95 grun-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 176--176
-\T1/lmr/m/n/10.95 grepet grun-n-flate så sterkt knyt-tet til grun-n-flateareale
-t at vi
+\T1/lmr/m/sl/10.95 n-flate \T1/lmr/m/n/10.95 så sterkt knyt-tet til \T1/lmr/m/s
+l/10.95 grun-n-flatearealet \T1/lmr/m/n/10.95 at vi ikke skiller
  []
 
 
@@ -1814,13 +1814,7 @@ File: ../fig/vol5.pdf Graphic file (type pdf)
 <use ../fig/vol5.pdf>
 Package pdftex.def Info: ../fig/vol5.pdf  used on input line 222.
 (pdftex.def)             Requested size: 200.7495pt x 148.53455pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 222--222
-\T1/lmr/m/n/10.95 En sylin-der har ra-dius 7 og høgde 5. Finn vol-umet til syli
-n-
- []
-
-[12 <../fig/vol5.pdf>]
+ [12 <../fig/vol5.pdf>]
 <../fig/vol6.pdf, id=247, 102.3825pt x 88.30992pt>
 File: ../fig/vol6.pdf Graphic file (type pdf)
 <use ../fig/vol6.pdf>
@@ -1901,10 +1895,10 @@ Package rerunfilecheck Info: File `geo.out' has not changed.
 (rerunfilecheck)             Checksum: 0046C7C6EF933D42FDFBA0C9D946BC41;219.
  ) 
 Here is how much of TeX's memory you used:
- 31574 strings out of 481239
- 619800 string characters out of 5920378
- 932215 words of memory out of 5000000
- 46087 multiletter control sequences out of 15000+600000
+ 31575 strings out of 481239
+ 619807 string characters out of 5920378
+ 932257 words of memory out of 5000000
+ 46088 multiletter control sequences out of 15000+600000
  606611 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,13n,104p,869b,889s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1921,7 +1915,7 @@ onts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on geo.pdf (15 pages, 2541135 bytes).
+Output written on geo.pdf (15 pages, 2541933 bytes).
 PDF statistics:
  342 PDF objects out of 1000 (max. 8388607)
  244 compressed objects within 3 object streams
