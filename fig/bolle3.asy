@@ -10,9 +10,6 @@ pair f(real z){
     return (r*cos(z), r*sin(z));
 }
 
-path s = graph(f, pi, 2*pi, operator ..);
-draw(s);
-draw((r,0)--(-r,0));
 
 real x = 1.2;
 real y = 1.2;
