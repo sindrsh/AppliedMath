@@ -57,7 +57,7 @@
 \contentsline {subsection}{\numberline {5.2.1}Prosentvis endring; økning eller redusering }{90}{subsection.5.2.1}%
 \contentsline {subsubsection}{Økning}{90}{subsubsection*.32}%
 \contentsline {subsubsection}{Redusering}{90}{subsubsection*.33}%
-\contentsline {subsubsection}{Prosentvis økning eller endring oppsummert}{91}{subsubsection*.34}%
+\contentsline {subsubsection}{Prosentvis endring oppsummert}{91}{subsubsection*.34}%
 \contentsline {subsection}{\numberline {5.2.2}Vekstfaktor}{93}{subsection.5.2.2}%
 \contentsline {subsubsection}{Å finne den prosentvise endringen}{95}{subsubsection*.39}%
 \contentsline {subsection}{\numberline {5.2.3}Prosentpoeng}{98}{subsection.5.2.3}%
