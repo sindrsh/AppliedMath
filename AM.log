@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  25 AUG 2021 21:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  30 AUG 2021 21:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4351,13 +4351,13 @@ Kapittel 7.
 
 ] (./oko/oko.tex (./oko/../doc.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 11--11
-[]\T1/lmr/m/n/10.95 Innenfor økonomi er \T1/lmr/m/it/10.95 in-dekser \T1/lmr/m/
-n/10.95 forhold-
+[]\T1/lmr/m/n/10.95 Innen økonomi er \T1/lmr/m/it/10.95 in-dekser \T1/lmr/m/n/1
+0.95 forhold-stall
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--11
-\T1/lmr/m/n/10.95 stall som forteller hvor mye stør-relser har
+\T1/lmr/m/n/10.95 som forteller hvor mye stør-relser har
  []
 
 
@@ -4377,7 +4377,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--11
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--11
-\T1/lmr/m/n/10.95 Forholdet mel-lom prisen i 2053 og i 2017
+\T1/lmr/m/n/10.95 Forholdet mel-lom prisen i 2053 og i 2021
  []
 
 <oko/kr.jpg, id=2414, 48.18pt x 52.998pt>
@@ -4428,529 +4428,501 @@ e varene/tjenestene
  <./oko/kr.jpg>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 68.
+(caption)                particular \caption on input line 69.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
 []\T1/lmr/m/n/10.95 I juli 2021 var KPI for mat-varer 109,4. Hvor mye har prise
 n på
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
 []$[]$\T1/lmr/m/n/10.95 . Prisen på mat-varer har altså økt med 9,4%
  []
 
 [141]
-Underfull \hbox (badness 10000) in paragraph at lines 89--89
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 []\T1/lmr/m/n/10.95 I juli 2021 var KPI for sko 98,0. Hvor mye har prisen på sk
 o
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
 []\T1/lmr/m/n/10.95 Ordet \T1/lmr/m/it/10.95 kro-n-everdi \T1/lmr/m/n/10.95 bru
 kes også når man sam-men-likner ver-dien av
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
 \T1/lmr/m/n/10.95 1kr opp mot ver-dien av uten-landsk va-l-uta. Kro-n-everdi ut
  ifra et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 []\T1/lmr/m/n/10.95 Realverdien til en penge-sum er hvor mye en penge-sum ville
  vært
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 []\T1/lmr/m/n/10.95 I 1928 var KPI 3,2 og i 2020 var KPI 112,2. Hva hadde størs
 t
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
-\T1/lmr/m/n/10.95 Altså var 10000kr verd mer i 1928 enn hva 350000kr var verd i
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+\T1/lmr/m/n/10.95 Altså var 10000kr mer verd i 1928 enn det 350000kr var verd i
 
  []
 
 [142] [143]
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
-[]\T1/lmr/m/n/10.95 I 2016 tjente Per 450000 kr, mens han i 2012 tjente 420000 
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[]\T1/lmr/m/n/10.95 I 2016 tjente Per 450000 kr, mens i 2012 tjente han 420000 
 kr. I
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
 \T1/lmr/m/n/10.95 2016 var $[]$, mens i 2012 var $[]$. I hvilket av
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
-[]\T1/lmr/m/n/10.95 For å finne ut hvilket av årene Per hadde best råd, sjekker
- vi
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[]\T1/lmr/m/n/10.95 For å finne ut hvilket av årene Per hadde best råd i, sjekk
+er vi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
-\T1/lmr/m/n/10.95 Reallønnen til Per var altså høyest i 2012, der-for hadde han
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\T1/lmr/m/n/10.95 Reallønnen til Per var altså høgest i 2012, der-for hadde han
 
  []
 
 [144]
-Underfull \hbox (badness 10000) in paragraph at lines 170--170
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
 []\T1/lmr/m/n/10.95 En verdi er sagt å ha \T1/lmr/m/it/10.95 fulgt in-deks \T1/
 lmr/m/n/10.95 hvis verdi og in-deks ved to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--197
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 []\T1/lmr/m/n/10.95 Tabellen un-der viser en over-sikt over prisen reg-istr-ert
  i en bu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--197
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 \T1/lmr/m/n/10.95 I 2010 var KPI 92,1 og i 2020 var KPI 12,2. Har prisen på noe
 n
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--197
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 \T1/lmr/m/n/10.95 Altså er det rimelig å si at prisen for sjoko-lade har fulgt 
 in-deks,
  []
 
-[145]
-Overfull \hbox (78.36693pt too wide) in paragraph at lines 211--212
-[]\T1/lmr/m/n/10.95 Siden gjelden det første året er 100000kr, må vi be-tale $[
-]$ 
- []
-
-[146
+[145] [146
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
-[]\T1/lmr/m/n/10.95 Kredittkort er et be-tal-ingskort som virker
+Underfull \hbox (badness 10000) in paragraph at lines 243--243
+[]\T1/lmr/m/n/10.95 Kredittkort er et be-tal-ingskort som er slik
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
-\T1/lmr/m/n/10.95 slik at hvis du f.eks bruker ko-rtet for å be-
+Underfull \hbox (badness 10000) in paragraph at lines 243--243
+\T1/lmr/m/n/10.95 at hvis du f.eks. bruker ko-rtet for å be-tale
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
-\T1/lmr/m/n/10.95 tale for 10000kr i en bu-tikk, så blir ikke
+Underfull \hbox (badness 10000) in paragraph at lines 243--243
+\T1/lmr/m/n/10.95 10000kr, så låner du pen-gene fra banken.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
-\T1/lmr/m/n/10.95 10000kr trekt fra kon-toen din $\OMS/lmsy/m/n/10.95 ^^@$ \T1/
-lmr/m/n/10.95 ist-e-den
+Underfull \hbox (badness 10000) in paragraph at lines 243--243
+\T1/lmr/m/n/10.95 Et-ter en tid som er av-talt med banken
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
-\T1/lmr/m/n/10.95 låner du pen-gene fra banken. Et-ter en
+Underfull \hbox (badness 10000) in paragraph at lines 243--243
+\T1/lmr/m/n/10.95 vil den kreve renter av gjelden din. Til
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
-\T1/lmr/m/n/10.95 tid som er av-talt med banken vil banken
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
-\T1/lmr/m/n/10.95 kreve renter av gjelden din. Hvor-dan du
- []
-
-<oko/kred.jpg, id=2465, 1204.5pt x 903.375pt>
+<oko/kred.jpg, id=2467, 1204.5pt x 903.375pt>
 File: oko/kred.jpg Graphic file (type jpg)
 <use oko/kred.jpg>
-Package pdftex.def Info: oko/kred.jpg  used on input line 243.
+Package pdftex.def Info: oko/kred.jpg  used on input line 244.
 (pdftex.def)             Requested size: 120.45705pt x 90.34279pt.
 
-Overfull \hbox (18.0261pt too wide) in paragraph at lines 243--243
+Overfull \hbox (18.0261pt too wide) in paragraph at lines 244--244
 [][] 
  []
 
 
-Overfull \hbox (3.05965pt too wide) in paragraph at lines 261--261
+Overfull \hbox (3.05965pt too wide) in paragraph at lines 262--262
 [][] 
  []
 
 [147 <./oko/kred.jpg>] [148]
-Underfull \hbox (badness 10000) in paragraph at lines 285--285
-[]\T1/lmr/m/n/10.95 Fra en bank låner du 300000 kr med 3% i årlig rente. Lånet 
-skal
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
+[]\T1/lmr/m/n/10.95 Fra en bank låner du 300000 kr med 3% årlig rente. Lånet sk
+al
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--285
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
 []\T1/lmr/bx/n/10.95 a) \T1/lmr/m/n/10.95 Siden 300000kr skal be-tales over 5 å
 r, blir det årlige av-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--285
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
 \T1/lmr/bx/n/10.95 b) \T1/lmr/m/n/10.95 Når tredje ter-min-beløp er be-talt, ha
 r du be-talt tre av-drag.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--285
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
 []\T1/lmr/bx/n/10.95 c) \T1/lmr/m/n/10.95 Ut ifra opp-gave b) vet vi at gjelden
  er 180000 kr når fjerde
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--285
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
 []\T1/lmr/bx/n/10.95 d) \T1/lmr/m/n/10.95 Ter-min-beløpet tilsvarer av-drag plu
 ss renter. Ut ifra opp-gave
  []
 
 [149]
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
 []\T1/lmr/m/n/10.95 Fra en bank låner du 100000kr med 6,4% årlig rente. Lånet s
 kal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
 \T1/lmr/m/n/10.95 be-tales tilbake som et an-nu-itet-slån over 5 år, og banken 
 har da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
 []\T1/lmr/m/n/10.95 Det første året er gjelden 100000kr, i renter må du be-tale
  6,4%
  []
 
 [150]
-Underfull \hbox (badness 10000) in paragraph at lines 310--310
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
 []\T1/lmr/m/n/10.95 Innskuddsrente er en pros-entvis økn-ing av pen-gene du har
  i
  []
 
 
-Overfull \hbox (2.27702pt too wide) in paragraph at lines 307--310
-\T1/lmr/m/n/10.95 Vi har sett hvor-dan vi må be-tale renter når vi låner penger
- av en bank, 
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
+[]\T1/lmr/m/n/10.95 Du set-ter inn 20000kr i en bank som gir 2% årlig spar-eren
+te.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
-[]\T1/lmr/m/n/10.95 Du set-ter inn 20000kr i en bank som gir 2% i årlig spar-er
-ente.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 []\T1/lmr/m/n/10.95 For å beregne innskud-dsrenter kan vi an-vende [][]\T1/lmr/
 m/sl/10.95 Regel 5.11[][][]\T1/lmr/m/n/10.95 . Siden
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 \T1/lmr/m/n/10.95 renten er 2%, er vek-st-fak-toren 1,02. Orig-i-nalver-dien er
  20000 og
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
 []\T1/lmr/m/n/10.95 Forventet avkast-ning an-gir en \T1/lmr/m/sl/10.95 for-ven-
 tet \T1/lmr/m/n/10.95 pros-entvis økn-ing av en
  []
 
 [151]
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
-[]\T1/lmr/m/n/10.95 Du in-vesterer 15000 i et ak-sje-fond som har 5% årlig for-
-ven-tet
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+[]\T1/lmr/m/n/10.95 Du in-vesterer 15000 i et ak-sje-fond som for-ven-ter 5% år
+lig
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
 \T1/lmr/m/n/10.95 avkast-ning. Hvor mye penger er in-vesterin-gen verd et-ter 8
  år
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
 []\T1/lmr/m/n/10.95 Også for for-ven-tet avkast-ning kan vi bruke [][]\T1/lmr/m
 /sl/10.95 Regel 5.11[][][]\T1/lmr/m/n/10.95 . Vek-st-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
 \T1/lmr/m/n/10.95 fak-toren er 1,05, orig-i-nalver-dien er 15000 og an-tall en-
 dringer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
-[]\T1/lmr/m/n/10.95 Som regel er for-ven-tet avkast-ning på et ak-sje-fond høye
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
+[]\T1/lmr/m/n/10.95 Som regel er for-ven-tet avkast-ning på et ak-sje-fond høge
 re enn
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 \T1/lmr/m/n/10.95 innskud-srenten du får i en bank, men ulem-pen er at for-ven-
 tet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 \T1/lmr/m/n/10.95 avkast-ning ikke gir noen garantier. For-ven-tet avkast-ning 
 opp-gir
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
-\T1/lmr/m/n/10.95 bare øknin-gen eksperter an-tar vil skje. Er du heldig kan øk
-nin-
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
+\T1/lmr/m/n/10.95 bare øknin-gen eksperter an-tar vil skje. Er du heldig blir ø
+knin-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
-\T1/lmr/m/n/10.95 gen bli høyere, er du uheldig kan den bli la-vere, og til og 
-med
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
+\T1/lmr/m/n/10.95 gen høgere, er du uheldig blir den la-vere, og kan til og med
+ føre
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
-\T1/lmr/m/n/10.95 ende opp med å være en \T1/lmr/m/sl/10.95 re-duk-sjon \T1/lmr
-/m/n/10.95 av in-vesterin-gen din. I ver-ste
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
+\T1/lmr/m/n/10.95 til en \T1/lmr/m/sl/10.95 re-duk-sjon \T1/lmr/m/n/10.95 av in
+-vesterin-gen din. I ver-ste fall, rett nok i ek-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
-\T1/lmr/m/n/10.95 fall, rett nok i ek-stremt sjeldne til-feller, kan hele in-ve
-sterin-gen
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
+\T1/lmr/m/n/10.95 stremt sjeldne til-feller, kan hele in-vesterin-gen din ende 
+opp med
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 []\T1/lmr/m/n/10.95 Innskuddsrenten kan også foran-dre seg noe med tiden, men d
 en
  []
 
 [152]
-Underfull \hbox (badness 10000) in paragraph at lines 360--360
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
 []\T1/lmr/m/n/10.95 I ek-samen-sopp-gaver og i virke-ligheten vil du fort op-pd
 age at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--360
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
 \T1/lmr/m/n/10.95 skat-tesys-te-mer er pre-sen-tert på en litt an-nen måte enn 
 i denne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--360
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
 \T1/lmr/m/n/10.95 boka. Dette er blant an-net fordi skat-tere-g-lene kan foran-
 dre
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--360
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
 \T1/lmr/m/n/10.95 seg fra år til år, og i denne boka har vi tatt ut-gangspunkt 
 i
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--360
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
 \T1/lmr/m/n/10.95 skat-tere-g-lene for 2018. Det vik-tig-ste er ikke at du husk
 er spe-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--360
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
 \T1/lmr/m/n/10.95 si-fikt disse re-g-lene, men at du lærer deg hva som menes me
 d
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--360
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
 \T1/lmr/m/n/10.95 be-grepene \T1/lmr/m/it/10.95 brut-tolønn, fradrag, skat-te-g
 runnlag, trygdeavgift \T1/lmr/m/n/10.95 og
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--362
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
 []\T1/lmr/m/n/10.95 De fleste må be-tale 23% av det som kalles
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--362
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
 \T1/lmr/m/it/10.95 skat-te-grunnlaget\T1/lmr/m/n/10.95 , som er \T1/lmr/m/it/10
 .95 brut-toløn-nen \T1/lmr/m/n/10.95 mi-nus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--362
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
 \T1/lmr/m/it/10.95 fradrag\T1/lmr/m/n/10.95 . Brut-toløn-nen er løn-nen du mot-
 tar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--362
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
 \T1/lmr/m/n/10.95 fra ar-bei-ds-giver, mens fradrag kan være mye
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--362
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
 \T1/lmr/m/n/10.95 forskjel-lig. \T1/lmr/m/it/10.95 Per-son-fradrag \T1/lmr/m/n/
 10.95 og \T1/lmr/m/it/10.95 min-ste-fradrag \T1/lmr/m/n/10.95 er
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--363
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
 []\T1/lmr/m/n/9 Skattegrunnlag
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--363
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
 \T1/lmr/m/n/9 kalles noen ganger
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--365
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
 []\T1/lmr/m/n/10.95 blant an-net få fradrag hvis man be-taler \T1/lmr/m/it/10.9
 5 fag-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--365
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
 \T1/lmr/m/it/10.95 foren-ingskon-ti-gent \T1/lmr/m/n/10.95 eller har gitt penge
 r til
  []
 
 
-Overfull \hbox (6.393pt too wide) in paragraph at lines 366--366
+Overfull \hbox (6.393pt too wide) in paragraph at lines 367--367
 []\T1/lmr/m/n/9 Fagforeningskontigent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--366
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
 \T1/lmr/m/n/9 er det du be-taler
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--366
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
 \T1/lmr/m/n/9 for å være med i en
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 392--392
-[]\T1/lmr/m/n/10.95 Bruttolønnen til Mag-nus er 500000kr. Han får 56000kr i per
--
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 392--392
-\T1/lmr/m/n/10.95 son-fradrag 97600kr i min-ste-fradrag, i til-leg be-taler han
- 1000kr
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 392--392
-[]\T1/lmr/m/n/10.95 Hva må Mag-nus be-tale hvis han skat-ter 23% av skat-te-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 392--392
-[]\T1/lmr/m/n/10.95 Vi starter med å regne ut skat-te-grunnlaget, som er brut-t
-oløn-nen
  []
 
 [153
 
 ]
-Overfull \hbox (10.6099pt too wide) in paragraph at lines 395--405
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
+[]\T1/lmr/m/n/10.95 Bruttolønnen til Mag-nus er 500000kr. Han får 56000kr i per
+-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
+\T1/lmr/m/n/10.95 son-fradrag 97600kr i min-ste-fradrag, i til-leg be-taler han
+ 1000kr
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
+[]\T1/lmr/m/n/10.95 Hva må Mag-nus be-tale hvis han skat-ter 23% av skat-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
+[]\T1/lmr/m/n/10.95 Vi starter med å regne ut skat-te-grunnlaget, som er brut-t
+oløn-nen
+ []
+
+
+Overfull \hbox (10.6099pt too wide) in paragraph at lines 397--407
 \T1/lmr/m/n/10.95 staten bruker til å dekke [][]Folketryg-den[][]. Hva man må b
 e-tale i trygdeavgift 
  []
 
 [154]
-Underfull \hbox (badness 10000) in paragraph at lines 419--419
+Underfull \hbox (badness 10000) in paragraph at lines 421--421
 []\T1/lmr/m/n/10.95 Jonas og beste-moren hans, Line, har begge 150000kr i lønn.
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 419--419
+Underfull \hbox (badness 10000) in paragraph at lines 421--421
 []\T1/lmr/bx/n/10.95 a) \T1/lmr/m/n/10.95 Siden Jonas er mel-lom 17 år og 69 år
-, skal han be-tale 8,2% i
+, skal han be-tale 8,2%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 419--419
-\T1/lmr/m/n/10.95 Altså skal Jonas be-tale 1230kr i trygdeavgift. Fordi Line er
- over
+Underfull \hbox (badness 10000) in paragraph at lines 421--421
+\T1/lmr/m/n/10.95 Altså skal Jonas be-tale 12300kr i trygdeavgift. Sidan Line e
+r
  []
 
 [155] [156]
-Underfull \hbox (badness 10000) in paragraph at lines 491--491
+Underfull \hbox (badness 10000) in paragraph at lines 493--493
 []\T1/lmr/m/n/10.95 Emblas brut-tolønn er 550000kr. Hun be-taler 1500kr i året 
 for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--491
+Underfull \hbox (badness 10000) in paragraph at lines 493--493
 \T1/lmr/m/n/10.95 medlem-skap i \T1/lmr/m/sl/10.95 LO \T1/lmr/m/n/10.95 (Norges
- største fag-foren-ing) og har 409900
+ største fag-foren-ing) og har 409900kr
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--491
+Underfull \hbox (badness 10000) in paragraph at lines 493--493
 \T1/lmr/m/n/10.95 (Den to-tale trinnskat-ten har vi hen-tet fra utreg-nin-gen i
  \T1/lmr/m/sl/10.95 Ek-sem-
  []
 
 [157]
-Underfull \hbox (badness 10000) in paragraph at lines 524--524
-[]\T1/lmr/m/n/10.95 Lisa prøver vil lage en over-sikt over sine månedlige in-nt
-ek-ter og
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
+[]\T1/lmr/m/n/10.95 Lisa vil lage en over-sikt over sine månedlige in-ntek-ter 
+og ut-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--524
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
 []\T1/lmr/m/n/10.95 Hun tar på seg kveldsvak-ter på en gam-le-hjem. Av dette
  []
 
 [158
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
 []\T1/lmr/m/n/10.95 I ek-sem-pelet fra for-rige delsek-sjon (7.4.1[]) satt vi o
 pp et måneds-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
 \T1/lmr/m/n/10.95 bud-sjett for Lisa. I mars viste det seg at dette ble de fak-
 tiske
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
-[]\T1/lmr/m/n/10.95 Hun ble så op-phengt i å lese om funksjoner at hun ikke
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+[]\T1/lmr/m/n/10.95 Hun fikk ikke job-bet så mye som hun hadde tenkt. Net-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
-\T1/lmr/m/n/10.95 fikk job-bet så mye som hun hadde tenkt. Net-toløn-nen ble
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
 \T1/lmr/m/n/10.95 Lisa gikk altså med 2060kr i over-skudd, men 600kr min-dre en
 n
  []
@@ -4958,12 +4930,12 @@ n
 ) (./oko/okoopg.tex (./oko/../doc.tex) [159] [160
 
 ]
-<oko/ser.png, id=2553, 232.61906pt x 72.27pt>
+<oko/ser.png, id=2555, 232.61906pt x 72.27pt>
 File: oko/ser.png Graphic file (type png)
 <use oko/ser.png>
 Package pdftex.def Info: oko/ser.png  used on input line 78.
 (pdftex.def)             Requested size: 232.61848pt x 72.2698pt.
-<oko/an.jpeg, id=2554, 230.36063pt x 82.80937pt>
+<oko/an.jpeg, id=2556, 230.36063pt x 82.80937pt>
 File: oko/an.jpeg Graphic file (type jpg)
 <use oko/an.jpeg>
 Package pdftex.def Info: oko/an.jpeg  used on input line 79.
@@ -4978,7 +4950,7 @@ Overfull \hbox (3.87558pt too wide) in paragraph at lines 6--9
 r oss hvor mange 
  []
 
-<san/../fig/san1.pdf, id=2588, 207.28441pt x 35.15132pt>
+<san/../fig/san1.pdf, id=2590, 207.28441pt x 35.15132pt>
 File: san/../fig/san1.pdf Graphic file (type pdf)
 <use san/../fig/san1.pdf>
 Package pdftex.def Info: san/../fig/san1.pdf  used on input line 11.
@@ -5055,7 +5027,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--33
 []\T1/lmr/m/n/9 Symbolet [][][][][][] kalles
  []
 
-<san/../fig/san1a.pdf, id=2603, 207.28441pt x 35.15132pt>
+<san/../fig/san1a.pdf, id=2605, 207.28441pt x 35.15132pt>
 File: san/../fig/san1a.pdf Graphic file (type pdf)
 <use san/../fig/san1a.pdf>
 Package pdftex.def Info: san/../fig/san1a.pdf  used on input line 36.
@@ -5117,7 +5089,7 @@ T1/lmr/m/n/10.95 blir trukket er det samme som at en
  []
 
 [170]
-<san/kort.png, id=2636, 717.43031pt x 297.36093pt>
+<san/kort.png, id=2638, 717.43031pt x 297.36093pt>
 File: san/kort.png Graphic file (type png)
 <use san/kort.png>
 Package pdftex.def Info: san/kort.png  used on input line 114.
@@ -5174,23 +5146,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--121
 /m/sl/9 og
  []
 
-<san/kort1.png, id=2637, 744.53156pt x 96.36pt>
+<san/kort1.png, id=2639, 744.53156pt x 96.36pt>
 File: san/kort1.png Graphic file (type png)
 <use san/kort1.png>
 Package pdftex.def Info: san/kort1.png  used on input line 125.
 (pdftex.def)             Requested size: 335.0361pt x 43.36159pt.
-<san/kort2.png, id=2638, 241.65282pt x 324.46219pt>
+<san/kort2.png, id=2640, 241.65282pt x 324.46219pt>
 File: san/kort2.png Graphic file (type png)
 <use san/kort2.png>
 Package pdftex.def Info: san/kort2.png  used on input line 131.
 (pdftex.def)             Requested size: 108.74275pt x 146.00662pt.
 [171 <./san/kort.png> <./san/kort1.png> <./san/kort2.png>]
-<san/kort4.png, id=2646, 487.06969pt x 88.83188pt>
+<san/kort4.png, id=2648, 487.06969pt x 88.83188pt>
 File: san/kort4.png Graphic file (type png)
 <use san/kort4.png>
 Package pdftex.def Info: san/kort4.png  used on input line 136.
 (pdftex.def)             Requested size: 219.17932pt x 39.97397pt.
-<san/kort3.png, id=2647, 733.23938pt x 306.39468pt>
+<san/kort3.png, id=2649, 733.23938pt x 306.39468pt>
 File: san/kort3.png Graphic file (type png)
 <use san/kort3.png>
 Package pdftex.def Info: san/kort3.png  used on input line 142.
@@ -5251,12 +5223,12 @@ m/sl/10.95 eller \T1/lmr/m/n/10.95 hand-ball er
  []
 
 [174]
-<san/../fig/venn.pdf, id=2669, 171.21968pt x 57.40446pt>
+<san/../fig/venn.pdf, id=2671, 171.21968pt x 57.40446pt>
 File: san/../fig/venn.pdf Graphic file (type pdf)
 <use san/../fig/venn.pdf>
 Package pdftex.def Info: san/../fig/venn.pdf  used on input line 197.
 (pdftex.def)             Requested size: 171.21925pt x 57.4043pt.
-<san/../fig/vennb.pdf, id=2671, 171.21968pt x 57.40446pt>
+<san/../fig/vennb.pdf, id=2673, 171.21968pt x 57.40446pt>
 File: san/../fig/vennb.pdf Graphic file (type pdf)
 <use san/../fig/vennb.pdf>
 Package pdftex.def Info: san/../fig/vennb.pdf  used on input line 202.
@@ -5298,7 +5270,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--220
 'tar båt', ven-ndi-a-gram-met vårt blir da
  []
 
-<san/../fig/venne.pdf, id=2695, 171.21968pt x 57.40446pt>
+<san/../fig/venne.pdf, id=2697, 171.21968pt x 57.40446pt>
 File: san/../fig/venne.pdf Graphic file (type pdf)
 <use san/../fig/venne.pdf>
 Package pdftex.def Info: san/../fig/venne.pdf  used on input line 220.
@@ -5380,7 +5352,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 253--253
 egne
  []
 
-<san/../fig/venn3ea.pdf, id=2714, 179.75156pt x 179.75156pt>
+<san/../fig/venn3ea.pdf, id=2716, 179.75156pt x 179.75156pt>
 File: san/../fig/venn3ea.pdf Graphic file (type pdf)
 <use san/../fig/venn3ea.pdf>
 Package pdftex.def Info: san/../fig/venn3ea.pdf  used on input line 253.
@@ -5397,7 +5369,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 253--253
 ll og $[]$ spiller
  []
 
-<san/../fig/venn3e.pdf, id=2715, 179.75156pt x 179.75156pt>
+<san/../fig/venn3e.pdf, id=2717, 179.75156pt x 179.75156pt>
 File: san/../fig/venn3e.pdf Graphic file (type pdf)
 <use san/../fig/venn3e.pdf>
 Package pdftex.def Info: san/../fig/venn3e.pdf  used on input line 253.
@@ -5420,7 +5392,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 253--253
  []
 
 [177] [178 <./san/../fig/venn3ea.pdf> <./san/../fig/venn3e.pdf>] [179]
-<san/../fig/bolle.pdf, id=2748, 142.76335pt x 71.63763pt>
+<san/../fig/bolle.pdf, id=2750, 142.76335pt x 71.63763pt>
 File: san/../fig/bolle.pdf Graphic file (type pdf)
 <use san/../fig/bolle.pdf>
 Package pdftex.def Info: san/../fig/bolle.pdf  used on input line 289.
@@ -5431,7 +5403,7 @@ Overfull \hbox (3.41293pt too wide) in paragraph at lines 292--293
 ule 2, deretter 
  []
 
-<san/../fig/perm1a.pdf, id=2749, 476.73108pt x 36.06474pt>
+<san/../fig/perm1a.pdf, id=2751, 476.73108pt x 36.06474pt>
 File: san/../fig/perm1a.pdf Graphic file (type pdf)
 <use san/../fig/perm1a.pdf>
 Package pdftex.def Info: san/../fig/perm1a.pdf  used on input line 297.
@@ -5441,7 +5413,7 @@ Overfull \hbox (39.9523pt too wide) in paragraph at lines 297--298
  [] 
  []
 
-<san/../fig/perm1b.pdf, id=2750, 476.73108pt x 64.52104pt>
+<san/../fig/perm1b.pdf, id=2752, 476.73108pt x 64.52104pt>
 File: san/../fig/perm1b.pdf Graphic file (type pdf)
 <use san/../fig/perm1b.pdf>
 Package pdftex.def Info: san/../fig/perm1b.pdf  used on input line 303.
@@ -5451,7 +5423,7 @@ Overfull \hbox (39.9523pt too wide) in paragraph at lines 303--304
  [] 
  []
 
-<san/../fig/perm1c.pdf, id=2751, 476.73108pt x 92.97736pt>
+<san/../fig/perm1c.pdf, id=2753, 476.73108pt x 92.97736pt>
 File: san/../fig/perm1c.pdf Graphic file (type pdf)
 <use san/../fig/perm1c.pdf>
 Package pdftex.def Info: san/../fig/perm1c.pdf  used on input line 310.
@@ -5587,7 +5559,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 345--345
 \T1/lmr/m/n/10.95 én til. Hva er sannsyn-ligheten for
  []
 
-<san/../fig/bolle2.pdf, id=2790, 136.21892pt x 68.36542pt>
+<san/../fig/bolle2.pdf, id=2792, 136.21892pt x 68.36542pt>
 File: san/../fig/bolle2.pdf Graphic file (type pdf)
 <use san/../fig/bolle2.pdf>
 Package pdftex.def Info: san/../fig/bolle2.pdf  used on input line 348.
@@ -5704,7 +5676,7 @@ File: san/../fig/bolle2.pdf Graphic file (type pdf)
 <use san/../fig/bolle2.pdf>
 Package pdftex.def Info: san/../fig/bolle2.pdf  used on input line 397.
 (pdftex.def)             Requested size: 136.21858pt x 68.36523pt.
-<san/../fig/tree.pdf, id=2811, 392.4763pt x 116.92683pt>
+<san/../fig/tree.pdf, id=2813, 392.4763pt x 116.92683pt>
 File: san/../fig/tree.pdf Graphic file (type pdf)
 <use san/../fig/tree.pdf>
 Package pdftex.def Info: san/../fig/tree.pdf  used on input line 406.
@@ -5759,7 +5731,7 @@ kker \T1/lmr/m/sl/10.95 minst \T1/lmr/m/n/10.95 én blå \T1/lmr/m/sl/10.95 eller
 
  []
 
-<san/../fig/treee.pdf, id=2827, 319.17244pt x 116.92683pt>
+<san/../fig/treee.pdf, id=2829, 319.17244pt x 116.92683pt>
 File: san/../fig/treee.pdf Graphic file (type pdf)
 <use san/../fig/treee.pdf>
 Package pdftex.def Info: san/../fig/treee.pdf  used on input line 469.
@@ -5868,22 +5840,22 @@ Overfull \hbox (10.18294pt too wide) in paragraph at lines 14--15
  avgjørende 
  []
 
-<exl/figs/B3.png, id=2880, 499.8675pt x 287.0725pt>
+<exl/figs/B3.png, id=2882, 499.8675pt x 287.0725pt>
 File: exl/figs/B3.png Graphic file (type png)
 <use exl/figs/B3.png>
 Package pdftex.def Info: exl/figs/B3.png  used on input line 18.
 (pdftex.def)             Requested size: 124.96657pt x 71.76794pt.
-<exl/figs/ex2.png, id=2881, 243.15843pt x 143.78719pt>
+<exl/figs/ex2.png, id=2883, 243.15843pt x 143.78719pt>
 File: exl/figs/ex2.png Graphic file (type png)
 <use exl/figs/ex2.png>
 Package pdftex.def Info: exl/figs/ex2.png  used on input line 23.
 (pdftex.def)             Requested size: 85.10672pt x 50.32626pt.
-<exl/figs/ex3.png, id=2882, 322.20375pt x 188.705pt>
+<exl/figs/ex3.png, id=2884, 322.20375pt x 188.705pt>
 File: exl/figs/ex3.png Graphic file (type png)
 <use exl/figs/ex3.png>
 Package pdftex.def Info: exl/figs/ex3.png  used on input line 32.
 (pdftex.def)             Requested size: 96.66187pt x 56.61192pt.
-<exl/figs/ex4.png, id=2883, 327.2225pt x 188.705pt>
+<exl/figs/ex4.png, id=2885, 327.2225pt x 188.705pt>
 File: exl/figs/ex4.png Graphic file (type png)
 <use exl/figs/ex4.png>
 Package pdftex.def Info: exl/figs/ex4.png  used on input line 33.
@@ -5892,7 +5864,7 @@ Package pdftex.def Info: exl/figs/ex4.png  used on input line 33.
 
  <./exl/figs/B3.png> <./exl/figs/ex2.png> <./exl/figs/ex3.png> <./exl/figs/ex4.
 png>]
-<exl/figs/intast.png, id=2893, 499.8675pt x 289.08pt>
+<exl/figs/intast.png, id=2895, 499.8675pt x 289.08pt>
 File: exl/figs/intast.png Graphic file (type png)
 <use exl/figs/intast.png>
 Package pdftex.def Info: exl/figs/intast.png  used on input line 38.
@@ -5903,7 +5875,7 @@ Overfull \hbox (4.2699pt too wide) in paragraph at lines 45--46
 al-let tilhørende 
  []
 
-<exl/figs/ex5.png, id=2894, 321.2pt x 185.69376pt>
+<exl/figs/ex5.png, id=2896, 321.2pt x 185.69376pt>
 File: exl/figs/ex5.png Graphic file (type png)
 <use exl/figs/ex5.png>
 Package pdftex.def Info: exl/figs/ex5.png  used on input line 49.
@@ -5912,7 +5884,7 @@ File: exl/figs/ex4.png Graphic file (type png)
 <use exl/figs/ex4.png>
 Package pdftex.def Info: exl/figs/ex4.png  used on input line 50.
 (pdftex.def)             Requested size: 98.1675pt x 56.61192pt.
-<exl/figs/ex6.png, id=2895, 321.2pt x 183.68625pt>
+<exl/figs/ex6.png, id=2897, 321.2pt x 183.68625pt>
 File: exl/figs/ex6.png Graphic file (type png)
 <use exl/figs/ex6.png>
 Package pdftex.def Info: exl/figs/ex6.png  used on input line 55.
@@ -5924,17 +5896,17 @@ e de samme
  []
 
 [193 <./exl/figs/intast.png> <./exl/figs/ex5.png> <./exl/figs/ex6.png>]
-<exl/figs/ex7.png, id=2904, 581.17125pt x 185.69376pt>
+<exl/figs/ex7.png, id=2907, 581.17125pt x 185.69376pt>
 File: exl/figs/ex7.png Graphic file (type png)
 <use exl/figs/ex7.png>
 Package pdftex.def Info: exl/figs/ex7.png  used on input line 69.
 (pdftex.def)             Requested size: 174.35272pt x 55.70854pt.
-<exl/figs/ex8.png, id=2906, 717.68124pt x 186.6975pt>
+<exl/figs/ex8.png, id=2909, 717.68124pt x 186.6975pt>
 File: exl/figs/ex8.png Graphic file (type png)
 <use exl/figs/ex8.png>
 Package pdftex.def Info: exl/figs/ex8.png  used on input line 80.
 (pdftex.def)             Requested size: 215.30603pt x 56.00967pt.
-<exl/figs/ex15.png, id=2907, 581.17125pt x 181.67876pt>
+<exl/figs/ex15.png, id=2910, 581.17125pt x 181.67876pt>
 File: exl/figs/ex15.png Graphic file (type png)
 <use exl/figs/ex15.png>
 Package pdftex.def Info: exl/figs/ex15.png  used on input line 81.
@@ -5958,12 +5930,12 @@ Overfull \hbox (4.89957pt too wide) in paragraph at lines 92--93
 en er den samme 
  []
 
-<exl/figs/ex12.png, id=2920, 706.64pt x 278.03876pt>
+<exl/figs/ex12.png, id=2922, 706.64pt x 278.03876pt>
 File: exl/figs/ex12.png Graphic file (type png)
 <use exl/figs/ex12.png>
 Package pdftex.def Info: exl/figs/ex12.png  used on input line 95.
 (pdftex.def)             Requested size: 211.99364pt x 83.41226pt.
-<exl/figs/ex13.png, id=2921, 636.3775pt x 278.03876pt>
+<exl/figs/ex13.png, id=2923, 636.3775pt x 278.03876pt>
 File: exl/figs/ex13.png Graphic file (type png)
 <use exl/figs/ex13.png>
 Package pdftex.def Info: exl/figs/ex13.png  used on input line 96.
@@ -5987,17 +5959,17 @@ l og
  []
 
 ) (./ggb/ggb.tex (./ggb/../doc.tex) [196]
-<ggb/ggbalgoggraf.png, id=2945, 2023.56pt x 1316.92pt>
+<ggb/ggbalgoggraf.png, id=2947, 2023.56pt x 1316.92pt>
 File: ggb/ggbalgoggraf.png Graphic file (type png)
 <use ggb/ggbalgoggraf.png>
 Package pdftex.def Info: ggb/ggbalgoggraf.png  used on input line 10.
 (pdftex.def)             Requested size: 202.36784pt x 131.6997pt.
-<ggb/pointAandB.png, id=2946, 1312.905pt x 863.225pt>
+<ggb/pointAandB.png, id=2948, 1312.905pt x 863.225pt>
 File: ggb/pointAandB.png Graphic file (type png)
 <use ggb/pointAandB.png>
 Package pdftex.def Info: ggb/pointAandB.png  used on input line 23.
 (pdftex.def)             Requested size: 196.92725pt x 129.47816pt.
-<ggb/pointP.png, id=2947, 1324.95pt x 873.2625pt>
+<ggb/pointP.png, id=2949, 1324.95pt x 873.2625pt>
 File: ggb/pointP.png Graphic file (type png)
 <use ggb/pointP.png>
 Package pdftex.def Info: ggb/pointP.png  used on input line 29.
@@ -6005,7 +5977,7 @@ Package pdftex.def Info: ggb/pointP.png  used on input line 29.
  [197
 
  <./ggb/ggbalgoggraf.png> <./ggb/pointAandB.png>]
-<ggb/skrivf.png, id=2955, 388.45125pt x 67.25125pt>
+<ggb/skrivf.png, id=2957, 388.45125pt x 67.25125pt>
 File: ggb/skrivf.png Graphic file (type png)
 <use ggb/skrivf.png>
 Package pdftex.def Info: ggb/skrivf.png  used on input line 39.
@@ -6022,7 +5994,7 @@ Overfull \hbox (4.27533pt too wide) in paragraph at lines 44--47
 bra . Det an-dre er at vi ønsker 
  []
 
-<ggb/pfig.png, id=2956, 384.43625pt x 50.1875pt>
+<ggb/pfig.png, id=2958, 384.43625pt x 50.1875pt>
 File: ggb/pfig.png Graphic file (type png)
 <use ggb/pfig.png>
 Package pdftex.def Info: ggb/pfig.png  used on input line 51.
@@ -6040,23 +6012,23 @@ ltså
  []
 
 [198 <./ggb/pointP.png> <./ggb/skrivf.png> <./ggb/pfig.png>]
-<ggb/23.png, id=2964, 452.69125pt x 330.23375pt>
+<ggb/23.png, id=2966, 452.69125pt x 330.23375pt>
 File: ggb/23.png Graphic file (type png)
 <use ggb/23.png>
 Package pdftex.def Info: ggb/23.png  used on input line 66.
 (pdftex.def)             Requested size: 226.34506pt x 165.11646pt.
-<ggb/H.png, id=2965, 385.44pt x 135.50626pt>
+<ggb/H.png, id=2967, 385.44pt x 135.50626pt>
 File: ggb/H.png Graphic file (type png)
 <use ggb/H.png>
 Package pdftex.def Info: ggb/H.png  used on input line 78.
 (pdftex.def)             Requested size: 192.71953pt x 67.75294pt.
  [199 <./ggb/23.png>]
-<ggb/fglin1.png, id=2973, 396.48125pt x 103.38625pt>
+<ggb/fglin1.png, id=2975, 396.48125pt x 103.38625pt>
 File: ggb/fglin1.png Graphic file (type png)
 <use ggb/fglin1.png>
 Package pdftex.def Info: ggb/fglin1.png  used on input line 92.
 (pdftex.def)             Requested size: 198.24013pt x 51.693pt.
-<ggb/fglin2.png, id=2974, 398.48875pt x 170.6375pt>
+<ggb/fglin2.png, id=2976, 398.48875pt x 170.6375pt>
 File: ggb/fglin2.png Graphic file (type png)
 <use ggb/fglin2.png>
 Package pdftex.def Info: ggb/fglin2.png  used on input line 97.
@@ -6177,7 +6149,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  34144 strings out of 481239
  656004 string characters out of 5920378
- 943276 words of memory out of 5000000
+ 943387 words of memory out of 5000000
  47482 multiletter control sequences out of 15000+600000
  683772 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -6211,10 +6183,10 @@ mf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy
 9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/font
 s/type1/public/lm/lmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msam10.pfb>
-Output written on AM.pdf (208 pages, 4704165 bytes).
+Output written on AM.pdf (208 pages, 4703241 bytes).
 PDF statistics:
- 3347 PDF objects out of 3580 (max. 8388607)
- 2874 compressed objects within 29 object streams
+ 3349 PDF objects out of 3580 (max. 8388607)
+ 2875 compressed objects within 29 object streams
  941 named destinations out of 1000 (max. 500000)
  1628 words of extra memory for PDF output out of 10000 (max. 10000000)
 
