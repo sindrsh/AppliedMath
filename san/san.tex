@@ -3,41 +3,42 @@
 %\input{/home/sindre/akademiet/bok/preamb}
 \begin{document}
 \section{Grunnprinnsippet}
-Selve prinsippet bak sannsynlighetsregning er at vi spør oss hvor mange \textit{gunstige utfall}  vi har i et utvalg av \textit{mulige utfall}. Sannsynligheten for en \textit{hendelse} er da gitt som et forholdstall mellom disse. \regv
-\reg[Sannsynlighet for en hendelse \label{grnprsp}]{
-\[ \text{sannsynlighet for en hendelse}=\frac{\text{antall gunstige utfall}}{\text{antall mulige utfall}} \]
+Selve prinsippet bak sannsynlighetsregning er at vi spør hvor mange \textit{gunstige utfall}  vi har i et utvalg av \textit{mulige utfall}. Sannsynligheten for en \textit{hendelse} er da gitt som et forholdstall mellom disse. \regv
+\reg[Sannsynligheten for en hendelse \label{grnprsp}]{
+\[ \text{sannsynligheten for en hendelse}=\frac{\text{antall gunstige utfall}}{\text{antall mulige utfall}} \]
 } \vsk
 Når vi kaster en terning, kaller vi 'å få en firer' en hendelse. Og da en terning har seks forskjellige sider, er det seks mulige utfall.
 \fig{san1}
 Hvis vi ønsker 'å få en firer', er det bare 1 av disse 6 utfallene som gir oss det vi ønsker, altså er
 \[ \text{sannsynlighet for å få en firer}=
  \frac{1}{6} \]
-\prbxl{0.6}{For å unngå lange uttrykk bruker vi gjerne enkeltbokstaver for å indikere en hendelse. Istedenfor å skrive 'å få en firer', kan vi bruke bokstaven \textit{F}, og for å indikere at vi snakker om sannsynligheten for en hendelse bruker vi bokstaven \textit{P}.}\qquad \prbxr{0.3}{$ P $ kommer av det engelske ordet for sannsynlighet, \textit{probability}.} \\[5pt]
-Når vi skriver $P(S)$ betyr dette 'sannsynligheten for å få en en firer':
+\prbxl{0.6}{For å unngå lange uttrykk bruker vi gjerne enkeltbokstaver for å indikere en hendelse. Istedenfor å skrive 'å få en firer', kan vi bruke bokstaven \textit{F}, og for å indikere at vi snakker om sannsynligheten for en hendelse, bruker vi bokstaven \textit{P}.}\qquad \prbxr{0.3}{$ P $ kommer av det engelske ordet for sannsynlighet, \textit{probability}.} \\[5pt]
+Når vi skriver $P(S)$ betyr dette 'sannsynligheten for å få en firer':
 \[ P(S)=\frac{1}{6} \]
 Hva med det motsatte, altså sannsynligheten for å \textsl{ikke} å få en firer? For å uttrykke at noe er motsatt av en hendelse, setter vi en strek over navnet. Hendelsen 'å \textsl{ikke} få en firer' skriver vi altså som $ \bar{F} $. Det 'å \textsl{ikke} få en firer' er det samme som 'å få \textsl{enten} en ener, en toer, en treer, en femmer \textsl{eller} en sekser', derfor har denne hendelsen 5 gunstige utfall. Det betyr at
 \[ P(\bar{S})=\frac{5}{6} \]
 \reg[Symboler for sannsynlighet]{
-$ P(A) $ er sannsynligheten for at hendelsen $ A $	inntreffer. \vsk
+$ P(A) $ er sannsynligheten for at hendelsen $ A $	skjer. \vsk
 
 $ A $ og $ \bar{A} $ er motsatte hendelser. \vsk
 
-$ P(\bar{A}) $ er sannsynligheten for at $ A $ \textsl{ikke} inntreffer, og omvendt.
-}
+$ P(\bar{A}) $ er sannsynligheten for at $ A $ \textsl{ikke} skjer, og omvendt.
+} \vsk
+
 \info{Obs!}{
  Som regel er det en god vane å forkorte brøker når det lar seg gjøre, men i sannsynlighetsregning vil det ofte lønne seg å la være. Du vil derfor oppdage at mange brøker i kommende seksjoner kunne vært forkortet.
 }
 \section{Hendelser med og uten felles utfall}
 \subsection{Hendelser uten felles utfall} \vspace{-5pt}
-\prbxl{0.6}{La oss kalle hendelsen å 'å få en treer' (på en terning) for \textit{T}. Hendelsen 'å få en treer \textsl{eller} en firer' skriver vi da som $ T\cup F $.} \qquad
+\prbxl{0.6}{La oss kalle hendelsen 'å få en treer' (på en terning) for \textit{T}. Hendelsen 'å få en treer \textsl{eller} en firer' skriver vi da som $ T\cup F $.} \qquad
 \prbxr{0.3}{Symbolet \sym{$ \cup $} kalles \textit{union}.}
 Det er 2 av 6 sider på en terning som er tre \textsl{eller} fire, sannsynligheten for 'å få en treer \textsl{eller} en firer' er derfor $ \frac{2}{6} $:
 \[ P(F\,\cup\,S)=\frac{2}{6} \]
 \fig{san1a}
 
-Det samme svaret hadde vi fått ved å legge sammen sannsynlighetene $P(F)$ og $P(S)$:
+Det samme svaret får vi ved å legge sammen $P(F)$ og $P(S)$:
 \[ P(T\,\cup\,F)=P(T)+P(F)=\frac{1}{6}+\frac{1}{6}=\frac{2}{6} \]
-Å finne $ P(T\cup F) $ ved å summere $ P(T) $ og $ P(F) $ kan vi gjøre fordi $ T $ og $ F $ ikke har noen \textit{felles utfall}. Dette er fordi ingen sider på trekanten viser \textsl{både} en treer og en firer. \regv
+Å finne $ P(T\cup F) $ ved å summere $ P(T) $ og $ P(F) $ kan vi gjøre da $ T $ og $ F $ ikke har noen \textit{felles utfall}. Dette fordi ingen sider på trekanten viser \textsl{både} en treer og en firer. \regv
 
 \reg[Hendelser uten felles utfall \label{ufutf}]{For to hendelser \textit{A} og \textit{B} uten felles utfall, er
 	\[ P(A\,\cup\,B)=P(A)+P(B) \] \vs\vs}
@@ -108,15 +109,15 @@ Vi kaller hendelsen 'en gutt blir trukket' for $ G $.
 }
 \newpage
 \subsection{Felles utfall}	
-	Noen ganger er det slik at to hendelser kan ha \textit{felles utfall}. La oss se på en vanlig kortstokk med $52$ kort som er likt delt inn i typene spar, hjerter, ruter og kløver.  Kort som er av arten knekt, dame, kong eller ess kalles honnørkort.	
+	Noen ganger er det slik at to hendelser kan ha \textit{felles utfall}. La oss se på en vanlig kortstokk med $52$ kort som er likt delt inn i typene spar, hjerter, ruter og kløver.  Kort som er av sorten knekt, dame, kong eller ess kalles \textit{honnørkort}.	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=0.45]{kort}
 	\end{figure}  
 
 \prbxl{0.5}{Tenk at vi trekker opp et kort fra en blandet kortstokk. 
-	Vi ønsker å finne sannsynligheten for 'å trekke kløver \textsl{eller} honnør \textsl{eller} begge deler'.
-	Vi starter med å telle opp de gunstige utfallene for kløverkort og finner at antallet er 13.}
+	Vi ønsker å finne sannsynligheten for 'å trekke kløverkort \textsl{eller} honnørkort'.
+	Vi starter med å telle opp de gunstige utfallene for kløverkort, og finner at antallet er 13.}
 \qquad
 \prbxr{0.4}{Et kort som kløver kong er et kløverkort, men det er også et honnørkort, og derfor er det begge deler; \textsl{både} kløverkort \textsl{og} honnørkor.}
 	
@@ -124,25 +125,25 @@ Vi kaller hendelsen 'en gutt blir trukket' for $ G $.
 		\centering
 		\includegraphics[scale=0.45]{kort1}
 	\end{figure}
-	Etterpå teller vi opp gunstige utfall for honnørkort og finner at 
+	Etterpå teller vi opp gunstige utfall for honnørkort, og finner at 
 	antallet er 16. \\
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=0.45]{kort2}
 	\end{figure}
-Så vi har altså telt opp ${13+16=29}$ gunstige utfall. Men nå støter vi på et problem. For da vi fant alle kløverkort, telte vi blant andre kløver knekt, dame, kong og ess. Disse fire kortene telte vi også da vi fant alle honnørkort, noe som betyr at vi har telt de samme kortene to ganger! \\
+Til sammen har vi telt ${13+16=29}$ gunstige utfall, men nå støter vi på et problem. For da vi fant alle kløverkort, telte vi blant andre kløver knekt, dame, kong og ess. Disse fire kortene telte vi også da vi fant alle honnørkort, noe som betyr at vi har telt de samme kortene to ganger! \\
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=0.45]{kort4}
 	\end{figure}
-Det finnes jo for eksempel ikke to kløver ess i en kortstokk, så skal vi regne ut hvor mange kort som oppfyller kravet om å være kløver, honnør \textsl{eller} begge deler $ - $ ja, så må vi trekke ifra antallet kort vi har telt dobbelt:
+Det finnes jo for eksempel ikke to kløver ess i en kortstokk, så skal vi regne ut hvor mange kort som oppfyller kravet om å være kløver \textsl{eller} honnør, så må vi trekke ifra antallet kort vi har telt dobbelt:
 $$ 13+16-4=25 $$
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=0.45]{kort3}
 	\end{figure}
 
-La \textit{K} være hendelsen 'å trekke et kløverkort' og \textit{H} være hendelsen 'å trekke et honnørkort'. Siden det er 25 kort som er kløver, honnør \textsl{eller} begge deler av i alt 52 kort, har vi at
+La \textit{K} være hendelsen 'å trekke et kløverkort' og \textit{H} være hendelsen 'å trekke et honnørkort'. Siden det er 25 kort som er kløverkort \textsl{eller} honnørkort av i alt 52 kort, har vi at
 $$P(K\cup\,H)=\frac{25}{52}$$
 
 Siden vi har 13 kløverkort og 16 honnørkort, får vi videre at
@@ -152,7 +153,7 @@ Vi har sett at fire kort er \textsl{både} kløver \textsl{og} honnørkort, dett
 \prbxr{0.3}{Symbolet \sym{$ \cap $} kalles \textit{snitt}.} \vs
 \[ K\,\cap\,H=4 \]
 Vi sier da at \textit{K} og \textit{H} har 4 \textit{felles utfall}.
-Sannsynligheten for $K\,\cap\,H$ er
+Videre er
 \[ P(K\,\cap\,H)=\frac{4}{52} \]
 
 Nå som vi har funnet $ P(K), P(H)$ og $P(K\cup H)$ kan vi igjen finne  $P(K\,\cap\,H)$ på følgende måte:
@@ -169,7 +170,7 @@ P(K\,\cup\,H)&=P(K)+P(H)-P(K\,\cap\,H) \br
 }
 \newpage
 \eks{ \label{eksfothand}
-I en klasse på 20 personer spiller 7 personer fotball og 10 personer spiller handball. Av disse er det 4 som spiller både fotball og handball. Tenk deg at du trekker ut én person fra klassen. Hva er sjansen for at denne personen spiller fotball \textsl{eller} handball?
+I en klasse på 20 personer spiller 7 personer fotball og 10 personer spiller handball. Av disse er det 4 som spiller både fotball og handball. Om man trekker ut én person fra klassen, hva er sannsynligheten for at denne personen spiller fotball \textsl{eller} handball?
 		
 \sv
 Vi lar $ F $ være hendelsen 'spiller fotball' og $ H $ være hendelsen 'spiller handball'.
@@ -187,11 +188,10 @@ P(F\cup H)&= P(F)+P(H)-P(F\cap H)\br
 &=\frac{7}{20}+\frac{10}{20}-\frac{4}{20}\br
 &=\frac{13}{20}
 } 
-Sjansen er altså $ \frac{13}{20} $.
 }
 
 \subsection{Venndiagram}
-Målet med et venndiagram er å lage en figur som illustrerer antallet av de enkelte utfallene og de \textit{felles} utfallene. La oss bruke eksempelet på side \pageref{eksfothand} til å lage en slik figur. For klassen der noen spiller fotball, noen handball og noen begge deler, kan vi lage et venndiagram som vist under.
+Målet med et venndiagram er å lage en figur som illustrerer antallet av de \textsl{særskilte} utfallene og de \textsl{felles} utfallene. La oss bruke eksempelet på side \pageref{eksfothand} til å lage en slik figur. For klassen der noen spiller fotball, noen handball og noen begge deler, kan vi lage et venndiagram som vist under.
 \begin{figure}
 	\centering
 	\includegraphics[]{\fpath{venn}}
@@ -201,7 +201,7 @@ Den grønne ellipsen\footnote{En ellipse er en ''strekt'' sirkel.} representerer
 	\centering
 	\includegraphics[]{\fpath{vennb}}
 \end{figure}
-Diagrammet forteller nå at 3 personer spiller \textsl{bare} fotball og 6 spiller \textsl{bare} handball. I tilleg spiller 4 stykker \textsl{både} fotball og handball. (Til sammen er det derfor 7 som spiller fotball og 10 som spiller handball.) 
+Diagrammet forteller nå at 3 personer spiller \textsl{bare} fotball og 6 spiller \textsl{bare} handball. I tilleg spiller 4 personer \textsl{både} fotball og handball. (Til sammen er det derfor 7 som spiller fotball og 10 som spiller handball.) 
 \newpage
 \eks[1]{I en skoleklasse er det 31 elever. I denne klassen er det 15 elever som tar buss til skolen og 9 elever som tar båt. Av disse er det 3 stykker som tar både buss og båt.
 
