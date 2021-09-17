@@ -21,18 +21,18 @@ void dbfunk(int i, int j, pair pos){
 
 drwnum();
 drwlab(i=0);
-dbfunk(1,1,pos6);
+dbfunk(1,1,pos6-sc/2);
 
 
 sh = shift(pos5);
 drwnum(2);
 drwlab(l="to",i=0);
-dbfunk(1,2,pos5);
+dbfunk(1,2,pos5-sc/2);
 
 sh = shift(pos4);
 drwnum(3);
 drwlab(l="tre",i=0);
-dbfunk(1,3,pos4);
+dbfunk(1,3,pos4-sc/2);
 
 sh = shift(pos3);
 drwnum(4);
@@ -41,7 +41,7 @@ dbfunk(2,2,pos3-sc/2);
 
 sh = shift(pos2);
 drwnum(5);
-dbfunk(1,5,pos2);
+dbfunk(1,5,pos2-sc/2);
 
 drwlab(l="fem",i=0);
 
@@ -53,7 +53,7 @@ dbfunk(2,3,pos12-sc/2);
 sh = shift(pos11);
 drwnum(7);
 drwlab(l="sju",i=0);
-dbfunk(1,7,pos11);
+dbfunk(1,7,pos11-sc/2);
 
 sh = shift(pos10);
 drwnum(8);
@@ -66,7 +66,10 @@ drwlab(l="ni",i=0);
 dbfunk(3,3,pos9-3/2*sc);
 
 
-
+sh = shift(pos8);
+drwnum(1);
+drwlab(l="ein",i=0);
+dbfunk(1,1,pos8-sc/2);
 
 
 

@@ -64,6 +64,10 @@ drwnum(9);
 drwlab(l="ni",i=0);
 dbfunk(3,3,pos10-3/2*sc);
 
+sh = shift(pos11);
+drwnum(1);
+drwlab(l="ein",i=0);
+dbfunk(3,3,pos10-3/2*sc);
 
 
 
