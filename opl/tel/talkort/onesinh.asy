@@ -1,40 +1,18 @@
-settings.outformat="pdf";
-defaultpen(fontsize(11 pt));
-//defaultpen(1bp);
-usepackage("icomma");
-usepackage("amsmath");
-usepackage("amssymb");
+import talkortfigs;
 
-
-import figs;
-unitsize(1cm);
-
-
-real lm = 1; // left margin
+real opac = 0.2;
 real w = a; // width
-d = (a4a-6a-2lm)/5;
-real wd = a+d;
 
-pair pos1 = (lm,2);
-pair pos2 = (lm+wd,2);
-pair pos3 = (lm+2wd,2);
-pair pos4 = (lm+3wd,2);
-pair pos5 = (lm+4wd,2);
-pair pos6 = (a4a-w-lm,2);
+void drwnum(int n=1){
+	fill(numb, p1);
+	label(scale(10)*Label((string) n,(a/2,b/2),black));
+	draw(box((0,0),(w,b)));
+}
 
-pair pos7 = (lm,10);
-pair pos8 = (lm+wd,10);
-pair pos9 = (lm+2wd,10);
-pair pos10 = (lm+3wd,10);
-pair pos11 = (lm+4wd,10);
-pair pos12 = (a4a-w-lm,10);
-
-
-
-
-
-
-
+void drwlab(string l=" "){
+	label(scale(5)*Label(l,(w/2,5b/6),black));
+	filldraw(box((0,0),(w,b)),p1);
+}
 
 
 

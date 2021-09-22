@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  21 SEP 2021 21:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  17 SEP 2021 08:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -552,16 +552,16 @@ Package geometry Warning: The marginal notes overrun the paper.
 
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: custom
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(0.0pt, 378.9909pt, 0.0pt)
-* v-part:(T,H,B)=(0.0pt, 199.16928pt, 0.0pt)
-* \paperwidth=378.9909pt
-* \paperheight=199.16928pt
-* \textwidth=378.9909pt
-* \textheight=199.16928pt
+* modes: landscape 
+* h-part:(L,W,R)=(0.0pt, 845.04684pt, 0.0pt)
+* v-part:(T,H,B)=(0.0pt, 597.50787pt, 0.0pt)
+* \paperwidth=845.04684pt
+* \paperheight=597.50787pt
+* \textwidth=845.04684pt
+* \textheight=597.50787pt
 * \oddsidemargin=-72.26999pt
 * \evensidemargin=-72.26999pt
 * \topmargin=-109.26999pt
@@ -626,41 +626,101 @@ LaTeX Info: Redefining \nameref on input line 5.
 \@outlinefile=\write3
 \openout3 = `alle_kort.out'.
 
-<100a.pdf, id=4, 378.92567pt x 198.46146pt>
-File: 100a.pdf Graphic file (type pdf)
-<use 100a.pdf>
-Package pdftex.def Info: 100a.pdf  used on input line 9.
-(pdftex.def)             Requested size: 378.92474pt x 198.46095pt.
-<100b.pdf, id=5, 378.92567pt x 198.46146pt>
-File: 100b.pdf Graphic file (type pdf)
-<use 100b.pdf>
-Package pdftex.def Info: 100b.pdf  used on input line 14.
-(pdftex.def)             Requested size: 378.92474pt x 198.46095pt.
+<1to4hundreda.pdf, id=4, 845.54898pt x 598.0142pt>
+File: 1to4hundreda.pdf Graphic file (type pdf)
+<use 1to4hundreda.pdf>
+Package pdftex.def Info: 1to4hundreda.pdf  used on input line 9.
+(pdftex.def)             Requested size: 844.69537pt x 597.41049pt.
+<1to4hundredb.pdf, id=5, 845.54898pt x 598.0142pt>
+File: 1to4hundredb.pdf Graphic file (type pdf)
+<use 1to4hundredb.pdf>
+Package pdftex.def Info: 1to4hundredb.pdf  used on input line 14.
+(pdftex.def)             Requested size: 844.69537pt x 597.41049pt.
  [1
 
- <./100a.pdf{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 17.
- [2 <./100b.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 17.
+ <./1to4hundreda.pdf{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}>]
+<5to8hundreda.pdf, id=19, 845.54898pt x 598.0142pt>
+File: 5to8hundreda.pdf Graphic file (type pdf)
+<use 5to8hundreda.pdf>
+Package pdftex.def Info: 5to8hundreda.pdf  used on input line 19.
+(pdftex.def)             Requested size: 844.69537pt x 597.41049pt.
+ [2 <./1to4hundredb.pdf>]
+<5to8hundredb.pdf, id=31, 845.54898pt x 598.0142pt>
+File: 5to8hundredb.pdf Graphic file (type pdf)
+<use 5to8hundredb.pdf>
+Package pdftex.def Info: 5to8hundredb.pdf  used on input line 24.
+(pdftex.def)             Requested size: 844.69537pt x 597.41049pt.
+ [3 <./5to8hundreda.pdf>]
+<900a.pdf, id=42, 845.54898pt x 598.0142pt>
+File: 900a.pdf Graphic file (type pdf)
+<use 900a.pdf>
+Package pdftex.def Info: 900a.pdf  used on input line 29.
+(pdftex.def)             Requested size: 844.69537pt x 597.41049pt.
+ [4 <./5to8hundredb.pdf>]
+<900b.pdf, id=53, 845.54898pt x 598.0142pt>
+File: 900b.pdf Graphic file (type pdf)
+<use 900b.pdf>
+Package pdftex.def Info: 900b.pdf  used on input line 34.
+(pdftex.def)             Requested size: 844.69537pt x 597.41049pt.
+ [5 <./900a.pdf>]
+<10to60a.pdf, id=64, 845.54898pt x 598.0142pt>
+File: 10to60a.pdf Graphic file (type pdf)
+<use 10to60a.pdf>
+Package pdftex.def Info: 10to60a.pdf  used on input line 39.
+(pdftex.def)             Requested size: 844.69537pt x 597.41049pt.
+ [6 <./900b.pdf>]
+<10to60b.pdf, id=76, 845.54898pt x 598.0142pt>
+File: 10to60b.pdf Graphic file (type pdf)
+<use 10to60b.pdf>
+Package pdftex.def Info: 10to60b.pdf  used on input line 44.
+(pdftex.def)             Requested size: 844.69537pt x 597.41049pt.
+ [7 <./10to60a.pdf>]
+<70to90a.pdf, id=88, 845.54898pt x 598.0142pt>
+File: 70to90a.pdf Graphic file (type pdf)
+<use 70to90a.pdf>
+Package pdftex.def Info: 70to90a.pdf  used on input line 49.
+(pdftex.def)             Requested size: 844.69537pt x 597.41049pt.
+ [8 <./10to60b.pdf>]
+<70to90b.pdf, id=100, 845.54898pt x 598.0142pt>
+File: 70to90b.pdf Graphic file (type pdf)
+<use 70to90b.pdf>
+Package pdftex.def Info: 70to90b.pdf  used on input line 54.
+(pdftex.def)             Requested size: 844.69537pt x 597.41049pt.
+ [9 <./70to90a.pdf>]
+<1to9a.pdf, id=111, 845.54898pt x 598.0142pt>
+File: 1to9a.pdf Graphic file (type pdf)
+<use 1to9a.pdf>
+Package pdftex.def Info: 1to9a.pdf  used on input line 59.
+(pdftex.def)             Requested size: 844.69537pt x 597.41049pt.
+ [10 <./70to90b.pdf>]
+<1to9b.pdf, id=123, 845.54898pt x 598.0142pt>
+File: 1to9b.pdf Graphic file (type pdf)
+<use 1to9b.pdf>
+Package pdftex.def Info: 1to9b.pdf  used on input line 64.
+(pdftex.def)             Requested size: 844.69537pt x 597.41049pt.
+ [11 <./1to9a.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
+ [12 <./1to9b.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
  (./alle_kort.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 17.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 17.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
 Package rerunfilecheck Info: File `alle_kort.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13279 strings out of 481239
- 219596 string characters out of 5920378
- 507282 words of memory out of 5000000
- 28295 multiletter control sequences out of 15000+600000
+ 13349 strings out of 481239
+ 220845 string characters out of 5920378
+ 507296 words of memory out of 5000000
+ 28355 multiletter control sequences out of 15000+600000
  536397 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,5n,60p,879b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on alle_kort.pdf (2 pages, 10756 bytes).
+Output written on alle_kort.pdf (12 pages, 47394 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 155 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
+ 13 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
