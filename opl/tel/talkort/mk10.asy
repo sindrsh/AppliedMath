@@ -1,6 +1,6 @@
 import tensinh;
 
-string[] Labels = {"ti", "tjue", "tretti", "førti", "femti", "seksti", "søtti", "åtti", "nitti"};
+string[] Labels = {"ti", "tjue", "tretti", "førti", "femti", "seksti", "sytti", "åtti", "nitti"};
 
 for(int i=1; i<10; ++i){
 	string number = (string) (i*10);

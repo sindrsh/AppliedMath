@@ -12,14 +12,13 @@ void drwnum(int n=1){
 		if (i==0) {label(scale(10)*Label((string) n,dx*(a/2,b/2),black));}
 		else label(scale(10)*Label("0",dx*(a/2,b/2),black));
 	}
-	draw(box((0,0),(w,b)));
+	//draw(box((0,0),(w,b)));
 }
 
 void drwlab(string l="", int i =0){
 	label(scale(5)*Label(l,(w/2,5b/6),black));
-	filldraw(box((0,0),(w,b)),p100);
+	fill(box((0,0),(w,b)),p100);
 }
-
 
 
 void drwboxes(int i=0){
