@@ -64,6 +64,15 @@ erase();
 }
 
 {
+int i = 7;
+string number = (string) i;
+drwlab(l="sju");
+db(I=1,J=7, sh=w/2-sc/2, p=p1fill,opac=opac,y=y);
+shipout(number+'b');
+erase();	
+}
+
+{
 int i = 8;
 string number = (string) i;
 drwlab(l="åtte");

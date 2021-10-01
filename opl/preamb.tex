@@ -12,9 +12,10 @@
 \usepackage{babel}
 \usepackage{tabu}
 \usepackage[dvipsnames, table]{xcolor}
+\usepackage{cancel}
 \makeatother
 \makeatletter
-
+\usepackage{datetime2}
 
 %referances
 \newcommand{\net}[2]{{\color{blue}\href{#1}{#2}}}
@@ -64,5 +65,23 @@
 \newcommand{\forb}{\textbf{Forberedelsar}\\}
 \newcommand{\opgvr}{\textbf{Oppgaver}}
 
-\usepackage{datetime2}
+
+
+%colors
+\newcommand{\colr}[1]{{\color{red} #1}}
+\newcommand{\colb}[1]{{\color{blue} #1}}
+\newcommand{\colo}[1]{{\color{orange} #1}}
+\newcommand{\colc}[1]{{\color{cyan} #1}}
+\definecolor{projectgreen}{cmyk}{100,0,100,0}
+\newcommand{\colg}[1]{{\color{projectgreen} #1}}
+
+% Lister med bokstavar
+\usepackage[inline]{enumitem}
+% Opg
+\newcommand{\abc}[1]{
+	\begin{enumerate}[label=\alph*),leftmargin=18pt]
+		#1
+	\end{enumerate}
+}
+
 \usepackage[]{hyperref}

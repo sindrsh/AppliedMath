@@ -222,37 +222,37 @@ Diagrammet forteller nå at 3 personer spiller \textsl{bare} fotball og 6 spille
 \eks[2]{
 Om en klasse med 29 elever vet vi følgende:
 \begin{itemize}
-	\item 10 elever spiller fotball
-	\item 8 elever spiller handball
-	\item 6 elever spiller volleyball
-	\item 2 elever spiller både fotball og handball, men ikke volleyball
+	\item 16 elever spiller fotball
+	\item 12 elever spiller handball
+	\item 7 elever spiller volleyball
+	\item 5 elever spiller både fotball og handball, men ikke volleyball
 	\item 3 elever spiller både fotball og volleyball, men ikke handball
-	\item ingen elever spiller både handball og volleyball, men ikke fotball.	
+	\item 2 elever spiller både handball og volleyball, men ikke fotball.	
 	\item 1 elev spiller alle tre sportene.
 \end{itemize}
-\textbf{a)} Sett opp et venndiagram som beskriver fordelingen av de tre sportene i klassen. La $ F $ bety \textit{spiller fobtall}, $ H $ bety \textit{spiller handball} og $ V $ bety \textit{spiller volleyball}.\br
+\textbf{a)} Sett opp et venndiagram som beskriver fordelingen av de tre sportene i klassen.\br
 
 \textbf{b)} Én person trekkes tilfeldig ut av klassen. Hva er sannsynligheten for at denne personen spiller enten fotball, handball eller volleyball?\br
 
 \textbf{c)} Personen som trekkes ut viser seg å spille fotball. Hva er sjansen for at denne personen også spiller handball?
 
 \sv
-Når vi skal lage et venndiagram er det lurt å skrive inn de felles utfallene først. Ut ifra fjerde til syvende punkt kan vi tegne dette:
+La $ F $ bety 'spiller fobtall', $ H $ bety 'spiller handball' og $ V $ bety 'spiller volleyball'. Når vi skal lage et venndiagram, er det lurt å skrive inn de felles utfallene først. Ut ifra fjerde til syvende punkt kan vi tegne dette:
 \begin{figure}
 	\centering
 	\includegraphics[]{\fpath{venn3ea}}
 \end{figure}
-Da ser vi videre at \y{10-2-1-3=4} elever spiller \textsl{bare} fotball, \y{8-2-1=5} spiller \textsl{bare} handball og \y{6-3-1-0=2} spiller \textsl{bare} volleyball:
+Da ser vi videre at \y{16-5-1-3=7} elever spiller \textsl{bare} fotball, \y{12-5-1-2=4} spiller \textsl{bare} handball og \y{9-3-1-2=3} spiller \textsl{bare} volleyball:
 \begin{figure}
 	\centering
 	\includegraphics[]{\fpath{venn3e}}
 \end{figure} 
-\textbf{b)} Av diagrammet vårt ser vi at det er $ 5+2+4+3+1+2+0=17 $ uniker elever som spiller én eller flere av sportene. Sjansen for å trekke én av disse 17 i en klasse med 29 elever er $ \frac{17}{29} $. \br
+\textbf{b)} Av diagrammet vårt ser vi at det er $ 8+5+1+3+4+2+3= 26 $ unike elever som spiller én eller flere av sportene. Sjansen for å trekke en av disse 26 i en klasse med 29 elever er $ \frac{26}{29} $. \br
 
-\textbf{c)} Vi leser av diagrammet at av de totalt 10 som spiller fotball, er det \y{2+1=3} som også spiller handball. Sjansen for at personen som er trukket ut spiller handball er derfor $ \frac{3}{7} $.
+\textbf{c)} Vi leser av diagrammet at av de totalt 16 som spiller fotball, er det \y{5+1=6} som også spiller handball. Sjansen for at personen som er trukket ut spiller handball er derfor $ \frac{6}{16}=\frac{3}{8} $.
 }
 \subsection{Krysstabell}
-Når det er snakk om to hendelser kan vi også sette opp en \textit{krysstabell} for å skaffe oss oversikt. Si at det på en skole med 300 elever deles ut melk og epler til de elevene som ønsker det i lunsjen. Si videre at 220 av elevene får melk, mens 250 får eple. Av disse er det 180 som får både melk og eple. Hvis vi lar $ M $ bety \textit{får melk} og $ E $ bety \textit{får eple}, vil krysstabellen vår først se slik ut:
+Når det er snakk om to hendelser, kan vi også sette opp en \textit{krysstabell} for å skaffe oss oversikt. Si at det på en skole med 300 elever deles ut melk og epler til de elevene som ønsker det i lunsjen. Si videre at 220 av elevene får melk, mens 250 får eple. Av disse er det 180 som får både melk og eple. Hvis vi lar $ M $ bety \textit{får melk} og $ E $ bety \textit{får eple}, vil krysstabellen vår først se slik ut:
 \begin{center}
 	\renewcommand{\arraystretch}{1.5}
 	\begin{tabular}{|c|c|c|c}
@@ -262,11 +262,9 @@ Når det er snakk om to hendelser kan vi også sette opp en \textit{krysstabell}
 		\hline sum & &
 	\end{tabular}
 \end{center}
-
-
-Deretter fyller vi inn tabellen ut ifra informasjonene vi har:
+Så fyller vi inn tabellen ut ifra infoen vi har:
 \begin{itemize}
-	\item får \textsl{både} melk og epple: \y{M\cap E = 180}
+	\item får \textsl{både} melk og eple: \y{M\cap E = 180}
 	\item får melk, men ikke eple: \y{M\cap \bar{E} = 220-180=40}
 	\item får eple, men ikke melk: \y{E\cap M=250-180=70}
 	\item får hverken melk eller eple: \y{\bar M \cap\bar{E}=300-180-40-70=10}
@@ -289,14 +287,14 @@ Deretter fyller vi inn tabellen ut ifra informasjonene vi har:
 	\includegraphics[scale=0.8]{\fpath{bolle}}
 	\vs
 \end{figure}
-La oss tenke oss at vi har en bolle med fire kuler som er nummererte fra 1 til 4. I et forsøk trekker vi opp én og én kule fram til vi har trukket opp tre kuler. Hvis vi for eksempel først trekker kule 2, deretter kule 4, og så kule 3, får vi \textit{permutasjonen} $2\; 4\; 3$. \vsk
+Si vi har en bolle med fire kuler som er nummererte fra 1 til 4. I et forsøk trekker vi opp en og en kule fram til vi har trukket opp tre kuler. Hvis vi for eksempel først trekker kule 2, deretter kule 4, og så kule 3, får vi \textit{permutasjonen} $2\; 4\; 3$. \vsk
  
-Hvor mange forskjellige permutasjoner kan vi få? La oss lage en figur som hjelper oss. Ved første trekning er det 4 kuler å plukke av, vi kan derfor si at vi har 4 veier å gå. Enten trekker vi kule 1, eller kule 2, eller kule 3, eller kule 4:
+Hvor mange forskjellige permutasjoner kan vi få? La oss lage en figur som hjelper oss med å finne svaret. Ved første trekning er det 4 kuler å plukke av, vi kan derfor si at vi har 4 veier å gå. Enten trekker vi kule 1, eller kule 2, eller kule 3, eller kule 4:
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.8]{\fpath{perm1a}}
 \end{figure}
-Kula vi trekker opp legger vi ut av bollen, og trekker så for andre gang. For hver av de 4 veiene vi kunne gå i første trekning får vi nå 3 nye veier å følge. Altså har vi nå  $3\cdot4=12$ veier vi kan gå.
+Kula vi trekker opp, legger vi ut av bollen, og trekker så for andre gang. For hver av de 4 veiene vi kunne gå i første trekning får vi nå 3 nye veier å gå. Altså har vi nå  $3\cdot4=12$ veier vi kan gå.
 
 \begin{figure}[H]
 	\centering
@@ -312,7 +310,7 @@ Den andre kula vi trekker opp legger vi også ut av bollen,  så  for hver av de
 
 Denne utregningen kunne vi også ha skrevet slik:
 \[ 4\cdot3\cdot2=24 \]
-\reg[Produktregelen for permutasjoner]{Når vi foretar flere trekninger etter hverandre, finner vi alle mulige permutasjoner ved å gange sammen de mulige utfallene i hver trekning.
+\reg[Produktregelen for permutasjoner]{Når vi foretar flere trekninger etter hverandre, finner vi alle mulige permutasjoner ved å gange sammen antall mulige utfall i hver trekning.
 }
 
 \eks{	
@@ -337,7 +335,7 @@ I dagligtale blir ofte ordet \textit{kombinasjoner} brukt istedenfor permutasjon
 
 Si vi ønsker å danne et ord med to bokstaver ved hjelp av med bokstavene $ A $, $ B $ og $ C $, og at vi godtar gjenbruk av bokstav. Da har vi 9 mulige permutasjoner:
 \[ AA, AB, AC, BB, BA, BC, CC, CA, CB \]
-Kombinasjoner derimot viser til en unik sammensetting når rekkefølge ikke tas hensyn til, for eksempel er $ AB $ og $ BA $ den samme kombinasjonen. I dette tilfelle har vi altså 6 kombinasjoner
+Kombinasjoner derimot viser til en unik sammensetting når rekkefølge ikke tas hensyn til, for eksempel er $ AB $ og $ BA $ den samme kombinasjonen. I dette tilfellet har vi altså 6 kombinasjoner
 \[ AA, AB, AC, BB, BC, CC \]
 }
 \newpage
@@ -346,7 +344,7 @@ Kombinasjoner derimot viser til en unik sammensetting når rekkefølge ikke tas 
 \fgbxr{0.4}{
 \fig{bolle2}
 }
-Hvis vi lar $ G $ bety 'å trekke en grønn kule', kan vi skrive denne sannsynligheten som $ P(GG) $. For å komme fram til et svar, starter vi med å finne ut hvor mange \textsl{gunstige} permutasjoner vi har. Siden vi i første trekning har 3 gunstige utfall, og i andre trekning 2 gunstige utfall, har vi $3\cdot2=6$ gunstige perutasjoner. Totalt velger vi blant 7 kuler i første trekning og 6 kuler i andre trekning. Antall \textsl{mulige} permutasjoner er derfor $7\cdot6=42$\,. Sannsynligheten for å få to grønne kuler blir da
+Hvis vi lar $ G $ bety 'å trekke en grønn kule', kan vi skrive denne sannsynligheten som $ P(GG) $. For å komme fram til et svar, starter vi med å finne ut hvor mange \textsl{gunstige} permutasjoner vi har. Siden vi i første trekning har 3 gunstige utfall, og i andre trekning 2 gunstige utfall, har vi $3\cdot2=6$ gunstige permutasjoner. Totalt velger vi blant 7 kuler i første trekning og 6 kuler i andre trekning. Antall \textsl{mulige} permutasjoner er derfor $7\cdot6=42$\,. Sannsynligheten for å få to grønne kuler blir da
 \begin{equation}
 P(GG)=\frac{3\cdot2}{7\cdot6}=\frac{6}{42}=\frac{1}{7} \label{trekk}
 \end{equation}
@@ -360,7 +358,7 @@ La oss også finne sannsynligheten for å få en grønn kule for hver trekning i
 \prbxr{0.4}{Symbolet \sym{$ | $} betyr \textit{\textsl{gitt} at ... har skjedd}. $ P(G|G) $ er derfor en forkortelse for 'sannsynligheten for å trekke en grønn kule, \textsl{gitt} at en grønn kule er trukket'.}
 
 
-Hvis vi ganger sammen sannsynligheten fra første trekning med sannsynligheten fra andre trekning, blir regnestykket det samme som i ligning \eqref{trekk}:
+Hvis vi ganger sannsynligheten fra første trekning med sannsynligheten fra andre trekning, blir regnestykket det samme som i ligning \eqref{trekk}:
 \[ P(GG)=\frac{3}{7}\cdot\frac{2}{6}=\frac{6}{42}=\frac{1}{7} \]
 
 \reg[Sannsynlighet ved gjentatte trekk \label{permsans}]{Sannsynligheten for at $ A $ vil skje, \textsl{gitt} at $ B$ har skjedd, skrives som \y{P(A|B)}. \vsk\\
@@ -370,10 +368,10 @@ Sannsynligheten for at $ A $ skjer først, deretter $ B $, deretter $ C $, og s�
 }
 
 \eks{
-	I en bolle ligger to blå og to røde kuler.  Vi trekker én og én kule opp av bollen, fram til vi har hentet opp tre kuler. Hva er sannsynligheten for at vi først trekker en blå kule, deretter en rød, og til slutt en blå? 
+	I en bolle ligger to blå og to røde kuler.  Vi trekker én og én kule opp av bollen, fram til vi har hentet opp tre kuler. Hva er sannsynligheten for at vi først trekker en blå, deretter en rød, og til slutt en blå kule?  
 		
 		\sv 
-		Vi lar  $ B $ bety  'å trekke blå kule' og  $ R $ bety 'å trekke rød kule'.	Sannsynligheten for først en blå, så en rød, og så en blå kule, skriver vi da som $P(BRB)$.
+		Vi lar $ B $ bety  'å trekke blå kule' og  $ R $ bety 'å trekke rød kule'.	Sannsynligheten for først en blå, så en rød, og så en blå kule, skriver vi da som $P(BRB)$.
 		\begin{itemize}
 			\item 	Sannsynligheten for \textit{B} i første trekning er $P(B)=\frac{2}{4}$.
 			\item Sannsynligheten for \textit{R} i andre trekning, \textsl{gitt} \textit{B} i første er
@@ -391,24 +389,19 @@ Sannsynligheten for at $ A $ skjer først, deretter $ B $, deretter $ C $, og s�
 		\end{align*}}
 
 \subsection{Valgtre}
-Vi kan utnytte \rref{permsans} for å lage en hjelpetegning når vi har å gjøre med gjentatte trekk. Tegningen vi her skal ende opp med kalles et \textit{valgtre}. Vi tegner da en lignende figur som vi gjorde i delkapittel \ref{komb}, men langs alle veier skriver vi nå på sannsynligheten for utfallet veien leder oss til. 
+Vi kan utnytte \rref{permsans} for å lage en hjelpetegning når vi har å gjøre med gjentatte trekk. Tegningen vi her skal ende opp med kalles et \textit{valgtre}. Vi tegner da en lignende figur som vi gjorde i delkapittel \ref{komb}, men langs alle veier skriver vi på sannsynligheten for utfallet veien leder oss til. 
 \begin{figure}[H]
 \centering
 \includegraphics{\fpath{bolle2}}
 \end{figure}
-La oss igjen se på bollen med de syv kulene. Trekk av grønn, blå eller rød kule betegner vi henholdsvis med bokstavene \textit{G}, \textit{B} og \textit{R}.
+La oss igjen se på bollen med de syv kulene. Trekk av grønn, blå eller rød kule betegner vi henholdsvis med bokstavene \textit{G}, \textit{B} og \textit{R}.\vsk
 
-Ved første trekning er sjansen for å trekke en grønn kule $ \frac{3}{7} $, derfor skriver vi denne brøken på veien som fører oss til \textit{G}. Gitt at vi har trukket en grønn kule, er sannsynligheten for også å trekke en grønn kule i andre trekning lik $ \frac{2}{6} $. Denne brøken skriver vi derfor langs veien som fører oss fra \textit{G} til \textit{G}.
-
-Og sånn fortseter vi til vi har ført opp alle sannsynlighetene til hver vei:  \vs
+Ved første trekning er sjansen for å trekke en grønn kule $ \frac{3}{7} $, derfor skriver vi denne brøken på veien som fører oss til \textit{G}. Gitt at vi har trukket en grønn kule, er sannsynligheten for også å trekke en grønn kule i andre trekning lik $ \frac{2}{6} $. Denne brøken skriver vi derfor langs veien som fører oss fra \textit{G} til \textit{G}. Og sånn fortsetter vi til vi har ført opp alle sannsynlighetene til hver vei. For å få en rask oversikt over de forskjellige permutasjonene veiene fører til, kan det være lurt å skrive opp disse under hver ende av treet.  \vs
 \begin{figure}[H]
 \centering
 \includegraphics[]{\fpath{tree}}
 \end{figure}
-
-For å få en rask oversikt over de forskjellige permutasjonene veiene fører til, kan det være lurt å skrive opp disse under hver ende av treet: 
-
-La oss nå bruke valgtret over for å finne sannsynligheten for å trekke én grønn og én blå kule. \textit{GB} og \textit{BG} er da de gunstige permutasjonene. Ved å gange sammen sannsynlighetene langs veien til \textit{GB}, finner vi at:
+La oss nå bruke valgtreet over til å finne sannsynligheten for å trekke én grønn og én blå kule. \textit{GB} og \textit{BG} er da de gunstige permutasjonene. Ved å gange sammen sannsynlighetene langs veien til \textit{GB}, finner vi at
 \[ P(GB)=\frac{3}{7}\cdot\frac{2}{6}=\frac{6}{42} \]
 På samme måte kan vi finne \textit{P(BG)}:
 \[ P(BG)=\frac{2}{7}\cdot\frac{3}{6}=\frac{6}{42} \]
@@ -422,12 +415,12 @@ P(GB\cup BG)&=P(GB)+P(BG) \\
 
 
 \reg[Permutasjoner på et valgtre]{	For å finne sannsynlighetene til en permutasjon på et valgtre, ganger vi sammen sannsynlighetene langs veien vi må følge for å komme til permutasjonen. }
-\eks{I en bolle med 10 kuler er tre kuer grønne, to er blå og fem er røde. Du trekker to kuler ut av bollen. La $ G, B $ og $ R $ henholdsvis bety å trekke en blå, grønn eller rød kule.\vsk
+\eks{I en bolle med 10 kuler er tre kuler grønne, to er blå og fem er røde. Du trekker to kuler ut av bollen. La $ G, B $ og $ R $ henholdsvis bety 'å trekke en blå kule', 'å trekke en grønn kule' og 'å trekke en rød kule'.\vsk
 
-\textbf{a)}  Tegn et valgtre som skisserer hvilke permutasjoner av $ B $, $ G $ og $ R $ du kan få.	\br
+\textbf{a)}  Tegn et valgtre som skisserer permutasjonene av $ B $, $ G $ og $ R $ du kan få.	\br
 \textbf{b)} Hva er sannsynligheten for at du trekker to røde kuler? \br
 \textbf{c)} Hva er sannsynligheten for at du trekker én blå og én grønn kule? \br
-\textbf{d)} Hva er sannsynligheten for at du trekker \textsl{minst} én blå \textsl{eller} én grønn kule?
+\textbf{d)} Hva er sannsynligheten for at du trekker \textsl{minst} én blå \textsl{eller} \textsl{minst} én grønn kule?
 
 \sv
 \textbf{a)}
@@ -435,13 +428,13 @@ P(GB\cup BG)&=P(GB)+P(BG) \\
 	\centering
 	\includegraphics{\fpath{treee}}
 \end{figure}
-\textbf{b)} Av valgtreet vårt ser vi at:
+\textbf{b)} Av valgtreet vårt ser vi at
 \alg{
 	P(RR)&=\frac{2}{10}\cdot\frac{1}{9}\br
 	&= \frac{2}{90} \br
 	&= \frac{1}{45}
 }
-\textbf{c)} Både permutasjonen $ GB $ og $ BG $ gir oss én blå og én grønn kule. Vi starter med å finne sannsynligheten for hver av dem:
+\textbf{c)} Både permutasjonen $ GB $ og $ BG $ gir oss én blå og én grønn kule. Sannsynligheten for hver av dem er
 \alg{
 P(GB)&= \frac{3}{10}\cdot\frac{5}{9} \br
 &= \frac{15}{90} \br
@@ -458,14 +451,14 @@ P(GB\cup BG) &= P(GB)+P(BG) \\
 &= \frac{2}{6} \br
 &= \frac{1}{3}
 }
-\textbf{d)} For å svare på denne oppgaven kan vi selvsagt legge sammen sannsynligheten for permutasjonene $ GG $, $ GB $, $ GR$, $ BG $, $ BB $, $ BR $, $ RG $ og $ RB $, men vi sparer oss veldig mye arbeid hvis vi merker oss dette: Å få \textsl{minst} én blå eller én grønn kule er det motsatte av å \textsl{bare} få røde kuler. Sjansen for dette, å få to røde kuler, fant vi i oppgave b). Av \rref{motsatt} har vi at
+\textbf{d)} For å svare på denne oppgaven kan vi selvsagt legge sammen sannsynligheten for permutasjonene $ GG $, $ GB $, $ GR$, $ BG $, $ BB $, $ BR $, $ RG $ og $ RB $, men vi sparer oss veldig mye arbeid hvis vi merker oss dette: Å få \textsl{minst} én blå eller én grønn kule er det motsatte av å \textsl{bare} få røde kuler. Sannsynligheten for dette, å få to røde kuler, fant vi i oppgave b). Av \rref{motsatt} har vi at
 \alg{
 P(\bar{R}) &= 1-P(R) \br
 &= 1- \frac{1}{45} \br
 &= \frac{45}{45}-\frac{1}{45} \br
 &= \frac{44}{45}
 }
-Sjasen for å få \textsl{minst} én blå \textsl{eller} én grønn kule er altså $ \frac{44}{45} $.
+Sannsynligheten for å få \textsl{minst} én blå \textsl{eller minst} én grønn kule er altså $ \frac{44}{45} $.
 }
 
 \end{document}

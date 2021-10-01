@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  3 SEP 2021 07:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  1 OCT 2021 16:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5278,7 +5278,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--220
 
 [176 <./san/../fig/venne.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 253--253
-[]\T1/lmr/m/n/10.95 2 elever spiller både fot-ball og hand-ball, men ikke vol-l
+[]\T1/lmr/m/n/10.95 5 elever spiller både fot-ball og hand-ball, men ikke vol-l
 ey-
  []
 
@@ -5290,21 +5290,14 @@ nd-
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 253--253
-[]\T1/lmr/m/n/10.95 ingen elever spiller både hand-ball og vol-ley-ball, men ik
-ke
+[]\T1/lmr/m/n/10.95 2 elever spiller både hand-ball og vol-ley-ball, men ikke f
+ot-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 253--253
 \T1/lmr/bx/n/10.95 a) \T1/lmr/m/n/10.95 Sett opp et ven-ndi-a-gram som beskrive
-r fordelin-gen av de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
-\T1/lmr/m/n/10.95 tre sportene i klassen. La $\OML/lmm/m/it/10.95 F$ \T1/lmr/m/
-n/10.95 bety \T1/lmr/m/it/10.95 spiller fob-tall\T1/lmr/m/n/10.95 , $\OML/lmm/m
-/it/10.95 H$ \T1/lmr/m/n/10.95 bety \T1/lmr/m/it/10.95 spiller
+r fordelin-gen av de tre
  []
 
 
@@ -5327,14 +5320,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 253--253
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 253--253
-[]\T1/lmr/m/n/10.95 Når vi skal lage et ven-ndi-a-gram er det lurt å skrive inn
- de felles
+[]\T1/lmr/m/n/10.95 La $\OML/lmm/m/it/10.95 F$ \T1/lmr/m/n/10.95 bety 'spiller 
+fob-tall', $\OML/lmm/m/it/10.95 H$ \T1/lmr/m/n/10.95 bety 'spiller hand-ball' o
+g $\OML/lmm/m/it/10.95 V$ \T1/lmr/m/n/10.95 bety
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 253--253
-\T1/lmr/m/n/10.95 ut-fal-l-ene først. Ut ifra fjerde til syvende punkt kan vi t
-egne
+\T1/lmr/m/n/10.95 'spiller vol-ley-ball'. Når vi skal lage et ven-ndi-a-gram, e
+r det lurt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
+\T1/lmr/m/n/10.95 å skrive inn de felles ut-fal-l-ene først. Ut ifra fjerde til
+ syvende
  []
 
 <san/../fig/venn3ea.pdf, id=2717, 179.75156pt x 179.75156pt>
@@ -5351,7 +5351,7 @@ re \T1/lmr/m/n/10.95 fot-ball,
 
 Underfull \hbox (badness 10000) in paragraph at lines 253--253
 []$ \T1/lmr/m/n/10.95 spiller \T1/lmr/m/sl/10.95 bare \T1/lmr/m/n/10.95 hand-ba
-ll og $[]$ spiller
+ll og $[]$
  []
 
 <san/../fig/venn3e.pdf, id=2718, 179.75156pt x 179.75156pt>
@@ -5361,14 +5361,8 @@ Package pdftex.def Info: san/../fig/venn3e.pdf  used on input line 253.
 (pdftex.def)             Requested size: 179.7511pt x 179.7511pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 253--253
-\T1/lmr/m/n/10.95 uniker elever som spiller én eller flere av sportene. Sjansen
- for å
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
 []\T1/lmr/bx/n/10.95 c) \T1/lmr/m/n/10.95 Vi leser av di-a-gram-met at av de to
--talt 10 som spiller fot-
+-talt 16 som spiller fot-
  []
 
 
@@ -5380,277 +5374,271 @@ Underfull \hbox (badness 10000) in paragraph at lines 253--253
 <san/../fig/bolle.pdf, id=2751, 142.76335pt x 71.63763pt>
 File: san/../fig/bolle.pdf Graphic file (type pdf)
 <use san/../fig/bolle.pdf>
-Package pdftex.def Info: san/../fig/bolle.pdf  used on input line 289.
+Package pdftex.def Info: san/../fig/bolle.pdf  used on input line 287.
 (pdftex.def)             Requested size: 114.21082pt x 57.31017pt.
-
-Overfull \hbox (3.41293pt too wide) in paragraph at lines 292--293
-\T1/lmr/m/n/10.95 trukket opp tre kuler. Hvis vi for ek-sem-pel først trekker k
-ule 2, deretter 
- []
-
 <san/../fig/perm1a.pdf, id=2752, 476.73108pt x 36.06474pt>
 File: san/../fig/perm1a.pdf Graphic file (type pdf)
 <use san/../fig/perm1a.pdf>
-Package pdftex.def Info: san/../fig/perm1a.pdf  used on input line 297.
+Package pdftex.def Info: san/../fig/perm1a.pdf  used on input line 295.
 (pdftex.def)             Requested size: 381.38538pt x 28.85182pt.
 
-Overfull \hbox (39.9523pt too wide) in paragraph at lines 297--298
+Overfull \hbox (39.9523pt too wide) in paragraph at lines 295--296
  [] 
  []
 
 <san/../fig/perm1b.pdf, id=2753, 476.73108pt x 64.52104pt>
 File: san/../fig/perm1b.pdf Graphic file (type pdf)
 <use san/../fig/perm1b.pdf>
-Package pdftex.def Info: san/../fig/perm1b.pdf  used on input line 303.
+Package pdftex.def Info: san/../fig/perm1b.pdf  used on input line 301.
 (pdftex.def)             Requested size: 381.38538pt x 51.61688pt.
 
-Overfull \hbox (39.9523pt too wide) in paragraph at lines 303--304
+Overfull \hbox (39.9523pt too wide) in paragraph at lines 301--302
  [] 
  []
 
 <san/../fig/perm1c.pdf, id=2754, 476.73108pt x 92.97736pt>
 File: san/../fig/perm1c.pdf Graphic file (type pdf)
 <use san/../fig/perm1c.pdf>
-Package pdftex.def Info: san/../fig/perm1c.pdf  used on input line 310.
+Package pdftex.def Info: san/../fig/perm1c.pdf  used on input line 308.
 (pdftex.def)             Requested size: 381.38538pt x 74.38196pt.
 
-Overfull \hbox (39.9523pt too wide) in paragraph at lines 310--311
+Overfull \hbox (39.9523pt too wide) in paragraph at lines 308--309
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--316
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
 []\T1/lmr/m/n/10.95 Når vi fore-tar flere trekninger et-ter hveran-dre, finner 
 vi alle
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--316
-\T1/lmr/m/n/10.95 mulige per-mu-tasjoner ved å gange sam-men de mulige ut-fal-l
--ene i
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+\T1/lmr/m/n/10.95 mulige per-mu-tasjoner ved å gange sam-men an-tall mulige ut-
+fall i
  []
 
 [180
 
  <./san/../fig/bolle.pdf> <./san/../fig/perm1a.pdf> <./san/../fig/perm1b.pdf> <
 ./san/../fig/perm1c.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
 []\T1/lmr/m/n/10.95 Av de 29 bok-stavene i al-fa-betet ønsker vi å lage et ord 
 som
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
 \T1/lmr/m/n/10.95 består av 3 bok-staver. Vi god-kjen-ner ord som ikke har noen
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
 []\T1/lmr/m/n/10.95 Først har vi 29 bok-staver å trekke fra, deretter 28 bok-st
 aver, og
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--333
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
 []\T1/lmr/m/n/10.95 Vi kaster om krone eller mynt fire ganger et-ter hveran-dre
 . Hvor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--333
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
 []\T1/lmr/m/n/10.95 Hver gang vi kaster om krone eller mynt, har vi to mulige u
 t-fall.
  []
 
 [181]
-Underfull \hbox (badness 10000) in paragraph at lines 342--342
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 []\T1/lmr/m/n/10.95 I daglig-tale blir ofte or-det \T1/lmr/m/it/10.95 kom-bi-na
 sjoner \T1/lmr/m/n/10.95 brukt ist-e-den-for per-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--342
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 \T1/lmr/m/n/10.95 mu-tasjoner, men in-nen-for sannsyn-lighet-sreg-n-ing har kom
 -bi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--342
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 \T1/lmr/m/n/10.95 nasjoner og per-mu-tasjoner forskjel-lig be-tyd-ning. Den sto
 re
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--342
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 \T1/lmr/m/n/10.95 forskjellen er at per-mu-tasjoner tar hen-syn til rekke-følge
 , mens
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--342
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 []\T1/lmr/m/n/10.95 Si vi ønsker å danne et ord med to bok-staver ved hjelp av 
 med
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--342
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 \T1/lmr/m/n/10.95 bok-stavene $\OML/lmm/m/it/10.95 A$\T1/lmr/m/n/10.95 , $\OML/
 lmm/m/it/10.95 B$ \T1/lmr/m/n/10.95 og $\OML/lmm/m/it/10.95 C$\T1/lmr/m/n/10.95
  , og at vi god-tar gjen-bruk av bok-stav. Da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--342
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 \T1/lmr/m/n/10.95 Kombinasjoner de-r-i-mot viser til en unik sam-menset-ting nå
 r
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--342
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 \T1/lmr/m/n/10.95 rekke-følge ikke tas hen-syn til, for ek-sem-pel er $\OML/lmm
 /m/it/10.95 AB$ \T1/lmr/m/n/10.95 og $\OML/lmm/m/it/10.95 BA$ \T1/lmr/m/n/10.95
  den
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--342
-\T1/lmr/m/n/10.95 samme kom-bi-nasjo-nen. I dette til-felle har vi altså 6 kom-
-bi-
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
+\T1/lmr/m/n/10.95 samme kom-bi-nasjo-nen. I dette til-fel-let har vi altså 6 ko
+m-bi-
  []
 
 [182]
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
 []\T1/lmr/m/n/10.95 Tenk at vi har en med bolle sju
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
 \T1/lmr/m/n/10.95 kuler. Tre av dem er grønne, to er
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
 \T1/lmr/m/n/10.95 blå og to er røde. Si at vi tar opp
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
 \T1/lmr/m/n/10.95 først én kule av bollen, og deretter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
 \T1/lmr/m/n/10.95 én til. Hva er sannsyn-ligheten for
  []
 
 <san/../fig/bolle2.pdf, id=2793, 136.21892pt x 68.36542pt>
 File: san/../fig/bolle2.pdf Graphic file (type pdf)
 <use san/../fig/bolle2.pdf>
-Package pdftex.def Info: san/../fig/bolle2.pdf  used on input line 348.
+Package pdftex.def Info: san/../fig/bolle2.pdf  used on input line 346.
 (pdftex.def)             Requested size: 136.21858pt x 68.36523pt.
 
-Overfull \hbox (7.93774pt too wide) in paragraph at lines 345--350
+Overfull \hbox (7.93774pt too wide) in paragraph at lines 343--348
 \T1/lmr/m/n/10.95 Hvis vi lar $\OML/lmm/m/it/10.95 G$ \T1/lmr/m/n/10.95 bety 'å
  trekke en grønn kule', kan vi skrive denne sannsyn- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--358
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 []\T1/lmr/m/n/10.95 I an-dre trekn-ing tas det for gitt at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--358
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/lmr/m/n/10.95 en grønn kule er plukket opp ved
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--358
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/lmr/m/n/10.95 første trekn-ing, og dermed er ute
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--358
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/lmr/m/n/10.95 av bollen. Vi har da 2 av 6 kuler
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--360
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 []\T1/lmr/m/n/9 Symbolet [][][][][][] be-tyr \T1/lmr/m/sl/9 gitt \T1/lmr/m/it/9
  at ...
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--360
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 \T1/lmr/m/it/9 har skjedd\T1/lmr/m/n/9 . $\OML/lmm/m/it/9 P\OT1/lmr/m/n/9 (\OML
 /lmm/m/it/9 G\OMS/lmsy/m/n/9 j\OML/lmm/m/it/9 G\OT1/lmr/m/n/9 )$ \T1/lmr/m/n/9 
 er der-for en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--360
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 \T1/lmr/m/n/9 forko-r-telse for 'sannsyn-ligheten
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--360
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 \T1/lmr/m/n/9 for å trekke en grønn kule, \T1/lmr/m/sl/9 gitt
  []
 
 
-Overfull \hbox (9.33899pt too wide) in paragraph at lines 363--364
-[]\T1/lmr/m/n/10.95 Hvis vi ganger sam-men sannsyn-ligheten fra første trekn-in
-g med sannsyn- 
+Overfull \hbox (0.78172pt too wide) in paragraph at lines 361--362
+[]\T1/lmr/m/n/10.95 Hvis vi ganger sannsyn-ligheten fra første trekn-ing med sa
+nnsyn-ligheten 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--370
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 []\T1/lmr/m/n/10.95 Sannsynligheten for at $\OML/lmm/m/it/10.95 A$ \T1/lmr/m/n/
 10.95 vil skje, \T1/lmr/m/sl/10.95 gitt \T1/lmr/m/n/10.95 at $\OML/lmm/m/it/10.
 95 B$ \T1/lmr/m/n/10.95 har skjedd, skrives
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--370
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 []\T1/lmr/m/n/10.95 Sannsynligheten for at $\OML/lmm/m/it/10.95 A$ \T1/lmr/m/n/
 10.95 skjer først, deretter $\OML/lmm/m/it/10.95 B$\T1/lmr/m/n/10.95 , deretter
  $\OML/lmm/m/it/10.95 C$\T1/lmr/m/n/10.95 , og
  []
 
 [183 <./san/../fig/bolle2.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 391--391
+Underfull \hbox (badness 10000) in paragraph at lines 389--389
 []\T1/lmr/m/n/10.95 I en bolle lig-ger to blå og to røde kuler. Vi trekker én o
 g én
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--391
+Underfull \hbox (badness 10000) in paragraph at lines 389--389
 \T1/lmr/m/n/10.95 kule opp av bollen, fram til vi har hen-tet opp tre kuler. Hv
 a er
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--391
-\T1/lmr/m/n/10.95 sannsyn-ligheten for at vi først trekker en blå kule, derette
-r en
+Underfull \hbox (badness 10000) in paragraph at lines 389--389
+\T1/lmr/m/n/10.95 sannsyn-ligheten for at vi først trekker en blå, deretter en 
+rød, og
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--391
+Underfull \hbox (badness 10000) in paragraph at lines 389--389
 []\T1/lmr/m/n/10.95 Vi lar $\OML/lmm/m/it/10.95 B$ \T1/lmr/m/n/10.95 bety 'å tr
 ekke blå kule' og $\OML/lmm/m/it/10.95 R$ \T1/lmr/m/n/10.95 bety 'å trekke rød 
 kule'.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--391
+Underfull \hbox (badness 10000) in paragraph at lines 389--389
 \T1/lmr/m/n/10.95 Sannsyn-ligheten for først en blå, så en rød, og så en blå ku
 le,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--391
+Underfull \hbox (badness 10000) in paragraph at lines 389--389
 []\T1/lmr/m/n/10.95 Sannsynligheten for \T1/lmr/m/it/10.95 B \T1/lmr/m/n/10.95 
 i tredje trekn-ing, \T1/lmr/m/sl/10.95 gitt \T1/lmr/m/it/10.95 B \T1/lmr/m/n/10
 .95 i første og
@@ -5659,58 +5647,64 @@ i tredje trekn-ing, \T1/lmr/m/sl/10.95 gitt \T1/lmr/m/it/10.95 B \T1/lmr/m/n/10
 [184]
 File: san/../fig/bolle2.pdf Graphic file (type pdf)
 <use san/../fig/bolle2.pdf>
-Package pdftex.def Info: san/../fig/bolle2.pdf  used on input line 397.
+Package pdftex.def Info: san/../fig/bolle2.pdf  used on input line 395.
 (pdftex.def)             Requested size: 136.21858pt x 68.36523pt.
 <san/../fig/tree.pdf, id=2814, 392.4763pt x 116.92683pt>
 File: san/../fig/tree.pdf Graphic file (type pdf)
 <use san/../fig/tree.pdf>
-Package pdftex.def Info: san/../fig/tree.pdf  used on input line 406.
+Package pdftex.def Info: san/../fig/tree.pdf  used on input line 402.
 (pdftex.def)             Requested size: 392.47534pt x 116.92653pt.
 
-Overfull \hbox (51.04227pt too wide) in paragraph at lines 406--407
+Overfull \hbox (51.04227pt too wide) in paragraph at lines 402--403
  [] 
  []
 
 [185 <./san/../fig/tree.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 424--424
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
 []\T1/lmr/m/n/10.95 For å finne sannsyn-lighetene til en per-mu-tasjon på et va
 l-gtre,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--424
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
 \T1/lmr/m/n/10.95 ganger vi sam-men sannsyn-lighetene langs veien vi må følge f
 or å
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--469
-[]\T1/lmr/m/n/10.95 I en bolle med 10 kuler er tre kuer grønne, to er blå og fe
-m
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
+[]\T1/lmr/m/n/10.95 I en bolle med 10 kuler er tre kuler grønne, to er blå og f
+em
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--469
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 \T1/lmr/m/n/10.95 er røde. Du trekker to kuler ut av bollen. La $\OML/lmm/m/it/
 10.95 G; B$ \T1/lmr/m/n/10.95 og $\OML/lmm/m/it/10.95 R$ \T1/lmr/m/n/10.95 hen-
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--469
-[]\T1/lmr/bx/n/10.95 a) \T1/lmr/m/n/10.95 Tegn et val-gtre som skisserer hvilke
- per-mu-tasjoner av $\OML/lmm/m/it/10.95 B$\T1/lmr/m/n/10.95 , $\OML/lmm/m/it/1
-0.95 G$
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
+\T1/lmr/m/n/10.95 holdsvis bety 'å trekke en blå kule', 'å trekke en grønn kule
+' og
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--469
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
+[]\T1/lmr/bx/n/10.95 a) \T1/lmr/m/n/10.95 Tegn et val-gtre som skisserer per-mu
+-tasjonene av $\OML/lmm/m/it/10.95 B$\T1/lmr/m/n/10.95 , $\OML/lmm/m/it/10.95 G
+$ \T1/lmr/m/n/10.95 og $\OML/lmm/m/it/10.95 R$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 []\T1/lmr/bx/n/10.95 c) \T1/lmr/m/n/10.95 Hva er sannsyn-ligheten for at du tre
 kker én blå og én grønn
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--469
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 []\T1/lmr/bx/n/10.95 d) \T1/lmr/m/n/10.95 Hva er sannsyn-ligheten for at du tre
 kker \T1/lmr/m/sl/10.95 minst \T1/lmr/m/n/10.95 én blå \T1/lmr/m/sl/10.95 eller
 
@@ -5719,22 +5713,22 @@ kker \T1/lmr/m/sl/10.95 minst \T1/lmr/m/n/10.95 én blå \T1/lmr/m/sl/10.95 eller
 <san/../fig/treee.pdf, id=2830, 319.17244pt x 116.92683pt>
 File: san/../fig/treee.pdf Graphic file (type pdf)
 <use san/../fig/treee.pdf>
-Package pdftex.def Info: san/../fig/treee.pdf  used on input line 469.
+Package pdftex.def Info: san/../fig/treee.pdf  used on input line 462.
 (pdftex.def)             Requested size: 319.17165pt x 116.92653pt.
 
-Overfull \hbox (7.89842pt too wide) in paragraph at lines 469--469
+Overfull \hbox (7.89842pt too wide) in paragraph at lines 462--462
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--469
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 \T1/lmr/bx/n/10.95 c) \T1/lmr/m/n/10.95 Både per-mu-tasjo-nen $\OML/lmm/m/it/10
 .95 GB$ \T1/lmr/m/n/10.95 og $\OML/lmm/m/it/10.95 BG$ \T1/lmr/m/n/10.95 gir oss
  én blå og én grønn
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--469
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 \T1/lmr/m/n/10.95 Sannsynligheten for $\OML/lmm/m/it/10.95 GB$ \T1/lmr/m/sl/10.
 95 eller $\OML/lmm/m/it/10.95 BG$ \T1/lmr/m/n/10.95 er sum-men av $\OML/lmm/m/i
 t/10.95 P\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 GB\OT1/lmr/m/n/10.95 )$ \T1/lm
@@ -5742,13 +5736,13 @@ r/m/n/10.95 og
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--469
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 \T1/lmr/bx/n/10.95 d) \T1/lmr/m/n/10.95 For å svare på denne opp-gaven kan vi s
 elvsagt legge sam-men
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--469
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 \T1/lmr/m/n/10.95 sannsyn-ligheten for per-mu-tasjonene $\OML/lmm/m/it/10.95 GG
 $\T1/lmr/m/n/10.95 , $\OML/lmm/m/it/10.95 GB$\T1/lmr/m/n/10.95 , $\OML/lmm/m/it
 /10.95 GR$\T1/lmr/m/n/10.95 , $\OML/lmm/m/it/10.95 BG$\T1/lmr/m/n/10.95 , $\OML
@@ -5756,22 +5750,28 @@ $\T1/lmr/m/n/10.95 , $\OML/lmm/m/it/10.95 GB$\T1/lmr/m/n/10.95 , $\OML/lmm/m/it
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--469
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 \OML/lmm/m/it/10.95 BR$\T1/lmr/m/n/10.95 , $\OML/lmm/m/it/10.95 RG$ \T1/lmr/m/n
 /10.95 og $\OML/lmm/m/it/10.95 RB$\T1/lmr/m/n/10.95 , men vi sparer oss veldig 
 mye ar-beid hvis vi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--469
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 \T1/lmr/m/n/10.95 merker oss dette: Å få \T1/lmr/m/sl/10.95 minst \T1/lmr/m/n/1
 0.95 én blå eller én grønn kule er det
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--469
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 \T1/lmr/m/n/10.95 mot-satte av å \T1/lmr/m/sl/10.95 bare \T1/lmr/m/n/10.95 få r
-øde kuler. Sjansen for dette, å få to røde
+øde kuler. Sannsyn-ligheten for dette, å få
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
+\T1/lmr/m/n/10.95 Sannsynligheten for å få \T1/lmr/m/sl/10.95 minst \T1/lmr/m/n
+/10.95 én blå \T1/lmr/m/sl/10.95 eller minst \T1/lmr/m/n/10.95 én grønn kule
  []
 
 [186] [187 <./san/../fig/treee.pdf>]) (./san/sanopg.tex (./san/../doc.tex)
@@ -5790,13 +5790,13 @@ Kapittel 9.
 ] (./prg/prg.tex (./prg/../doc.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 6--6
 [][][][]\T1/lmr/m/n/9 Enn så lenge. Pro-gram-mer-ing er et forholdsvis nytt tem
-a for både per-soner og for
+a i norsk skole, forslag
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--6
-\T1/lmr/m/n/9 norsk skole. Forslag om hva en lære-bok bør in-neholde om pro-gra
-m-mer-ing mot-tas
+\T1/lmr/m/n/9 om hva en lære-bok bør in-neholde om pro-gram-mer-ing mot-tas med
+ glede på mail
  []
 
 
@@ -5814,7 +5814,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--14
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
 \T1/lmr/m/n/10.95 an-be-fales språket [][]Rust[][]. Mange holder dette for å væ
-re en arv-
+re arv-tak-
  []
 
 ) (./exl/rgn.tex (./exl/../doc.tex) [191
@@ -6134,11 +6134,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  34144 strings out of 481239
  656008 string characters out of 5920378
- 943386 words of memory out of 5000000
+ 943387 words of memory out of 5000000
  47482 multiletter control sequences out of 15000+600000
  683772 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,20n,104p,966b,1186s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,20n,104p,942b,1186s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/shar
 e/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ma
@@ -6168,7 +6168,7 @@ mf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy
 9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/font
 s/type1/public/lm/lmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msam10.pfb>
-Output written on AM.pdf (208 pages, 4703028 bytes).
+Output written on AM.pdf (208 pages, 4703020 bytes).
 PDF statistics:
  3350 PDF objects out of 3580 (max. 8388607)
  2876 compressed objects within 29 object streams

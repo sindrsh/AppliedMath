@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  12 AUG 2021 11:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  1 OCT 2021 15:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1385,13 +1385,13 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Underfull \hbox (badness 10000) in paragraph at lines 6--6
 [][][][]\T1/lmr/m/n/9 Enn så lenge. Pro-gram-mer-ing er et forholdsvis nytt tem
-a for både per-soner og for
+a i norsk skole. Forslag
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--6
-\T1/lmr/m/n/9 norsk skole. Forslag om hva en lære-bok bør in-neholde om pro-gra
-m-mer-ing mot-tas
+\T1/lmr/m/n/9 om hva en lære-bok bør in-neholde om pro-gram-mer-ing mot-tas med
+ glede på mail
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 8
@@ -1413,7 +1413,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--14
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
 \T1/lmr/m/n/10.95 an-be-fales språket [][]Rust[][]. Mange holder dette for å væ
-re en arv-
+re arv-tak-
  []
 
 [1
@@ -1429,20 +1429,20 @@ Package rerunfilecheck Info: File `prg.out' has not changed.
 (rerunfilecheck)             Checksum: D7D5F5D3D1EF7650B716002A79887707;50.
  ) 
 Here is how much of TeX's memory you used:
- 31279 strings out of 481239
- 614630 string characters out of 5920378
- 928033 words of memory out of 5000000
- 45867 multiletter control sequences out of 15000+600000
+ 31285 strings out of 481239
+ 614662 string characters out of 5920378
+ 928230 words of memory out of 5000000
+ 45873 multiletter control sequences out of 15000+600000
  594913 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,7n,104p,1060b,879s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,7n,104p,1036b,879s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb>
-Output written on prg.pdf (1 page, 153671 bytes).
+Output written on prg.pdf (1 page, 153650 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream
