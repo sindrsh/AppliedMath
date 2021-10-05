@@ -787,7 +787,43 @@ Det finnes ingen konkrete regler for hva man \textsl{kan} eller ikke \textsl{kan
 
 Man kan også spørre seg hvor langt unna det faktiske svaret man kan tillate seg å være ved overslagsregning. Heller ikke dette er det noe fasitsvar på, men en grei føring er at overslaget og det faktiske svaret skal være av samme \textit{størrelsesorden}. Litt enkelt sagt betyr dette at hvis det faktiske svaret har med tusener å gjøre, bør også overslaget ha med tusener å gjøre. Mer nøyaktig sagt betyr det av det faktiske svaret og ditt overslag bør ha samme tierpotens når de er skrevet på standardform.
 }
+\section{Brøkrekning}
 
+\eks[1]{
+Rekn ut $ \frac{3}{4}\cdot8 $.
+
+\sv 
+Vi undersøker om 4 er ein faktor i 8. Det er det, sidan $ {8=2\cdot4} $. Dermed er 
+\alg{
+\frac{3}{\colb{4}}\cdot 8 &= \frac{3}{\bcancel{\colb{4}}}\cdot 2\cdot \bcancel{\colb{4}}\\
+&=3\cdot2\\
+&=6
+}
+}
+\eks[2]{
+Rekn ut $ \frac{4}{3}\cdot9 $.
+
+\sv
+Vi undersøker om 3 er ein faktor i 9. Det er det, sidan $ {9=3\cdot3} $. Dermed er
+\alg{
+9\cdot\frac{4}{\colb{3}} &= \bcancel{\colb{3}}\cdot\colb{3}\cdot\frac{4}{\bcancel{\colb{3}}} \\
+&=4\cdot3 \\
+&=12
+}	
+}
+\newpage
+\eks[3]{
+Rekn ut $ \frac{5}{12}\cdot 18 $. 
+
+\sv
+$ 12 $ er openbart ikkje ein faktor i $ 18 $, men vi kan finne felles faktorar ved å primtalsfaktorisere tala:
+\alg{
+\frac{5}{12}\cdot18&=\frac{5}{\bcancel{2}\cdot2\cdot\bcancel{3}}\cdot \bcancel{2}\cdot\bcancel{3}\cdot3 \br
+&= \frac{5\cdot3}{2} \br
+&=\frac{15}{2}
+}
+{\footnotesize \mer Det hadde vore enda betre å skrive $ 12 $ som $ {2\cdot6} $ og $ 18 $ som $ {3\cdot6} $, men vi ønska her å framheve primtalsfaktorisering da dette alltid vil vise om felles faktorar er til stades.}
+}
 
 \end{document}
 
