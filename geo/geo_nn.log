@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  21 AUG 2021 07:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  22 OCT 2021 11:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -55,7 +55,7 @@ File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
-)) (../preamb.tex
+)) (../preamb_nn.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 )
@@ -1886,8 +1886,8 @@ ed me-ter som en-het, altså er vol-umet til
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 293--293
-[]\T1/lmr/m/n/10.95 Når vi finn vol-umet til gjen-stander, måler vi gjerne leng
-der som
+[]\T1/lmr/m/n/10.95 Når vi finn vol-umet til gjen-stan-dar, måler vi gjerne len
+gder som
  []
 
 
@@ -1915,12 +1915,12 @@ Package rerunfilecheck Info: File `geo_nn.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  31572 strings out of 481239
- 619787 string characters out of 5920378
- 932287 words of memory out of 5000000
+ 619799 string characters out of 5920378
+ 932304 words of memory out of 5000000
  46085 multiletter control sequences out of 15000+600000
  606611 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,13n,104p,872b,877s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,13n,104p,875b,877s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ma
@@ -1934,7 +1934,7 @@ onts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on geo_nn.pdf (15 pages, 2542126 bytes).
+Output written on geo_nn.pdf (15 pages, 2542124 bytes).
 PDF statistics:
  342 PDF objects out of 1000 (max. 8388607)
  244 compressed objects within 3 object streams
