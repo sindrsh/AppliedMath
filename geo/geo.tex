@@ -85,173 +85,10 @@ og
 \spr{
 En form som er en forskjøvet, speilvendt eller rotert utgave av en annen form, kalles en \textit{kongruensavbilding}.
 }
-\section{Tredimensjonal geometri}
-I \mb \;har vi sett på todimensjonale figurer som trekanter, firkanter, sirkler o.l. Alle todimensjonale figurer kan tegnes inn i et koordinatsystem med to akser.
-\fig{3da}
-For å tegne \textit{tredimensjonale} figurer trengs derimot tre akser:
-\fig{3db}
-Mens et rektangel sies å ha en bredde og en høgde, kan vi si at boksen over har en bredde, en høgde \textsl{og} en lengde (dybde). \vsk
 
-Området som ''ligger utenpå'' en tredimensjonal figur kaller vi \textit{overflaten}. Overflaten til boksen over består av 6 rektangler. Mangekanter som er deler av en overflate kalles \textit{sideflater}.
-
-\reg[Tredimensjonale figurer]{
-\parbox[l][][l]{0.4\linewidth}{
-	\centering
-	\fig{fprism}	
-}
-\parbox[r][][l]{0.6\linewidth}{
-	\textbf{Firkantet prisme}\\
-	Har to like og fire like rektangler som sideflater. Alle sideflatene som er i kontakt, står vinkelrette på hverandre.
-}
-\parbox[l][][l]{0.4\linewidth}{
-	\centering
-	\fig{kube}	
-}
-\parbox[r][][l]{0.6\linewidth}{
-	\textbf{Kube}\\
-	Firkantet prisme med kvadrater som sideflater.
-}
-\parbox[l][][l]{0.4\linewidth}{
-	\centering
-	\fig{tprism}	
-}
-\parbox[r][][l]{0.6\linewidth}{
-	\textbf{Trekantet prisme}\\
-	To av sideflatene er like trekanter som er parallelle. Har tre sideflater som er trekanter.
-}
-\parbox[l][][l]{0.4\linewidth}{
-	\centering
-	\fig{fpyr}	
-}
-\parbox[r][][l]{0.6\linewidth}{
-	\textbf{Firkantet pyramide}\\
-	Har ett rektangel og fire trekanter\\som sideflater.
-}
-\parbox[l][][l]{0.4\linewidth}{
-	\centering
-	\fig{tpyr}	
-}
-\parbox[r][][l]{0.6\linewidth}{
-	\textbf{Trekantet pyramide}\\
-	Har fire trekanter som sideflater.
-}
-\parbox[l][][l]{0.4\linewidth}{
-	\centering
-	\fig{kjegle}	
-}
-\parbox[r][][l]{0.6\linewidth}{
-	\textbf{Kjegle}\\
-	En del av overflaten er en sirkel, den resterende delen er en sammenbrettet sektor.
-}
-}
-\newpage
-\info{Tips}{Det er ikke så lett å se for seg hva en \textsl{sammenbrettet sektor} er, men prøv dette: 
-\begin{enumerate}
-	\item Tegn en sektor på et ark. Klipp ut sektoren, og føy sammen de to kantene på sektoren. Da har du en kjegle uten bunn.
-\end{enumerate}
-}
-\section{Volum}
-Når vi ønsker å si noe om hvor mye det er plass til inni en gjenstand, snakker vi om \textit{volumet} tilden. Som et mål på volum tenker vi oss en kube med sidelengde 1.
-\fig{vol1}
-En slik kube kan vi kalle 'enerkuben'. Si vi har en firkantet prisme med bredde 3, lengde 4 og høgde 2.
-\fig{vol2}
-I denne er det plass til akkurat 24 enerkuber.
-\fig{vol2a}
-Dette kunne vi ha regnet slik:
-\[ 3\cdot 4\cdot 2=24\]
-Altså
-\[\text{bredde}\cdot\text{lengde}\cdot\text{høgde} \]\vsk
-\newpage
-\subsubsection{Grunnflate}
-For å regne ut volumet til de mest elementære figurene vi har, kan det være lurt å bruke begrepet \textit{grunnflate}. Slik som for en grunnlinje\footnote{se \mb, s. 81.}, er det vårt valg av grunnflate som avgjør hvordan vi skal regne ut høgden. For prismen fra forrige side, er det naturlig å velge flaten som ligger horisontalt til å være grunnflaten, og for å indikere dette skrives ofte bokstaven $ G $:
-\fig{vol2b}
-Grunnflaten har arealet $ 3\cdot4=12 $, mens høgden er 2. Volumet til hele prismen er grunnflatens areal ganget med høgden:
-\alg{
-	 V &= 3\cdot 4 \cdot 2 \\
-	 &= G\cdot 2\\
-	 &= 24
-}
-\info{Grunnflaten eller grunnflatearealet?}{
-I teksten over har vi først kalt selve grunnflaten for $ G $, og så brukt $ G $ for \textsl{grunnflatearealet}. I denne boka er begrepet \textsl{grunnflate} så sterkt knyttet til \textsl{grunnflatearealet} at vi ikke skiller mellom disse to.
-}
-\reg[Volum \label{volforml}]{ 
-Volumet $ V $ til en firkantet prisme eller en sylinder med grunnflate $ G $ og høgde $ h $ er
-\[ V = G\cdot h \]
-\begin{figure}
-	\centering
-	\footnotesize
-	\stackunder[6pt]{\includegraphics[scale=0.7]{\fpath{vol3c}}}{Firkantet prisme}\qquad\qquad
-	\stackunder[6pt]{\includegraphics[scale=0.7]{\fpath{vol3b}}}{Sylinder}
-\end{figure}
-Volumet $ V $ til en kjegle eller en pyramide med grunnflate $ G $ og høgde $ h $ er
-\[ V = \frac{G\cdot h}{3} \]
-\begin{figure}
-	\centering
-\footnotesize
-\stackunder[6pt]{\includegraphics[scale=0.7]{\fpath{vol3}}}{Kjegle}\qquad \qquad    
-\stackunder[6pt]{\includegraphics[scale=0.7]{\fpath{vol3a}}}{Firkantet pyramide}
-\end{figure}
-}\vsk
-\info{Merk}{
-Formlene fra \rref{volforml} gjelder også for prismer, sylindre, kjegler og pyramider som heller (er skjeve). Hvis grunnflaten er plassert horisontalt, er høgden den vertikale avstanden mellom grunnflaten og toppen til figuren.
-\fig{vol4} 
-(For spisse gjenstander som kjegler og pyramider finnes det selvsagt bare ett valg av grunnflate.)
-}
-\newpage
-\eks[1]{
-\fig{vol5}
-En sylinder har radius 7 og høgde 5. 
-\abc{
-\item Finn grunnflaten til sylinderen.
-\item Finn volumet til sylinderen.
-}
-
-\sv \vs
-\abc{
-\item Vi har at\footnote{se \mb, s. 140.}:
-\algv{
-	\text{grunnflate}&= \pi \cdot 7^2  \\
-	&= 49 \pi
-} 
-\item Dermed er
-\algv{
-	\text{volumet til sylinderen}&= 49\pi\cdot 6 \\
-	&= 294\pi
-}
-}
-}
-\newpage
-\eks[2]{
-En firkantet pyramide har lengde 2, bredde 3 og høgde 5.
-\fig{vol6}
-\abc{
-\item Finn grunnflaten til pyramiden.
-\item Finn volumet til pyramiden.
-}
-\sv  \vs
-\abc{
-\item Vi har at\footnote{se \mb, s. 140.}
-\algv{
-\text{grunnflate}&=2\cdot 3 \\
-&= 6 
-}
-\item Dermed er
-\algv{
-\text{volumet til pyramiden}&= 6\cdot 5 \\
-&= 30
-}
-}
-} \vsk
-
-\reg[Volumet til ei kule]{
-	Volumet $ V $ til ei kule med radius $ r $ er:
-	\[ V = \frac{4\cdot\pi\cdot r^3}{3} \]
-\begin{figure}
-	\centering
-	\includegraphics[scale=0.7]{\fpath{vol3d}}
-\end{figure}
-}
 \section{Omkrets, areal og volum med enheter}
+\mer \textsl{I eksemplene til denne seksjonen bruker vi areal- og volumformler som du finner i \mb.} \vsk
+
 Når vi måler lengder med linjal eller lignende, må vi passe på å ta med benevningene i svaret vårt. \regv
 
 \eks[1]{ \vs
@@ -271,11 +108,12 @@ Når vi måler lengder med linjal eller lignende, må vi passe på å ta med ben
 }}
 \prbxr{0.3}{Vi skriver cm$ ^2 $ fordi vi har ganget sammen 2 lengder som vi har målt i cm.}
 }
+\newpage
 \eks[2]{
 En sylinder har radius $ 4\enh{m} $ og høgde $ 2\enh{m} $. Finn volumet til sylinderen.
 
 \sv
-Så lenge vi er sikre på at størrelsene vår har samme benevning (i dette tilfellet 'm'), kan vi først rekne uten størrelser:
+Så lenge vi er sikre på at størrelsene vår har samme benevning (i dette tilfellet 'm'), kan vi først regne uten størrelser:
 \alg{
 \text{grunnflate til sylinderen}&=\pi\cdot 4^2 \\
 &= 16 \pi

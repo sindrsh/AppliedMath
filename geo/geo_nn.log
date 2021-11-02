@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  22 OCT 2021 11:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  2 NOV 2021 19:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1328,17 +1328,17 @@ LaTeX Info: Redefining \nameref on input line 4.
 \@outlinefile=\write7
 \openout7 = `geo_nn.out'.
 
-<../fig/sym.png, id=23, 602.25pt x 531.9875pt>
+<../fig/sym.png, id=15, 602.25pt x 531.9875pt>
 File: ../fig/sym.png Graphic file (type png)
 <use ../fig/sym.png>
 Package pdftex.def Info: ../fig/sym.png  used on input line 9.
 (pdftex.def)             Requested size: 114.42868pt x 101.07867pt.
-<../fig/symb.png, id=25, 602.25pt x 602.25pt>
+<../fig/symb.png, id=17, 602.25pt x 602.25pt>
 File: ../fig/symb.png Graphic file (type png)
 <use ../fig/symb.png>
 Package pdftex.def Info: ../fig/symb.png  used on input line 10.
 (pdftex.def)             Requested size: 96.36195pt x 96.36195pt.
-<../fig/symc.png, id=26, 602.25pt x 602.25pt>
+<../fig/symc.png, id=18, 602.25pt x 602.25pt>
 File: ../fig/symc.png Graphic file (type png)
 <use ../fig/symc.png>
 Package pdftex.def Info: ../fig/symc.png  used on input line 11.
@@ -1418,7 +1418,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--29
 av to
  []
 
-<../fig/btfly0.png, id=30, 602.25pt x 392.46625pt>
+<../fig/btfly0.png, id=22, 602.25pt x 392.46625pt>
 File: ../fig/btfly0.png Graphic file (type png)
 <use ../fig/btfly0.png>
 Package pdftex.def Info: ../fig/btfly0.png  used on input line 29.
@@ -1432,12 +1432,12 @@ Package pdftex.def Info: ../fig/btfly0.png  used on input line 29.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../fig/sym.png> <../fig/sy
 mb.png> <../fig/symc.png> <../fig/btfly0.png>]
-<../fig/trans1a.pdf, id=53, 161.97513pt x 107.79271pt>
+<../fig/trans1a.pdf, id=45, 161.97513pt x 107.79271pt>
 File: ../fig/trans1a.pdf Graphic file (type pdf)
 <use ../fig/trans1a.pdf>
 Package pdftex.def Info: ../fig/trans1a.pdf  used on input line 36.
 (pdftex.def)             Requested size: 161.97473pt x 107.79243pt.
-<../fig/trans1.pdf, id=54, 171.21968pt x 171.21968pt>
+<../fig/trans1.pdf, id=46, 171.21968pt x 171.21968pt>
 File: ../fig/trans1.pdf Graphic file (type pdf)
 <use ../fig/trans1.pdf>
 Package pdftex.def Info: ../fig/trans1.pdf  used on input line 36.
@@ -1472,7 +1472,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--48
 m
  []
 
-<../fig/btfly.png, id=78, 617.30624pt x 392.46625pt>
+<../fig/btfly.png, id=70, 617.30624pt x 392.46625pt>
 File: ../fig/btfly.png Graphic file (type png)
 <use ../fig/btfly.png>
 Package pdftex.def Info: ../fig/btfly.png  used on input line 48.
@@ -1483,7 +1483,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--52
  til det
  []
 
-<../fig/sym2.pdf, id=79, 142.26149pt x 101.76018pt>
+<../fig/sym2.pdf, id=71, 142.26149pt x 101.76018pt>
 File: ../fig/sym2.pdf Graphic file (type pdf)
 <use ../fig/sym2.pdf>
 Package pdftex.def Info: ../fig/sym2.pdf  used on input line 52.
@@ -1495,7 +1495,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--56
 
  []
 
-<../fig/sym3.pdf, id=80, 227.62039pt x 136.77097pt>
+<../fig/sym3.pdf, id=72, 227.62039pt x 136.77097pt>
 File: ../fig/sym3.pdf Graphic file (type pdf)
 <use ../fig/sym3.pdf>
 Package pdftex.def Info: ../fig/sym3.pdf  used on input line 56.
@@ -1551,14 +1551,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--74
 teret er i
  []
 
-<../fig/rot0.png, id=81, 602.25pt x 602.25pt>
+<../fig/rot0.png, id=73, 602.25pt x 602.25pt>
 File: ../fig/rot0.png Graphic file (type png)
 <use ../fig/rot0.png>
 Package pdftex.def Info: ../fig/rot0.png  used on input line 74.
 (pdftex.def)             Requested size: 120.44786pt x 120.44786pt.
 [3 <../fig/btfly.png> <../fig/sym2.pdf> <../fig/sym3.pdf>] [4 <../fig/rot0.png>
 ]
-<../fig/rot1.pdf, id=110, 227.62039pt x 143.0143pt>
+<../fig/rot1.pdf, id=102, 227.62039pt x 143.0143pt>
 File: ../fig/rot1.pdf Graphic file (type pdf)
 <use ../fig/rot1.pdf>
 Package pdftex.def Info: ../fig/rot1.pdf  used on input line 83.
@@ -1570,359 +1570,90 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--87
  []
 
 [5 <../fig/rot1.pdf>]
-<../fig/3da.pdf, id=124, 227.36946pt x 124.90665pt>
-File: ../fig/3da.pdf Graphic file (type pdf)
-<use ../fig/3da.pdf>
-Package pdftex.def Info: ../fig/3da.pdf  used on input line 90.
-(pdftex.def)             Requested size: 227.3689pt x 124.90633pt.
-<../fig/3db.pdf, id=125, 187.49046pt x 96.12914pt>
-File: ../fig/3db.pdf Graphic file (type pdf)
-<use ../fig/3db.pdf>
-Package pdftex.def Info: ../fig/3db.pdf  used on input line 92.
-(pdftex.def)             Requested size: 187.48999pt x 96.12889pt.
-<../fig/fprism.pdf, id=126, 58.2175pt x 52.17493pt>
-File: ../fig/fprism.pdf Graphic file (type pdf)
-<use ../fig/fprism.pdf>
-Package pdftex.def Info: ../fig/fprism.pdf  used on input line 146.
-(pdftex.def)             Requested size: 58.21735pt x 52.17479pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
-[]\T1/lmr/m/n/10.95 Har to like og fire like rek-tan-gel som
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
-\T1/lmr/m/n/10.95 side-flater. Alle side-flatene som er i
- []
-
-<../fig/kube.pdf, id=127, 42.13742pt x 47.17625pt>
-File: ../fig/kube.pdf Graphic file (type pdf)
-<use ../fig/kube.pdf>
-Package pdftex.def Info: ../fig/kube.pdf  used on input line 146.
-(pdftex.def)             Requested size: 42.1373pt x 47.17612pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
-[]\T1/lmr/m/n/10.95 Firkanta prisme med kvadrat som
- []
-
-<../fig/tprism.pdf, id=128, 53.99171pt x 39.91914pt>
-File: ../fig/tprism.pdf Graphic file (type pdf)
-<use ../fig/tprism.pdf>
-Package pdftex.def Info: ../fig/tprism.pdf  used on input line 146.
-(pdftex.def)             Requested size: 53.99158pt x 39.91902pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
-[]\T1/lmr/m/n/10.95 To av side-flatene er like trekan-ter som
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
-\T1/lmr/m/n/10.95 er par-al-lelle. Har tre side-flater som er
- []
-
-<../fig/fpyr.pdf, id=129, 67.23119pt x 70.2625pt>
-File: ../fig/fpyr.pdf Graphic file (type pdf)
-<use ../fig/fpyr.pdf>
-Package pdftex.def Info: ../fig/fpyr.pdf  used on input line 146.
-(pdftex.def)             Requested size: 67.231pt x 70.26231pt.
-<../fig/tpyr.pdf, id=130, 43.14117pt x 70.2625pt>
-File: ../fig/tpyr.pdf Graphic file (type pdf)
-<use ../fig/tpyr.pdf>
-Package pdftex.def Info: ../fig/tpyr.pdf  used on input line 146.
-(pdftex.def)             Requested size: 43.14105pt x 70.26231pt.
-<../fig/kjegle.pdf, id=131, 59.22125pt x 52.17493pt>
-File: ../fig/kjegle.pdf Graphic file (type pdf)
-<use ../fig/kjegle.pdf>
-Package pdftex.def Info: ../fig/kjegle.pdf  used on input line 146.
-(pdftex.def)             Requested size: 59.22108pt x 52.17479pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
-[]\T1/lmr/m/n/10.95 Ein del av over-flata er ein sirkel, den
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
-\T1/lmr/m/n/10.95 resterende de-len er ein saman-bretta
- []
-
-
-Overfull \hbox (3.63052pt too wide) in paragraph at lines 146--146
-[]$[]$ $[]$
- []
-
-
-Overfull \hbox (3.63052pt too wide) in paragraph at lines 146--146
-[]$ $[]$
- []
-
-
-Overfull \hbox (3.63052pt too wide) in paragraph at lines 146--146
-[]$ $[]$
- []
-
-
-Overfull \hbox (3.63052pt too wide) in paragraph at lines 146--146
-[]$ $[]$
- []
-
-
-Overfull \hbox (3.63052pt too wide) in paragraph at lines 146--146
-[]$ $[]$
- []
-
-
-Overfull \hbox (3.63052pt too wide) in paragraph at lines 146--146
-[]$ $[]$ 
- []
-
-[6
-
- <../fig/3da.pdf> <../fig/3db.pdf>] [7 <../fig/fprism.pdf> <../fig/kube.pdf> <.
-./fig/tprism.pdf> <../fig/fpyr.pdf> <../fig/tpyr.pdf> <../fig/kjegle.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 152--152
-[]\T1/lmr/m/n/10.95 Det er ikkje så lett å se for seg hva en \T1/lmr/m/sl/10.95
- sam-men-bretta sek-tor \T1/lmr/m/n/10.95 er,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--152
-[]\T1/lmr/m/n/10.95 Teikn ein sek-tor på eit ark. Klipp ut sek-toren, og føy
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--152
-\T1/lmr/m/n/10.95 saman dei to kan-tene på sek-toren. Da har du ei kje-gle
- []
-
-[8]
-<../fig/vol1.pdf, id=177, 47.15617pt x 49.18375pt>
-File: ../fig/vol1.pdf Graphic file (type pdf)
-<use ../fig/vol1.pdf>
-Package pdftex.def Info: ../fig/vol1.pdf  used on input line 155.
-(pdftex.def)             Requested size: 47.15604pt x 49.18361pt.
-<../fig/vol2.pdf, id=178, 148.555pt x 125.44868pt>
-File: ../fig/vol2.pdf Graphic file (type pdf)
-<use ../fig/vol2.pdf>
-Package pdftex.def Info: ../fig/vol2.pdf  used on input line 157.
-(pdftex.def)             Requested size: 148.55463pt x 125.44838pt.
-<../fig/vol2a.pdf, id=179, 148.555pt x 125.44868pt>
-File: ../fig/vol2a.pdf Graphic file (type pdf)
-<use ../fig/vol2a.pdf>
-Package pdftex.def Info: ../fig/vol2a.pdf  used on input line 159.
-(pdftex.def)             Requested size: 148.55463pt x 125.44838pt.
- [9
-
- <../fig/vol1.pdf> <../fig/vol2.pdf> <../fig/vol2a.pdf>]
-Overfull \hbox (2.08449pt too wide) in paragraph at lines 166--167
-\T1/lmr/m/n/10.95 er det vårt valg av grun-n-flate som avg-jer ko-r-leis vi ska
-l rekne ut høgda. 
- []
-
-<../fig/vol2b.pdf, id=196, 148.555pt x 125.44868pt>
-File: ../fig/vol2b.pdf Graphic file (type pdf)
-<use ../fig/vol2b.pdf>
-Package pdftex.def Info: ../fig/vol2b.pdf  used on input line 167.
-(pdftex.def)             Requested size: 148.55463pt x 125.44838pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--176
-[]\T1/lmr/m/n/10.95 I tek-sten over har vi først kalla sjølve grun-n-flata for 
-$\OML/lmm/m/it/10.95 G$\T1/lmr/m/n/10.95 , og så
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--176
-\T1/lmr/m/n/10.95 brukt $\OML/lmm/m/it/10.95 G$ \T1/lmr/m/n/10.95 for \T1/lmr/m
-/sl/10.95 grun-n-flatearealet\T1/lmr/m/n/10.95 . I denne boka er om-grepet \T1/
-lmr/m/sl/10.95 grun-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--176
-\T1/lmr/m/sl/10.95 n-flate \T1/lmr/m/n/10.95 så sterkt knytt til \T1/lmr/m/sl/1
-0.95 grun-n-flatearealet \T1/lmr/m/n/10.95 at vi ikkje skiller
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
-[]\T1/lmr/m/n/10.95 Volumet $\OML/lmm/m/it/10.95 V$ \T1/lmr/m/n/10.95 til ei fi
-rkanta prisme eller ein sylin-der med grun-n-
- []
-
-<../fig/vol3c.pdf, id=197, 117.41869pt x 123.46124pt>
-File: ../fig/vol3c.pdf Graphic file (type pdf)
-<use ../fig/vol3c.pdf>
-Package pdftex.def Info: ../fig/vol3c.pdf  used on input line 194.
-(pdftex.def)             Requested size: 82.1925pt x 86.42226pt.
-File: ../fig/vol3c.pdf Graphic file (type pdf)
-<use ../fig/vol3c.pdf>
-Package pdftex.def Info: ../fig/vol3c.pdf  used on input line 194.
-(pdftex.def)             Requested size: 82.1925pt x 86.42226pt.
-<../fig/vol3b.pdf, id=198, 127.45618pt x 127.47626pt>
-File: ../fig/vol3b.pdf Graphic file (type pdf)
-<use ../fig/vol3b.pdf>
-Package pdftex.def Info: ../fig/vol3b.pdf  used on input line 194.
-(pdftex.def)             Requested size: 89.2187pt x 89.23276pt.
-File: ../fig/vol3b.pdf Graphic file (type pdf)
-<use ../fig/vol3b.pdf>
-Package pdftex.def Info: ../fig/vol3b.pdf  used on input line 194.
-(pdftex.def)             Requested size: 89.2187pt x 89.23276pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
-\T1/lmr/m/n/10.95 Volumet $\OML/lmm/m/it/10.95 V$ \T1/lmr/m/n/10.95 til ei kje-
-gle eller ei pyra-mide med grun-n-flate $\OML/lmm/m/it/10.95 G$ \T1/lmr/m/n/10.
-95 og
- []
-
-<../fig/vol3.pdf, id=199, 116.435pt x 102.36243pt>
-File: ../fig/vol3.pdf Graphic file (type pdf)
-<use ../fig/vol3.pdf>
-Package pdftex.def Info: ../fig/vol3.pdf  used on input line 194.
-(pdftex.def)             Requested size: 81.50394pt x 71.6532pt.
-File: ../fig/vol3.pdf Graphic file (type pdf)
-<use ../fig/vol3.pdf>
-Package pdftex.def Info: ../fig/vol3.pdf  used on input line 194.
-(pdftex.def)             Requested size: 81.50394pt x 71.6532pt.
-<../fig/vol3a.pdf, id=200, 114.40742pt x 118.4425pt>
-File: ../fig/vol3a.pdf Graphic file (type pdf)
-<use ../fig/vol3a.pdf>
-Package pdftex.def Info: ../fig/vol3a.pdf  used on input line 194.
-(pdftex.def)             Requested size: 80.08464pt x 82.90916pt.
-File: ../fig/vol3a.pdf Graphic file (type pdf)
-<use ../fig/vol3a.pdf>
-Package pdftex.def Info: ../fig/vol3a.pdf  used on input line 194.
-(pdftex.def)             Requested size: 80.08464pt x 82.90916pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--199
-[]\T1/lmr/m/n/10.95 Formlane frå [][]\T1/lmr/m/sl/10.95 Regel 0.5[][][] \T1/lmr
-/m/n/10.95 gjeld også for pris-mer, sylin-drar, kje-gler
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--199
-\T1/lmr/m/n/10.95 og pyra-mider som heller (er skeive). Vis grun-n-flata er pla
-ssert
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--199
-\T1/lmr/m/n/10.95 ho-rison-talt, er høgda den ver-tikale av-s-tanden mel-lom gr
-un-n-flata
- []
-
-<../fig/vol4.png, id=202, 111.41624pt x 66.2475pt>
-File: ../fig/vol4.png Graphic file (type png)
-<use ../fig/vol4.png>
-Package pdftex.def Info: ../fig/vol4.png  used on input line 199.
-(pdftex.def)             Requested size: 111.41597pt x 66.24733pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--199
-\T1/lmr/m/n/10.95 (For spisse gjen-stan-dar som kje-gler og pyra-mider finst de
-t
- []
-
-[10 <../fig/vol2b.pdf>] [11 <../fig/vol3c.pdf> <../fig/vol3b.pdf> <../fig/vol3.
-pdf> <../fig/vol3a.pdf> <../fig/vol4.png>]
-<../fig/vol5.pdf, id=231, 200.75pt x 148.53493pt>
-File: ../fig/vol5.pdf Graphic file (type pdf)
-<use ../fig/vol5.pdf>
-Package pdftex.def Info: ../fig/vol5.pdf  used on input line 222.
-(pdftex.def)             Requested size: 200.7495pt x 148.53455pt.
- [12 <../fig/vol5.pdf>]
-<../fig/vol6.pdf, id=247, 102.3825pt x 88.30992pt>
-File: ../fig/vol6.pdf Graphic file (type pdf)
-<use ../fig/vol6.pdf>
-Package pdftex.def Info: ../fig/vol6.pdf  used on input line 244.
-(pdftex.def)             Requested size: 102.38225pt x 88.3097pt.
-<../fig/vol3d.pdf, id=250, 128.03835pt x 127.97812pt>
-File: ../fig/vol3d.pdf Graphic file (type pdf)
-<use ../fig/vol3d.pdf>
-Package pdftex.def Info: ../fig/vol3d.pdf  used on input line 253.
-(pdftex.def)             Requested size: 89.62622pt x 89.58406pt.
- [13 <../fig/vol6.pdf> <../fig/vol3d.pdf>]
-<../fig/2t5.jpg, id=268, 3107.61pt x 1541.76pt>
+<../fig/2t5.jpg, id=116, 3107.61pt x 1541.76pt>
 File: ../fig/2t5.jpg Graphic file (type jpg)
 <use ../fig/2t5.jpg>
-Package pdftex.def Info: ../fig/2t5.jpg  used on input line 273.
+Package pdftex.def Info: ../fig/2t5.jpg  used on input line 110.
 (pdftex.def)             Requested size: 124.28323pt x 61.6599pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 []\T1/lmr/m/n/9 Vi skriv 'cm$[]$' fordi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 \T1/lmr/m/n/9 vi har gonga sam-men
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 \T1/lmr/m/n/9 2 lengder som vi har
  []
 
+[6
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
+ <../fig/2t5.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 []\T1/lmr/m/n/10.95 Ein sylin-der har ra-dius $\OT1/lmr/m/n/10.95 4 []$ \T1/lmr
 /m/n/10.95 og høgde $\OT1/lmr/m/n/10.95 2 []$\T1/lmr/m/n/10.95 . Finn vol-umet 
 til
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 []\T1/lmr/m/n/10.95 Så lenge vi er sikre på at stør-rel-sane vår har same nemn-
 ing (i
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 \T1/lmr/m/n/10.95 Vi har her ganget sam-men tre lengder (to fak-torer lik 4m og
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 \T1/lmr/m/n/10.95 én fak-tor lik $\OT1/lmr/m/n/10.95 2 []$\T1/lmr/m/n/10.95 ) m
 ed me-ter som en-het, altså er vol-umet til
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--293
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 []\T1/lmr/m/n/10.95 Når vi finn vol-umet til gjen-stan-dar, måler vi gjerne len
 gder som
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--293
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 \T1/lmr/m/n/10.95 høgde, brei-dde, ra-dius og lik-nande. Desse leng-dene har ei
 ninga
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--293
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 \T1/lmr/m/n/10.95 'me-ter'. Men i det da-glege opp-gir vi gjerne volum med eini
 nga
  []
 
-[14
-
- <../fig/2t5.jpg>] [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 294.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 294.
+[7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
  (./geo_nn.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 294.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 294.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
 Package rerunfilecheck Info: File `geo_nn.out' has not changed.
-(rerunfilecheck)             Checksum: 0046C7C6EF933D42FDFBA0C9D946BC41;219.
+(rerunfilecheck)             Checksum: 73AE4C82A1CF654E1EFAB71CD1864D34;117.
  ) 
 Here is how much of TeX's memory you used:
- 31572 strings out of 481239
- 619799 string characters out of 5920378
- 932304 words of memory out of 5000000
- 46085 multiletter control sequences out of 15000+600000
+ 31380 strings out of 481239
+ 616357 string characters out of 5920378
+ 931254 words of memory out of 5000000
+ 45942 multiletter control sequences out of 15000+600000
  606611 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,13n,104p,875b,877s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ma
 thit.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
@@ -1934,10 +1665,10 @@ onts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on geo_nn.pdf (15 pages, 2542124 bytes).
+Output written on geo_nn.pdf (7 pages, 1951628 bytes).
 PDF statistics:
- 342 PDF objects out of 1000 (max. 8388607)
- 244 compressed objects within 3 object streams
- 48 named destinations out of 1000 (max. 500000)
- 205 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 187 PDF objects out of 1000 (max. 8388607)
+ 138 compressed objects within 2 object streams
+ 19 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
