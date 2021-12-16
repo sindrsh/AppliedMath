@@ -45,6 +45,12 @@
 \newlength{\mywidth}
 \setlength{\mywidth}{14cm}
 
+\newcommand{\cont}[1]{
+\begin{tcolorbox}[center, boxrule=0.0 mm, width=\mywidth,arc=0mm,enhanced jigsaw,,colback=white,breakable]
+#1	
+\end{tcolorbox}
+}
+
 \newcommand{\info}[5]{
 \begin{tcolorbox}[center, boxrule=0.1 mm, width=\mywidth,arc=0mm,enhanced jigsaw,breakable,colback=yellow!5]	
 	

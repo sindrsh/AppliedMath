@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  15 DEC 2021 12:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  15 DEC 2021 21:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**terningspel.tex
-(./terningspel.tex
+**tallinjer.tex
+(./tallinjer.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (../../doc.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cls
@@ -886,8 +886,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip60
 )
-(./terningspel.aux)
-\openout1 = `terningspel.aux'.
+(./tallinjer.aux)
+\openout1 = `tallinjer.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -988,123 +988,247 @@ LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
 LaTeX Info: Redefining \nameref on input line 4.
 
-(./terningspel.out) (./terningspel.out)
+(./tallinjer.out) (./tallinjer.out)
 \@outlinefile=\write6
-\openout6 = `terningspel.out'.
+\openout6 = `tallinjer.out'.
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-1.
-
-(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+8.
+ (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
 
  []
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+
+ []
+
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+8.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-1.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+8.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-21.
+18.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-21.
+18.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 21.
+(Font)              <9> on input line 18.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 21.
+(Font)              <6> on input line 18.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 21.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+(Font)              <5> on input line 18.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+esint on input line 2
-1.
+LaTeX Font Info:    Trying to load font information for U+esint on input line 1
+8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 39.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 39.
-<gong1.pdf, id=11, 569.05598pt x 569.05598pt>
-File: gong1.pdf Graphic file (type pdf)
-<use gong1.pdf>
-Package pdftex.def Info: gong1.pdf  used on input line 39.
-(pdftex.def)             Requested size: 42.67735pt x 42.67735pt.
-<gong1b.pdf, id=12, 569.05598pt x 569.05598pt>
-File: gong1b.pdf Graphic file (type pdf)
-<use gong1b.pdf>
-Package pdftex.def Info: gong1b.pdf  used on input line 45.
-(pdftex.def)             Requested size: 42.67735pt x 42.67735pt.
- [1
+) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./gong1.pdf> <./gong1b.pdf
->]
-<ruteark.pdf, id=39, 341.43561pt x 341.43561pt>
-File: ruteark.pdf Graphic file (type pdf)
-<use ruteark.pdf>
-Package pdftex.def Info: ruteark.pdf  used on input line 50.
-(pdftex.def)             Requested size: 341.43477pt x 341.43477pt.
-File: ruteark.pdf Graphic file (type pdf)
-<use ruteark.pdf>
-Package pdftex.def Info: ruteark.pdf  used on input line 54.
-(pdftex.def)             Requested size: 341.43477pt x 341.43477pt.
- [2 <./ruteark.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
- (./terningspel.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
-Package rerunfilecheck Info: File `terningspel.out' has not changed.
-(rerunfilecheck)             Checksum: 08C7FB97B519C8B97059396AFF7ECCC2;68.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<10.pdf, id=26, 569.05598pt x 10.53937pt>
+File: 10.pdf Graphic file (type pdf)
+<use 10.pdf>
+Package pdftex.def Info: 10.pdf  used on input line 33.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 10.pdf Graphic file (type pdf)
+<use 10.pdf>
+Package pdftex.def Info: 10.pdf  used on input line 37.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 10.pdf Graphic file (type pdf)
+<use 10.pdf>
+Package pdftex.def Info: 10.pdf  used on input line 41.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 10.pdf Graphic file (type pdf)
+<use 10.pdf>
+Package pdftex.def Info: 10.pdf  used on input line 45.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 10.pdf Graphic file (type pdf)
+<use 10.pdf>
+Package pdftex.def Info: 10.pdf  used on input line 49.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 10.pdf Graphic file (type pdf)
+<use 10.pdf>
+Package pdftex.def Info: 10.pdf  used on input line 53.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 10.pdf Graphic file (type pdf)
+<use 10.pdf>
+Package pdftex.def Info: 10.pdf  used on input line 57.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 10.pdf Graphic file (type pdf)
+<use 10.pdf>
+Package pdftex.def Info: 10.pdf  used on input line 61.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 10.pdf Graphic file (type pdf)
+<use 10.pdf>
+Package pdftex.def Info: 10.pdf  used on input line 65.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+ [2 <./10.pdf>]
+<20.pdf, id=33, 569.05598pt x 10.53937pt>
+File: 20.pdf Graphic file (type pdf)
+<use 20.pdf>
+Package pdftex.def Info: 20.pdf  used on input line 71.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 20.pdf Graphic file (type pdf)
+<use 20.pdf>
+Package pdftex.def Info: 20.pdf  used on input line 75.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 20.pdf Graphic file (type pdf)
+<use 20.pdf>
+Package pdftex.def Info: 20.pdf  used on input line 79.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 20.pdf Graphic file (type pdf)
+<use 20.pdf>
+Package pdftex.def Info: 20.pdf  used on input line 83.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 20.pdf Graphic file (type pdf)
+<use 20.pdf>
+Package pdftex.def Info: 20.pdf  used on input line 87.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 20.pdf Graphic file (type pdf)
+<use 20.pdf>
+Package pdftex.def Info: 20.pdf  used on input line 91.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 20.pdf Graphic file (type pdf)
+<use 20.pdf>
+Package pdftex.def Info: 20.pdf  used on input line 95.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 20.pdf Graphic file (type pdf)
+<use 20.pdf>
+Package pdftex.def Info: 20.pdf  used on input line 99.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 20.pdf Graphic file (type pdf)
+<use 20.pdf>
+Package pdftex.def Info: 20.pdf  used on input line 103.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+ [3 <./20.pdf>]
+<50.pdf, id=40, 569.05598pt x 10.53937pt>
+File: 50.pdf Graphic file (type pdf)
+<use 50.pdf>
+Package pdftex.def Info: 50.pdf  used on input line 108.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 50.pdf Graphic file (type pdf)
+<use 50.pdf>
+Package pdftex.def Info: 50.pdf  used on input line 112.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 50.pdf Graphic file (type pdf)
+<use 50.pdf>
+Package pdftex.def Info: 50.pdf  used on input line 116.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 50.pdf Graphic file (type pdf)
+<use 50.pdf>
+Package pdftex.def Info: 50.pdf  used on input line 120.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 50.pdf Graphic file (type pdf)
+<use 50.pdf>
+Package pdftex.def Info: 50.pdf  used on input line 124.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 50.pdf Graphic file (type pdf)
+<use 50.pdf>
+Package pdftex.def Info: 50.pdf  used on input line 128.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 50.pdf Graphic file (type pdf)
+<use 50.pdf>
+Package pdftex.def Info: 50.pdf  used on input line 132.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 50.pdf Graphic file (type pdf)
+<use 50.pdf>
+Package pdftex.def Info: 50.pdf  used on input line 136.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+File: 50.pdf Graphic file (type pdf)
+<use 50.pdf>
+Package pdftex.def Info: 50.pdf  used on input line 140.
+(pdftex.def)             Requested size: 569.0546pt x 10.53932pt.
+ [4 <./50.pdf>]
+<100.pdf, id=47, 739.7738pt x 10.53937pt>
+File: 100.pdf Graphic file (type pdf)
+<use 100.pdf>
+Package pdftex.def Info: 100.pdf  used on input line 145.
+(pdftex.def)             Requested size: 739.772pt x 10.53932pt.
+File: 100.pdf Graphic file (type pdf)
+<use 100.pdf>
+Package pdftex.def Info: 100.pdf  used on input line 146.
+(pdftex.def)             Requested size: 739.772pt x 10.53932pt.
+File: 100.pdf Graphic file (type pdf)
+<use 100.pdf>
+Package pdftex.def Info: 100.pdf  used on input line 147.
+(pdftex.def)             Requested size: 739.772pt x 10.53932pt.
+File: 100.pdf Graphic file (type pdf)
+<use 100.pdf>
+Package pdftex.def Info: 100.pdf  used on input line 148.
+(pdftex.def)             Requested size: 739.772pt x 10.53932pt.
+File: 100.pdf Graphic file (type pdf)
+<use 100.pdf>
+Package pdftex.def Info: 100.pdf  used on input line 149.
+(pdftex.def)             Requested size: 739.772pt x 10.53932pt.
+File: 100.pdf Graphic file (type pdf)
+<use 100.pdf>
+Package pdftex.def Info: 100.pdf  used on input line 150.
+(pdftex.def)             Requested size: 739.772pt x 10.53932pt.
+File: 100.pdf Graphic file (type pdf)
+<use 100.pdf>
+Package pdftex.def Info: 100.pdf  used on input line 151.
+(pdftex.def)             Requested size: 739.772pt x 10.53932pt.
+File: 100.pdf Graphic file (type pdf)
+<use 100.pdf>
+Package pdftex.def Info: 100.pdf  used on input line 152.
+(pdftex.def)             Requested size: 739.772pt x 10.53932pt.
+
+[5 <./100.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 154.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 154.
+ (./tallinjer.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
+Package rerunfilecheck Info: File `tallinjer.out' has not changed.
+(rerunfilecheck)             Checksum: ED3C15A492FED6BF2F194BA24E4F7278;49.
  ) 
 Here is how much of TeX's memory you used:
- 28000 strings out of 481239
- 560875 string characters out of 5920378
- 860409 words of memory out of 5000000
- 42688 multiletter control sequences out of 15000+600000
- 580014 words of font info for 67 fonts, out of 8000000 for 9000
+ 27986 strings out of 481239
+ 560607 string characters out of 5920378
+ 858393 words of memory out of 5000000
+ 42678 multiletter control sequences out of 15000+600000
+ 564200 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,10n,97p,879b,916s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
-vips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/shar
-e/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lm
-bx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro9.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on terningspel.pdf (2 pages, 188076 bytes).
+ 70i,10n,97p,877b,916s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmr9.pfb>
+Output written on tallinjer.pdf (5 pages, 124616 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 79 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

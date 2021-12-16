@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  3 DEC 2021 09:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  15 DEC 2021 12:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1054,7 +1054,6 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 33.
  [1
 
-
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Calculating math sizes for size <150> on input line 38.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1069,28 +1068,38 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
  (./parleik.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
-Package rerunfilecheck Info: File `parleik.out' has not changed.
-(rerunfilecheck)             Checksum: 00ACEBB5B43ED9D1F9709634316F37FA;50.
+
+
+Package rerunfilecheck Warning: File `parleik.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `parleik.out':
+(rerunfilecheck)             Before: 00ACEBB5B43ED9D1F9709634316F37FA;50
+(rerunfilecheck)             After:  0CFAE2E82391BE0FF31BF9F0CC2CB37C;55.
  ) 
 Here is how much of TeX's memory you used:
  28019 strings out of 481239
- 561110 string characters out of 5920378
- 860291 words of memory out of 5000000
- 42701 multiletter control sequences out of 15000+600000
+ 561108 string characters out of 5920378
+ 860377 words of memory out of 5000000
+ 42700 multiletter control sequences out of 15000+600000
  591931 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,10n,97p,875b,916s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/te
-xmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-bx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb>
-Output written on parleik.pdf (5 pages, 190312 bytes).
+pdfTeX warning (dest): name{section.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvip
+s/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texm
+f/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
+12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/font
+s/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb>
+Output written on parleik.pdf (5 pages, 190365 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
+ 81 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
