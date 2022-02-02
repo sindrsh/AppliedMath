@@ -2,7 +2,7 @@ settings.outformat="pdf";
 defaultpen(fontsize(16 pt));
 unitsize(1 cm);
 
-srand(2);
+srand(200);
 
 int[] mkrndlist(int[] l){
 	if (l.length == 1){

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  2 NOV 2021 19:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.9)  30 JAN 2022 17:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1460,154 +1460,154 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--57
 
 [2] [3] [4
 
-] [5]
-<../fig/avrnd0.pdf, id=74, 142.26149pt x 17.8266pt>
+]
+<../fig/avrnd0.pdf, id=70, 142.26149pt x 17.8266pt>
 File: ../fig/avrnd0.pdf Graphic file (type pdf)
 <use ../fig/avrnd0.pdf>
-Package pdftex.def Info: ../fig/avrnd0.pdf  used on input line 143.
+Package pdftex.def Info: ../fig/avrnd0.pdf  used on input line 148.
 (pdftex.def)             Requested size: 142.26112pt x 17.82654pt.
 
 
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 160.
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 165.
 
 
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 160
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 165
 .
 
-<../fig/avrnda.pdf, id=75, 142.26149pt x 17.8266pt>
+<../fig/avrnda.pdf, id=71, 142.26149pt x 17.8266pt>
 File: ../fig/avrnda.pdf Graphic file (type pdf)
 <use ../fig/avrnda.pdf>
-Package pdftex.def Info: ../fig/avrnda.pdf  used on input line 160.
+Package pdftex.def Info: ../fig/avrnda.pdf  used on input line 165.
 (pdftex.def)             Requested size: 142.26112pt x 17.82654pt.
 
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 160.
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 165.
 
 
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 160
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 165
 .
 
-<../fig/avrndb.pdf, id=76, 142.26149pt x 17.8266pt>
+<../fig/avrndb.pdf, id=72, 142.26149pt x 17.8266pt>
 File: ../fig/avrndb.pdf Graphic file (type pdf)
 <use ../fig/avrndb.pdf>
-Package pdftex.def Info: ../fig/avrndb.pdf  used on input line 160.
+Package pdftex.def Info: ../fig/avrndb.pdf  used on input line 165.
 (pdftex.def)             Requested size: 142.26112pt x 17.82654pt.
 
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 160.
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 165.
 
 
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 160
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 165
 .
 
-<../fig/avrndc.pdf, id=77, 142.26149pt x 17.8266pt>
+<../fig/avrndc.pdf, id=73, 142.26149pt x 17.8266pt>
 File: ../fig/avrndc.pdf Graphic file (type pdf)
 <use ../fig/avrndc.pdf>
-Package pdftex.def Info: ../fig/avrndc.pdf  used on input line 160.
+Package pdftex.def Info: ../fig/avrndc.pdf  used on input line 165.
 (pdftex.def)             Requested size: 142.26112pt x 17.82654pt.
 
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 160.
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 165.
 
 
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 160
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 165
 .
 
-<../fig/avrndd.pdf, id=78, 142.26149pt x 19.95454pt>
+<../fig/avrndd.pdf, id=74, 142.26149pt x 19.95454pt>
 File: ../fig/avrndd.pdf Graphic file (type pdf)
 <use ../fig/avrndd.pdf>
-Package pdftex.def Info: ../fig/avrndd.pdf  used on input line 160.
+Package pdftex.def Info: ../fig/avrndd.pdf  used on input line 165.
 (pdftex.def)             Requested size: 142.26112pt x 19.95448pt.
 
-Overfull \hbox (12.33527pt too wide) in paragraph at lines 163--164
+Overfull \hbox (12.33527pt too wide) in paragraph at lines 168--169
 \T1/lmr/m/n/10.95 tig, noen ganger er det vik-tigere at vi fort kan avgjøre hva
  svaret \T1/lmr/m/sl/10.95 omtrent 
  []
 
-[6
+[5
 
  <../fig/avrnd0.pdf> <../fig/avrnda.pdf> <../fig/avrndb.pdf> <../fig/avrndc.pdf
 > <../fig/avrndd.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
 []\T1/lmr/m/n/10.95 At noe er ''omtrent det samme som'' skriver vi ofte som ''c
 irka''
  []
 
-[7]
-Overfull \hbox (3.6758pt too wide) in paragraph at lines 191--193
+[6]
+Overfull \hbox (3.6758pt too wide) in paragraph at lines 196--198
 \T1/lmr/m/n/10.95 Vi avrun-der 17 opp til 20. Deler vi noe med 20 ist-e-den-for
  17, blir svaret 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--201
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
 []\T1/lmr/m/n/10.95 Ved ad-dis-jon eller mul-ti-p-likasjon mel-lom to tall, avr
 und
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--201
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
 []\T1/lmr/m/n/10.95 Ved sub-trak-sjon eller del-ing mel-lom to tall, avrund gje
 rne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
 []\T1/lmr/m/n/10.95 Det finnes in-gen konkrete re-gler for hva man \T1/lmr/m/sl
 /10.95 kan \T1/lmr/m/n/10.95 eller ikke \T1/lmr/m/sl/10.95 kan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
 \T1/lmr/m/n/10.95 tillate seg av foren-klinger når man gjør et over-slag, det s
 om er
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
 []\T1/lmr/m/n/10.95 Man kan også spørre seg hvor langt unna det fak-tiske svare
 t
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
 \T1/lmr/m/n/10.95 man kan tillate seg å være ved over-slagsreg-n-ing. Heller ik
 ke
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
 \T1/lmr/m/n/10.95 dette er det noe fa-sitsvar på, men en grei føring er at over
 -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
 \T1/lmr/m/n/10.95 slaget og det fak-tiske svaret skal være av samme \T1/lmr/m/i
 t/10.95 stør-relsesor-den\T1/lmr/m/n/10.95 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
 \T1/lmr/m/n/10.95 Litt enkelt sagt be-tyr dette at hvis det fak-tiske svaret ha
 r med
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
 \T1/lmr/m/n/10.95 tusener å gjøre, bør også over-slaget ha med tusener å gjøre.
  Mer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
 \T1/lmr/m/n/10.95 nøyak-tig sagt be-tyr det av det fak-tiske svaret og ditt ove
 r-slag
  []
 
-[8] [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 231.
+[7] [8]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
  (./rek.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 231.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 231.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
 Package rerunfilecheck Info: File `rek.out' has not changed.
 (rerunfilecheck)             Checksum: 64C1198FDAC3F637BAD3EF9A4108FC90;299.
 
@@ -1616,8 +1616,8 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 31370 strings out of 481239
- 616111 string characters out of 5920378
+ 31369 strings out of 481239
+ 616105 string characters out of 5920378
  932331 words of memory out of 5000000
  45920 multiletter control sequences out of 15000+600000
  612597 words of font info for 86 fonts, out of 8000000 for 9000
@@ -1635,10 +1635,10 @@ texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lm
 r9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on rek.pdf (9 pages, 233805 bytes).
+Output written on rek.pdf (8 pages, 233208 bytes).
 PDF statistics:
- 195 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
+ 188 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
  78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
